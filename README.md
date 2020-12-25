@@ -3,6 +3,10 @@ leetcode by rust
 
 ### 题目
 
+- 229：求众数 II
+  - [src](https://leetcode-cn.com/problems/majority-element-ii/)
+  - [leetcode](https://leetcode-cn.com/problems/majority-element-ii/)
+
 -  746：使用最小花费爬楼梯
 	- [src](https://github.com/rustors/leetcode/blob/main/src/bin/check-if-n-and-its-double-exist.rs) 
 	- [leetcode](https://leetcode-cn.com/problems/check-if-n-and-its-double-exist/)
