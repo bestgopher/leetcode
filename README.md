@@ -1,16 +1,17 @@
 # leetcode
-leetcode by rust
+通过rust刷leetcode题目。
+通过刷leetcode题目学习rust。
 
 ### 题目
 
 - 229：求众数 II
-  - [src](https://leetcode-cn.com/problems/majority-element-ii/)
+  - [src](https://github.com/rustors/leetcode/blob/main/src/bin/majority-element-ii.rs)
   - [leetcode](https://leetcode-cn.com/problems/majority-element-ii/)
 - 387：字符串中的第一个唯一字符
-  - [src](https://leetcode-cn.com/problems/first-unique-character-in-a-string/)
+  - [src](https://github.com/rustors/leetcode/blob/main/src/bin/first-unique-character-in-a-string.rs)
   - [leetcode](https://leetcode-cn.com/problems/first-unique-character-in-a-string/)
 
--  746：使用最小花费爬楼梯
+-  746：检查整数及其两倍数是否存在
 	- [src](https://github.com/rustors/leetcode/blob/main/src/bin/check-if-n-and-its-double-exist.rs) 
 	- [leetcode](https://leetcode-cn.com/problems/check-if-n-and-its-double-exist/)
 
