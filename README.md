@@ -23,3 +23,7 @@
 - 1309：解码字母到整数映射
   - [src](https://github.com/rustors/leetcode/blob/main/src/bin/decrypt-string-from-alphabet-to-integer-mapping.rs)
   - [leetcode](https://leetcode-cn.com/problems/decrypt-string-from-alphabet-to-integer-mapping/)
+- 1432：可获得的最大点数
+  - [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-points-you-can-obtain-from-cards.rs)
+  - [leetcode](https://leetcode-cn.com/problems/maximum-points-you-can-obtain-from-cards/)
+
