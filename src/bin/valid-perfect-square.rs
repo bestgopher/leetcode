@@ -1,10 +1,11 @@
 fn main() {
-    // assert_eq!(true, Solution::is_perfect_square(4), "4");
-    // assert_eq!(false, Solution::is_perfect_square(5), "5");
-    // assert_eq!(false, Solution::is_perfect_square(14), "14");
-    // assert_eq!(true, Solution::is_perfect_square(16), "16");
-    // assert_eq!(false, Solution::is_perfect_square(2147483647), "2147483647");
+    assert_eq!(true, Solution::is_perfect_square(4), "4");
+    assert_eq!(false, Solution::is_perfect_square(5), "5");
+    assert_eq!(false, Solution::is_perfect_square1(14), "14");
+    assert_eq!(true, Solution::is_perfect_square(16), "16");
+    assert_eq!(false, Solution::is_perfect_square(2147483647), "2147483647");
     assert_eq!(true, Solution::is_perfect_square(100000000), "100000000");
+    assert_eq!(true, Solution::is_perfect_square1(49000000), "49000000");
 }
 
 
@@ -44,5 +45,22 @@ impl Solution {
         }
 
         false
+    }
+
+    // 利用1=1， 4=1+3， 9=1+3+5， 16=1+3+5+7，。。。。
+    // (n+1)**2 - n**2 = 2n+1
+    pub fn is_perfect_square1(num: i32) -> bool {
+        let mut start = 1;
+        let mut sum = num;
+        loop {
+            if sum ==  0 {
+                return true;
+            } else if sum < 0 {
+                return false;
+            } else {
+                sum -= start;
+            }
+            start += 2;
+        }
     }
 }
