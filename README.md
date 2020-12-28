@@ -33,4 +33,7 @@
 - 1432：可获得的最大点数
   - [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-points-you-can-obtain-from-cards.rs)
   - [leetcode](https://leetcode-cn.com/problems/maximum-points-you-can-obtain-from-cards/)
+- 1480：一维数组的动态和
+- [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-points-you-can-obtain-from-cards.rs)
+  - [leetcode](https://leetcode-cn.com/problems/running-sum-of-1d-array/)
 
