@@ -1,5 +1,5 @@
 fn main() {
-    assert_eq!(232, Solution::max_score(vec![11, 49, 100, 20, 86, 29, 72], 4));
+    assert_eq!(232, Solution::max_score1(vec![11, 49, 100, 20, 86, 29, 72], 4));
 }
 
 struct Solution;
@@ -15,13 +15,36 @@ impl Solution {
         let mut sum1: i32 = card_points[0..other].iter().sum();
         let mut sum = sum1;
 
-        for i in 1..card_points.len() - other+1 {
-            sum = sum + card_points[other + i - 1] - card_points[i-1];
+        for i in 1..card_points.len() - other + 1 {
+            sum = sum + card_points[other + i - 1] - card_points[i - 1];
             if sum1 > sum {
                 sum1 = sum;
             }
         }
 
         card_points.iter().sum::<i32>() - sum1
+    }
+
+    /// 正向求解，假设起始和为前面k个元素的和sum
+    /// 然后sum-card_points[k-1]+card_points[len(card_points)-1]的和，与sum比较，依次类推，找出最大的和
+    pub fn max_score1(card_points: Vec<i32>, k: i32) -> i32 {
+        let mut sum = card_points[..k as usize].iter().sum();
+        let mut sum1 = sum;
+
+        let mut s = k as usize;
+        loop {
+            if s == 0 {
+                break;
+            }
+
+            sum1 = sum1 - card_points[s - 1] + card_points[card_points.len() - (k as usize - s + 1)];
+            if sum1 > sum {
+                sum = sum1;
+            }
+
+            s -= 1;
+        }
+
+        sum
     }
 }
