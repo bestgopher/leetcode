@@ -16,8 +16,10 @@
 - 367：有效的完全平方数
   - [src](https://github.com/rustors/leetcode/blob/main/src/bin/valid-perfect-square.rs)
   - [leetcode](https://leetcode-cn.com/problems/valid-perfect-square/)
+- 猜数字大小
+  - [src](https://github.com/rustors/leetcode/blob/main/src/bin/guess-number-higher-or-lower.rs)
+  - [leetcode](https://leetcode-cn.com/problems/guess-number-higher-or-lower/)
 - 387：字符串中的第一个唯一字符
-  
   - [src](https://github.com/rustors/leetcode/blob/main/src/bin/first-unique-character-in-a-string.rs)
   - [leetcode](https://leetcode-cn.com/problems/first-unique-character-in-a-string/)
 -  746：检查整数及其两倍数是否存在
