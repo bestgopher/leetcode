@@ -25,6 +25,9 @@
 -  746：检查整数及其两倍数是否存在
 	- [src](https://github.com/rustors/leetcode/blob/main/src/bin/check-if-n-and-its-double-exist.rs) 
 	- [leetcode](https://leetcode-cn.com/problems/check-if-n-and-its-double-exist/)
+- 965：单值二叉树
+- [src](https://github.com/rustors/leetcode/blob/main/src/bin/univalued-binary-tree.rs) 
+  - [leetcode](https://leetcode-cn.com/problems/univalued-binary-tree/)
 - 1008：前序遍历构造二叉搜索树
 
 	- [src](https://github.com/rustors/leetcode/blob/main/src/bin/construct-binary-search-tree-from-preorder-traversal.rs)
@@ -39,6 +42,7 @@
 	- [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-points-you-can-obtain-from-cards.rs)
   - [leetcode](https://leetcode-cn.com/problems/running-sum-of-1d-array/)
 -  1678：设计 Goal 解析器
-- [src](https://github.com/rustors/leetcode/blob/main/src/bin/goal-parser-interpretation.rs)
+
+  - [src](https://github.com/rustors/leetcode/blob/main/src/bin/goal-parser-interpretation.rs)
   - [leetcode](https://leetcode-cn.com/problems/goal-parser-interpretation/)
 
