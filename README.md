@@ -16,7 +16,7 @@
 - 367：有效的完全平方数
   - [src](https://github.com/rustors/leetcode/blob/main/src/bin/valid-perfect-square.rs)
   - [leetcode](https://leetcode-cn.com/problems/valid-perfect-square/)
-- 猜数字大小
+- 374：猜数字大小
   - [src](https://github.com/rustors/leetcode/blob/main/src/bin/guess-number-higher-or-lower.rs)
   - [leetcode](https://leetcode-cn.com/problems/guess-number-higher-or-lower/)
 - 387：字符串中的第一个唯一字符
@@ -26,12 +26,11 @@
 	- [src](https://github.com/rustors/leetcode/blob/main/src/bin/check-if-n-and-its-double-exist.rs) 
 	- [leetcode](https://leetcode-cn.com/problems/check-if-n-and-its-double-exist/)
 - 965：单值二叉树
-- [src](https://github.com/rustors/leetcode/blob/main/src/bin/univalued-binary-tree.rs) 
+	- [src](https://github.com/rustors/leetcode/blob/main/src/bin/univalued-binary-tree.rs) 
   - [leetcode](https://leetcode-cn.com/problems/univalued-binary-tree/)
 - 1008：前序遍历构造二叉搜索树
-
-	- [src](https://github.com/rustors/leetcode/blob/main/src/bin/construct-binary-search-tree-from-preorder-traversal.rs)
-	- [leetcode](https://leetcode-cn.com/problems/construct-binary-search-tree-from-preorder-traversal/)
+  - [src](https://github.com/rustors/leetcode/blob/main/src/bin/construct-binary-search-tree-from-preorder-traversal.rs)
+  - [leetcode](https://leetcode-cn.com/problems/construct-binary-search-tree-from-preorder-traversal/)
 - 1309：解码字母到整数映射
   - [src](https://github.com/rustors/leetcode/blob/main/src/bin/decrypt-string-from-alphabet-to-integer-mapping.rs)
   - [leetcode](https://leetcode-cn.com/problems/decrypt-string-from-alphabet-to-integer-mapping/)
