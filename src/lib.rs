@@ -1,7 +1,137 @@
 #[cfg(test)]
 mod tests {
+    use crate::{get_new_file_in_bin, get_question_msg, get_question_num};
+    use super::*;
+
     #[test]
     fn it_works() {
         assert_eq!(2 + 2, 4);
     }
+
+    #[test]
+    fn test_get_new_file_in_bin() {
+        println!("{:?}", get_new_file_in_bin());
+    }
+
+    #[test]
+    fn test_get_question_num() {
+        assert_eq!(13usize, get_question_num());
+    }
+
+    #[test]
+    fn test_write_to_readme() {
+        let resp = get_question_msg("maximum-points-you-can-obtain-from-cards");
+        write_to_readme(resp);
+    }
+}
+
+extern crate reqwest;
+
+use git2::{Repository, StatusOptions};
+use serde::Deserialize;
+use std::fs::{self, File, ReadDir};
+use std::ops::Deref;
+use std::io::Write;
+
+
+/// 获取bin目录下新加的文件
+pub fn get_new_file_in_bin() -> Vec<String> {
+    let mut options = StatusOptions::new();
+    options.include_untracked(true);
+    let repo = Repository::open(".").unwrap();
+    let statuses = repo.statuses(Some(&mut options)).unwrap();
+
+    statuses.iter().
+        filter(|x| { x.path().unwrap().starts_with("src/bin/") }).
+        map(|x| String::from(x.path().unwrap())).
+        map(|x| {
+            let x = x.trim_end_matches(".rs");  // 去掉路径
+            let x = x.trim_start_matches("src/bin/");  // 去掉后缀
+            x.to_string()
+        }).
+        collect()
+}
+
+#[derive(Deserialize, Debug)]
+pub struct Ques {
+    #[serde(rename = "questionId")]
+    question_id: String,
+    #[serde(rename = "titleSlug")]
+    title_slug: String,
+    #[serde(rename = "translatedTitle")]
+    translated_title: String,
+}
+
+#[derive(Deserialize, Debug)]
+pub struct Data {
+    question: Ques,
+}
+
+#[derive(Deserialize, Debug)]
+pub struct Resp {
+    data: Data,
+}
+
+/// 通过名字获取题目的ID
+pub fn get_question_msg(name: &str) -> Resp {
+    let url = "https://leetcode-cn.com/graphql/";
+    let data_fmt = r#"{"operationName":"questionData","variables":{"titleSlug":"{}"},"query":"query questionData($titleSlug: String!) {\n  question(titleSlug: $titleSlug) {\n    questionId\n    questionFrontendId\n    boundTopicId\n    title\n    titleSlug\n    content\n    translatedTitle\n    translatedContent\n    isPaidOnly\n    difficulty\n    likes\n    dislikes\n    isLiked\n    similarQuestions\n    contributors {\n      username\n      profileUrl\n      avatarUrl\n      __typename\n    }\n    langToValidPlayground\n    topicTags {\n      name\n      slug\n      translatedName\n      __typename\n    }\n    companyTagStats\n    codeSnippets {\n      lang\n      langSlug\n      code\n      __typename\n    }\n    stats\n    hints\n    solution {\n      id\n      canSeeDetail\n      __typename\n    }\n    status\n    sampleTestCase\n    metaData\n    judgerAvailable\n    judgeType\n    mysqlSchemas\n    enableRunCode\n    envInfo\n    book {\n      id\n      bookName\n      pressName\n      source\n      shortDescription\n      fullDescription\n      bookImgUrl\n      pressImgUrl\n      productUrl\n      __typename\n    }\n    isSubscribed\n    isDailyQuestion\n    dailyRecordStatus\n    editorType\n    ugcQuestionId\n    style\n    __typename\n  }\n}\n"}"#;
+    let data = data_fmt.replace("{}", name);
+    let res = reqwest::blocking::Client::new().
+        post(url).
+        header("content-type", "application/json").
+        body(data).
+        send().
+        unwrap().
+        json::<Resp>().unwrap();
+
+    res
+}
+
+/// 把问题写到README.md中
+pub fn write_to_readme(question_info: Resp) {
+    let readme = fs::read_to_string("README.md").unwrap();
+    let mut write_string = String::new();
+    write_string.push_str("# leetcode
+通过rust刷leetcode题目。
+通过刷leetcode题目学习rust。\n\n");
+    write_string.push_str(format!("当前已刷：{}\n\n", get_question_num()).as_str());
+    write_string.push_str("### 题目");
+
+    let mut f = File::create("1.md").unwrap();
+    f.write(readme.as_bytes());
+
+    let mut index = 0usize;
+    let split = readme.split("\n").into_iter().collect::<Vec<&str>>();
+    let mut flag = false;
+
+    loop {
+        if !flag {
+            if split[index] == "### 题目" {
+                flag = true;
+            }
+            index += 1;
+            continue;
+        }
+
+
+
+
+        index += 3;
+    }
+}
+
+/// 获取题目数
+fn get_question_num() -> usize {
+    let dir = fs::read_dir("src/bin/").unwrap();
+
+    dir.
+        into_iter().
+        filter(|x| {
+            if let Ok(f) = x {
+                f.file_name().to_str().unwrap().ends_with(".rs")
+            } else {
+                false
+            }
+        }).count()
 }
