@@ -23,14 +23,19 @@ mod tests {
         let resp = get_question_msg("maximum-points-you-can-obtain-from-cards");
         write_to_readme(resp);
     }
+
+    #[test]
+    fn test_get_question_no() {
+        assert_eq!(374, get_question_no("- 374：猜数字大小"));
+        assert_eq!(367, get_question_no("- 367：有效的完全平方数"));
+    }
 }
 
 extern crate reqwest;
 
 use git2::{Repository, StatusOptions};
 use serde::Deserialize;
-use std::fs::{self, File, ReadDir};
-use std::ops::Deref;
+use std::fs::{self, File};
 use std::io::Write;
 
 
@@ -96,16 +101,16 @@ pub fn write_to_readme(question_info: Resp) {
 通过rust刷leetcode题目。
 通过刷leetcode题目学习rust。\n\n");
     write_string.push_str(format!("当前已刷：{}\n\n", get_question_num()).as_str());
-    write_string.push_str("### 题目");
+    write_string.push_str("### 题目\n");
 
     let mut f = File::create("1.md").unwrap();
-    f.write(readme.as_bytes());
 
     let mut index = 0usize;
     let split = readme.split("\n").into_iter().collect::<Vec<&str>>();
     let mut flag = false;
-
-    loop {
+    let mut flag1 = false;
+    let no = question_info.data.question.question_id.parse::<i32>().unwrap();
+    while index + 3 < split.len() {
         if !flag {
             if split[index] == "### 题目" {
                 flag = true;
@@ -114,14 +119,28 @@ pub fn write_to_readme(question_info: Resp) {
             continue;
         }
 
+        let i1 = get_question_no(split[index]);
+        if !flag1 && i1 > no {
+            flag1 = true;
+            write_string.push_str(format!("- {}：{}\n", no, question_info.data.question.translated_title).as_str());
+            write_string.push_str(format!("    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/{}.rs)\n", question_info.data.question.title_slug).as_str());
+            write_string.push_str(format!("    - [leetcode](https://leetcode-cn.com/problems/{}/)\n", question_info.data.question.title_slug).as_str());
+        }
 
-
-
+        write_string.push_str(format!("{}\n{}\n{}\n", split[index], split[index + 1], split[index + 2]).as_str());
         index += 3;
     }
+
+    if !flag1 {
+        write_string.push_str(format!("- {}：{}\n", no, question_info.data.question.translated_title).as_str());
+        write_string.push_str(format!("    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/{}.rs)\n", question_info.data.question.title_slug).as_str());
+        write_string.push_str(format!("    - [leetcode](https://leetcode-cn.com/problems/{}/)\n", question_info.data.question.title_slug).as_str());
+    }
+
+    let _ = f.write(write_string.as_bytes());
 }
 
-/// 获取题目数
+/// 获取题目总数
 fn get_question_num() -> usize {
     let dir = fs::read_dir("src/bin/").unwrap();
 
@@ -134,4 +153,16 @@ fn get_question_num() -> usize {
                 false
             }
         }).count()
+}
+
+/// 获取题目的编号
+fn get_question_no(s: &str) -> i32 {
+    s.split("：")
+        .into_iter()
+        .collect::<Vec<&str>>()[0]
+        .trim_end_matches('：')
+        .trim_start_matches('-')
+        .trim_start()
+        .parse::<i32>()
+        .unwrap()
 }
