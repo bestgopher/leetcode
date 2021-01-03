@@ -17,6 +17,9 @@
 - 367：有效的完全平方数
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/valid-perfect-square.rs)
     - [leetcode](https://leetcode-cn.com/problems/valid-perfect-square/)
+- 371：两整数之和
+- [src](https://github.com/rustors/leetcode/blob/main/src/bin/sum-of-two-integers.rs)
+    - [leetcode](https://leetcode-cn.com/problems/sum-of-two-integers/)
 - 374：猜数字大小
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/guess-number-higher-or-lower.rs)
     - [leetcode](https://leetcode-cn.com/problems/guess-number-higher-or-lower/)
@@ -45,6 +48,7 @@
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-points-you-can-obtain-from-cards.rs)
     - [leetcode](https://leetcode-cn.com/problems/running-sum-of-1d-array/)
 -	1678：设计 Goal 解析器
+   
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/goal-parser-interpretation.rs)
     - [leetcode](https://leetcode-cn.com/problems/goal-parser-interpretation/)
 
