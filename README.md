@@ -2,9 +2,12 @@
 通过rust刷leetcode题目。
 通过刷leetcode题目学习rust。
 
-当前已刷：15
+当前已刷：16
 
 ### 题目
+- 6：Z 字形变换
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/zigzag-conversion.rs)
+    - [leetcode](https://leetcode-cn.com/problems/zigzag-conversion/)
 - 07：传递信息
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/chuan-di-xin-xi.rs)
     - [leetcode](https://leetcode-cn.com/problems/chuan-di-xin-xi/)
@@ -50,5 +53,3 @@
 -	1678：设计 Goal 解析器
    
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/goal-parser-interpretation.rs)
-    - [leetcode](https://leetcode-cn.com/problems/goal-parser-interpretation/)
-
