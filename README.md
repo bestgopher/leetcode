@@ -2,7 +2,7 @@
 通过rust刷leetcode题目。
 通过刷leetcode题目学习rust。
 
-当前已刷：13
+当前已刷：15
 
 ### 题目
 - 07：传递信息
@@ -18,7 +18,7 @@
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/valid-perfect-square.rs)
     - [leetcode](https://leetcode-cn.com/problems/valid-perfect-square/)
 - 371：两整数之和
-- [src](https://github.com/rustors/leetcode/blob/main/src/bin/sum-of-two-integers.rs)
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/sum-of-two-integers.rs)
     - [leetcode](https://leetcode-cn.com/problems/sum-of-two-integers/)
 - 374：猜数字大小
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/guess-number-higher-or-lower.rs)
