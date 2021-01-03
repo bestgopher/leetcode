@@ -103,7 +103,7 @@ pub fn write_to_readme(question_info: Resp) {
     write_string.push_str(format!("当前已刷：{}\n\n", get_question_num()).as_str());
     write_string.push_str("### 题目\n");
 
-    let mut f = File::create("1.md").unwrap();
+    let mut f = File::create("README.md").unwrap();
 
     let mut index = 0usize;
     let split = readme.split("\n").into_iter().collect::<Vec<&str>>();
