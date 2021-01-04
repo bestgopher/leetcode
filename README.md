@@ -51,5 +51,6 @@
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-points-you-can-obtain-from-cards.rs)
     - [leetcode](https://leetcode-cn.com/problems/running-sum-of-1d-array/)
 -	1678：设计 Goal 解析器
-   
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/goal-parser-interpretation.rs)
+    - [leetcode](https://leetcode-cn.com/problems/goal-parser-interpretation/)
+
