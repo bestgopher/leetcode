@@ -2,7 +2,7 @@
 通过rust刷leetcode题目。
 通过刷leetcode题目学习rust。
 
-当前已刷：17
+当前已刷：18
 
 ### 题目
 - 6：Z 字形变换
@@ -14,6 +14,9 @@
 - 09：用两个栈实现队列
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/yong-liang-ge-zhan-shi-xian-dui-lie-lcof.rs)
     - [leetcode](https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/)
+- 43：字符串相乘
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/multiply-strings.rs)
+    - [leetcode](https://leetcode-cn.com/problems/multiply-strings/)
 - 229：求众数 II
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/majority-element-ii.rs)
     - [leetcode](https://leetcode-cn.com/problems/majority-element-ii/)
