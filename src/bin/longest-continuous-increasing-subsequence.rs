@@ -21,6 +21,9 @@ impl Solution {
 
             if incr > max {
                 max = incr;
+                if max as usize > nums.len() - index {
+                    break;
+                }
             }
             incr = 1;
         }
