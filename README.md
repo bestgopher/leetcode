@@ -2,7 +2,7 @@
 通过rust刷leetcode题目。
 通过刷leetcode题目学习rust。
 
-当前已刷：16
+当前已刷：17
 
 ### 题目
 - 6：Z 字形变换
@@ -29,6 +29,9 @@
 - 387：字符串中的第一个唯一字符
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/first-unique-character-in-a-string.rs)
     - [leetcode](https://leetcode-cn.com/problems/first-unique-character-in-a-string/)
+- 674：最长连续递增序列
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/longest-continuous-increasing-subsequence.rs)
+    - [leetcode](https://leetcode-cn.com/problems/longest-continuous-increasing-subsequence/)
 - 746：检查整数及其两倍数是否存在
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/check-if-n-and-its-double-exist.rs) 
     - [leetcode](https://leetcode-cn.com/problems/check-if-n-and-its-double-exist/)
@@ -53,4 +56,3 @@
 -	1678：设计 Goal 解析器
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/goal-parser-interpretation.rs)
     - [leetcode](https://leetcode-cn.com/problems/goal-parser-interpretation/)
-
