@@ -171,10 +171,18 @@ fn get_question_no(s: &str) -> i32 {
 /// git add
 pub fn git_add_commit_files(files: Vec<String>) {
     for file in files.iter() {
-        Command::new("git").arg("add").arg(format!("src/bin/{}.rs", file)).output().unwrap();
-        Command::new("git").arg("commit").arg("-m").arg(file).output().unwrap();
+        add_and_commit(format!("src/bin/{}.rs", file).as_str()); // 将新加的文件提交到git仓库
     }
-    Command::new("git").arg("add").arg("README.md").output().unwrap();
-    Command::new("git").arg("commit").arg("-m").arg("update readme").output().unwrap();
+
+    add_and_commit("README.md");  // 将修改的README.md提交到git仓库
+    push_to_origin();  // 将文件
+}
+
+fn add_and_commit(file: &str) {
+    Command::new("git").arg("add").arg(file).output().unwrap();
+    Command::new("git").arg("commit").arg("-m").arg(file).output().unwrap();
+}
+
+fn push_to_origin() {
     Command::new("git").arg("push").output().unwrap();
 }
