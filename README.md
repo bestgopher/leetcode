@@ -2,7 +2,7 @@
 通过rust刷leetcode题目。
 通过刷leetcode题目学习rust。
 
-当前已刷：22
+当前已刷：23
 
 ### 题目
 - 6：Z 字形变换
@@ -20,6 +20,9 @@
 - 136：只出现一次的数字
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/single-number.rs)
     - [leetcode](https://leetcode-cn.com/problems/single-number/)
+- 137：只出现一次的数字 II
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/single-number-ii.rs)
+    - [leetcode](https://leetcode-cn.com/problems/single-number-ii/)
 - 137：只出现一次的数字 II
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/single-number-ii.rs)
     - [leetcode](https://leetcode-cn.com/problems/single-number-ii/)
@@ -47,6 +50,9 @@
 - 811：子域名访问计数
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/subdomain-visit-count.rs) 
     - [leetcode](https://leetcode-cn.com/problems/subdomain-visit-count/)
+- 857：较大分组的位置
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/positions-of-large-groups.rs)
+    - [leetcode](https://leetcode-cn.com/problems/positions-of-large-groups/)
 - 965：单值二叉树
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/univalued-binary-tree.rs) 
     - [leetcode](https://leetcode-cn.com/problems/univalued-binary-tree/)
@@ -62,6 +68,12 @@
 - 1480：一维数组的动态和
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-points-you-can-obtain-from-cards.rs)
     - [leetcode](https://leetcode-cn.com/problems/running-sum-of-1d-array/)
+- 1538：可获得的最大点数
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-points-you-can-obtain-from-cards.rs)
+    - [leetcode](https://leetcode-cn.com/problems/maximum-points-you-can-obtain-from-cards/)
+- 1552：用栈操作构建数组
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/build-an-array-with-stack-operations.rs)
+    - [leetcode](https://leetcode-cn.com/problems/build-an-array-with-stack-operations/)
 - 1552：用栈操作构建数组
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/build-an-array-with-stack-operations.rs)
     - [leetcode](https://leetcode-cn.com/problems/build-an-array-with-stack-operations/)
