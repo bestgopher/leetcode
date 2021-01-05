@@ -23,9 +23,6 @@
 - 137：只出现一次的数字 II
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/single-number-ii.rs)
     - [leetcode](https://leetcode-cn.com/problems/single-number-ii/)
-- 137：只出现一次的数字 II
-    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/single-number-ii.rs)
-    - [leetcode](https://leetcode-cn.com/problems/single-number-ii/)
 - 229：求众数 II
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/majority-element-ii.rs)
     - [leetcode](https://leetcode-cn.com/problems/majority-element-ii/)
@@ -71,9 +68,6 @@
 - 1538：可获得的最大点数
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-points-you-can-obtain-from-cards.rs)
     - [leetcode](https://leetcode-cn.com/problems/maximum-points-you-can-obtain-from-cards/)
-- 1552：用栈操作构建数组
-    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/build-an-array-with-stack-operations.rs)
-    - [leetcode](https://leetcode-cn.com/problems/build-an-array-with-stack-operations/)
 - 1552：用栈操作构建数组
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/build-an-array-with-stack-operations.rs)
     - [leetcode](https://leetcode-cn.com/problems/build-an-array-with-stack-operations/)
