@@ -2,7 +2,7 @@
 通过rust刷leetcode题目。
 通过刷leetcode题目学习rust。
 
-当前已刷：19
+当前已刷：20
 
 ### 题目
 - 6：Z 字形变换
@@ -56,6 +56,9 @@
 - 1480：一维数组的动态和
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-points-you-can-obtain-from-cards.rs)
     - [leetcode](https://leetcode-cn.com/problems/running-sum-of-1d-array/)
+- 1552：用栈操作构建数组
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/build-an-array-with-stack-operations.rs)
+    - [leetcode](https://leetcode-cn.com/problems/build-an-array-with-stack-operations/)
 - 1566：检查单词是否为句中其他单词的前缀
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence.rs)
     - [leetcode](https://leetcode-cn.com/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/)
