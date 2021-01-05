@@ -37,6 +37,7 @@ use git2::{Repository, StatusOptions};
 use serde::Deserialize;
 use std::fs::{self, File};
 use std::io::Write;
+use std::process::Command;
 
 
 /// 获取bin目录下新加的文件
@@ -165,4 +166,15 @@ fn get_question_no(s: &str) -> i32 {
         .trim_start()
         .parse::<i32>()
         .unwrap()
+}
+
+/// git add
+pub fn git_add_commit_files(files: Vec<String>) {
+    for file in files.iter() {
+        Command::new("git").arg("add").arg(format!("src/bin/{}.rs", file)).output().unwrap();
+        Command::new("git").arg("commit").arg("-m").arg(file).output().unwrap();
+    }
+    Command::new("git").arg("add").arg("README.md").output().unwrap();
+    Command::new("git").arg("commit").arg("-m").arg("update readme").output().unwrap();
+    Command::new("git").arg("push").output().unwrap();
 }

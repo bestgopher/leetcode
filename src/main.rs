@@ -9,4 +9,6 @@ fn main() {
         let res = leetcode::get_question_msg(i);
         leetcode::write_to_readme(res);
     }
+
+    leetcode::git_add_commit_files(files);
 }
