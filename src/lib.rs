@@ -220,7 +220,7 @@ fn push_to_origin() {
 pub fn make_new_file(resp: Resp) {
     let mut f = File::create(format!("src/bin/{}.rs", resp.data.question.title_slug)).unwrap();
     let mut s = String::new();
-    s.push_str("fn main() {}\n\n");
+    s.push_str("fn main() {}\n\nstruct Solution;\n\n");
 
     for i in resp.data.question.code_snippets {
         if i.lang == "Rust" {
