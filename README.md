@@ -2,7 +2,7 @@
 通过rust刷leetcode题目。
 通过刷leetcode题目学习rust。
 
-当前已刷：20
+当前已刷：22
 
 ### 题目
 - 6：Z 字形变换
@@ -17,6 +17,12 @@
 - 43：字符串相乘
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/multiply-strings.rs)
     - [leetcode](https://leetcode-cn.com/problems/multiply-strings/)
+- 136：只出现一次的数字
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/single-number.rs)
+    - [leetcode](https://leetcode-cn.com/problems/single-number/)
+- 137：只出现一次的数字 II
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/single-number-ii.rs)
+    - [leetcode](https://leetcode-cn.com/problems/single-number-ii/)
 - 229：求众数 II
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/majority-element-ii.rs)
     - [leetcode](https://leetcode-cn.com/problems/majority-element-ii/)
