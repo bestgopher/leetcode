@@ -29,6 +29,16 @@ mod tests {
         assert_eq!(374, get_question_no("- 374：猜数字大小"));
         assert_eq!(367, get_question_no("- 367：有效的完全平方数"));
     }
+
+    #[test]
+    fn test_get_question_msg() {
+        println!("{:?}", get_question_msg("maximum-points-you-can-obtain-from-cards"));
+    }
+
+    #[test]
+    fn test_make_new_file() {
+        make_new_file(get_question_msg("shu-de-zi-jie-gou-lcof"));
+    }
 }
 
 extern crate reqwest;
@@ -66,6 +76,20 @@ pub struct Ques {
     title_slug: String,
     #[serde(rename = "translatedTitle")]
     translated_title: String,
+    #[serde(rename = "codeSnippets")]
+    code_snippets: Vec<CodeSnippets>,
+}
+
+#[derive(Deserialize, Debug)]
+pub struct CodeSnippets {
+    #[serde(rename = "code")]
+    code: String,
+    #[serde(rename = "lang")]
+    lang: String,
+    #[serde(rename = "langSlug")]
+    lang_slug: String,
+    #[serde(rename = "__typename")]
+    typename: String,
 }
 
 #[derive(Deserialize, Debug)]
@@ -190,4 +214,20 @@ fn add_and_commit(file: &str) {
 
 fn push_to_origin() {
     Command::new("git").arg("push").output().unwrap();
+}
+
+/// 通过题目名获取rust答题模板
+pub fn make_new_file(resp: Resp) {
+    let mut f = File::create(format!("src/bin/{}.rs", resp.data.question.title_slug)).unwrap();
+    let mut s = String::new();
+    s.push_str("fn main() {}\n\n");
+
+    for i in resp.data.question.code_snippets {
+        if i.lang == "Rust" {
+            s.push_str(i.code.replace("↵", "\n").as_str())
+        }
+    }
+    s.push_str("\n");
+
+    f.write(s.as_bytes()).unwrap();
 }
