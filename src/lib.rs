@@ -121,6 +121,11 @@ pub fn write_to_readme(question_info: Resp) {
         }
 
         let i1 = get_question_no(split[index]);
+
+        if i1 == no {
+            continue;
+        }
+
         if !flag1 && i1 > no {
             flag1 = true;
             write_string.push_str(format!("- {}：{}\n", no, question_info.data.question.translated_title).as_str());
