@@ -2,7 +2,7 @@
 通过rust刷leetcode题目。
 通过刷leetcode题目学习rust。
 
-当前已刷：25
+当前已刷：26
 
 ### 题目
 - 6：Z 字形变换
@@ -32,6 +32,9 @@
 - 387：字符串中的第一个唯一字符
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/first-unique-character-in-a-string.rs)
     - [leetcode](https://leetcode-cn.com/problems/first-unique-character-in-a-string/)
+- 434：字符串中的单词数
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/number-of-segments-in-a-string.rs)
+    - [leetcode](https://leetcode-cn.com/problems/number-of-segments-in-a-string/)
 - 674：最长连续递增序列
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/longest-continuous-increasing-subsequence.rs)
     - [leetcode](https://leetcode-cn.com/problems/longest-continuous-increasing-subsequence/)
