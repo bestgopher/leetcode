@@ -47,6 +47,9 @@
 - 1050：前序遍历构造二叉搜索树
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/construct-binary-search-tree-from-preorder-traversal.rs)
     - [leetcode](https://leetcode-cn.com/problems/construct-binary-search-tree-from-preorder-traversal/)
+- 1341：分割平衡字符串
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/split-a-string-in-balanced-strings.rs)
+    - [leetcode](https://leetcode-cn.com/problems/split-a-string-in-balanced-strings/)
 - 1434：解码字母到整数映射
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/decrypt-string-from-alphabet-to-integer-mapping.rs)
     - [leetcode](https://leetcode-cn.com/problems/decrypt-string-from-alphabet-to-integer-mapping/)
