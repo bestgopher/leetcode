@@ -2,7 +2,7 @@
 通过rust刷leetcode题目。
 通过刷leetcode题目学习rust。
 
-当前已刷：27
+当前已刷：28
 
 ### 题目
 - 6：Z 字形变换
@@ -86,6 +86,9 @@
 - 100316：第一个只出现一次的字符
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/di-yi-ge-zhi-chu-xian-yi-ci-de-zi-fu-lcof.rs)
     - [leetcode](https://leetcode-cn.com/problems/di-yi-ge-zhi-chu-xian-yi-ci-de-zi-fu-lcof/)
+- 100333：二叉搜索树的第k大节点
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof.rs)
+    - [leetcode](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof/)
 - 1000063：传递信息
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/chuan-di-xin-xi.rs)
     - [leetcode](https://leetcode-cn.com/problems/chuan-di-xin-xi/)
