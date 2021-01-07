@@ -2,7 +2,7 @@
 通过rust刷leetcode题目。
 通过刷leetcode题目学习rust。
 
-当前已刷：28
+当前已刷：29
 
 ### 题目
 - 6：Z 字形变换
@@ -89,6 +89,9 @@
 - 100333：二叉搜索树的第k大节点
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof.rs)
     - [leetcode](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof/)
+- 100352：跳水板
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/diving-board-lcci.rs)
+    - [leetcode](https://leetcode-cn.com/problems/diving-board-lcci/)
 - 1000063：传递信息
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/chuan-di-xin-xi.rs)
     - [leetcode](https://leetcode-cn.com/problems/chuan-di-xin-xi/)
