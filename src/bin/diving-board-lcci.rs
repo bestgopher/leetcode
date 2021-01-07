@@ -9,15 +9,15 @@ impl Solution {
             return v;
         }
 
+        if shorter == longer {
+            v.push(shorter * k);
+            return v;
+        }
+
         for i in 0..=k {
             let s = i * longer + (k - i) * shorter;
-            if v.is_empty() {
-                v.push(r);
-            }
 
-            if s != v[v.len() - 1] {
-                v.push(r);
-            }
+            v.push(r);
         }
 
         v
