@@ -224,10 +224,11 @@ pub fn make_new_file(resp: Resp) {
 
     for i in resp.data.question.code_snippets {
         if i.lang == "Rust" {
-            s.push_str(i.code.replace("↵", "\n").as_str())
+            s.push_str(i.code.replace("↵", "\n").as_str());
+            s.push_str("\n");
+            break;
         }
     }
-    s.push_str("\n");
 
     f.write(s.as_bytes()).unwrap();
 }
