@@ -28,11 +28,11 @@ impl Solution {
     /// 中序遍历，遍历值都是递增的，当当前值小于或者等于前一个值，说明不是搜索二叉树
     pub fn is_valid_bst(root: Option<Rc<RefCell<TreeNode>>>) -> bool {
         // 获取最小的值的节点，也就是最左节点
-        let mut v = Vec::<i32>::new();
+        let mut v = None;
         Self::scan(root, &mut v)
     }
 
-    fn scan(root: Option<Rc<RefCell<TreeNode>>>, v: &mut Vec<i32>) -> bool {
+    fn scan(root: Option<Rc<RefCell<TreeNode>>>, v: &mut Option<i32>) -> bool {
         if root.is_none() {
             return true;
         }
@@ -46,11 +46,11 @@ impl Solution {
             }
         }
 
-        if v.len() > 0 && value <= v[v.len() - 1] {
+        if v.is_some() && value <= v.unwrap() {
             return false;
         }
 
-        v.push(value);
+        *v = Some(value);
 
         if right.is_some() {
             if !Self::scan(right, v) {
