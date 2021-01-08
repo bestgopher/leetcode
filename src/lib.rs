@@ -218,7 +218,13 @@ fn push_to_origin() {
 
 /// 通过题目名获取rust答题模板
 pub fn make_new_file(resp: Resp) {
-    let mut f = File::create(format!("src/bin/{}.rs", resp.data.question.title_slug)).unwrap();
+    let file = format!("src/bin/{}.rs", resp.data.question.title_slug);
+    if std::path::Path::new(file.as_str()).exists() {
+        println!("{} exists", file);
+        return;
+    }
+
+    let mut f = File::create(file.as_str()).unwrap();
     let mut s = String::new();
     s.push_str("fn main() {}\n\nstruct Solution;\n\n");
 
