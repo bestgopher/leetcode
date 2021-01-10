@@ -2,7 +2,7 @@
 通过rust刷leetcode题目。
 通过刷leetcode题目学习rust。
 
-当前已刷：35
+当前已刷：36
 
 ### 题目
 - 6：Z 字形变换
@@ -68,6 +68,9 @@
 - 1341：分割平衡字符串
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/split-a-string-in-balanced-strings.rs)
     - [leetcode](https://leetcode-cn.com/problems/split-a-string-in-balanced-strings/)
+- 1362：飞机座位分配概率
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/airplane-seat-assignment-probability.rs)
+    - [leetcode](https://leetcode-cn.com/problems/airplane-seat-assignment-probability/)
 - 1426：和为零的N个唯一整数
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-n-unique-integers-sum-up-to-zero.rs)
     - [leetcode](https://leetcode-cn.com/problems/find-n-unique-integers-sum-up-to-zero/)
