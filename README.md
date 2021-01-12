@@ -2,7 +2,7 @@
 通过rust刷leetcode题目。
 通过刷leetcode题目学习rust。
 
-当前已刷：39
+当前已刷：41
 
 ### 题目
 - 6：Z 字形变换
@@ -53,6 +53,9 @@
 - 434：字符串中的单词数
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/number-of-segments-in-a-string.rs)
     - [leetcode](https://leetcode-cn.com/problems/number-of-segments-in-a-string/)
+- 476：数字的补数
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/number-complement.rs)
+    - [leetcode](https://leetcode-cn.com/problems/number-complement/)
 - 674：最长连续递增序列
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/longest-continuous-increasing-subsequence.rs)
     - [leetcode](https://leetcode-cn.com/problems/longest-continuous-increasing-subsequence/)
@@ -68,6 +71,9 @@
 - 1050：前序遍历构造二叉搜索树
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/construct-binary-search-tree-from-preorder-traversal.rs)
     - [leetcode](https://leetcode-cn.com/problems/construct-binary-search-tree-from-preorder-traversal/)
+- 1054：十进制整数的反码
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/complement-of-base-10-integer.rs)
+    - [leetcode](https://leetcode-cn.com/problems/complement-of-base-10-integer/)
 - 1341：分割平衡字符串
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/split-a-string-in-balanced-strings.rs)
     - [leetcode](https://leetcode-cn.com/problems/split-a-string-in-balanced-strings/)
