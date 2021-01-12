@@ -5,19 +5,14 @@ fn main() {
 struct Solution;
 
 impl Solution {
-    pub fn num_water_bottles(num_bottles: i32, num_exchange: i32) -> i32 {
-        let mut s = num_bottles; // 喝的酒数量
+    pub fn num_water_bottles(mut num_bottles: i32, num_exchange: i32) -> i32 {
         let mut a = num_bottles; // 剩余的空瓶
 
-        loop {
-            if a < num_exchange {
-                break;
-            }
-
-            s += a / num_exchange;
-            a = a % num_exchange + a / num_exchange;
+        while a >= num_exchange {
+            num_bottles += 1; // 瓶数加1
+            a -= num_exchange;  // 空瓶数减num_exchange
+            a += 1; // 瓶数加1
         }
-
-        s
+        num_bottles
     }
 }
