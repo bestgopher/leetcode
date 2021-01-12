@@ -2,7 +2,7 @@
 通过rust刷leetcode题目。
 通过刷leetcode题目学习rust。
 
-当前已刷：38
+当前已刷：39
 
 ### 题目
 - 6：Z 字形变换
@@ -98,6 +98,9 @@
 - 1603：一维数组的动态和
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/running-sum-of-1d-array.rs)
     - [leetcode](https://leetcode-cn.com/problems/running-sum-of-1d-array/)
+- 1642：换酒问题
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/water-bottles.rs)
+    - [leetcode](https://leetcode-cn.com/problems/water-bottles/)
 - 1797：设计 Goal 解析器
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/goal-parser-interpretation.rs)
     - [leetcode](https://leetcode-cn.com/problems/goal-parser-interpretation/)
