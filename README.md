@@ -2,7 +2,7 @@
 通过rust刷leetcode题目。
 通过刷leetcode题目学习rust。
 
-当前已刷：42
+当前已刷：43
 
 ### 题目
 - 6：Z 字形变换
@@ -26,6 +26,9 @@
 - 229：求众数 II
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/majority-element-ii.rs)
     - [leetcode](https://leetcode-cn.com/problems/majority-element-ii/)
+- 242：有效的字母异位词
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/valid-anagram.rs)
+    - [leetcode](https://leetcode-cn.com/problems/valid-anagram/)
 - 263：丑数
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/ugly-number.rs)
     - [leetcode](https://leetcode-cn.com/problems/ugly-number/)
