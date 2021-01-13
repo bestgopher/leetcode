@@ -2,7 +2,7 @@
 通过rust刷leetcode题目。
 通过刷leetcode题目学习rust。
 
-当前已刷：43
+当前已刷：44
 
 ### 题目
 - 6：Z 字形变换
@@ -86,6 +86,9 @@
 - 1362：飞机座位分配概率
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/airplane-seat-assignment-probability.rs)
     - [leetcode](https://leetcode-cn.com/problems/airplane-seat-assignment-probability/)
+- 1370：统计「优美子数组」
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/count-number-of-nice-subarrays.rs)
+    - [leetcode](https://leetcode-cn.com/problems/count-number-of-nice-subarrays/)
 - 1379：重构 2 行二进制矩阵
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/reconstruct-a-2-row-binary-matrix.rs)
     - [leetcode](https://leetcode-cn.com/problems/reconstruct-a-2-row-binary-matrix/)
