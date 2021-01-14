@@ -2,7 +2,7 @@
 通过rust刷leetcode题目。
 通过刷leetcode题目学习rust。
 
-当前已刷：44
+当前已刷：45
 
 ### 题目
 - 6：Z 字形变换
@@ -119,6 +119,9 @@
 - 1797：设计 Goal 解析器
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/goal-parser-interpretation.rs)
     - [leetcode](https://leetcode-cn.com/problems/goal-parser-interpretation/)
+- 1806：比赛中的配对次数
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/count-of-matches-in-tournament.rs)
+    - [leetcode](https://leetcode-cn.com/problems/count-of-matches-in-tournament/)
 - 100273：用两个栈实现队列
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/yong-liang-ge-zhan-shi-xian-dui-lie-lcof.rs)
     - [leetcode](https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/)
