@@ -2,7 +2,7 @@
 通过rust刷leetcode题目。
 通过刷leetcode题目学习rust。
 
-当前已刷：45
+当前已刷：46
 
 ### 题目
 - 6：Z 字形变换
@@ -80,6 +80,9 @@
 - 1054：十进制整数的反码
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/complement-of-base-10-integer.rs)
     - [leetcode](https://leetcode-cn.com/problems/complement-of-base-10-integer/)
+- 1119：困于环中的机器人
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/robot-bounded-in-circle.rs)
+    - [leetcode](https://leetcode-cn.com/problems/robot-bounded-in-circle/)
 - 1341：分割平衡字符串
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/split-a-string-in-balanced-strings.rs)
     - [leetcode](https://leetcode-cn.com/problems/split-a-string-in-balanced-strings/)
