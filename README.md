@@ -2,7 +2,7 @@
 通过rust刷leetcode题目。
 通过刷leetcode题目学习rust。
 
-当前已刷：46
+当前已刷：47
 
 ### 题目
 - 6：Z 字形变换
@@ -62,6 +62,9 @@
 - 520：检测大写字母
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/detect-capital.rs)
     - [leetcode](https://leetcode-cn.com/problems/detect-capital/)
+- 594：最长和谐子序列
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/longest-harmonious-subsequence.rs)
+    - [leetcode](https://leetcode-cn.com/problems/longest-harmonious-subsequence/)
 - 674：最长连续递增序列
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/longest-continuous-increasing-subsequence.rs)
     - [leetcode](https://leetcode-cn.com/problems/longest-continuous-increasing-subsequence/)
