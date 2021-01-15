@@ -24,4 +24,25 @@ impl Solution {
 
         res
     }
+
+    pub fn find_lhs1(nums: Vec<i32>) -> i32 {
+        let mut hash = std::collections::HashMap::<i32, i32>::new();
+        let mut res = 0;
+        for &i in nums.iter() {
+            hash.entry(i).and_modify(|x| *x += 1).or_insert(1);
+
+
+            let s  = hash.get(&(i-1));
+            if s.is_some() && res < hash.get(&i).unwrap() + s.unwrap() {
+                res = hash.get(&i).unwrap() + s.unwrap()
+            }
+
+            let s  = hash.get(&(i+1));
+            if s.is_some() && res < hash.get(&i).unwrap() + s.unwrap() {
+                res = hash.get(&i).unwrap() + s.unwrap()
+            }
+        }
+
+        res
+    }
 }
