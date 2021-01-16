@@ -17,7 +17,7 @@ impl Solution {
         for i in 0..=k {
             let s = i * longer + (k - i) * shorter;
 
-            v.push(r);
+            v.push(s);
         }
 
         v
