@@ -2,7 +2,7 @@
 通过rust刷leetcode题目。
 通过刷leetcode题目学习rust。
 
-当前已刷：49
+当前已刷：50
 
 ### 题目
 - 6：Z 字形变换
@@ -86,6 +86,9 @@
 - 1119：困于环中的机器人
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/robot-bounded-in-circle.rs)
     - [leetcode](https://leetcode-cn.com/problems/robot-bounded-in-circle/)
+- 1128：删除字符串中的所有相邻重复项
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/remove-all-adjacent-duplicates-in-string.rs)
+    - [leetcode](https://leetcode-cn.com/problems/remove-all-adjacent-duplicates-in-string/)
 - 1210：删除某些元素后的数组均值
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/mean-of-array-after-removing-some-elements.rs)
     - [leetcode](https://leetcode-cn.com/problems/mean-of-array-after-removing-some-elements/)
