@@ -2,7 +2,7 @@
 通过rust刷leetcode题目。
 通过刷leetcode题目学习rust。
 
-当前已刷：51
+当前已刷：52
 
 ### 题目
 - 6：Z 字形变换
@@ -26,6 +26,9 @@
 - 203：移除链表元素
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/remove-linked-list-elements.rs)
     - [leetcode](https://leetcode-cn.com/problems/remove-linked-list-elements/)
+- 204：计数质数
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/count-primes.rs)
+    - [leetcode](https://leetcode-cn.com/problems/count-primes/)
 - 229：求众数 II
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/majority-element-ii.rs)
     - [leetcode](https://leetcode-cn.com/problems/majority-element-ii/)
