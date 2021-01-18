@@ -26,6 +26,7 @@ impl Solution {
 
         let mut j = 0;
 
+        // 快慢指针
         for i in 0..nums.len() {
             if nums[i] != val {
                 let x = nums[j];
