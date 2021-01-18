@@ -2,12 +2,15 @@
 通过rust刷leetcode题目。
 通过刷leetcode题目学习rust。
 
-当前已刷：50
+当前已刷：51
 
 ### 题目
 - 6：Z 字形变换
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/zigzag-conversion.rs)
     - [leetcode](https://leetcode-cn.com/problems/zigzag-conversion/)
+- 27：移除元素
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/remove-element.rs)
+    - [leetcode](https://leetcode-cn.com/problems/remove-element/)
 - 43：字符串相乘
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/multiply-strings.rs)
     - [leetcode](https://leetcode-cn.com/problems/multiply-strings/)
