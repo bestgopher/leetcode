@@ -2,7 +2,7 @@
 通过rust刷leetcode题目。
 通过刷leetcode题目学习rust。
 
-当前已刷：52
+当前已刷：53
 
 ### 题目
 - 6：Z 字形变换
@@ -80,6 +80,9 @@
 - 857：较大分组的位置
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/positions-of-large-groups.rs)
     - [leetcode](https://leetcode-cn.com/problems/positions-of-large-groups/)
+- 982：使数组唯一的最小增量
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-increment-to-make-array-unique.rs)
+    - [leetcode](https://leetcode-cn.com/problems/minimum-increment-to-make-array-unique/)
 - 1005：单值二叉树
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/univalued-binary-tree.rs)
     - [leetcode](https://leetcode-cn.com/problems/univalued-binary-tree/)
