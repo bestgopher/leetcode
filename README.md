@@ -2,7 +2,7 @@
 通过rust刷leetcode题目。
 通过刷leetcode题目学习rust。
 
-当前已刷：55
+当前已刷：56
 
 ### 题目
 - 6：Z 字形变换
@@ -56,6 +56,9 @@
 - 387：字符串中的第一个唯一字符
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/first-unique-character-in-a-string.rs)
     - [leetcode](https://leetcode-cn.com/problems/first-unique-character-in-a-string/)
+- 404：左叶子之和
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/sum-of-left-leaves.rs)
+    - [leetcode](https://leetcode-cn.com/problems/sum-of-left-leaves/)
 - 419：甲板上的战舰
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/battleships-in-a-board.rs)
     - [leetcode](https://leetcode-cn.com/problems/battleships-in-a-board/)
