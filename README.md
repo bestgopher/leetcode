@@ -2,7 +2,7 @@
 通过rust刷leetcode题目。
 通过刷leetcode题目学习rust。
 
-当前已刷：56
+当前已刷：57
 
 ### 题目
 - 6：Z 字形变换
@@ -17,6 +17,9 @@
 - 98：验证二叉搜索树
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/validate-binary-search-tree.rs)
     - [leetcode](https://leetcode-cn.com/problems/validate-binary-search-tree/)
+- 104：二叉树的最大深度
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-depth-of-binary-tree.rs)
+    - [leetcode](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/)
 - 111：二叉树的最小深度
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-depth-of-binary-tree.rs)
     - [leetcode](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/)
