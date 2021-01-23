@@ -2,7 +2,7 @@
 通过rust刷leetcode题目。
 通过刷leetcode题目学习rust。
 
-当前已刷：57
+当前已刷：58
 
 ### 题目
 - 6：Z 字形变换
@@ -80,6 +80,9 @@
 - 594：最长和谐子序列
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/longest-harmonious-subsequence.rs)
     - [leetcode](https://leetcode-cn.com/problems/longest-harmonious-subsequence/)
+- 650：只有两个键的键盘
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/2-keys-keyboard.rs)
+    - [leetcode](https://leetcode-cn.com/problems/2-keys-keyboard/)
 - 653：两数之和 IV - 输入 BST
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/two-sum-iv-input-is-a-bst.rs)
     - [leetcode](https://leetcode-cn.com/problems/two-sum-iv-input-is-a-bst/)
