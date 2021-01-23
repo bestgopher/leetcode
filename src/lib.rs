@@ -122,9 +122,7 @@ pub fn get_question_msg(name: &str) -> Resp {
 pub fn write_to_readme(question_info: Resp) {
     let readme = fs::read_to_string("README.md").unwrap();
     let mut write_string = String::new();
-    write_string.push_str("# leetcode
-通过rust刷leetcode题目。
-通过刷leetcode题目学习rust。\n\n");
+    write_string.push_str("# leetcode\n\n");
     write_string.push_str(format!("当前已刷：{}\n\n", get_question_num()).as_str());
     write_string.push_str("### 题目\n");
 
