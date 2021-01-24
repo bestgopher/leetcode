@@ -1,6 +1,8 @@
 # leetcode
+通过rust刷leetcode题目。
+通过刷leetcode题目学习rust。
 
-当前已刷：58
+当前已刷：59
 
 ### 题目
 - 6：Z 字形变换
@@ -75,6 +77,9 @@
 - 520：检测大写字母
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/detect-capital.rs)
     - [leetcode](https://leetcode-cn.com/problems/detect-capital/)
+- 560：和为K的子数组
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/subarray-sum-equals-k.rs)
+    - [leetcode](https://leetcode-cn.com/problems/subarray-sum-equals-k/)
 - 594：最长和谐子序列
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/longest-harmonious-subsequence.rs)
     - [leetcode](https://leetcode-cn.com/problems/longest-harmonious-subsequence/)
