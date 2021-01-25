@@ -1,8 +1,6 @@
 # leetcode
-通过rust刷leetcode题目。
-通过刷leetcode题目学习rust。
 
-当前已刷：59
+当前已刷：60
 
 ### 题目
 - 6：Z 字形变换
@@ -74,6 +72,9 @@
 - 476：数字的补数
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/number-complement.rs)
     - [leetcode](https://leetcode-cn.com/problems/number-complement/)
+- 481：神奇字符串
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/magical-string.rs)
+    - [leetcode](https://leetcode-cn.com/problems/magical-string/)
 - 520：检测大写字母
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/detect-capital.rs)
     - [leetcode](https://leetcode-cn.com/problems/detect-capital/)
