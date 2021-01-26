@@ -1,5 +1,6 @@
 # leetcode
-当前已刷：61
+
+当前已刷：62
 
 ### 题目
 - 6：Z 字形变换
@@ -113,6 +114,9 @@
 - 1054：十进制整数的反码
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/complement-of-base-10-integer.rs)
     - [leetcode](https://leetcode-cn.com/problems/complement-of-base-10-integer/)
+- 1072：链表中的下一个更大节点
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/next-greater-node-in-linked-list.rs)
+    - [leetcode](https://leetcode-cn.com/problems/next-greater-node-in-linked-list/)
 - 1119：困于环中的机器人
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/robot-bounded-in-circle.rs)
     - [leetcode](https://leetcode-cn.com/problems/robot-bounded-in-circle/)
