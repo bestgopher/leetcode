@@ -1,7 +1,4 @@
 # leetcode
-通过rust刷leetcode题目。
-通过刷leetcode题目学习rust。
-
 当前已刷：61
 
 ### 题目
