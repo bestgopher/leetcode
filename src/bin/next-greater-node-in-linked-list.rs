@@ -33,8 +33,6 @@ impl Solution {
             if stack.len() == 0 {
                 stack.push(i);
             } else {
-                // while stack.len() > 0 && v[i] > v[*stack.last().unwrap()] {
-                // }
 
                 while let Some(&t) = stack.last() {
                     if v[i] <= v[t] {
