@@ -48,23 +48,21 @@ impl Solution {
     /// 快慢指针，先快指针到第k个值的时候，慢指针从第一个元素开始移动
     /// 快指针到达最后一个元素的时候，慢指针刚好在倒数第k个元素的位置
     pub fn swap_nodes(head: Option<Box<ListNode>>, k: i32) -> Option<Box<ListNode>> {
-        let mut index = 0;
-        let (mut fast, mut slow) = (head.as_ref(), head.as_ref());
+        let mut index = 1;
+        let (mut fast, mut slow, mut k_node) = (head.as_ref(), head.as_ref(), None);
 
         while fast.is_some() {
-            if index <= k {
-                fast = fast.unwrap().next.as_ref();
-                index += 1;
-            } else {
+            if index == k {
+                k_node = fast;
+            } else if index > k {
                 slow = slow.unwrap().next.as_ref();
             }
+            fast = fast.unwrap().next.as_ref();
+            index += 1;
         }
 
-        let f = fast.unwrap().val;
+        let f = k_node.unwrap().val;
         let s = slow.unwrap().val;
-
-        fast.unwrap().val = s;
-        slow.unwrap().val = f;
 
         head
     }

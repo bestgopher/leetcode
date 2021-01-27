@@ -1,6 +1,6 @@
 # leetcode
 
-当前已刷：63
+当前已刷：65
 
 ### 题目
 - 6：Z 字形变换
@@ -105,6 +105,9 @@
 - 917：救生艇
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/boats-to-save-people.rs)
     - [leetcode](https://leetcode-cn.com/problems/boats-to-save-people/)
+- 932：单调数列
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/monotonic-array.rs)
+    - [leetcode](https://leetcode-cn.com/problems/monotonic-array/)
 - 982：使数组唯一的最小增量
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-increment-to-make-array-unique.rs)
     - [leetcode](https://leetcode-cn.com/problems/minimum-increment-to-make-array-unique/)
@@ -168,6 +171,9 @@
 - 1642：换酒问题
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/water-bottles.rs)
     - [leetcode](https://leetcode-cn.com/problems/water-bottles/)
+- 1791：最富有客户的资产总量
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/richest-customer-wealth.rs)
+    - [leetcode](https://leetcode-cn.com/problems/richest-customer-wealth/)
 - 1797：设计 Goal 解析器
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/goal-parser-interpretation.rs)
     - [leetcode](https://leetcode-cn.com/problems/goal-parser-interpretation/)
