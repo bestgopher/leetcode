@@ -75,7 +75,7 @@ pub struct Ques {
     #[serde(rename = "titleSlug")]
     title_slug: String,
     #[serde(rename = "translatedTitle")]
-    translated_title: String,
+    pub translated_title: String,
     #[serde(rename = "codeSnippets")]
     code_snippets: Vec<CodeSnippets>,
 }
@@ -94,12 +94,12 @@ pub struct CodeSnippets {
 
 #[derive(Deserialize, Debug)]
 pub struct Data {
-    question: Ques,
+    pub question: Ques,
 }
 
 #[derive(Deserialize, Debug)]
 pub struct Resp {
-    data: Data,
+    pub data: Data,
 }
 
 /// 通过名字获取题目的ID
@@ -205,7 +205,7 @@ pub fn git_add_commit_files(files: Vec<String>) {
     push_to_origin();  // 将文件
 }
 
-fn add_and_commit(file: &str) {
+pub fn add_and_commit(file: &str) {
     Command::new("git").arg("add").arg(file).output().unwrap();
     Command::new("git").arg("commit").arg("-m").arg(file).output().unwrap();
 }
