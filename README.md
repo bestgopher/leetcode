@@ -2,12 +2,15 @@
 通过rust刷leetcode题目。
 通过刷leetcode题目学习rust。
 
-当前已刷：64
+当前已刷：65
 
 ### 题目
 - 528：交换链表中的节点
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/swapping-nodes-in-a-linked-list.rs)
     - [leetcode](https://leetcode-cn.com/problems/swapping-nodes-in-a-linked-list/)
+- 932：单调数列
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/monotonic-array.rs)
+    - [leetcode](https://leetcode-cn.com/problems/monotonic-array/)
 - 1072：链表中的下一个更大节点
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/next-greater-node-in-linked-list.rs)
     - [leetcode](https://leetcode-cn.com/problems/next-greater-node-in-linked-list/)
