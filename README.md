@@ -1,6 +1,6 @@
 # leetcode
 
-当前已刷：65
+当前已刷：66
 
 ### 题目
 - 6：Z 字形变换
@@ -165,6 +165,9 @@
 - 1566：检查单词是否为句中其他单词的前缀
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence.rs)
     - [leetcode](https://leetcode-cn.com/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/)
+- 1567：定长子串中元音的最大数目
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-number-of-vowels-in-a-substring-of-given-length.rs)
+    - [leetcode](https://leetcode-cn.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/)
 - 1603：一维数组的动态和
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/running-sum-of-1d-array.rs)
     - [leetcode](https://leetcode-cn.com/problems/running-sum-of-1d-array/)
