@@ -210,7 +210,7 @@ pub fn add_and_commit(file: &str) {
     Command::new("git").arg("commit").arg("-m").arg(file).output().unwrap();
 }
 
-fn push_to_origin() {
+pub fn push_to_origin() {
     Command::new("git").arg("push").output().unwrap();
 }
 

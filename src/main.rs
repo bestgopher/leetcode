@@ -52,6 +52,7 @@ fn all() {
     });
 
     leetcode::add_and_commit("README.md");
+    leetcode::push_to_origin();
 }
 
 fn new(filename: &str) {
