@@ -1,6 +1,6 @@
 # leetcode
 
-当前已刷：67
+当前已刷：68
 
 ### 题目
 - 6：Z 字形变换
@@ -87,6 +87,9 @@
 - 594：最长和谐子序列
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/longest-harmonious-subsequence.rs)
     - [leetcode](https://leetcode-cn.com/problems/longest-harmonious-subsequence/)
+- 649：Dota2 参议院
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/dota2-senate.rs)
+    - [leetcode](https://leetcode-cn.com/problems/dota2-senate/)
 - 650：只有两个键的键盘
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/2-keys-keyboard.rs)
     - [leetcode](https://leetcode-cn.com/problems/2-keys-keyboard/)
