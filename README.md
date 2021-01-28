@@ -1,6 +1,6 @@
 # leetcode
 
-当前已刷：66
+当前已刷：67
 
 ### 题目
 - 6：Z 字形变换
@@ -174,6 +174,9 @@
 - 1642：换酒问题
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/water-bottles.rs)
     - [leetcode](https://leetcode-cn.com/problems/water-bottles/)
+- 1656：统计好三元组
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/count-good-triplets.rs)
+    - [leetcode](https://leetcode-cn.com/problems/count-good-triplets/)
 - 1791：最富有客户的资产总量
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/richest-customer-wealth.rs)
     - [leetcode](https://leetcode-cn.com/problems/richest-customer-wealth/)
