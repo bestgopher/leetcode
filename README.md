@@ -1,11 +1,14 @@
 # leetcode
 
-当前已刷：68
+当前已刷：69
 
 ### 题目
 - 6：Z 字形变换
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/zigzag-conversion.rs)
     - [leetcode](https://leetcode-cn.com/problems/zigzag-conversion/)
+- 26：删除排序数组中的重复项
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/remove-duplicates-from-sorted-array.rs)
+    - [leetcode](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/)
 - 27：移除元素
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/remove-element.rs)
     - [leetcode](https://leetcode-cn.com/problems/remove-element/)
