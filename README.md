@@ -1,6 +1,6 @@
 # leetcode
 
-当前已刷：69
+当前已刷：70
 
 ### 题目
 - 6：Z 字形变换
@@ -177,6 +177,9 @@
 - 1603：一维数组的动态和
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/running-sum-of-1d-array.rs)
     - [leetcode](https://leetcode-cn.com/problems/running-sum-of-1d-array/)
+- 1604：不同整数的最少数目
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/least-number-of-unique-integers-after-k-removals.rs)
+    - [leetcode](https://leetcode-cn.com/problems/least-number-of-unique-integers-after-k-removals/)
 - 1642：换酒问题
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/water-bottles.rs)
     - [leetcode](https://leetcode-cn.com/problems/water-bottles/)
