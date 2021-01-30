@@ -1,6 +1,6 @@
 # leetcode
 
-当前已刷：71
+当前已刷：72
 
 ### 题目
 - 6：Z 字形变换
@@ -189,6 +189,9 @@
 - 1656：统计好三元组
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/count-good-triplets.rs)
     - [leetcode](https://leetcode-cn.com/problems/count-good-triplets/)
+- 1666：整理字符串
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/make-the-string-great.rs)
+    - [leetcode](https://leetcode-cn.com/problems/make-the-string-great/)
 - 1791：最富有客户的资产总量
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/richest-customer-wealth.rs)
     - [leetcode](https://leetcode-cn.com/problems/richest-customer-wealth/)
