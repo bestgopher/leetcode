@@ -1,6 +1,6 @@
 # leetcode
 
-当前已刷：70
+当前已刷：71
 
 ### 题目
 - 6：Z 字形变换
@@ -141,6 +141,9 @@
 - 1238：字母板上的路径
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/alphabet-board-path.rs)
     - [leetcode](https://leetcode-cn.com/problems/alphabet-board-path/)
+- 1287：公交站间的距离
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/distance-between-bus-stops.rs)
+    - [leetcode](https://leetcode-cn.com/problems/distance-between-bus-stops/)
 - 1341：分割平衡字符串
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/split-a-string-in-balanced-strings.rs)
     - [leetcode](https://leetcode-cn.com/problems/split-a-string-in-balanced-strings/)
