@@ -1,6 +1,8 @@
 # leetcode
+通过rust刷leetcode题目。
+通过刷leetcode题目学习rust。
 
-当前已刷：72
+当前已刷：73
 
 ### 题目
 - 6：Z 字形变换
@@ -90,6 +92,9 @@
 - 594：最长和谐子序列
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/longest-harmonious-subsequence.rs)
     - [leetcode](https://leetcode-cn.com/problems/longest-harmonious-subsequence/)
+- 617：合并二叉树
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/merge-two-binary-trees.rs)
+    - [leetcode](https://leetcode-cn.com/problems/merge-two-binary-trees/)
 - 649：Dota2 参议院
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/dota2-senate.rs)
     - [leetcode](https://leetcode-cn.com/problems/dota2-senate/)
