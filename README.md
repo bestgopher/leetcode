@@ -2,7 +2,7 @@
 通过rust刷leetcode题目。
 通过刷leetcode题目学习rust。
 
-当前已刷：73
+当前已刷：74
 
 ### 题目
 - 6：Z 字形变换
@@ -41,6 +41,9 @@
 - 229：求众数 II
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/majority-element-ii.rs)
     - [leetcode](https://leetcode-cn.com/problems/majority-element-ii/)
+- 235：二叉搜索树的最近公共祖先
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/lowest-common-ancestor-of-a-binary-search-tree.rs)
+    - [leetcode](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)
 - 242：有效的字母异位词
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/valid-anagram.rs)
     - [leetcode](https://leetcode-cn.com/problems/valid-anagram/)
