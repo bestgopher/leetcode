@@ -1,8 +1,6 @@
 # leetcode
-通过rust刷leetcode题目。
-通过刷leetcode题目学习rust。
 
-当前已刷：74
+当前已刷：75
 
 ### 题目
 - 6：Z 字形变换
@@ -221,6 +219,9 @@
 - 100345：求1+2+…+n
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/qiu-12n-lcof.rs)
     - [leetcode](https://leetcode-cn.com/problems/qiu-12n-lcof/)
+- 100349：最大数值
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-lcci.rs)
+    - [leetcode](https://leetcode-cn.com/problems/maximum-lcci/)
 - 100352：跳水板
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/diving-board-lcci.rs)
     - [leetcode](https://leetcode-cn.com/problems/diving-board-lcci/)
