@@ -1,6 +1,6 @@
 # leetcode
 
-当前已刷：75
+当前已刷：76
 
 ### 题目
 - 6：Z 字形变换
@@ -105,6 +105,9 @@
 - 653：两数之和 IV - 输入 BST
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/two-sum-iv-input-is-a-bst.rs)
     - [leetcode](https://leetcode-cn.com/problems/two-sum-iv-input-is-a-bst/)
+- 658：找到 K 个最接近的元素
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-k-closest-elements.rs)
+    - [leetcode](https://leetcode-cn.com/problems/find-k-closest-elements/)
 - 674：最长连续递增序列
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/longest-continuous-increasing-subsequence.rs)
     - [leetcode](https://leetcode-cn.com/problems/longest-continuous-increasing-subsequence/)
