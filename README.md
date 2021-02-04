@@ -2,7 +2,7 @@
 通过rust刷leetcode题目。
 通过刷leetcode题目学习rust。
 
-当前已刷：77
+当前已刷：78
 
 ### 题目
 - 6：Z 字形变换
@@ -125,6 +125,9 @@
 - 917：救生艇
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/boats-to-save-people.rs)
     - [leetcode](https://leetcode-cn.com/problems/boats-to-save-people/)
+- 925：根据前序和后序遍历构造二叉树
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/construct-binary-tree-from-preorder-and-postorder-traversal.rs)
+    - [leetcode](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/)
 - 932：单调数列
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/monotonic-array.rs)
     - [leetcode](https://leetcode-cn.com/problems/monotonic-array/)
