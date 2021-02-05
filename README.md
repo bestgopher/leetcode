@@ -1,6 +1,8 @@
 # leetcode
+通过rust刷leetcode题目。
+通过刷leetcode题目学习rust。
 
-当前已刷：80
+当前已刷：81
 
 ### 题目
 - 6：Z 字形变换
@@ -180,6 +182,9 @@
 - 1426：和为零的N个唯一整数
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-n-unique-integers-sum-up-to-zero.rs)
     - [leetcode](https://leetcode-cn.com/problems/find-n-unique-integers-sum-up-to-zero/)
+- 1428：跳跃游戏 III
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/jump-game-iii.rs)
+    - [leetcode](https://leetcode-cn.com/problems/jump-game-iii/)
 - 1434：解码字母到整数映射
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/decrypt-string-from-alphabet-to-integer-mapping.rs)
     - [leetcode](https://leetcode-cn.com/problems/decrypt-string-from-alphabet-to-integer-mapping/)
