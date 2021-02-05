@@ -1,8 +1,6 @@
 # leetcode
-通过rust刷leetcode题目。
-通过刷leetcode题目学习rust。
 
-当前已刷：78
+当前已刷：79
 
 ### 题目
 - 6：Z 字形变换
@@ -152,6 +150,9 @@
 - 1128：删除字符串中的所有相邻重复项
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/remove-all-adjacent-duplicates-in-string.rs)
     - [leetcode](https://leetcode-cn.com/problems/remove-all-adjacent-duplicates-in-string/)
+- 1157：根到叶路径上的不足节点
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/insufficient-nodes-in-root-to-leaf-paths.rs)
+    - [leetcode](https://leetcode-cn.com/problems/insufficient-nodes-in-root-to-leaf-paths/)
 - 1210：删除某些元素后的数组均值
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/mean-of-array-after-removing-some-elements.rs)
     - [leetcode](https://leetcode-cn.com/problems/mean-of-array-after-removing-some-elements/)
