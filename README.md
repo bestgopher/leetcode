@@ -1,6 +1,6 @@
 # leetcode
 
-当前已刷：79
+当前已刷：80
 
 ### 题目
 - 6：Z 字形变换
@@ -15,6 +15,9 @@
 - 43：字符串相乘
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/multiply-strings.rs)
     - [leetcode](https://leetcode-cn.com/problems/multiply-strings/)
+- 46：全排列
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/permutations.rs)
+    - [leetcode](https://leetcode-cn.com/problems/permutations/)
 - 98：验证二叉搜索树
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/validate-binary-search-tree.rs)
     - [leetcode](https://leetcode-cn.com/problems/validate-binary-search-tree/)
