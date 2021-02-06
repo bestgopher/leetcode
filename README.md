@@ -1,6 +1,6 @@
 # leetcode
 
-当前已刷：80
+当前已刷：81
 
 ### 题目
 - 6：Z 字形变换
@@ -210,6 +210,9 @@
 - 1656：统计好三元组
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/count-good-triplets.rs)
     - [leetcode](https://leetcode-cn.com/problems/count-good-triplets/)
+- 1660：千位分隔数
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/thousand-separator.rs)
+    - [leetcode](https://leetcode-cn.com/problems/thousand-separator/)
 - 1666：整理字符串
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/make-the-string-great.rs)
     - [leetcode](https://leetcode-cn.com/problems/make-the-string-great/)
