@@ -1,6 +1,6 @@
 # leetcode
 
-当前已刷：85
+当前已刷：86
 
 ### 题目
 - 6：Z 字形变换
@@ -129,6 +129,9 @@
 - 917：救生艇
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/boats-to-save-people.rs)
     - [leetcode](https://leetcode-cn.com/problems/boats-to-save-people/)
+- 924：公平的糖果棒交换
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/fair-candy-swap.rs)
+    - [leetcode](https://leetcode-cn.com/problems/fair-candy-swap/)
 - 925：根据前序和后序遍历构造二叉树
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/construct-binary-tree-from-preorder-and-postorder-traversal.rs)
     - [leetcode](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/)
