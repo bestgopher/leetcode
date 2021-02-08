@@ -1,6 +1,8 @@
 # leetcode
+通过rust刷leetcode题目。
+通过刷leetcode题目学习rust。
 
-当前已刷：85
+当前已刷：86
 
 ### 题目
 - 6：Z 字形变换
@@ -120,6 +122,9 @@
 - 674：最长连续递增序列
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/longest-continuous-increasing-subsequence.rs)
     - [leetcode](https://leetcode-cn.com/problems/longest-continuous-increasing-subsequence/)
+- 800：字母大小写全排列
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/letter-case-permutation.rs)
+    - [leetcode](https://leetcode-cn.com/problems/letter-case-permutation/)
 - 829：子域名访问计数
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/subdomain-visit-count.rs)
     - [leetcode](https://leetcode-cn.com/problems/subdomain-visit-count/)
