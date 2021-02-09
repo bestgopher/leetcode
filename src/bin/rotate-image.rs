@@ -13,7 +13,7 @@ fn main() {
 struct Solution;
 
 impl Solution {
-    pub fn rotate(matrix: &mut Vec<Vec<i32>>) {
+    pub fn rotate1(matrix: &mut Vec<Vec<i32>>) {
         let l = matrix.len();
         for i in 0..=l / 2 {
             for j in i..l - i - 1 {
@@ -35,6 +35,27 @@ impl Solution {
                     matrix[next.0][next.1] = matrix[i][j];
                     matrix[i][j] = last;
                 }
+            }
+        }
+    }
+
+    /// 先沿着右上左下对角线折叠，
+    /// 然后再沿着中线反转即可实现
+    pub fn rotate(matrix: &mut Vec<Vec<i32>>) {
+        let l = matrix.len();
+        for i in 0..l {
+            for j in 0..l - i - 1 {
+                let x = matrix[i][j];
+                matrix[i][j] = matrix[l - j - 1][l - i - 1];
+                matrix[l - j - 1][l - i - 1] = x;
+            }
+        }
+
+        for i in 0..=l / 2 {
+            for j in 0..l {
+                let x = matrix[i][j];
+                matrix[i][j] = matrix[l - i - 1][j];
+                matrix[l - i - 1][j] = x;
             }
         }
     }
