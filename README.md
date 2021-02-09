@@ -2,7 +2,7 @@
 通过rust刷leetcode题目。
 通过刷leetcode题目学习rust。
 
-当前已刷：87
+当前已刷：88
 
 ### 题目
 - 6：Z 字形变换
@@ -134,6 +134,9 @@
 - 857：较大分组的位置
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/positions-of-large-groups.rs)
     - [leetcode](https://leetcode-cn.com/problems/positions-of-large-groups/)
+- 868：推多米诺
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/push-dominoes.rs)
+    - [leetcode](https://leetcode-cn.com/problems/push-dominoes/)
 - 917：救生艇
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/boats-to-save-people.rs)
     - [leetcode](https://leetcode-cn.com/problems/boats-to-save-people/)
