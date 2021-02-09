@@ -2,7 +2,7 @@
 通过rust刷leetcode题目。
 通过刷leetcode题目学习rust。
 
-当前已刷：86
+当前已刷：87
 
 ### 题目
 - 6：Z 字形变换
@@ -20,6 +20,9 @@
 - 46：全排列
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/permutations.rs)
     - [leetcode](https://leetcode-cn.com/problems/permutations/)
+- 48：旋转图像
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/rotate-image.rs)
+    - [leetcode](https://leetcode-cn.com/problems/rotate-image/)
 - 98：验证二叉搜索树
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/validate-binary-search-tree.rs)
     - [leetcode](https://leetcode-cn.com/problems/validate-binary-search-tree/)
