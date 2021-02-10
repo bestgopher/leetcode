@@ -2,7 +2,7 @@
 通过rust刷leetcode题目。
 通过刷leetcode题目学习rust。
 
-当前已刷：88
+当前已刷：89
 
 ### 题目
 - 6：Z 字形变换
@@ -203,6 +203,9 @@
 - 1434：解码字母到整数映射
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/decrypt-string-from-alphabet-to-integer-mapping.rs)
     - [leetcode](https://leetcode-cn.com/problems/decrypt-string-from-alphabet-to-integer-mapping/)
+- 1441：或运算的最小翻转次数
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-flips-to-make-a-or-b-equal-to-c.rs)
+    - [leetcode](https://leetcode-cn.com/problems/minimum-flips-to-make-a-or-b-equal-to-c/)
 - 1468：检查整数及其两倍数是否存在
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/check-if-n-and-its-double-exist.rs)
     - [leetcode](https://leetcode-cn.com/problems/check-if-n-and-its-double-exist/)
