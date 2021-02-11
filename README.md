@@ -2,7 +2,7 @@
 通过rust刷leetcode题目。
 通过刷leetcode题目学习rust。
 
-当前已刷：90
+当前已刷：91
 
 ### 题目
 - 6：Z 字形变换
@@ -101,6 +101,9 @@
 - 528：交换链表中的节点
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/swapping-nodes-in-a-linked-list.rs)
     - [leetcode](https://leetcode-cn.com/problems/swapping-nodes-in-a-linked-list/)
+- 551：学生出勤记录 I
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/student-attendance-record-i.rs)
+    - [leetcode](https://leetcode-cn.com/problems/student-attendance-record-i/)
 - 560：和为K的子数组
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/subarray-sum-equals-k.rs)
     - [leetcode](https://leetcode-cn.com/problems/subarray-sum-equals-k/)
