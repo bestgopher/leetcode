@@ -2,7 +2,7 @@
 通过rust刷leetcode题目。
 通过刷leetcode题目学习rust。
 
-当前已刷：91
+当前已刷：92
 
 ### 题目
 - 6：Z 字形变换
@@ -161,6 +161,9 @@
 - 1005：单值二叉树
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/univalued-binary-tree.rs)
     - [leetcode](https://leetcode-cn.com/problems/univalued-binary-tree/)
+- 1046：最大连续1的个数 III
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/max-consecutive-ones-iii.rs)
+    - [leetcode](https://leetcode-cn.com/problems/max-consecutive-ones-iii/)
 - 1050：前序遍历构造二叉搜索树
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/construct-binary-search-tree-from-preorder-traversal.rs)
     - [leetcode](https://leetcode-cn.com/problems/construct-binary-search-tree-from-preorder-traversal/)
