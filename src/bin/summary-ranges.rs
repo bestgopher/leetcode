@@ -34,6 +34,12 @@ impl Solution {
             }
         }
 
+        if fast - 1 == slow {
+            v.push(nums[fast - 1].to_string());
+        } else {
+            v.push(format!("{}->{}", nums[slow], nums[fast - 1]));
+        }
+
         v
     }
 }
