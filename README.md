@@ -2,7 +2,7 @@
 通过rust刷leetcode题目。
 通过刷leetcode题目学习rust。
 
-当前已刷：93
+当前已刷：94
 
 ### 题目
 - 6：Z 字形变换
@@ -47,6 +47,9 @@
 - 204：计数质数
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/count-primes.rs)
     - [leetcode](https://leetcode-cn.com/problems/count-primes/)
+- 228：汇总区间
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/summary-ranges.rs)
+    - [leetcode](https://leetcode-cn.com/problems/summary-ranges/)
 - 229：求众数 II
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/majority-element-ii.rs)
     - [leetcode](https://leetcode-cn.com/problems/majority-element-ii/)
