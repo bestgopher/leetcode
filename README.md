@@ -2,7 +2,7 @@
 通过rust刷leetcode题目。
 通过刷leetcode题目学习rust。
 
-当前已刷：94
+当前已刷：95
 
 ### 题目
 - 6：Z 字形变换
@@ -242,6 +242,9 @@
 - 1604：不同整数的最少数目
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/least-number-of-unique-integers-after-k-removals.rs)
     - [leetcode](https://leetcode-cn.com/problems/least-number-of-unique-integers-after-k-removals/)
+- 1620：检查数组对是否可以被 k 整除
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/check-if-array-pairs-are-divisible-by-k.rs)
+    - [leetcode](https://leetcode-cn.com/problems/check-if-array-pairs-are-divisible-by-k/)
 - 1642：换酒问题
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/water-bottles.rs)
     - [leetcode](https://leetcode-cn.com/problems/water-bottles/)
