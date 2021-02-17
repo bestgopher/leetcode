@@ -2,7 +2,7 @@
 通过rust刷leetcode题目。
 通过刷leetcode题目学习rust。
 
-当前已刷：96
+当前已刷：97
 
 ### 题目
 - 6：Z 字形变换
@@ -272,6 +272,9 @@
 - 100273：用两个栈实现队列
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/yong-liang-ge-zhan-shi-xian-dui-lie-lcof.rs)
     - [leetcode](https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/)
+- 100299：删除链表的节点
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/shan-chu-lian-biao-de-jie-dian-lcof.rs)
+    - [leetcode](https://leetcode-cn.com/problems/shan-chu-lian-biao-de-jie-dian-lcof/)
 - 100316：第一个只出现一次的字符
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/di-yi-ge-zhi-chu-xian-yi-ci-de-zi-fu-lcof.rs)
     - [leetcode](https://leetcode-cn.com/problems/di-yi-ge-zhi-chu-xian-yi-ci-de-zi-fu-lcof/)
