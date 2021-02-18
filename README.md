@@ -2,7 +2,7 @@
 通过rust刷leetcode题目。
 通过刷leetcode题目学习rust。
 
-当前已刷：97
+当前已刷：98
 
 ### 题目
 - 6：Z 字形变换
@@ -227,6 +227,9 @@
 - 1468：检查整数及其两倍数是否存在
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/check-if-n-and-its-double-exist.rs)
     - [leetcode](https://leetcode-cn.com/problems/check-if-n-and-its-double-exist/)
+- 1537：分割字符串的最大得分
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-score-after-splitting-a-string.rs)
+    - [leetcode](https://leetcode-cn.com/problems/maximum-score-after-splitting-a-string/)
 - 1538：可获得的最大点数
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-points-you-can-obtain-from-cards.rs)
     - [leetcode](https://leetcode-cn.com/problems/maximum-points-you-can-obtain-from-cards/)
