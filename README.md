@@ -1,6 +1,6 @@
 # leetcode
 
-当前已刷：100
+当前已刷：101
 
 ### 题目
 - 6：Z 字形变换
@@ -279,6 +279,9 @@
 - 100273：用两个栈实现队列
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/yong-liang-ge-zhan-shi-xian-dui-lie-lcof.rs)
     - [leetcode](https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/)
+- 100274：斐波那契数列
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/fei-bo-na-qi-shu-lie-lcof.rs)
+    - [leetcode](https://leetcode-cn.com/problems/fei-bo-na-qi-shu-lie-lcof/)
 - 100299：删除链表的节点
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/shan-chu-lian-biao-de-jie-dian-lcof.rs)
     - [leetcode](https://leetcode-cn.com/problems/shan-chu-lian-biao-de-jie-dian-lcof/)
