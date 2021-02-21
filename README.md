@@ -1,6 +1,6 @@
 # leetcode
 
-当前已刷：101
+当前已刷：102
 
 ### 题目
 - 6：Z 字形变换
@@ -135,6 +135,9 @@
 - 800：字母大小写全排列
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/letter-case-permutation.rs)
     - [leetcode](https://leetcode-cn.com/problems/letter-case-permutation/)
+- 825：保持城市天际线
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/max-increase-to-keep-city-skyline.rs)
+    - [leetcode](https://leetcode-cn.com/problems/max-increase-to-keep-city-skyline/)
 - 829：子域名访问计数
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/subdomain-visit-count.rs)
     - [leetcode](https://leetcode-cn.com/problems/subdomain-visit-count/)
