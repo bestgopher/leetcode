@@ -1,6 +1,6 @@
 # leetcode
 
-当前已刷：103
+当前已刷：104
 
 ### 题目
 - 6：Z 字形变换
@@ -309,6 +309,9 @@
 - 100352：跳水板
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/diving-board-lcci.rs)
     - [leetcode](https://leetcode-cn.com/problems/diving-board-lcci/)
+- 100353：平分正方形
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/bisect-squares-lcci.rs)
+    - [leetcode](https://leetcode-cn.com/problems/bisect-squares-lcci/)
 - 1000063：传递信息
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/chuan-di-xin-xi.rs)
     - [leetcode](https://leetcode-cn.com/problems/chuan-di-xin-xi/)
