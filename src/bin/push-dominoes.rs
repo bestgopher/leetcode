@@ -38,7 +38,8 @@ impl Solution {
 
                     slow += 1;
                 }
-            } else if s[slow] == b'R' && s[fast] == b'R' {}
+            } else if s[slow] == b'R' && s[fast] == b'R' {
+            }
 
             slow = i;
         }

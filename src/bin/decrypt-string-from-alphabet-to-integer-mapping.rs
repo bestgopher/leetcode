@@ -14,10 +14,10 @@ impl Solution {
 
         while index < bytes.len() {
             if index + 2 < bytes.len() && bytes[index + 2] == '#' as u8 {
-                result.push((96 + (bytes[index]-48)* 10 + (bytes[index + 1]-48)) as char);
+                result.push((96 + (bytes[index] - 48) * 10 + (bytes[index + 1] - 48)) as char);
                 index += 3;
             } else {
-                result.push((96 + bytes[index]-48) as char);
+                result.push((96 + bytes[index] - 48) as char);
                 index += 1;
             }
         }

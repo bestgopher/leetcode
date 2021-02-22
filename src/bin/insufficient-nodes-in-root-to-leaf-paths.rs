@@ -21,31 +21,40 @@ impl TreeNode {
     }
 }
 
-use std::rc::Rc;
 use std::cell::RefCell;
+use std::rc::Rc;
 
 impl Solution {
-    pub fn sufficient_subset(root: Option<Rc<RefCell<TreeNode>>>, limit: i32) -> Option<Rc<RefCell<TreeNode>>> {
+    pub fn sufficient_subset(
+        root: Option<Rc<RefCell<TreeNode>>>,
+        limit: i32,
+    ) -> Option<Rc<RefCell<TreeNode>>> {
         if root.is_none() {
             return None;
         }
 
         {
-            if root.as_ref().unwrap().borrow().left.is_none() && root.as_ref().unwrap().borrow().right.is_none() {
+            if root.as_ref().unwrap().borrow().left.is_none()
+                && root.as_ref().unwrap().borrow().right.is_none()
+            {
                 return if root.as_ref().unwrap().borrow().val < limit {
                     None
                 } else {
                     root
-                }
+                };
             }
         }
 
         let val = root.as_ref().unwrap().borrow_mut().val;
 
-        let left = Self::sufficient_subset(root.as_ref().unwrap().borrow_mut().left.take(), limit - val);
+        let left =
+            Self::sufficient_subset(root.as_ref().unwrap().borrow_mut().left.take(), limit - val);
         root.as_ref().unwrap().borrow_mut().left = left;
 
-        let right = Self::sufficient_subset(root.as_ref().unwrap().borrow_mut().right.take(), limit - val);
+        let right = Self::sufficient_subset(
+            root.as_ref().unwrap().borrow_mut().right.take(),
+            limit - val,
+        );
         root.as_ref().unwrap().borrow_mut().right = right;
 
         {

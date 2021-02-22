@@ -1,8 +1,20 @@
 fn main() {
-    assert_eq!(vec![vec![3, 6]], Solution::large_group_positions("abbxxxxzzy".to_string()));
-    assert_eq!(Vec::<Vec<i32>>::new(), Solution::large_group_positions("abc".to_string()));
-    assert_eq!(vec![vec![3, 5], vec![6, 9], vec![12, 14]], Solution::large_group_positions("abcdddeeeeaabbbcd".to_string()));
-    assert_eq!(vec![vec![0, 2]], Solution::large_group_positions("aaa".to_string()));
+    assert_eq!(
+        vec![vec![3, 6]],
+        Solution::large_group_positions("abbxxxxzzy".to_string())
+    );
+    assert_eq!(
+        Vec::<Vec<i32>>::new(),
+        Solution::large_group_positions("abc".to_string())
+    );
+    assert_eq!(
+        vec![vec![3, 5], vec![6, 9], vec![12, 14]],
+        Solution::large_group_positions("abcdddeeeeaabbbcd".to_string())
+    );
+    assert_eq!(
+        vec![vec![0, 2]],
+        Solution::large_group_positions("aaa".to_string())
+    );
 }
 
 struct Solution;
@@ -21,7 +33,7 @@ impl Solution {
 
             if value == s[index - 1] {
                 end = index;
-                if end != s.len()- 1 {
+                if end != s.len() - 1 {
                     continue;
                 }
             }

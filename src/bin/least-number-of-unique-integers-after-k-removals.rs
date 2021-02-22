@@ -28,7 +28,6 @@ impl Solution {
             }
         }
 
-
         l as i32
     }
 }

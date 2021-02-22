@@ -12,10 +12,7 @@ pub struct ListNode {
 impl ListNode {
     #[inline]
     fn new(val: i32) -> Self {
-        ListNode {
-            next: None,
-            val,
-        }
+        ListNode { next: None, val }
     }
 }
 
@@ -43,7 +40,6 @@ impl Solution {
 
             cursor = cursor.unwrap().next.as_mut();
         }
-
 
         head
     }

@@ -19,7 +19,6 @@ impl Solution {
         // }
 
         for &i in arr.iter() {
-
             // 首先判断map中是否存在i的两倍的值，存在则返回true
             if let Some(_) = map.get(&(i * 2)) {
                 return true;

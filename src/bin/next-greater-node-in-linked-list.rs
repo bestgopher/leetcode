@@ -12,10 +12,7 @@ pub struct ListNode {
 impl ListNode {
     #[inline]
     fn new(val: i32) -> Self {
-        ListNode {
-            next: None,
-            val,
-        }
+        ListNode { next: None, val }
     }
 }
 
@@ -33,7 +30,6 @@ impl Solution {
             if stack.len() == 0 {
                 stack.push(i);
             } else {
-
                 while let Some(&t) = stack.last() {
                     if v[i] <= v[t] {
                         break;

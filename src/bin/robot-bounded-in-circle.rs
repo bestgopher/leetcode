@@ -8,7 +8,7 @@ impl Solution {
     /// 只有(x,y)不是原点，并且方向和原来的方向一致，最后才回不去
     pub fn is_robot_bounded(mut instructions: String) -> bool {
         let mut start = (0, 0);
-        let mut direction = 0u8;  // 当前的方向，0为向前，1为向左，2为向后，3为向右
+        let mut direction = 0u8; // 当前的方向，0为向前，1为向左，2为向后，3为向右
 
         for &i in instructions.as_bytes().iter() {
             if i == b'G' {

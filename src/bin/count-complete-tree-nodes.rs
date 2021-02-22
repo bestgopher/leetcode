@@ -21,10 +21,10 @@ impl TreeNode {
     }
 }
 
-use std::rc::Rc;
-use std::cell::RefCell;
 use std::arch::x86_64::_mm_xor_pd;
+use std::cell::RefCell;
 use std::cmp::{max, min};
+use std::rc::Rc;
 
 impl Solution {
     /// 普通遍历树，时间复杂度为O(n)

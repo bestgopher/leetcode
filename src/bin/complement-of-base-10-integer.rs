@@ -8,6 +8,6 @@ impl Solution {
         while ones < num {
             ones = (ones << 1) + 1
         }
-        ones^num
+        ones ^ num
     }
 }

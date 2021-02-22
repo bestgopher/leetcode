@@ -1,7 +1,7 @@
 #[cfg(test)]
 mod tests {
-    use crate::{get_new_file_in_bin, get_question_msg, get_question_num};
     use super::*;
+    use crate::{get_new_file_in_bin, get_question_msg, get_question_num};
 
     #[test]
     fn it_works() {
@@ -32,7 +32,10 @@ mod tests {
 
     #[test]
     fn test_get_question_msg() {
-        println!("{:?}", get_question_msg("maximum-points-you-can-obtain-from-cards"));
+        println!(
+            "{:?}",
+            get_question_msg("maximum-points-you-can-obtain-from-cards")
+        );
     }
 
     #[test]
@@ -49,7 +52,6 @@ use std::fs::{self, File};
 use std::io::Write;
 use std::process::Command;
 
-
 /// 获取bin目录下新加的文件
 pub fn get_new_file_in_bin() -> Vec<String> {
     let mut options = StatusOptions::new();
@@ -57,15 +59,16 @@ pub fn get_new_file_in_bin() -> Vec<String> {
     let repo = Repository::open(".").unwrap();
     let statuses = repo.statuses(Some(&mut options)).unwrap();
 
-    statuses.iter().
-        filter(|x| { x.path().unwrap().starts_with("src/bin/") }).
-        map(|x| String::from(x.path().unwrap())).
-        map(|x| {
-            let x = x.trim_end_matches(".rs");  // 去掉路径
-            let x = x.trim_start_matches("src/bin/");  // 去掉后缀
+    statuses
+        .iter()
+        .filter(|x| x.path().unwrap().starts_with("src/bin/"))
+        .map(|x| String::from(x.path().unwrap()))
+        .map(|x| {
+            let x = x.trim_end_matches(".rs"); // 去掉路径
+            let x = x.trim_start_matches("src/bin/"); // 去掉后缀
             x.to_string()
-        }).
-        collect()
+        })
+        .collect()
 }
 
 #[derive(Deserialize, Debug)]
@@ -107,13 +110,14 @@ pub fn get_question_msg(name: &str) -> Resp {
     let url = "https://leetcode-cn.com/graphql/";
     let data_fmt = r#"{"operationName":"questionData","variables":{"titleSlug":"{}"},"query":"query questionData($titleSlug: String!) {\n  question(titleSlug: $titleSlug) {\n    questionId\n    questionFrontendId\n    boundTopicId\n    title\n    titleSlug\n    content\n    translatedTitle\n    translatedContent\n    isPaidOnly\n    difficulty\n    likes\n    dislikes\n    isLiked\n    similarQuestions\n    contributors {\n      username\n      profileUrl\n      avatarUrl\n      __typename\n    }\n    langToValidPlayground\n    topicTags {\n      name\n      slug\n      translatedName\n      __typename\n    }\n    companyTagStats\n    codeSnippets {\n      lang\n      langSlug\n      code\n      __typename\n    }\n    stats\n    hints\n    solution {\n      id\n      canSeeDetail\n      __typename\n    }\n    status\n    sampleTestCase\n    metaData\n    judgerAvailable\n    judgeType\n    mysqlSchemas\n    enableRunCode\n    envInfo\n    book {\n      id\n      bookName\n      pressName\n      source\n      shortDescription\n      fullDescription\n      bookImgUrl\n      pressImgUrl\n      productUrl\n      __typename\n    }\n    isSubscribed\n    isDailyQuestion\n    dailyRecordStatus\n    editorType\n    ugcQuestionId\n    style\n    __typename\n  }\n}\n"}"#;
     let data = data_fmt.replace("{}", name);
-    let res = reqwest::blocking::Client::new().
-        post(url).
-        header("content-type", "application/json").
-        body(data).
-        send().
-        unwrap().
-        json::<Resp>().unwrap();
+    let res = reqwest::blocking::Client::new()
+        .post(url)
+        .header("content-type", "application/json")
+        .body(data)
+        .send()
+        .unwrap()
+        .json::<Resp>()
+        .unwrap();
 
     res
 }
@@ -132,7 +136,12 @@ pub fn write_to_readme(question_info: Resp) {
     let split = readme.split("\n").into_iter().collect::<Vec<&str>>();
     let mut flag = false;
     let mut flag1 = false;
-    let no = question_info.data.question.question_id.parse::<i32>().unwrap();
+    let no = question_info
+        .data
+        .question
+        .question_id
+        .parse::<i32>()
+        .unwrap();
     while index + 3 < split.len() {
         if !flag {
             if split[index] == "### 题目" {
@@ -150,19 +159,63 @@ pub fn write_to_readme(question_info: Resp) {
 
         if !flag1 && i1 > no {
             flag1 = true;
-            write_string.push_str(format!("- {}：{}\n", no, question_info.data.question.translated_title).as_str());
-            write_string.push_str(format!("    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/{}.rs)\n", question_info.data.question.title_slug).as_str());
-            write_string.push_str(format!("    - [leetcode](https://leetcode-cn.com/problems/{}/)\n", question_info.data.question.title_slug).as_str());
+            write_string.push_str(
+                format!(
+                    "- {}：{}\n",
+                    no, question_info.data.question.translated_title
+                )
+                .as_str(),
+            );
+            write_string.push_str(
+                format!(
+                    "    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/{}.rs)\n",
+                    question_info.data.question.title_slug
+                )
+                .as_str(),
+            );
+            write_string.push_str(
+                format!(
+                    "    - [leetcode](https://leetcode-cn.com/problems/{}/)\n",
+                    question_info.data.question.title_slug
+                )
+                .as_str(),
+            );
         }
 
-        write_string.push_str(format!("{}\n{}\n{}\n", split[index], split[index + 1], split[index + 2]).as_str());
+        write_string.push_str(
+            format!(
+                "{}\n{}\n{}\n",
+                split[index],
+                split[index + 1],
+                split[index + 2]
+            )
+            .as_str(),
+        );
         index += 3;
     }
 
     if !flag1 {
-        write_string.push_str(format!("- {}：{}\n", no, question_info.data.question.translated_title).as_str());
-        write_string.push_str(format!("    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/{}.rs)\n", question_info.data.question.title_slug).as_str());
-        write_string.push_str(format!("    - [leetcode](https://leetcode-cn.com/problems/{}/)\n", question_info.data.question.title_slug).as_str());
+        write_string.push_str(
+            format!(
+                "- {}：{}\n",
+                no, question_info.data.question.translated_title
+            )
+            .as_str(),
+        );
+        write_string.push_str(
+            format!(
+                "    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/{}.rs)\n",
+                question_info.data.question.title_slug
+            )
+            .as_str(),
+        );
+        write_string.push_str(
+            format!(
+                "    - [leetcode](https://leetcode-cn.com/problems/{}/)\n",
+                question_info.data.question.title_slug
+            )
+            .as_str(),
+        );
     }
 
     let _ = f.write(write_string.as_bytes());
@@ -172,22 +225,20 @@ pub fn write_to_readme(question_info: Resp) {
 fn get_question_num() -> usize {
     let dir = fs::read_dir("src/bin/").unwrap();
 
-    dir.
-        into_iter().
-        filter(|x| {
+    dir.into_iter()
+        .filter(|x| {
             if let Ok(f) = x {
                 f.file_name().to_str().unwrap().ends_with(".rs")
             } else {
                 false
             }
-        }).count()
+        })
+        .count()
 }
 
 /// 获取题目的编号
 fn get_question_no(s: &str) -> i32 {
-    s.split("：")
-        .into_iter()
-        .collect::<Vec<&str>>()[0]
+    s.split("：").into_iter().collect::<Vec<&str>>()[0]
         .trim_end_matches('：')
         .trim_start_matches('-')
         .trim_start()
@@ -201,13 +252,18 @@ pub fn git_add_commit_files(files: Vec<String>) {
         add_and_commit(format!("src/bin/{}.rs", file).as_str()); // 将新加的文件提交到git仓库
     }
 
-    add_and_commit("README.md");  // 将修改的README.md提交到git仓库
-    push_to_origin();  // 将文件
+    add_and_commit("README.md"); // 将修改的README.md提交到git仓库
+    push_to_origin(); // 将文件
 }
 
 pub fn add_and_commit(file: &str) {
     Command::new("git").arg("add").arg(file).output().unwrap();
-    Command::new("git").arg("commit").arg("-m").arg(file).output().unwrap();
+    Command::new("git")
+        .arg("commit")
+        .arg("-m")
+        .arg(file)
+        .output()
+        .unwrap();
 }
 
 pub fn push_to_origin() {

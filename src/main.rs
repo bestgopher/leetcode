@@ -31,20 +31,25 @@ fn git() {
 
 fn all() {
     let files = std::fs::read_dir("./src/bin").unwrap();
-    let files = files.
-        into_iter().
-        filter(|x| {
+    let files = files
+        .into_iter()
+        .filter(|x| {
             if let Ok(f) = x {
                 f.file_name().to_str().unwrap().ends_with(".rs")
             } else {
                 false
             }
-        }).
-        map(|x| x.unwrap().file_name().to_str().unwrap().
-            trim_end_matches(".rs").
-            trim_start_matches("src/bin/").
-            to_string()).
-        collect::<Vec<String>>();
+        })
+        .map(|x| {
+            x.unwrap()
+                .file_name()
+                .to_str()
+                .unwrap()
+                .trim_end_matches(".rs")
+                .trim_start_matches("src/bin/")
+                .to_string()
+        })
+        .collect::<Vec<String>>();
     files.iter().for_each(|x| {
         println!("{} start", x);
         let resp = get_question_msg(x);

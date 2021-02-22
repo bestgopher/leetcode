@@ -17,19 +17,24 @@ impl Solution {
 
         op[start as usize] = true;
         if start >= arr[start as usize] && ((arr[start as usize] + start) as usize) < arr.len() {
-            if op[(start - arr[start as usize]) as usize] && op[(arr[start as usize] + start) as usize] {
+            if op[(start - arr[start as usize]) as usize]
+                && op[(arr[start as usize] + start) as usize]
+            {
                 return false;
             }
-        } else if start >= arr[start as usize] && ((arr[start as usize] + start) as usize) >= arr.len() {
+        } else if start >= arr[start as usize]
+            && ((arr[start as usize] + start) as usize) >= arr.len()
+        {
             if op[(start - arr[start as usize]) as usize] {
                 return false;
             }
-        } else if start < arr[start as usize] && ((arr[start as usize] + start) as usize) < arr.len() {
+        } else if start < arr[start as usize]
+            && ((arr[start as usize] + start) as usize) < arr.len()
+        {
             if op[(arr[start as usize] + start) as usize] {
                 return false;
             }
         }
-
 
         if start >= arr[start as usize] {
             let r = Self::scan(arr, op, start - arr[start as usize]);

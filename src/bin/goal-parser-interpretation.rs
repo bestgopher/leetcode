@@ -1,6 +1,4 @@
-fn main() {
-
-}
+fn main() {}
 
 struct Solution;
 

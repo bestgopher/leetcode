@@ -1,5 +1,8 @@
 fn main() {
-    assert_eq!(7, Solution::max_vowels("ibpbhixfiouhdljnjfflpapptrxgcomvnb".to_string(), 33));
+    assert_eq!(
+        7,
+        Solution::max_vowels("ibpbhixfiouhdljnjfflpapptrxgcomvnb".to_string(), 33)
+    );
 }
 
 struct Solution;
@@ -19,13 +22,13 @@ impl Solution {
                 slow += 1;
                 match s[slow - 1] {
                     b'a' | b'e' | b'i' | b'o' | b'u' => count -= 1,
-                    _ => ()
+                    _ => (),
                 }
             }
 
             match s[fast] {
                 b'a' | b'e' | b'i' | b'o' | b'u' => count += 1,
-                _ => ()
+                _ => (),
             }
 
             if count > max {

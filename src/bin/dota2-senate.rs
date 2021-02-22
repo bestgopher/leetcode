@@ -1,15 +1,19 @@
 fn main() {
-    assert_eq!("Dire".to_string(), Solution::predict_party_victory("DDRRR".to_string()));
+    assert_eq!(
+        "Dire".to_string(),
+        Solution::predict_party_victory("DDRRR".to_string())
+    );
 }
 
 struct Solution;
 
 impl Solution {
     pub fn predict_party_victory(senate: String) -> String {
-        let mut senate = senate.as_bytes().
-            into_iter().
-            map(|x| *x).
-            collect::<Vec<u8>>();
+        let mut senate = senate
+            .as_bytes()
+            .into_iter()
+            .map(|x| *x)
+            .collect::<Vec<u8>>();
 
         let (mut r_ban, mut d_ban) = (0, 0);
 

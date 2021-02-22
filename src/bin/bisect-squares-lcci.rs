@@ -7,16 +7,24 @@ impl Solution {
     /// 当两个正方形重合时，就有无数条, 取平行于y轴的线
     pub fn cut_squares(square1: Vec<i32>, square2: Vec<i32>) -> Vec<f64> {
         // 两个正方形的中心
-        let sq1_center = (square1[0] as f64 + (square1[2] as f64) / 2f64, (square1[1] as f64) + (square1[2] as f64) / 2f64);
-        let sq2_center = (square2[0] as f64 + (square2[2] as f64) / 2f64, (square2[1] as f64) + (square2[2] as f64) / 2f64);
+        let sq1_center = (
+            square1[0] as f64 + (square1[2] as f64) / 2f64,
+            (square1[1] as f64) + (square1[2] as f64) / 2f64,
+        );
+        let sq2_center = (
+            square2[0] as f64 + (square2[2] as f64) / 2f64,
+            (square2[1] as f64) + (square2[2] as f64) / 2f64,
+        );
 
         let mut result = vec![];
         // sq1_center.0 == sq2_center.1时斜率无穷大
         if sq1_center.0 == sq2_center.1 {
             let x1 = sq1_center.0;
-            let y1 = (sq1_center.1 - square1[2] as f64 / 2f64).min(sq2_center.1 - square2[2] as f64 / 2f64);
+            let y1 = (sq1_center.1 - square1[2] as f64 / 2f64)
+                .min(sq2_center.1 - square2[2] as f64 / 2f64);
             let x2 = sq1_center.0;
-            let y2 = (sq1_center.1 + square1[2] as f64 / 2f64).max(sq2_center.1 + square2[2] as f64 / 2f64);
+            let y2 = (sq1_center.1 + square1[2] as f64 / 2f64)
+                .max(sq2_center.1 + square2[2] as f64 / 2f64);
             result = vec![x1, y1, x2, y2];
         } else {
             // 求y = kx+b

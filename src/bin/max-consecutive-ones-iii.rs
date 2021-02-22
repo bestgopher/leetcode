@@ -1,6 +1,15 @@
 fn main() {
-    assert_eq!(6, Solution::longest_ones(vec![1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 0], 2));
-    assert_eq!(10, Solution::longest_ones(vec![0, 0, 1, 1, 0, 0, 1, 1, 1, 0, 1, 1, 0, 0, 0, 1, 1, 1, 1], 3));
+    assert_eq!(
+        6,
+        Solution::longest_ones(vec![1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 0], 2)
+    );
+    assert_eq!(
+        10,
+        Solution::longest_ones(
+            vec![0, 0, 1, 1, 0, 0, 1, 1, 1, 0, 1, 1, 0, 0, 0, 1, 1, 1, 1],
+            3
+        )
+    );
 }
 
 struct Solution;

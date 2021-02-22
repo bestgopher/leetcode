@@ -2,8 +2,8 @@ fn main() {}
 
 struct Solution;
 
-use std::rc::Rc;
 use std::cell::RefCell;
+use std::rc::Rc;
 
 // Definition for a binary tree node.
 #[derive(Debug, PartialEq, Eq)]
@@ -41,12 +41,24 @@ impl FindElements {
         Self { root, v }
     }
 
-    fn scan(root: &mut Option<Rc<RefCell<TreeNode>>>, v: &mut std::collections::HashMap<i32, ()>, val: i32) {
+    fn scan(
+        root: &mut Option<Rc<RefCell<TreeNode>>>,
+        v: &mut std::collections::HashMap<i32, ()>,
+        val: i32,
+    ) {
         if root.is_some() {
             v.insert(val, ());
             root.as_ref().unwrap().borrow_mut().val = val;
-            Self::scan(&mut root.as_ref().unwrap().borrow_mut().left, v, val * 2 + 1);
-            Self::scan(&mut root.as_ref().unwrap().borrow_mut().right, v, val * 2 + 2);
+            Self::scan(
+                &mut root.as_ref().unwrap().borrow_mut().left,
+                v,
+                val * 2 + 1,
+            );
+            Self::scan(
+                &mut root.as_ref().unwrap().borrow_mut().right,
+                v,
+                val * 2 + 2,
+            );
         }
     }
 

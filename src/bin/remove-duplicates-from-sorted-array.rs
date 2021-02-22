@@ -1,5 +1,8 @@
 fn main() {
-    assert_eq!(5, Solution::remove_duplicates(&mut vec![0,0,1,1,1,2,2,3,3,4]))
+    assert_eq!(
+        5,
+        Solution::remove_duplicates(&mut vec![0, 0, 1, 1, 1, 2, 2, 3, 3, 4])
+    )
 }
 
 struct Solution;

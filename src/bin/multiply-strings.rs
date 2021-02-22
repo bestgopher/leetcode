@@ -1,7 +1,16 @@
 fn main() {
-    assert_eq!("6".to_string(), Solution::multiply("2".to_string(), "3".to_string()));
-    assert_eq!("56088".to_string(), Solution::multiply("123".to_string(), "456".to_string()));
-    assert_eq!("998001".to_string(), Solution::multiply("999".to_string(), "999".to_string()));
+    assert_eq!(
+        "6".to_string(),
+        Solution::multiply("2".to_string(), "3".to_string())
+    );
+    assert_eq!(
+        "56088".to_string(),
+        Solution::multiply("123".to_string(), "456".to_string())
+    );
+    assert_eq!(
+        "998001".to_string(),
+        Solution::multiply("999".to_string(), "999".to_string())
+    );
     assert_eq!("30501687172287445993560048081057096686019986405658336826483685740920318317486606305094807387278589614".to_string(), Solution::multiply("60974249908865105026646412538664653190280198809433017".to_string(), "500238825698990292381312765074025160144624723742".to_string()));
 }
 

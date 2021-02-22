@@ -8,7 +8,6 @@ fn main() {
     assert_eq!(true, Solution::is_perfect_square1(49000000), "49000000");
 }
 
-
 struct Solution;
 
 impl Solution {
@@ -27,11 +26,7 @@ impl Solution {
 
         loop {
             if num / num1 == num1 {
-                return if num % num1 == 0 {
-                    true
-                } else {
-                    false
-                };
+                return if num % num1 == 0 { true } else { false };
             } else if num / num1 > num1 {
                 last_num = num1;
                 num1 *= 2;
@@ -53,7 +48,7 @@ impl Solution {
         let mut start = 1;
         let mut sum = num;
         loop {
-            if sum ==  0 {
+            if sum == 0 {
                 return true;
             } else if sum < 0 {
                 return false;

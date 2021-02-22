@@ -21,9 +21,9 @@ impl TreeNode {
     }
 }
 
-use std::rc::Rc;
-use std::cell::RefCell;
 use std::borrow::BorrowMut;
+use std::cell::RefCell;
+use std::rc::Rc;
 
 impl Solution {
     pub fn min_depth(root: Option<Rc<RefCell<TreeNode>>>) -> i32 {

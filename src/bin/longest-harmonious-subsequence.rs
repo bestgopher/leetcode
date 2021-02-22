@@ -31,13 +31,12 @@ impl Solution {
         for &i in nums.iter() {
             hash.entry(i).and_modify(|x| *x += 1).or_insert(1);
 
-
-            let s  = hash.get(&(i-1));
+            let s = hash.get(&(i - 1));
             if s.is_some() && res < hash.get(&i).unwrap() + s.unwrap() {
                 res = hash.get(&i).unwrap() + s.unwrap()
             }
 
-            let s  = hash.get(&(i+1));
+            let s = hash.get(&(i + 1));
             if s.is_some() && res < hash.get(&i).unwrap() + s.unwrap() {
                 res = hash.get(&i).unwrap() + s.unwrap()
             }

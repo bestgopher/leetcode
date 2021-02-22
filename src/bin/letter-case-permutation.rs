@@ -21,11 +21,19 @@ impl Solution {
             new_index = i;
             if new_s[i] >= b'a' && new_s[i] <= b'z' {
                 new_s[i] -= 32;
-                Self::func(unsafe { String::from_utf8_unchecked(new_s.to_vec()) }, v, new_index + 1);
+                Self::func(
+                    unsafe { String::from_utf8_unchecked(new_s.to_vec()) },
+                    v,
+                    new_index + 1,
+                );
                 new_s[i] += 32;
             } else if new_s[i] >= b'A' && new_s[i] <= b'Z' {
                 new_s[i] += 32;
-                Self::func(unsafe { String::from_utf8_unchecked(new_s.to_vec()) }, v, new_index + 1);
+                Self::func(
+                    unsafe { String::from_utf8_unchecked(new_s.to_vec()) },
+                    v,
+                    new_index + 1,
+                );
                 new_s[i] -= 32;
             }
         }

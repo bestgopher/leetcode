@@ -23,8 +23,8 @@ impl TreeNode {
     }
 }
 
-use std::rc::Rc;
 use std::cell::RefCell;
+use std::rc::Rc;
 
 impl Solution {
     pub fn construct_from_pre_post(pre: Vec<i32>, post: Vec<i32>) -> Option<Rc<RefCell<TreeNode>>> {
@@ -62,7 +62,6 @@ impl Solution {
                     }
 
                     v.push(node);
-
                 } else {
                     v.push(Rc::new(RefCell::new(TreeNode::new(pre[pre_index]))));
                 }

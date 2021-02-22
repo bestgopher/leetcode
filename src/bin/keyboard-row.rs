@@ -1,5 +1,13 @@
 fn main() {
-    assert_eq!(vec!["Alaska".to_string(), "Dad".to_string()], Solution::find_words(vec!["Hello".to_string(), "Alaska".to_string(), "Dad".to_string(), "Peace".to_string()]));
+    assert_eq!(
+        vec!["Alaska".to_string(), "Dad".to_string()],
+        Solution::find_words(vec![
+            "Hello".to_string(),
+            "Alaska".to_string(),
+            "Dad".to_string(),
+            "Peace".to_string()
+        ])
+    );
 }
 
 struct Solution;
@@ -7,12 +15,24 @@ struct Solution;
 impl Solution {
     pub fn find_words(words: Vec<String>) -> Vec<String> {
         let v = vec![(); 10];
-        let m1: std::collections::HashMap<_, _> = "qwertyuiop".as_bytes().
-            into_iter().map(|x| *x).zip(v.iter()).collect();
-        let m2: std::collections::HashMap<_, _> = "asdfghjkl".as_bytes().
-            into_iter().map(|x| *x).zip(v.iter()).collect();
-        let m3: std::collections::HashMap<_, _> = "zxcvbnm".as_bytes().
-            into_iter().map(|x| *x).zip(v.iter()).collect();
+        let m1: std::collections::HashMap<_, _> = "qwertyuiop"
+            .as_bytes()
+            .into_iter()
+            .map(|x| *x)
+            .zip(v.iter())
+            .collect();
+        let m2: std::collections::HashMap<_, _> = "asdfghjkl"
+            .as_bytes()
+            .into_iter()
+            .map(|x| *x)
+            .zip(v.iter())
+            .collect();
+        let m3: std::collections::HashMap<_, _> = "zxcvbnm"
+            .as_bytes()
+            .into_iter()
+            .map(|x| *x)
+            .zip(v.iter())
+            .collect();
 
         let mut result = vec![];
 
@@ -40,7 +60,6 @@ impl Solution {
                 result.push(i.clone())
             }
         }
-
 
         result
     }

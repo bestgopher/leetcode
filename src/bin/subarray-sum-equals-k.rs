@@ -1,5 +1,8 @@
 fn main() {
-    assert_eq!(39, Solution::subarray_sum(vec![0, 0, 0, 0, 1, -1, 0, 0, 1, 1, 0, 0, 2, -2, 2], 2));
+    assert_eq!(
+        39,
+        Solution::subarray_sum(vec![0, 0, 0, 0, 1, -1, 0, 0, 1, 1, 0, 0, 2, -2, 2], 2)
+    );
 }
 
 struct Solution;

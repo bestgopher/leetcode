@@ -1,6 +1,9 @@
 fn main() {
     assert_eq!(1, Solution::min_increment_for_unique(vec![1, 2, 2]));
-    assert_eq!(6, Solution::min_increment_for_unique(vec![3, 2, 1, 2, 1, 7]));
+    assert_eq!(
+        6,
+        Solution::min_increment_for_unique(vec![3, 2, 1, 2, 1, 7])
+    );
     assert_eq!(1, Solution::min_increment_for_unique(vec![40000, 40000]));
 }
 

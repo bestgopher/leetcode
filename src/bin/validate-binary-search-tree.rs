@@ -21,8 +21,8 @@ impl TreeNode {
     }
 }
 
-use std::rc::Rc;
 use std::cell::RefCell;
+use std::rc::Rc;
 
 impl Solution {
     /// 中序遍历，遍历值都是递增的，当当前值小于或者等于前一个值，说明不是搜索二叉树

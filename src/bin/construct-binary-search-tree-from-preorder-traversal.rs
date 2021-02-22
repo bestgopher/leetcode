@@ -22,10 +22,9 @@ impl TreeNode {
     }
 }
 
-
-use std::rc::Rc;
 use std::cell::RefCell;
 use std::ops::Deref;
+use std::rc::Rc;
 
 struct Solution;
 
@@ -42,16 +41,20 @@ impl Solution {
                 if n.borrow().val > i {
                     if let Some(s) = &n.clone().borrow().left {
                         n = Rc::clone(s);
-                        continue
+                        continue;
                     }
-                    n.borrow_mut().left.replace(Rc::new(RefCell::new(TreeNode::new(i))));
+                    n.borrow_mut()
+                        .left
+                        .replace(Rc::new(RefCell::new(TreeNode::new(i))));
                     break;
                 } else {
                     if let Some(s) = n.clone().borrow().right.as_ref() {
                         n = Rc::clone(s);
                         continue;
                     }
-                    n.borrow_mut().right.replace(Rc::new(RefCell::new(TreeNode::new(i))));
+                    n.borrow_mut()
+                        .right
+                        .replace(Rc::new(RefCell::new(TreeNode::new(i))));
                     break;
                 }
             }

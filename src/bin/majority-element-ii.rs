@@ -14,10 +14,17 @@ impl Solution {
         let mut m = std::collections::HashMap::new();
 
         for &i in nums.iter() {
-            m.entry(i).and_modify(|e| { (*e) += 1; }).or_insert(1);
+            m.entry(i)
+                .and_modify(|e| {
+                    (*e) += 1;
+                })
+                .or_insert(1);
         }
 
-        m.iter().filter(|(&x, &y)| y > length).map(|(&x, &y)| x).collect()
+        m.iter()
+            .filter(|(&x, &y)| y > length)
+            .map(|(&x, &y)| x)
+            .collect()
     }
 
     // 摩尔投票法
@@ -86,9 +93,9 @@ impl Solution {
             }
         }
 
-        v.iter().
-            enumerate().
-            map(|(x, &y)| {
+        v.iter()
+            .enumerate()
+            .map(|(x, &y)| {
                 if x == 0 && index_0_num > nums.len() / 3 {
                     return y;
                 }
@@ -97,8 +104,9 @@ impl Solution {
                     return y;
                 }
                 None
-            }).
-            filter(|x| x.is_some()).
-            map(|mut x| x.unwrap()).collect()
+            })
+            .filter(|x| x.is_some())
+            .map(|mut x| x.unwrap())
+            .collect()
     }
 }

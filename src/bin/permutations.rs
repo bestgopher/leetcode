@@ -26,7 +26,6 @@ impl Solution {
             }
         }
 
-
         result
     }
 

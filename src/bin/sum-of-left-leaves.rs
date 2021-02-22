@@ -21,8 +21,8 @@ impl TreeNode {
     }
 }
 
-use std::rc::Rc;
 use std::cell::RefCell;
+use std::rc::Rc;
 
 impl Solution {
     pub fn sum_of_left_leaves(root: Option<Rc<RefCell<TreeNode>>>) -> i32 {
@@ -42,7 +42,6 @@ impl Solution {
         let left = Rc::clone(&node).borrow_mut().left.take();
         let right = Rc::clone(&node).borrow_mut().right.take();
 
-        Self::sum(left, true) +
-            Self::sum(right, false)
+        Self::sum(left, true) + Self::sum(right, false)
     }
 }

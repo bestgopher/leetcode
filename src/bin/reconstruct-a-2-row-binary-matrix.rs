@@ -8,7 +8,10 @@ impl Solution {
             return Vec::<Vec<i32>>::new();
         }
 
-        let mut v = vec![Vec::<i32>::with_capacity(colsum.len()), Vec::<i32>::with_capacity(colsum.len())];
+        let mut v = vec![
+            Vec::<i32>::with_capacity(colsum.len()),
+            Vec::<i32>::with_capacity(colsum.len()),
+        ];
         let mut v1_sum = 0; //第一个vec的和
         let mut v2_sum = 0; //第二个vec的和
 

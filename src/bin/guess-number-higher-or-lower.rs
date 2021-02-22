@@ -7,12 +7,14 @@ impl Solution {
         let mut num = 0;
         loop {
             // std::thread::sleep(std::time::Duration::from_secs(1));
-            let guess_num = start - ( start - num) / 2;
+            let guess_num = start - (start - num) / 2;
             let s = guess(guess_num);
             println!("{}", guess_num);
-            if s == -1 {  // 我猜的较大时
+            if s == -1 {
+                // 我猜的较大时
                 start = guess_num;
-            } else if s == 1 {  // 我猜的较小时
+            } else if s == 1 {
+                // 我猜的较小时
                 num = guess_num;
             } else {
                 break guess_num;

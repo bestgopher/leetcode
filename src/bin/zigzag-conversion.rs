@@ -28,7 +28,7 @@ impl Solution {
 
         let s = s.chars().into_iter().collect::<Vec<char>>();
         let mut s1 = Vec::<char>::with_capacity(s.len());
-        let num = num_rows as usize * 2 - 2;  // 把v字形看成一组。则num代表一组的成员
+        let num = num_rows as usize * 2 - 2; // 把v字形看成一组。则num代表一组的成员
 
         for i in 0..=num_rows as usize - 1 {
             let mut index = i as usize;

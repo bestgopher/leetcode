@@ -10,7 +10,7 @@ impl Solution {
 
         while a >= num_exchange {
             num_bottles += 1; // 瓶数加1
-            a -= num_exchange;  // 空瓶数减num_exchange
+            a -= num_exchange; // 空瓶数减num_exchange
             a += 1; // 瓶数加1
         }
         num_bottles

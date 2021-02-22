@@ -1,5 +1,8 @@
 fn main() {
-    assert_eq!(232, Solution::max_score1(vec![11, 49, 100, 20, 86, 29, 72], 4));
+    assert_eq!(
+        232,
+        Solution::max_score1(vec![11, 49, 100, 20, 86, 29, 72], 4)
+    );
 }
 
 struct Solution;
@@ -37,7 +40,8 @@ impl Solution {
                 break;
             }
 
-            sum1 = sum1 - card_points[s - 1] + card_points[card_points.len() - (k as usize - s + 1)];
+            sum1 =
+                sum1 - card_points[s - 1] + card_points[card_points.len() - (k as usize - s + 1)];
             if sum1 > sum {
                 sum = sum1;
             }

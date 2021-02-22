@@ -1,6 +1,12 @@
 fn main() {
-    assert_eq!("012".to_string(), Solution::original_digits("owoztneoer".to_string()));
-    assert_eq!("0123456789".to_string(), Solution::original_digits("zeroonetwothreefourfivesixseveneightnine".to_string()));
+    assert_eq!(
+        "012".to_string(),
+        Solution::original_digits("owoztneoer".to_string())
+    );
+    assert_eq!(
+        "0123456789".to_string(),
+        Solution::original_digits("zeroonetwothreefourfivesixseveneightnine".to_string())
+    );
 }
 
 struct Solution;
@@ -19,7 +25,7 @@ impl Solution {
     // efghinorstuvwxz
     pub fn original_digits(s: String) -> String {
         let mut l = [0; 26];
-        let mut count = [0; 10];  // 用于记录每个数字的出现次数
+        let mut count = [0; 10]; // 用于记录每个数字的出现次数
         for &i in s.as_bytes().iter() {
             l[(i - 97) as usize] += 1;
         }
@@ -38,7 +44,7 @@ impl Solution {
             } else if i == b'g' {
                 count[8] += l[(i - 97) as usize]
             } else if i == b'h' {
-                count[3] += l[(i - 97) as usize] - count[8]  // 三的数量是h的数量剪掉8的数量
+                count[3] += l[(i - 97) as usize] - count[8] // 三的数量是h的数量剪掉8的数量
             } else if i == b'f' {
                 count[5] += l[(i - 97) as usize] - count[4]
             } else if i == b's' {

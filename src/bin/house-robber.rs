@@ -39,6 +39,6 @@ impl Solution {
             Self::dp(&nums[1..].to_vec(), scores);
             n2 = scores[s - nums.len() + 1];
         }
-        scores[s-nums.len()] = std::cmp::max(n1, n2);
+        scores[s - nums.len()] = std::cmp::max(n1, n2);
     }
 }

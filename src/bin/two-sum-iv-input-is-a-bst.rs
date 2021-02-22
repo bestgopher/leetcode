@@ -21,8 +21,8 @@ impl TreeNode {
     }
 }
 
-use std::rc::Rc;
 use std::cell::RefCell;
+use std::rc::Rc;
 
 impl Solution {
     /// 遍历二叉树
@@ -34,7 +34,11 @@ impl Solution {
         return Solution::scan_tree(root, &mut hash, k);
     }
 
-    fn scan_tree(root: Option<Rc<RefCell<TreeNode>>>, hash: &mut std::collections::HashMap<i32, ()>, k: i32) -> bool {
+    fn scan_tree(
+        root: Option<Rc<RefCell<TreeNode>>>,
+        hash: &mut std::collections::HashMap<i32, ()>,
+        k: i32,
+    ) -> bool {
         if root.is_none() {
             return false;
         }

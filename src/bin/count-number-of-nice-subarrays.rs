@@ -1,6 +1,12 @@
 fn main() {
-    println!("{}", Solution::number_of_subarrays(vec![2, 2, 2, 1, 2, 2, 1, 2, 2, 2], 2));
-    println!("{}", Solution::number_of_subarrays(vec![2, 2, 2, 1, 2, 2, 1, 2, 2, 2, 1], 2));
+    println!(
+        "{}",
+        Solution::number_of_subarrays(vec![2, 2, 2, 1, 2, 2, 1, 2, 2, 2], 2)
+    );
+    println!(
+        "{}",
+        Solution::number_of_subarrays(vec![2, 2, 2, 1, 2, 2, 1, 2, 2, 2, 1], 2)
+    );
 }
 
 struct Solution;
@@ -27,7 +33,7 @@ impl Solution {
             if index == 0 {
                 s = index_list[0] + 1;
             } else {
-                s = index_list[index] - index_list[index-1];
+                s = index_list[index] - index_list[index - 1];
             }
 
             if index + k == index_list.len() {

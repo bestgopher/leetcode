@@ -1,5 +1,13 @@
 fn main() {
-    let relation = vec![vec![0,2],vec![2,1],vec![3,4],vec![2,3],vec![1,4],vec![2,0],vec![0,4]];
+    let relation = vec![
+        vec![0, 2],
+        vec![2, 1],
+        vec![3, 4],
+        vec![2, 3],
+        vec![1, 4],
+        vec![2, 0],
+        vec![0, 4],
+    ];
     assert_eq!(3, Solution::num_ways(5, relation, 3));
 }
 
@@ -11,7 +19,9 @@ impl Solution {
         let mut m: HashMap<i32, Vec<i32>> = std::collections::HashMap::with_capacity(n as usize);
 
         for i in relation.iter() {
-            m.entry(i[0]).and_modify(|e| e.push(i[1])).or_insert(vec![i[1]]);
+            m.entry(i[0])
+                .and_modify(|e| e.push(i[1]))
+                .or_insert(vec![i[1]]);
         }
 
         let mut num = 0; // 方案数
@@ -20,7 +30,6 @@ impl Solution {
         for _ in 0..k {
             let mut p = Vec::new();
             for i in people.into_iter() {
-
                 if let Some(s1) = m.get_mut(&i) {
                     p.append(&mut s1.clone())
                 }
@@ -29,7 +38,7 @@ impl Solution {
         }
 
         for i in people.iter() {
-            if *i == n-1 {
+            if *i == n - 1 {
                 num += 1;
             }
         }

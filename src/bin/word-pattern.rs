@@ -30,7 +30,6 @@ impl Solution {
             m.insert(pattern[i], s[i]);
         }
 
-
         true
     }
 }
