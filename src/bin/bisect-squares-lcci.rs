@@ -6,14 +6,6 @@ impl Solution {
     /// 直线肯定经过两个正方形的中心点，所以只能有一条
     /// 当两个正方形重合时，就有无数条, 取平行于y轴的线
     pub fn cut_squares(square1: Vec<i32>, square2: Vec<i32>) -> Vec<f64> {
-        if square1[0] == square2[0] && square1[1] == square2[1] && square1[2] == square2[2] {
-            let x1 = square1[0] as f64 + (square1[2] as f64) / 2f64;
-            let y1 = square1[1] as f64;
-            let x2 = square1[0] as f64 + (square1[2] as f64) / 2f64;
-            let y2 = (square1[1] + square1[2]) as f64;
-            return vec![x1, y1, x2, y2];
-        }
-
         // 两个正方形的中心
         let sq1_center = (square1[0] as f64 + (square1[2] as f64) / 2f64, (square1[1] as f64) + (square1[2] as f64) / 2f64);
         let sq2_center = (square2[0] as f64 + (square2[2] as f64) / 2f64, (square2[1] as f64) + (square2[2] as f64) / 2f64);
