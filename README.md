@@ -1,6 +1,6 @@
 # leetcode
 
-当前已刷：86
+当前已刷：102
 
 ### 题目
 - 6：Z 字形变换
@@ -18,6 +18,9 @@
 - 46：全排列
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/permutations.rs)
     - [leetcode](https://leetcode-cn.com/problems/permutations/)
+- 48：旋转图像
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/rotate-image.rs)
+    - [leetcode](https://leetcode-cn.com/problems/rotate-image/)
 - 98：验证二叉搜索树
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/validate-binary-search-tree.rs)
     - [leetcode](https://leetcode-cn.com/problems/validate-binary-search-tree/)
@@ -42,6 +45,12 @@
 - 204：计数质数
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/count-primes.rs)
     - [leetcode](https://leetcode-cn.com/problems/count-primes/)
+- 222：完全二叉树的节点个数
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/count-complete-tree-nodes.rs)
+    - [leetcode](https://leetcode-cn.com/problems/count-complete-tree-nodes/)
+- 228：汇总区间
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/summary-ranges.rs)
+    - [leetcode](https://leetcode-cn.com/problems/summary-ranges/)
 - 229：求众数 II
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/majority-element-ii.rs)
     - [leetcode](https://leetcode-cn.com/problems/majority-element-ii/)
@@ -96,6 +105,9 @@
 - 528：交换链表中的节点
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/swapping-nodes-in-a-linked-list.rs)
     - [leetcode](https://leetcode-cn.com/problems/swapping-nodes-in-a-linked-list/)
+- 551：学生出勤记录 I
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/student-attendance-record-i.rs)
+    - [leetcode](https://leetcode-cn.com/problems/student-attendance-record-i/)
 - 560：和为K的子数组
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/subarray-sum-equals-k.rs)
     - [leetcode](https://leetcode-cn.com/problems/subarray-sum-equals-k/)
@@ -120,12 +132,21 @@
 - 674：最长连续递增序列
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/longest-continuous-increasing-subsequence.rs)
     - [leetcode](https://leetcode-cn.com/problems/longest-continuous-increasing-subsequence/)
+- 800：字母大小写全排列
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/letter-case-permutation.rs)
+    - [leetcode](https://leetcode-cn.com/problems/letter-case-permutation/)
+- 825：保持城市天际线
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/max-increase-to-keep-city-skyline.rs)
+    - [leetcode](https://leetcode-cn.com/problems/max-increase-to-keep-city-skyline/)
 - 829：子域名访问计数
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/subdomain-visit-count.rs)
     - [leetcode](https://leetcode-cn.com/problems/subdomain-visit-count/)
 - 857：较大分组的位置
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/positions-of-large-groups.rs)
     - [leetcode](https://leetcode-cn.com/problems/positions-of-large-groups/)
+- 868：推多米诺
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/push-dominoes.rs)
+    - [leetcode](https://leetcode-cn.com/problems/push-dominoes/)
 - 917：救生艇
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/boats-to-save-people.rs)
     - [leetcode](https://leetcode-cn.com/problems/boats-to-save-people/)
@@ -138,6 +159,9 @@
 - 932：单调数列
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/monotonic-array.rs)
     - [leetcode](https://leetcode-cn.com/problems/monotonic-array/)
+- 981：删列造序
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/delete-columns-to-make-sorted.rs)
+    - [leetcode](https://leetcode-cn.com/problems/delete-columns-to-make-sorted/)
 - 982：使数组唯一的最小增量
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-increment-to-make-array-unique.rs)
     - [leetcode](https://leetcode-cn.com/problems/minimum-increment-to-make-array-unique/)
@@ -147,6 +171,12 @@
 - 1005：单值二叉树
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/univalued-binary-tree.rs)
     - [leetcode](https://leetcode-cn.com/problems/univalued-binary-tree/)
+- 1007：连续差相同的数字
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/numbers-with-same-consecutive-differences.rs)
+    - [leetcode](https://leetcode-cn.com/problems/numbers-with-same-consecutive-differences/)
+- 1046：最大连续1的个数 III
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/max-consecutive-ones-iii.rs)
+    - [leetcode](https://leetcode-cn.com/problems/max-consecutive-ones-iii/)
 - 1050：前序遍历构造二叉搜索树
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/construct-binary-search-tree-from-preorder-traversal.rs)
     - [leetcode](https://leetcode-cn.com/problems/construct-binary-search-tree-from-preorder-traversal/)
@@ -186,6 +216,12 @@
 - 1379：重构 2 行二进制矩阵
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/reconstruct-a-2-row-binary-matrix.rs)
     - [leetcode](https://leetcode-cn.com/problems/reconstruct-a-2-row-binary-matrix/)
+- 1387：在受污染的二叉树中查找元素
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-elements-in-a-contaminated-binary-tree.rs)
+    - [leetcode](https://leetcode-cn.com/problems/find-elements-in-a-contaminated-binary-tree/)
+- 1411：二进制链表转整数
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/convert-binary-number-in-a-linked-list-to-integer.rs)
+    - [leetcode](https://leetcode-cn.com/problems/convert-binary-number-in-a-linked-list-to-integer/)
 - 1426：和为零的N个唯一整数
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-n-unique-integers-sum-up-to-zero.rs)
     - [leetcode](https://leetcode-cn.com/problems/find-n-unique-integers-sum-up-to-zero/)
@@ -195,9 +231,15 @@
 - 1434：解码字母到整数映射
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/decrypt-string-from-alphabet-to-integer-mapping.rs)
     - [leetcode](https://leetcode-cn.com/problems/decrypt-string-from-alphabet-to-integer-mapping/)
+- 1441：或运算的最小翻转次数
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-flips-to-make-a-or-b-equal-to-c.rs)
+    - [leetcode](https://leetcode-cn.com/problems/minimum-flips-to-make-a-or-b-equal-to-c/)
 - 1468：检查整数及其两倍数是否存在
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/check-if-n-and-its-double-exist.rs)
     - [leetcode](https://leetcode-cn.com/problems/check-if-n-and-its-double-exist/)
+- 1537：分割字符串的最大得分
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-score-after-splitting-a-string.rs)
+    - [leetcode](https://leetcode-cn.com/problems/maximum-score-after-splitting-a-string/)
 - 1538：可获得的最大点数
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-points-you-can-obtain-from-cards.rs)
     - [leetcode](https://leetcode-cn.com/problems/maximum-points-you-can-obtain-from-cards/)
@@ -216,6 +258,9 @@
 - 1604：不同整数的最少数目
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/least-number-of-unique-integers-after-k-removals.rs)
     - [leetcode](https://leetcode-cn.com/problems/least-number-of-unique-integers-after-k-removals/)
+- 1620：检查数组对是否可以被 k 整除
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/check-if-array-pairs-are-divisible-by-k.rs)
+    - [leetcode](https://leetcode-cn.com/problems/check-if-array-pairs-are-divisible-by-k/)
 - 1642：换酒问题
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/water-bottles.rs)
     - [leetcode](https://leetcode-cn.com/problems/water-bottles/)
@@ -240,6 +285,12 @@
 - 100273：用两个栈实现队列
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/yong-liang-ge-zhan-shi-xian-dui-lie-lcof.rs)
     - [leetcode](https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/)
+- 100274：斐波那契数列
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/fei-bo-na-qi-shu-lie-lcof.rs)
+    - [leetcode](https://leetcode-cn.com/problems/fei-bo-na-qi-shu-lie-lcof/)
+- 100299：删除链表的节点
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/shan-chu-lian-biao-de-jie-dian-lcof.rs)
+    - [leetcode](https://leetcode-cn.com/problems/shan-chu-lian-biao-de-jie-dian-lcof/)
 - 100316：第一个只出现一次的字符
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/di-yi-ge-zhi-chu-xian-yi-ci-de-zi-fu-lcof.rs)
     - [leetcode](https://leetcode-cn.com/problems/di-yi-ge-zhi-chu-xian-yi-ci-de-zi-fu-lcof/)
