@@ -1,6 +1,6 @@
 # leetcode
 
-当前已刷：105
+当前已刷：106
 
 ### 题目
 - 6：Z 字形变换
@@ -216,6 +216,9 @@
 - 1370：统计「优美子数组」
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/count-number-of-nice-subarrays.rs)
     - [leetcode](https://leetcode-cn.com/problems/count-number-of-nice-subarrays/)
+- 1371：移除无效的括号
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-remove-to-make-valid-parentheses.rs)
+    - [leetcode](https://leetcode-cn.com/problems/minimum-remove-to-make-valid-parentheses/)
 - 1379：重构 2 行二进制矩阵
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/reconstruct-a-2-row-binary-matrix.rs)
     - [leetcode](https://leetcode-cn.com/problems/reconstruct-a-2-row-binary-matrix/)
