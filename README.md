@@ -1,6 +1,6 @@
 # leetcode
 
-当前已刷：107
+当前已刷：108
 
 ### 题目
 - 6：Z 字形变换
@@ -291,6 +291,9 @@
 - 1806：比赛中的配对次数
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/count-of-matches-in-tournament.rs)
     - [leetcode](https://leetcode-cn.com/problems/count-of-matches-in-tournament/)
+- 1807：十-二进制数的最少数目
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/partitioning-into-minimum-number-of-deci-binary-numbers.rs)
+    - [leetcode](https://leetcode-cn.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers/)
 - 100273：用两个栈实现队列
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/yong-liang-ge-zhan-shi-xian-dui-lie-lcof.rs)
     - [leetcode](https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/)
