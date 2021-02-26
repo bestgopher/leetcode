@@ -1,6 +1,6 @@
 # leetcode
 
-当前已刷：106
+当前已刷：107
 
 ### 题目
 - 6：Z 字形变换
@@ -162,6 +162,9 @@
 - 932：单调数列
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/monotonic-array.rs)
     - [leetcode](https://leetcode-cn.com/problems/monotonic-array/)
+- 979：增减字符串匹配
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/di-string-match.rs)
+    - [leetcode](https://leetcode-cn.com/problems/di-string-match/)
 - 981：删列造序
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/delete-columns-to-make-sorted.rs)
     - [leetcode](https://leetcode-cn.com/problems/delete-columns-to-make-sorted/)
