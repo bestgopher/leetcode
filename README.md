@@ -1,6 +1,6 @@
 # leetcode
 
-当前已刷：108
+当前已刷：109
 
 ### 题目
 - 6：Z 字形变换
@@ -210,6 +210,9 @@
 - 1287：公交站间的距离
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/distance-between-bus-stops.rs)
     - [leetcode](https://leetcode-cn.com/problems/distance-between-bus-stops/)
+- 1320：删除字符串中的所有相邻重复项 II
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/remove-all-adjacent-duplicates-in-string-ii.rs)
+    - [leetcode](https://leetcode-cn.com/problems/remove-all-adjacent-duplicates-in-string-ii/)
 - 1341：分割平衡字符串
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/split-a-string-in-balanced-strings.rs)
     - [leetcode](https://leetcode-cn.com/problems/split-a-string-in-balanced-strings/)
