@@ -1,6 +1,6 @@
 # leetcode
 
-当前已刷：109
+当前已刷：110
 
 ### 题目
 - 6：Z 字形变换
@@ -111,6 +111,9 @@
 - 560：和为K的子数组
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/subarray-sum-equals-k.rs)
     - [leetcode](https://leetcode-cn.com/problems/subarray-sum-equals-k/)
+- 565：数组嵌套
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/array-nesting.rs)
+    - [leetcode](https://leetcode-cn.com/problems/array-nesting/)
 - 594：最长和谐子序列
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/longest-harmonious-subsequence.rs)
     - [leetcode](https://leetcode-cn.com/problems/longest-harmonious-subsequence/)
