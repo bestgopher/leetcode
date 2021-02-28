@@ -1,6 +1,6 @@
 # leetcode
 
-当前已刷：111
+当前已刷：112
 
 ### 题目
 - 6：Z 字形变换
@@ -24,6 +24,9 @@
 - 58：最后一个单词的长度
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/length-of-last-word.rs)
     - [leetcode](https://leetcode-cn.com/problems/length-of-last-word/)
+- 67：二进制求和
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/add-binary.rs)
+    - [leetcode](https://leetcode-cn.com/problems/add-binary/)
 - 98：验证二叉搜索树
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/validate-binary-search-tree.rs)
     - [leetcode](https://leetcode-cn.com/problems/validate-binary-search-tree/)
