@@ -1,6 +1,6 @@
 # leetcode
 
-当前已刷：110
+当前已刷：111
 
 ### 题目
 - 6：Z 字形变换
@@ -21,6 +21,9 @@
 - 48：旋转图像
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/rotate-image.rs)
     - [leetcode](https://leetcode-cn.com/problems/rotate-image/)
+- 58：最后一个单词的长度
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/length-of-last-word.rs)
+    - [leetcode](https://leetcode-cn.com/problems/length-of-last-word/)
 - 98：验证二叉搜索树
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/validate-binary-search-tree.rs)
     - [leetcode](https://leetcode-cn.com/problems/validate-binary-search-tree/)
