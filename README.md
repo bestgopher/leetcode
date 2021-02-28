@@ -1,6 +1,6 @@
 # leetcode
 
-当前已刷：112
+当前已刷：113
 
 ### 题目
 - 6：Z 字形变换
@@ -27,6 +27,9 @@
 - 67：二进制求和
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/add-binary.rs)
     - [leetcode](https://leetcode-cn.com/problems/add-binary/)
+- 71：简化路径
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/simplify-path.rs)
+    - [leetcode](https://leetcode-cn.com/problems/simplify-path/)
 - 98：验证二叉搜索树
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/validate-binary-search-tree.rs)
     - [leetcode](https://leetcode-cn.com/problems/validate-binary-search-tree/)
