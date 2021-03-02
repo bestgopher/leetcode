@@ -1,8 +1,11 @@
 # leetcode
 
-当前已刷：113
+当前已刷：114
 
 ### 题目
+- 1：两数之和
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/two-sum.rs)
+    - [leetcode](https://leetcode-cn.com/problems/two-sum/)
 - 6：Z 字形变换
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/zigzag-conversion.rs)
     - [leetcode](https://leetcode-cn.com/problems/zigzag-conversion/)
