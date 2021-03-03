@@ -1,6 +1,6 @@
 # leetcode
 
-当前已刷：115
+当前已刷：116
 
 ### 题目
 - 1：两数之和
@@ -9,6 +9,9 @@
 - 2：两数相加
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/add-two-numbers.rs)
     - [leetcode](https://leetcode-cn.com/problems/add-two-numbers/)
+- 3：无重复字符的最长子串
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/longest-substring-without-repeating-characters.rs)
+    - [leetcode](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)
 - 6：Z 字形变换
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/zigzag-conversion.rs)
     - [leetcode](https://leetcode-cn.com/problems/zigzag-conversion/)
