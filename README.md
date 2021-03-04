@@ -1,8 +1,18 @@
 # leetcode
 
-当前已刷：109
+当前已刷：116
+
 
 ### 题目
+- 1：两数之和
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/two-sum.rs)
+    - [leetcode](https://leetcode-cn.com/problems/two-sum/)
+- 2：两数相加
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/add-two-numbers.rs)
+    - [leetcode](https://leetcode-cn.com/problems/add-two-numbers/)
+- 3：无重复字符的最长子串
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/longest-substring-without-repeating-characters.rs)
+    - [leetcode](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)
 - 6：Z 字形变换
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/zigzag-conversion.rs)
     - [leetcode](https://leetcode-cn.com/problems/zigzag-conversion/)
@@ -21,6 +31,15 @@
 - 48：旋转图像
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/rotate-image.rs)
     - [leetcode](https://leetcode-cn.com/problems/rotate-image/)
+- 58：最后一个单词的长度
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/length-of-last-word.rs)
+    - [leetcode](https://leetcode-cn.com/problems/length-of-last-word/)
+- 67：二进制求和
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/add-binary.rs)
+    - [leetcode](https://leetcode-cn.com/problems/add-binary/)
+- 71：简化路径
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/simplify-path.rs)
+    - [leetcode](https://leetcode-cn.com/problems/simplify-path/)
 - 98：验证二叉搜索树
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/validate-binary-search-tree.rs)
     - [leetcode](https://leetcode-cn.com/problems/validate-binary-search-tree/)
@@ -111,6 +130,9 @@
 - 560：和为K的子数组
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/subarray-sum-equals-k.rs)
     - [leetcode](https://leetcode-cn.com/problems/subarray-sum-equals-k/)
+- 565：数组嵌套
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/array-nesting.rs)
+    - [leetcode](https://leetcode-cn.com/problems/array-nesting/)
 - 594：最长和谐子序列
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/longest-harmonious-subsequence.rs)
     - [leetcode](https://leetcode-cn.com/problems/longest-harmonious-subsequence/)
@@ -210,6 +232,9 @@
 - 1287：公交站间的距离
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/distance-between-bus-stops.rs)
     - [leetcode](https://leetcode-cn.com/problems/distance-between-bus-stops/)
+- 1320：删除字符串中的所有相邻重复项 II
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/remove-all-adjacent-duplicates-in-string-ii.rs)
+    - [leetcode](https://leetcode-cn.com/problems/remove-all-adjacent-duplicates-in-string-ii/)
 - 1341：分割平衡字符串
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/split-a-string-in-balanced-strings.rs)
     - [leetcode](https://leetcode-cn.com/problems/split-a-string-in-balanced-strings/)
