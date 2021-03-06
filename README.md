@@ -1,6 +1,6 @@
 # leetcode
 
-当前已刷：119
+当前已刷：120
 
 ### 题目
 - 1：两数之和
@@ -18,6 +18,9 @@
 - 6：Z 字形变换
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/zigzag-conversion.rs)
     - [leetcode](https://leetcode-cn.com/problems/zigzag-conversion/)
+- 7：整数反转
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/reverse-integer.rs)
+    - [leetcode](https://leetcode-cn.com/problems/reverse-integer/)
 - 9：回文数
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/palindrome-number.rs)
     - [leetcode](https://leetcode-cn.com/problems/palindrome-number/)
