@@ -1,6 +1,6 @@
 # leetcode
 
-当前已刷：120
+当前已刷：121
 
 ### 题目
 - 1：两数之和
@@ -21,6 +21,9 @@
 - 7：整数反转
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/reverse-integer.rs)
     - [leetcode](https://leetcode-cn.com/problems/reverse-integer/)
+- 8：字符串转换整数 (atoi)
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/string-to-integer-atoi.rs)
+    - [leetcode](https://leetcode-cn.com/problems/string-to-integer-atoi/)
 - 9：回文数
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/palindrome-number.rs)
     - [leetcode](https://leetcode-cn.com/problems/palindrome-number/)
