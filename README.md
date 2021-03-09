@@ -1,6 +1,6 @@
 # leetcode
 
-当前已刷：124
+当前已刷：125
 
 ### 题目
 - 1：两数之和
@@ -36,6 +36,9 @@
 - 13：罗马数字转整数
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/roman-to-integer.rs)
     - [leetcode](https://leetcode-cn.com/problems/roman-to-integer/)
+- 14：最长公共前缀
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/longest-common-prefix.rs)
+    - [leetcode](https://leetcode-cn.com/problems/longest-common-prefix/)
 - 26：删除排序数组中的重复项
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/remove-duplicates-from-sorted-array.rs)
     - [leetcode](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/)
