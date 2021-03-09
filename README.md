@@ -1,6 +1,6 @@
 # leetcode
 
-当前已刷：123
+当前已刷：124
 
 ### 题目
 - 1：两数之和
@@ -33,6 +33,9 @@
 - 12：整数转罗马数字
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/integer-to-roman.rs)
     - [leetcode](https://leetcode-cn.com/problems/integer-to-roman/)
+- 13：罗马数字转整数
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/roman-to-integer.rs)
+    - [leetcode](https://leetcode-cn.com/problems/roman-to-integer/)
 - 26：删除排序数组中的重复项
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/remove-duplicates-from-sorted-array.rs)
     - [leetcode](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/)
