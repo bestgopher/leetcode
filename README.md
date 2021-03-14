@@ -1,6 +1,6 @@
 # leetcode
 
-当前已刷：128
+当前已刷：129
 
 ### 题目
 - 1：两数之和
@@ -51,6 +51,9 @@
 - 27：移除元素
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/remove-element.rs)
     - [leetcode](https://leetcode-cn.com/problems/remove-element/)
+- 33：搜索旋转排序数组
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/search-in-rotated-sorted-array.rs)
+    - [leetcode](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/)
 - 35：搜索插入位置
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/search-insert-position.rs)
     - [leetcode](https://leetcode-cn.com/problems/search-insert-position/)
