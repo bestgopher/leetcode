@@ -1,6 +1,6 @@
 # leetcode
 
-当前已刷：129
+当前已刷：130
 
 ### 题目
 - 1：两数之和
@@ -54,6 +54,9 @@
 - 33：搜索旋转排序数组
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/search-in-rotated-sorted-array.rs)
     - [leetcode](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/)
+- 34：在排序数组中查找元素的第一个和最后一个位置
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-first-and-last-position-of-element-in-sorted-array.rs)
+    - [leetcode](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
 - 35：搜索插入位置
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/search-insert-position.rs)
     - [leetcode](https://leetcode-cn.com/problems/search-insert-position/)
