@@ -1,6 +1,6 @@
 # leetcode
 
-当前已刷：130
+当前已刷：131
 
 ### 题目
 - 1：两数之和
@@ -60,6 +60,9 @@
 - 35：搜索插入位置
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/search-insert-position.rs)
     - [leetcode](https://leetcode-cn.com/problems/search-insert-position/)
+- 36：有效的数独
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/valid-sudoku.rs)
+    - [leetcode](https://leetcode-cn.com/problems/valid-sudoku/)
 - 43：字符串相乘
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/multiply-strings.rs)
     - [leetcode](https://leetcode-cn.com/problems/multiply-strings/)
