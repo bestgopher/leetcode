@@ -1,6 +1,6 @@
 # leetcode
 
-当前已刷：132
+当前已刷：133
 
 ### 题目
 - 1：两数之和
@@ -90,6 +90,9 @@
 - 104：二叉树的最大深度
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-depth-of-binary-tree.rs)
     - [leetcode](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/)
+- 110：平衡二叉树
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/balanced-binary-tree.rs)
+    - [leetcode](https://leetcode-cn.com/problems/balanced-binary-tree/)
 - 111：二叉树的最小深度
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-depth-of-binary-tree.rs)
     - [leetcode](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/)
