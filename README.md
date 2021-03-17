@@ -1,6 +1,6 @@
 # leetcode
 
-当前已刷：131
+当前已刷：132
 
 ### 题目
 - 1：两数之和
@@ -63,6 +63,9 @@
 - 36：有效的数独
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/valid-sudoku.rs)
     - [leetcode](https://leetcode-cn.com/problems/valid-sudoku/)
+- 38：外观数列
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/count-and-say.rs)
+    - [leetcode](https://leetcode-cn.com/problems/count-and-say/)
 - 43：字符串相乘
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/multiply-strings.rs)
     - [leetcode](https://leetcode-cn.com/problems/multiply-strings/)
