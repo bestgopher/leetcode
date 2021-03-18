@@ -1,6 +1,6 @@
 # leetcode
 
-当前已刷：133
+当前已刷：134
 
 ### 题目
 - 1：两数之和
@@ -66,6 +66,9 @@
 - 38：外观数列
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/count-and-say.rs)
     - [leetcode](https://leetcode-cn.com/problems/count-and-say/)
+- 39：组合总和
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/combination-sum.rs)
+    - [leetcode](https://leetcode-cn.com/problems/combination-sum/)
 - 43：字符串相乘
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/multiply-strings.rs)
     - [leetcode](https://leetcode-cn.com/problems/multiply-strings/)
