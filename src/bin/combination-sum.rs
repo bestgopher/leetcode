@@ -4,6 +4,8 @@ struct Solution;
 
 impl Solution {
     pub fn combination_sum(candidates: Vec<i32>, target: i32) -> Vec<Vec<i32>> {
+        let mut candidates = candidates;
+        candidates.sort();
         Self::calc(&candidates, target)
     }
 
@@ -11,6 +13,10 @@ impl Solution {
         let mut r = vec![];
 
         for &i in candidates.iter() {
+            if i > target {
+                break;
+            }
+
             let mut v = vec![];
             if i == target {
                 v.push(i);
