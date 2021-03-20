@@ -1,6 +1,6 @@
 # leetcode
 
-当前已刷：134
+当前已刷：135
 
 ### 题目
 - 1：两数之和
@@ -69,6 +69,9 @@
 - 39：组合总和
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/combination-sum.rs)
     - [leetcode](https://leetcode-cn.com/problems/combination-sum/)
+- 41：缺失的第一个正数
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/first-missing-positive.rs)
+    - [leetcode](https://leetcode-cn.com/problems/first-missing-positive/)
 - 43：字符串相乘
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/multiply-strings.rs)
     - [leetcode](https://leetcode-cn.com/problems/multiply-strings/)
