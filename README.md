@@ -1,6 +1,6 @@
 # leetcode
 
-当前已刷：135
+当前已刷：136
 
 ### 题目
 - 1：两数之和
@@ -81,6 +81,9 @@
 - 48：旋转图像
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/rotate-image.rs)
     - [leetcode](https://leetcode-cn.com/problems/rotate-image/)
+- 49：字母异位词分组
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/group-anagrams.rs)
+    - [leetcode](https://leetcode-cn.com/problems/group-anagrams/)
 - 58：最后一个单词的长度
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/length-of-last-word.rs)
     - [leetcode](https://leetcode-cn.com/problems/length-of-last-word/)
