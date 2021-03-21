@@ -21,12 +21,11 @@ impl TreeNode {
     }
 }
 
-use std::borrow::BorrowMut;
 use std::cell::RefCell;
 use std::rc::Rc;
 
 impl Solution {
-    pub fn min_depth(root: Option<Rc<RefCell<TreeNode>>>) -> i32 {
+    pub fn min_depth1(root: Option<Rc<RefCell<TreeNode>>>) -> i32 {
         if root.is_none() {
             return 0;
         }
@@ -49,5 +48,39 @@ impl Solution {
 
             left
         }
+    }
+
+    pub fn min_depth(root: Option<Rc<RefCell<TreeNode>>>) -> i32 {
+        if root.is_none() {
+            return 0;
+        }
+
+        let mut height = 1;
+        let mut v = vec![(root, height)];
+
+        let mut index = 0;
+
+        while index < v.len() {
+            if v[index].0.as_ref().unwrap().borrow().left.is_none() && v[index].0.as_ref().unwrap().borrow().right.is_none() {
+                height = v[index].1;
+                break;
+            }
+
+            if v[index].0.as_ref().unwrap().borrow().left.is_some() {
+                let x = v[index].1 + 1;
+                let left = v[index].0.as_ref().unwrap().borrow_mut().left.take();
+                v.push((left, x));
+            }
+
+            if v[index].0.as_ref().unwrap().borrow().right.is_some() {
+                let x = v[index].1 + 1;
+                let right = v[index].0.as_ref().unwrap().borrow_mut().right.take();
+                v.push((right, x));
+            }
+
+            index += 1;
+        }
+
+        height
     }
 }
