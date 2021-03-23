@@ -8,7 +8,8 @@ fn main() {
 struct Solution;
 
 impl Solution {
-    pub fn jump(nums: Vec<i32>) -> i32 {
+    /// 常规解法，用hash表记录每个下标到终点的最小距离
+    pub fn jump1(nums: Vec<i32>) -> i32 {
         if nums.len() <= 1 {
             return 0;
         }
@@ -48,5 +49,19 @@ impl Solution {
         if min != 0 {
             hash.insert(start, min);
         }
+    }
+
+    pub fn jump(nums: Vec<i32>) -> i32 {
+        let (mut end, mut max_position, mut steps) = (0, 0, 0);
+
+        for i in 0..nums.len() - 1 {
+            max_position = max_position.max(nums[i] + i as i32);
+            if i == end {
+                end = max_position as usize;
+                steps += 1;
+            }
+        }
+
+        steps
     }
 }
