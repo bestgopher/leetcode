@@ -1,6 +1,6 @@
 # leetcode
 
-当前已刷：137
+当前已刷：138
 
 ### 题目
 - 1：两数之和
@@ -75,6 +75,9 @@
 - 43：字符串相乘
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/multiply-strings.rs)
     - [leetcode](https://leetcode-cn.com/problems/multiply-strings/)
+- 45：跳跃游戏 II
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/jump-game-ii.rs)
+    - [leetcode](https://leetcode-cn.com/problems/jump-game-ii/)
 - 46：全排列
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/permutations.rs)
     - [leetcode](https://leetcode-cn.com/problems/permutations/)
