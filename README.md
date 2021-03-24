@@ -1,6 +1,6 @@
 # leetcode
 
-当前已刷：138
+当前已刷：139
 
 ### 题目
 - 1：两数之和
@@ -90,6 +90,9 @@
 - 50：Pow(x, n)
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/powx-n.rs)
     - [leetcode](https://leetcode-cn.com/problems/powx-n/)
+- 51：N 皇后
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/n-queens.rs)
+    - [leetcode](https://leetcode-cn.com/problems/n-queens/)
 - 58：最后一个单词的长度
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/length-of-last-word.rs)
     - [leetcode](https://leetcode-cn.com/problems/length-of-last-word/)
