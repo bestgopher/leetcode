@@ -7,7 +7,6 @@ impl Solution {
         let mut r = Vec::<Vec<String>>::new();
         let mut nums = vec![vec![b'.'; n as usize]; n as usize];
         Self::queen(&mut nums, n, &mut r);
-
         r
     }
 
@@ -24,9 +23,9 @@ impl Solution {
         let len = nums.len();
 
         for i in 0..len {
-            if !Self::check(nums, len - n as usize, i) {
-                continue;
-            }
+            // 如果当前点不满足条件，检查下一个点
+            if !Self::check(nums, len - n as usize, i) { continue; }
+
             nums[len - n as usize][i] = b'Q';
             Self::queen(nums, n - 1, r);
             nums[len - n as usize][i] = b'.';
