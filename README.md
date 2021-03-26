@@ -1,6 +1,6 @@
 # leetcode
 
-当前已刷：139
+当前已刷：140
 
 ### 题目
 - 1：两数之和
@@ -93,6 +93,9 @@
 - 51：N 皇后
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/n-queens.rs)
     - [leetcode](https://leetcode-cn.com/problems/n-queens/)
+- 52：N皇后 II
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/n-queens-ii.rs)
+    - [leetcode](https://leetcode-cn.com/problems/n-queens-ii/)
 - 58：最后一个单词的长度
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/length-of-last-word.rs)
     - [leetcode](https://leetcode-cn.com/problems/length-of-last-word/)
