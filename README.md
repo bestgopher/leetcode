@@ -1,6 +1,6 @@
 # leetcode
 
-当前已刷：142
+当前已刷：143
 
 ### 题目
 - 1：两数之和
@@ -102,6 +102,9 @@
 - 55：跳跃游戏
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/jump-game.rs)
     - [leetcode](https://leetcode-cn.com/problems/jump-game/)
+- 56：合并区间
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/merge-intervals.rs)
+    - [leetcode](https://leetcode-cn.com/problems/merge-intervals/)
 - 58：最后一个单词的长度
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/length-of-last-word.rs)
     - [leetcode](https://leetcode-cn.com/problems/length-of-last-word/)
