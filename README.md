@@ -1,6 +1,6 @@
 # leetcode
 
-当前已刷：141
+当前已刷：142
 
 ### 题目
 - 1：两数之和
@@ -99,6 +99,9 @@
 - 53：最大子序和
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-subarray.rs)
     - [leetcode](https://leetcode-cn.com/problems/maximum-subarray/)
+- 55：跳跃游戏
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/jump-game.rs)
+    - [leetcode](https://leetcode-cn.com/problems/jump-game/)
 - 58：最后一个单词的长度
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/length-of-last-word.rs)
     - [leetcode](https://leetcode-cn.com/problems/length-of-last-word/)
