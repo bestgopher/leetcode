@@ -1,6 +1,6 @@
 # leetcode
 
-当前已刷：144
+当前已刷：145
 
 ### 题目
 - 1：两数之和
@@ -39,6 +39,9 @@
 - 14：最长公共前缀
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/longest-common-prefix.rs)
     - [leetcode](https://leetcode-cn.com/problems/longest-common-prefix/)
+- 15：三数之和
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/3sum.rs)
+    - [leetcode](https://leetcode-cn.com/problems/3sum/)
 - 17：电话号码的字母组合
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/letter-combinations-of-a-phone-number.rs)
     - [leetcode](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/)
