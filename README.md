@@ -1,6 +1,6 @@
 # leetcode
 
-当前已刷：145
+当前已刷：146
 
 ### 题目
 - 1：两数之和
@@ -42,6 +42,9 @@
 - 15：三数之和
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/3sum.rs)
     - [leetcode](https://leetcode-cn.com/problems/3sum/)
+- 16：最接近的三数之和
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/3sum-closest.rs)
+    - [leetcode](https://leetcode-cn.com/problems/3sum-closest/)
 - 17：电话号码的字母组合
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/letter-combinations-of-a-phone-number.rs)
     - [leetcode](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/)
