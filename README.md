@@ -1,6 +1,6 @@
 # leetcode
 
-当前已刷：146
+当前已刷：147
 
 ### 题目
 - 1：两数之和
@@ -48,6 +48,9 @@
 - 17：电话号码的字母组合
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/letter-combinations-of-a-phone-number.rs)
     - [leetcode](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/)
+- 18：四数之和
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/4sum.rs)
+    - [leetcode](https://leetcode-cn.com/problems/4sum/)
 - 20：有效的括号
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/valid-parentheses.rs)
     - [leetcode](https://leetcode-cn.com/problems/valid-parentheses/)
