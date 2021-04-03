@@ -1,6 +1,6 @@
 # leetcode
 
-当前已刷：147
+当前已刷：148
 
 ### 题目
 - 1：两数之和
@@ -120,6 +120,9 @@
 - 58：最后一个单词的长度
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/length-of-last-word.rs)
     - [leetcode](https://leetcode-cn.com/problems/length-of-last-word/)
+- 62：不同路径
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/unique-paths.rs)
+    - [leetcode](https://leetcode-cn.com/problems/unique-paths/)
 - 67：二进制求和
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/add-binary.rs)
     - [leetcode](https://leetcode-cn.com/problems/add-binary/)
