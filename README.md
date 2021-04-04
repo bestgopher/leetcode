@@ -54,7 +54,7 @@
 - 20：有效的括号
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/valid-parentheses.rs)
     - [leetcode](https://leetcode-cn.com/problems/valid-parentheses/)
-- 26：删除排序数组中的重复项
+- 26：删除有序数组中的重复项
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/remove-duplicates-from-sorted-array.rs)
     - [leetcode](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/)
 - 27：移除元素
