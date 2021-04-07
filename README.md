@@ -1,6 +1,6 @@
 # leetcode
 
-当前已刷：150
+当前已刷：151
 
 ### 题目
 - 1：两数之和
@@ -129,6 +129,9 @@
 - 63：不同路径 II
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/unique-paths-ii.rs)
     - [leetcode](https://leetcode-cn.com/problems/unique-paths-ii/)
+- 64：最小路径和
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-path-sum.rs)
+    - [leetcode](https://leetcode-cn.com/problems/minimum-path-sum/)
 - 67：二进制求和
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/add-binary.rs)
     - [leetcode](https://leetcode-cn.com/problems/add-binary/)
