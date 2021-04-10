@@ -1,6 +1,6 @@
 # leetcode
 
-当前已刷：153
+当前已刷：154
 
 ### 题目
 - 1：两数之和
@@ -60,6 +60,9 @@
 - 27：移除元素
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/remove-element.rs)
     - [leetcode](https://leetcode-cn.com/problems/remove-element/)
+- 28：实现 strStr()
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/implement-strstr.rs)
+    - [leetcode](https://leetcode-cn.com/problems/implement-strstr/)
 - 31：下一个排列
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/next-permutation.rs)
     - [leetcode](https://leetcode-cn.com/problems/next-permutation/)
