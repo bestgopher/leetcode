@@ -1,6 +1,6 @@
 # leetcode
 
-当前已刷：154
+当前已刷：155
 
 ### 题目
 - 1：两数之和
@@ -141,6 +141,9 @@
 - 67：二进制求和
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/add-binary.rs)
     - [leetcode](https://leetcode-cn.com/problems/add-binary/)
+- 69：x 的平方根
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/sqrtx.rs)
+    - [leetcode](https://leetcode-cn.com/problems/sqrtx/)
 - 71：简化路径
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/simplify-path.rs)
     - [leetcode](https://leetcode-cn.com/problems/simplify-path/)
