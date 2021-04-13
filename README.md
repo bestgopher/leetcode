@@ -1,6 +1,6 @@
 # leetcode
 
-当前已刷：155
+当前已刷：156
 
 ### 题目
 - 1：两数之和
@@ -144,6 +144,9 @@
 - 69：x 的平方根
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/sqrtx.rs)
     - [leetcode](https://leetcode-cn.com/problems/sqrtx/)
+- 70：爬楼梯
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/climbing-stairs.rs)
+    - [leetcode](https://leetcode-cn.com/problems/climbing-stairs/)
 - 71：简化路径
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/simplify-path.rs)
     - [leetcode](https://leetcode-cn.com/problems/simplify-path/)
