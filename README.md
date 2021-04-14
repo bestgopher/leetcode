@@ -1,6 +1,6 @@
 # leetcode
 
-当前已刷：156
+当前已刷：157
 
 ### 题目
 - 1：两数之和
@@ -150,6 +150,9 @@
 - 71：简化路径
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/simplify-path.rs)
     - [leetcode](https://leetcode-cn.com/problems/simplify-path/)
+- 73：矩阵置零
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/set-matrix-zeroes.rs)
+    - [leetcode](https://leetcode-cn.com/problems/set-matrix-zeroes/)
 - 98：验证二叉搜索树
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/validate-binary-search-tree.rs)
     - [leetcode](https://leetcode-cn.com/problems/validate-binary-search-tree/)
