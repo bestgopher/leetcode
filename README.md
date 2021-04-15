@@ -1,6 +1,6 @@
 # leetcode
 
-当前已刷：157
+当前已刷：158
 
 ### 题目
 - 1：两数之和
@@ -153,6 +153,9 @@
 - 73：矩阵置零
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/set-matrix-zeroes.rs)
     - [leetcode](https://leetcode-cn.com/problems/set-matrix-zeroes/)
+- 74：搜索二维矩阵
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/search-a-2d-matrix.rs)
+    - [leetcode](https://leetcode-cn.com/problems/search-a-2d-matrix/)
 - 98：验证二叉搜索树
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/validate-binary-search-tree.rs)
     - [leetcode](https://leetcode-cn.com/problems/validate-binary-search-tree/)
