@@ -1,6 +1,9 @@
 fn main() {
     let mut v = vec![2, 0, 2, 1, 1, 1, 1, 1, 0, 2, 2, 2, 2, 0, 0, 2, 1, 0];
     Solution::sort_colors(&mut v);
+
+    let mut v = vec![1, 0];
+    Solution::sort_colors(&mut v);
 }
 
 struct Solution;
@@ -11,23 +14,17 @@ impl Solution {
 
         while cursor < nums.len() {
             if nums[cursor] == 0 {
-                nums[cursor] = nums[p1];
-                nums[p1] = 0;
+                nums.swap(cursor, p1);
+                if p1 < p2 {
+                    nums.swap(cursor, p2);
+                }
+                p2 += 1;
                 p1 += 1;
-            }
-
-            if nums[cursor] == 1 {
-                nums[cursor] = nums[p2];
-                nums[p2] = 1;
+            } else if nums[cursor] == 1 {
+                nums.swap(cursor, p2);
                 p2 += 1;
             }
             cursor += 1;
-
-            if cursor == 1 {
-                cursor -= 1;
-            }
-
-            println!("{:?}", nums);
         }
     }
 }
