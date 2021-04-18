@@ -1,6 +1,6 @@
 # leetcode
 
-当前已刷：159
+当前已刷：160
 
 ### 题目
 - 1：两数之和
@@ -159,6 +159,9 @@
 - 75：颜色分类
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/sort-colors.rs)
     - [leetcode](https://leetcode-cn.com/problems/sort-colors/)
+- 79：单词搜索
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/word-search.rs)
+    - [leetcode](https://leetcode-cn.com/problems/word-search/)
 - 98：验证二叉搜索树
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/validate-binary-search-tree.rs)
     - [leetcode](https://leetcode-cn.com/problems/validate-binary-search-tree/)
