@@ -1,6 +1,6 @@
 # leetcode
 
-当前已刷：160
+当前已刷：161
 
 ### 题目
 - 1：两数之和
@@ -162,6 +162,9 @@
 - 79：单词搜索
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/word-search.rs)
     - [leetcode](https://leetcode-cn.com/problems/word-search/)
+- 80：删除有序数组中的重复项 II
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/remove-duplicates-from-sorted-array-ii.rs)
+    - [leetcode](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array-ii/)
 - 98：验证二叉搜索树
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/validate-binary-search-tree.rs)
     - [leetcode](https://leetcode-cn.com/problems/validate-binary-search-tree/)
