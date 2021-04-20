@@ -1,6 +1,6 @@
 # leetcode
 
-当前已刷：161
+当前已刷：162
 
 ### 题目
 - 1：两数之和
@@ -177,6 +177,9 @@
 - 111：二叉树的最小深度
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-depth-of-binary-tree.rs)
     - [leetcode](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/)
+- 112：路径总和
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/path-sum.rs)
+    - [leetcode](https://leetcode-cn.com/problems/path-sum/)
 - 136：只出现一次的数字
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/single-number.rs)
     - [leetcode](https://leetcode-cn.com/problems/single-number/)
