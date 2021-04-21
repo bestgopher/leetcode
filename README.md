@@ -1,6 +1,6 @@
 # leetcode
 
-当前已刷：162
+当前已刷：163
 
 ### 题目
 - 1：两数之和
@@ -165,6 +165,9 @@
 - 80：删除有序数组中的重复项 II
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/remove-duplicates-from-sorted-array-ii.rs)
     - [leetcode](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array-ii/)
+- 88：合并两个有序数组
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/merge-sorted-array.rs)
+    - [leetcode](https://leetcode-cn.com/problems/merge-sorted-array/)
 - 98：验证二叉搜索树
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/validate-binary-search-tree.rs)
     - [leetcode](https://leetcode-cn.com/problems/validate-binary-search-tree/)
