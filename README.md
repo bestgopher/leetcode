@@ -1,6 +1,6 @@
 # leetcode
 
-当前已刷：163
+当前已刷：164
 
 ### 题目
 - 1：两数之和
@@ -168,6 +168,9 @@
 - 88：合并两个有序数组
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/merge-sorted-array.rs)
     - [leetcode](https://leetcode-cn.com/problems/merge-sorted-array/)
+- 89：格雷编码
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/gray-code.rs)
+    - [leetcode](https://leetcode-cn.com/problems/gray-code/)
 - 98：验证二叉搜索树
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/validate-binary-search-tree.rs)
     - [leetcode](https://leetcode-cn.com/problems/validate-binary-search-tree/)
