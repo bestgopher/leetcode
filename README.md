@@ -1,6 +1,6 @@
 # leetcode
 
-当前已刷：166
+当前已刷：167
 
 ### 题目
 - 1：两数之和
@@ -162,6 +162,9 @@
 - 77：组合
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/combinations.rs)
     - [leetcode](https://leetcode-cn.com/problems/combinations/)
+- 78：子集
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/subsets.rs)
+    - [leetcode](https://leetcode-cn.com/problems/subsets/)
 - 79：单词搜索
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/word-search.rs)
     - [leetcode](https://leetcode-cn.com/problems/word-search/)
