@@ -1,6 +1,6 @@
 # leetcode
 
-当前已刷：167
+当前已刷：168
 
 ### 题目
 - 1：两数之和
@@ -195,6 +195,9 @@
 - 112：路径总和
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/path-sum.rs)
     - [leetcode](https://leetcode-cn.com/problems/path-sum/)
+- 118：杨辉三角
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/pascals-triangle.rs)
+    - [leetcode](https://leetcode-cn.com/problems/pascals-triangle/)
 - 136：只出现一次的数字
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/single-number.rs)
     - [leetcode](https://leetcode-cn.com/problems/single-number/)
