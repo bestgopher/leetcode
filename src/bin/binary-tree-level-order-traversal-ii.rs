@@ -55,7 +55,6 @@ impl Solution {
             }
         }
 
-
         for i in Self::f(n).into_iter() {
             result.push(i);
         }
