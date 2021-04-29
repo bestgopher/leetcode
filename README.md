@@ -1,6 +1,6 @@
 # leetcode
 
-当前已刷：170
+当前已刷：171
 
 ### 题目
 - 1：两数之和
@@ -243,6 +243,9 @@
 - 290：单词规律
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/word-pattern.rs)
     - [leetcode](https://leetcode-cn.com/problems/word-pattern/)
+- 349：两个数组的交集
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/intersection-of-two-arrays.rs)
+    - [leetcode](https://leetcode-cn.com/problems/intersection-of-two-arrays/)
 - 367：有效的完全平方数
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/valid-perfect-square.rs)
     - [leetcode](https://leetcode-cn.com/problems/valid-perfect-square/)
