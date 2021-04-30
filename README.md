@@ -1,6 +1,6 @@
 # leetcode
 
-当前已刷：171
+当前已刷：172
 
 ### 题目
 - 1：两数之和
@@ -183,6 +183,9 @@
 - 93：复原 IP 地址
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/restore-ip-addresses.rs)
     - [leetcode](https://leetcode-cn.com/problems/restore-ip-addresses/)
+- 94：二叉树的中序遍历
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/binary-tree-inorder-traversal.rs)
+    - [leetcode](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)
 - 98：验证二叉搜索树
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/validate-binary-search-tree.rs)
     - [leetcode](https://leetcode-cn.com/problems/validate-binary-search-tree/)
