@@ -1,6 +1,6 @@
 # leetcode
 
-当前已刷：172
+当前已刷：173
 
 ### 题目
 - 1：两数之和
@@ -207,6 +207,9 @@
 - 118：杨辉三角
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/pascals-triangle.rs)
     - [leetcode](https://leetcode-cn.com/problems/pascals-triangle/)
+- 119：杨辉三角 II
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/pascals-triangle-ii.rs)
+    - [leetcode](https://leetcode-cn.com/problems/pascals-triangle-ii/)
 - 136：只出现一次的数字
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/single-number.rs)
     - [leetcode](https://leetcode-cn.com/problems/single-number/)
