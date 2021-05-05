@@ -1,6 +1,6 @@
 # leetcode
 
-当前已刷：173
+当前已刷：174
 
 ### 题目
 - 1：两数之和
@@ -210,6 +210,9 @@
 - 119：杨辉三角 II
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/pascals-triangle-ii.rs)
     - [leetcode](https://leetcode-cn.com/problems/pascals-triangle-ii/)
+- 120：三角形最小路径和
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/triangle.rs)
+    - [leetcode](https://leetcode-cn.com/problems/triangle/)
 - 136：只出现一次的数字
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/single-number.rs)
     - [leetcode](https://leetcode-cn.com/problems/single-number/)
