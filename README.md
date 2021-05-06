@@ -1,6 +1,6 @@
 # leetcode
 
-当前已刷：174
+当前已刷：175
 
 ### 题目
 - 1：两数之和
@@ -186,6 +186,9 @@
 - 94：二叉树的中序遍历
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/binary-tree-inorder-traversal.rs)
     - [leetcode](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)
+- 95：不同的二叉搜索树 II
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/unique-binary-search-trees-ii.rs)
+    - [leetcode](https://leetcode-cn.com/problems/unique-binary-search-trees-ii/)
 - 98：验证二叉搜索树
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/validate-binary-search-tree.rs)
     - [leetcode](https://leetcode-cn.com/problems/validate-binary-search-tree/)
