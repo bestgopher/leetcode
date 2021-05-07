@@ -180,6 +180,9 @@
 - 89：格雷编码
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/gray-code.rs)
     - [leetcode](https://leetcode-cn.com/problems/gray-code/)
+- 91：解码方法
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/decode-ways.rs)
+    - [leetcode](https://leetcode-cn.com/problems/decode-ways/)
 - 93：复原 IP 地址
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/restore-ip-addresses.rs)
     - [leetcode](https://leetcode-cn.com/problems/restore-ip-addresses/)
