@@ -1,6 +1,6 @@
 # leetcode
 
-当前已刷：175
+当前已刷：177
 
 ### 题目
 - 1：两数之和
@@ -219,6 +219,9 @@
 - 120：三角形最小路径和
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/triangle.rs)
     - [leetcode](https://leetcode-cn.com/problems/triangle/)
+- 121：买卖股票的最佳时机
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/best-time-to-buy-and-sell-stock.rs)
+    - [leetcode](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)
 - 136：只出现一次的数字
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/single-number.rs)
     - [leetcode](https://leetcode-cn.com/problems/single-number/)
