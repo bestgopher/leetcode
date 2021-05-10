@@ -1,6 +1,6 @@
 # leetcode
 
-当前已刷：178
+当前已刷：179
 
 ### 题目
 - 1：两数之和
@@ -195,6 +195,9 @@
 - 98：验证二叉搜索树
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/validate-binary-search-tree.rs)
     - [leetcode](https://leetcode-cn.com/problems/validate-binary-search-tree/)
+- 100：相同的树
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/same-tree.rs)
+    - [leetcode](https://leetcode-cn.com/problems/same-tree/)
 - 104：二叉树的最大深度
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-depth-of-binary-tree.rs)
     - [leetcode](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/)
