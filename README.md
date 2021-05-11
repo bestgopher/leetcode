@@ -1,6 +1,6 @@
 # leetcode
 
-当前已刷：179
+当前已刷：180
 
 ### 题目
 - 1：两数之和
@@ -228,6 +228,9 @@
 - 122：买卖股票的最佳时机 II
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/best-time-to-buy-and-sell-stock-ii.rs)
     - [leetcode](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/)
+- 125：验证回文串
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/valid-palindrome.rs)
+    - [leetcode](https://leetcode-cn.com/problems/valid-palindrome/)
 - 136：只出现一次的数字
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/single-number.rs)
     - [leetcode](https://leetcode-cn.com/problems/single-number/)
