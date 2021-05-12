@@ -1,6 +1,6 @@
 # leetcode
 
-当前已刷：180
+当前已刷：181
 
 ### 题目
 - 1：两数之和
@@ -231,6 +231,9 @@
 - 125：验证回文串
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/valid-palindrome.rs)
     - [leetcode](https://leetcode-cn.com/problems/valid-palindrome/)
+- 129：求根节点到叶节点数字之和
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/sum-root-to-leaf-numbers.rs)
+    - [leetcode](https://leetcode-cn.com/problems/sum-root-to-leaf-numbers/)
 - 136：只出现一次的数字
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/single-number.rs)
     - [leetcode](https://leetcode-cn.com/problems/single-number/)
