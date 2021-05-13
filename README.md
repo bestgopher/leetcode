@@ -1,6 +1,6 @@
 # leetcode
 
-当前已刷：181
+当前已刷：182
 
 ### 题目
 - 1：两数之和
@@ -255,6 +255,9 @@
 - 222：完全二叉树的节点个数
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/count-complete-tree-nodes.rs)
     - [leetcode](https://leetcode-cn.com/problems/count-complete-tree-nodes/)
+- 225：用队列实现栈
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/implement-stack-using-queues.rs)
+    - [leetcode](https://leetcode-cn.com/problems/implement-stack-using-queues/)
 - 228：汇总区间
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/summary-ranges.rs)
     - [leetcode](https://leetcode-cn.com/problems/summary-ranges/)
