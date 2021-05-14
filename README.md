@@ -1,6 +1,6 @@
 # leetcode
 
-当前已刷：182
+当前已刷：183
 
 ### 题目
 - 1：两数之和
@@ -240,6 +240,9 @@
 - 137：只出现一次的数字 II
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/single-number-ii.rs)
     - [leetcode](https://leetcode-cn.com/problems/single-number-ii/)
+- 155：最小栈
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/min-stack.rs)
+    - [leetcode](https://leetcode-cn.com/problems/min-stack/)
 - 198：打家劫舍
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/house-robber.rs)
     - [leetcode](https://leetcode-cn.com/problems/house-robber/)
