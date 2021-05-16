@@ -1,6 +1,6 @@
 # leetcode
 
-当前已刷：183
+当前已刷：184
 
 ### 题目
 - 1：两数之和
@@ -240,6 +240,9 @@
 - 137：只出现一次的数字 II
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/single-number-ii.rs)
     - [leetcode](https://leetcode-cn.com/problems/single-number-ii/)
+- 144：二叉树的前序遍历
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/binary-tree-preorder-traversal.rs)
+    - [leetcode](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/)
 - 155：最小栈
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/min-stack.rs)
     - [leetcode](https://leetcode-cn.com/problems/min-stack/)
