@@ -25,26 +25,26 @@ use std::rc::Rc;
 use std::cell::RefCell;
 
 impl Solution {
-    pub fn preorder_traversal(root: Option<Rc<RefCell<TreeNode>>>) -> Vec<i32> {
-        let mut v: Vec<Option<Rc<RefCell<TreeNode>>>> = vec![];
+    pub fn postorder_traversal(root: Option<Rc<RefCell<TreeNode>>>) -> Vec<i32> {
+        let mut v = vec![];
         let mut r = vec![];
+
         let mut root = root;
 
         while root.is_some() {
-            r.push(root.as_ref().unwrap().borrow().val);
             let left = root.as_ref().unwrap().borrow_mut().left.take();
-            let right = root.as_ref().unwrap().borrow_mut().right.take();
-
-
             if left.is_some() {
+                v.push(root);
                 root = left;
-                if right.is_some() {
-                    v.push(right);
-                }
-            } else if right.is_some() {
-                root = right;
             } else {
-                root = v.pop().unwrap_or(None);
+                let right = root.as_ref().unwrap().borrow_mut().right.take();
+                if right.is_none() {
+                    r.push(root.as_ref().unwrap().borrow().val);
+                    root = v.pop().unwrap_or(None);
+                } else {
+                    v.push(root);
+                    root = right;
+                }
             }
         }
 
