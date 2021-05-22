@@ -1,8 +1,11 @@
 # leetcode
 
-当前已刷：189
+当前已刷：190
 
 ### 题目
+- 105：从前序与中序遍历序列构造二叉树
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/construct-binary-tree-from-preorder-and-inorder-traversal.rs)
+    - [leetcode](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
 - 150：逆波兰表达式求值
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/evaluate-reverse-polish-notation.rs)
     - [leetcode](https://leetcode-cn.com/problems/evaluate-reverse-polish-notation/)
