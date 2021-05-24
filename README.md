@@ -1,6 +1,6 @@
 # leetcode
 
-当前已刷：191
+当前已刷：192
 
 ### 题目
 - 105：从前序与中序遍历序列构造二叉树
@@ -21,3 +21,6 @@
 - 165：比较版本号
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/compare-version-numbers.rs)
     - [leetcode](https://leetcode-cn.com/problems/compare-version-numbers/)
+- 166：分数到小数
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/fraction-to-recurring-decimal.rs)
+    - [leetcode](https://leetcode-cn.com/problems/fraction-to-recurring-decimal/)
