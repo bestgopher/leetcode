@@ -1,6 +1,6 @@
 # leetcode
 
-当前已刷：193
+当前已刷：194
 
 ### 题目
 - 105：从前序与中序遍历序列构造二叉树
@@ -15,6 +15,9 @@
 - 151：翻转字符串里的单词
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/reverse-words-in-a-string.rs)
     - [leetcode](https://leetcode-cn.com/problems/reverse-words-in-a-string/)
+- 152：乘积最大子数组
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-product-subarray.rs)
+    - [leetcode](https://leetcode-cn.com/problems/maximum-product-subarray/)
 - 162：寻找峰值
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-peak-element.rs)
     - [leetcode](https://leetcode-cn.com/problems/find-peak-element/)
