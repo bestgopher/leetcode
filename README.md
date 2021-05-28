@@ -1,6 +1,6 @@
 # leetcode
 
-当前已刷：195
+当前已刷：196
 
 ### 题目
 - 105：从前序与中序遍历序列构造二叉树
@@ -30,6 +30,9 @@
 - 167：两数之和 II - 输入有序数组
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/two-sum-ii-input-array-is-sorted.rs)
     - [leetcode](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/)
+- 168：Excel表列名称
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/excel-sheet-column-title.rs)
+    - [leetcode](https://leetcode-cn.com/problems/excel-sheet-column-title/)
 - 169：多数元素
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/majority-element.rs)
     - [leetcode](https://leetcode-cn.com/problems/majority-element/)
