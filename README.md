@@ -1,6 +1,6 @@
 # leetcode
 
-当前已刷：196
+当前已刷：197
 
 ### 题目
 - 105：从前序与中序遍历序列构造二叉树
@@ -36,3 +36,6 @@
 - 169：多数元素
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/majority-element.rs)
     - [leetcode](https://leetcode-cn.com/problems/majority-element/)
+- 171：Excel表列序号
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/excel-sheet-column-number.rs)
+    - [leetcode](https://leetcode-cn.com/problems/excel-sheet-column-number/)
