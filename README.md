@@ -1,6 +1,6 @@
 # leetcode
 
-当前已刷：197
+当前已刷：198
 
 ### 题目
 - 105：从前序与中序遍历序列构造二叉树
@@ -39,3 +39,6 @@
 - 171：Excel表列序号
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/excel-sheet-column-number.rs)
     - [leetcode](https://leetcode-cn.com/problems/excel-sheet-column-number/)
+- 172：阶乘后的零
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/factorial-trailing-zeroes.rs)
+    - [leetcode](https://leetcode-cn.com/problems/factorial-trailing-zeroes/)
