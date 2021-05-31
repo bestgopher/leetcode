@@ -1,6 +1,6 @@
 # leetcode
 
-当前已刷：198
+当前已刷：199
 
 ### 题目
 - 105：从前序与中序遍历序列构造二叉树
@@ -42,3 +42,6 @@
 - 172：阶乘后的零
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/factorial-trailing-zeroes.rs)
     - [leetcode](https://leetcode-cn.com/problems/factorial-trailing-zeroes/)
+- 173：二叉搜索树迭代器
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/binary-search-tree-iterator.rs)
+    - [leetcode](https://leetcode-cn.com/problems/binary-search-tree-iterator/)
