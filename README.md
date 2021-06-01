@@ -1,6 +1,6 @@
 # leetcode
 
-当前已刷：199
+当前已刷：200
 
 ### 题目
 - 105：从前序与中序遍历序列构造二叉树
@@ -45,3 +45,6 @@
 - 173：二叉搜索树迭代器
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/binary-search-tree-iterator.rs)
     - [leetcode](https://leetcode-cn.com/problems/binary-search-tree-iterator/)
+- 187：重复的DNA序列
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/repeated-dna-sequences.rs)
+    - [leetcode](https://leetcode-cn.com/problems/repeated-dna-sequences/)
