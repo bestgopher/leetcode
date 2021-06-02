@@ -1,6 +1,6 @@
 # leetcode
 
-当前已刷：200
+当前已刷：201
 
 ### 题目
 - 105：从前序与中序遍历序列构造二叉树
@@ -48,3 +48,6 @@
 - 187：重复的DNA序列
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/repeated-dna-sequences.rs)
     - [leetcode](https://leetcode-cn.com/problems/repeated-dna-sequences/)
+- 190：颠倒二进制位
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/reverse-bits.rs)
+    - [leetcode](https://leetcode-cn.com/problems/reverse-bits/)
