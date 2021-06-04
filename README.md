@@ -1,6 +1,6 @@
 # leetcode
 
-当前已刷：201
+当前已刷：202
 
 ### 题目
 - 105：从前序与中序遍历序列构造二叉树
@@ -51,3 +51,6 @@
 - 190：颠倒二进制位
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/reverse-bits.rs)
     - [leetcode](https://leetcode-cn.com/problems/reverse-bits/)
+- 191：位1的个数
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/number-of-1-bits.rs)
+    - [leetcode](https://leetcode-cn.com/problems/number-of-1-bits/)
