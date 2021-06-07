@@ -1,6 +1,6 @@
 # leetcode
 
-当前已刷：203
+当前已刷：204
 
 ### 题目
 - 105：从前序与中序遍历序列构造二叉树
@@ -57,3 +57,6 @@
 - 199：二叉树的右视图
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/binary-tree-right-side-view.rs)
     - [leetcode](https://leetcode-cn.com/problems/binary-tree-right-side-view/)
+- 231：2 的幂
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/power-of-two.rs)
+    - [leetcode](https://leetcode-cn.com/problems/power-of-two/)
