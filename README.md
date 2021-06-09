@@ -1,6 +1,6 @@
 # leetcode
 
-当前已刷：205
+当前已刷：206
 
 ### 题目
 - 1：两数之和
@@ -306,6 +306,9 @@
 - 199：二叉树的右视图
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/binary-tree-right-side-view.rs)
     - [leetcode](https://leetcode-cn.com/problems/binary-tree-right-side-view/)
+- 200：岛屿数量
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/number-of-islands.rs)
+    - [leetcode](https://leetcode-cn.com/problems/number-of-islands/)
 - 201：数字范围按位与
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/bitwise-and-of-numbers-range.rs)
     - [leetcode](https://leetcode-cn.com/problems/bitwise-and-of-numbers-range/)
