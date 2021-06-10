@@ -1,6 +1,6 @@
 # leetcode
 
-当前已刷：206
+当前已刷：207
 
 ### 题目
 - 1：两数之和
@@ -318,6 +318,9 @@
 - 204：计数质数
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/count-primes.rs)
     - [leetcode](https://leetcode-cn.com/problems/count-primes/)
+- 205：同构字符串
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/isomorphic-strings.rs)
+    - [leetcode](https://leetcode-cn.com/problems/isomorphic-strings/)
 - 208：实现 Trie (前缀树)
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/implement-trie-prefix-tree.rs)
     - [leetcode](https://leetcode-cn.com/problems/implement-trie-prefix-tree/)
