@@ -1,6 +1,6 @@
 # leetcode
 
-当前已刷：208
+当前已刷：209
 
 ### 题目
 - 1：两数之和
@@ -312,6 +312,9 @@
 - 201：数字范围按位与
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/bitwise-and-of-numbers-range.rs)
     - [leetcode](https://leetcode-cn.com/problems/bitwise-and-of-numbers-range/)
+- 202：快乐数
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/happy-number.rs)
+    - [leetcode](https://leetcode-cn.com/problems/happy-number/)
 - 203：移除链表元素
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/remove-linked-list-elements.rs)
     - [leetcode](https://leetcode-cn.com/problems/remove-linked-list-elements/)
