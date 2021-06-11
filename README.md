@@ -1,6 +1,6 @@
 # leetcode
 
-当前已刷：207
+当前已刷：208
 
 ### 题目
 - 1：两数之和
@@ -321,6 +321,9 @@
 - 205：同构字符串
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/isomorphic-strings.rs)
     - [leetcode](https://leetcode-cn.com/problems/isomorphic-strings/)
+- 206：反转链表
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/reverse-linked-list.rs)
+    - [leetcode](https://leetcode-cn.com/problems/reverse-linked-list/)
 - 208：实现 Trie (前缀树)
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/implement-trie-prefix-tree.rs)
     - [leetcode](https://leetcode-cn.com/problems/implement-trie-prefix-tree/)
