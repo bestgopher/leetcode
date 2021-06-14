@@ -48,4 +48,3 @@ impl MyQueue {
         self.data.len() == 0
     }
 }
-
