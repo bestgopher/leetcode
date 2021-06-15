@@ -68,7 +68,9 @@ impl WordDictionary {
             if node.is_none() {
                 table[(i - b'a') as usize] = Some(Box::new(Node::new(is_word)));
             } else {
-                node.as_mut().unwrap().is_word = is_word;
+                if is_word {
+                    node.as_mut().unwrap().is_word = is_word;
+                }
             }
 
             Self::add(table[(i - b'a') as usize].as_mut().unwrap().table.as_mut(), &letter[1..]);
