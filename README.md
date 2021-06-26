@@ -1,6 +1,6 @@
 # leetcode
 
-当前已刷：219
+当前已刷：220
 
 ### 题目
 - 1：两数之和
@@ -180,6 +180,9 @@
 - 82：删除排序链表中的重复元素 II
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/remove-duplicates-from-sorted-list-ii.rs)
     - [leetcode](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii/)
+- 83：删除排序链表中的重复元素
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/remove-duplicates-from-sorted-list.rs)
+    - [leetcode](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/)
 - 88：合并两个有序数组
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/merge-sorted-array.rs)
     - [leetcode](https://leetcode-cn.com/problems/merge-sorted-array/)
