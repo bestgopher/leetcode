@@ -1,6 +1,6 @@
 # leetcode
 
-当前已刷：221
+当前已刷：222
 
 ### 题目
 - 1：两数之和
@@ -273,6 +273,9 @@
 - 152：乘积最大子数组
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-product-subarray.rs)
     - [leetcode](https://leetcode-cn.com/problems/maximum-product-subarray/)
+- 153：寻找旋转排序数组中的最小值
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-minimum-in-rotated-sorted-array.rs)
+    - [leetcode](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/)
 - 155：最小栈
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/min-stack.rs)
     - [leetcode](https://leetcode-cn.com/problems/min-stack/)
