@@ -1,6 +1,6 @@
 # leetcode
 
-当前已刷：225
+当前已刷：226
 
 ### 题目
 - 1：两数之和
@@ -207,6 +207,9 @@
 - 100：相同的树
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/same-tree.rs)
     - [leetcode](https://leetcode-cn.com/problems/same-tree/)
+- 101：对称二叉树
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/symmetric-tree.rs)
+    - [leetcode](https://leetcode-cn.com/problems/symmetric-tree/)
 - 102：二叉树的层序遍历
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/binary-tree-level-order-traversal.rs)
     - [leetcode](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/)
