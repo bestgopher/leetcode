@@ -1,6 +1,6 @@
 # leetcode
 
-当前已刷：227
+当前已刷：228
 
 ### 题目
 - 1：两数之和
@@ -57,6 +57,9 @@
 - 20：有效的括号
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/valid-parentheses.rs)
     - [leetcode](https://leetcode-cn.com/problems/valid-parentheses/)
+- 21：合并两个有序链表
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/merge-two-sorted-lists.rs)
+    - [leetcode](https://leetcode-cn.com/problems/merge-two-sorted-lists/)
 - 26：删除有序数组中的重复项
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/remove-duplicates-from-sorted-array.rs)
     - [leetcode](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/)
