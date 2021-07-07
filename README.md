@@ -1,6 +1,6 @@
 # leetcode
 
-当前已刷：229
+当前已刷：230
 
 ### 题目
 - 1：两数之和
@@ -60,6 +60,9 @@
 - 21：合并两个有序链表
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/merge-two-sorted-lists.rs)
     - [leetcode](https://leetcode-cn.com/problems/merge-two-sorted-lists/)
+- 23：合并K个升序链表
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/merge-k-sorted-lists.rs)
+    - [leetcode](https://leetcode-cn.com/problems/merge-k-sorted-lists/)
 - 24：两两交换链表中的节点
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/swap-nodes-in-pairs.rs)
     - [leetcode](https://leetcode-cn.com/problems/swap-nodes-in-pairs/)
