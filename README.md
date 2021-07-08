@@ -1,6 +1,6 @@
 # leetcode
 
-当前已刷：230
+当前已刷：231
 
 ### 题目
 - 1：两数之和
@@ -66,6 +66,9 @@
 - 24：两两交换链表中的节点
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/swap-nodes-in-pairs.rs)
     - [leetcode](https://leetcode-cn.com/problems/swap-nodes-in-pairs/)
+- 25：K 个一组翻转链表
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/reverse-nodes-in-k-group.rs)
+    - [leetcode](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/)
 - 26：删除有序数组中的重复项
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/remove-duplicates-from-sorted-array.rs)
     - [leetcode](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/)
