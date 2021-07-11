@@ -110,16 +110,14 @@ pub fn get_question_msg(name: &str) -> Resp {
     let url = "https://leetcode-cn.com/graphql/";
     let data_fmt = r#"{"operationName":"questionData","variables":{"titleSlug":"{}"},"query":"query questionData($titleSlug: String!) {\n  question(titleSlug: $titleSlug) {\n    questionId\n    questionFrontendId\n    boundTopicId\n    title\n    titleSlug\n    content\n    translatedTitle\n    translatedContent\n    isPaidOnly\n    difficulty\n    likes\n    dislikes\n    isLiked\n    similarQuestions\n    contributors {\n      username\n      profileUrl\n      avatarUrl\n      __typename\n    }\n    langToValidPlayground\n    topicTags {\n      name\n      slug\n      translatedName\n      __typename\n    }\n    companyTagStats\n    codeSnippets {\n      lang\n      langSlug\n      code\n      __typename\n    }\n    stats\n    hints\n    solution {\n      id\n      canSeeDetail\n      __typename\n    }\n    status\n    sampleTestCase\n    metaData\n    judgerAvailable\n    judgeType\n    mysqlSchemas\n    enableRunCode\n    envInfo\n    book {\n      id\n      bookName\n      pressName\n      source\n      shortDescription\n      fullDescription\n      bookImgUrl\n      pressImgUrl\n      productUrl\n      __typename\n    }\n    isSubscribed\n    isDailyQuestion\n    dailyRecordStatus\n    editorType\n    ugcQuestionId\n    style\n    __typename\n  }\n}\n"}"#;
     let data = data_fmt.replace("{}", name);
-    let res = reqwest::blocking::Client::new()
+    reqwest::blocking::Client::new()
         .post(url)
         .header("content-type", "application/json")
         .body(data)
         .send()
         .unwrap()
         .json::<Resp>()
-        .unwrap();
-
-    res
+        .unwrap()
 }
 
 /// 把问题写到README.md中
@@ -133,7 +131,7 @@ pub fn write_to_readme(question_info: Resp) {
     let mut f = File::create("README.md").unwrap();
 
     let mut index = 0usize;
-    let split = readme.split("\n").into_iter().collect::<Vec<&str>>();
+    let split = readme.split('\n').into_iter().collect::<Vec<&str>>();
     let mut flag = false;
     let mut flag1 = false;
     let no = question_info
@@ -164,21 +162,21 @@ pub fn write_to_readme(question_info: Resp) {
                     "- {}：{}\n",
                     no, question_info.data.question.translated_title
                 )
-                .as_str(),
+                    .as_str(),
             );
             write_string.push_str(
                 format!(
                     "    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/{}.rs)\n",
                     question_info.data.question.title_slug
                 )
-                .as_str(),
+                    .as_str(),
             );
             write_string.push_str(
                 format!(
                     "    - [leetcode](https://leetcode-cn.com/problems/{}/)\n",
                     question_info.data.question.title_slug
                 )
-                .as_str(),
+                    .as_str(),
             );
         }
 
@@ -189,7 +187,7 @@ pub fn write_to_readme(question_info: Resp) {
                 split[index + 1],
                 split[index + 2]
             )
-            .as_str(),
+                .as_str(),
         );
         index += 3;
     }
@@ -200,21 +198,21 @@ pub fn write_to_readme(question_info: Resp) {
                 "- {}：{}\n",
                 no, question_info.data.question.translated_title
             )
-            .as_str(),
+                .as_str(),
         );
         write_string.push_str(
             format!(
                 "    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/{}.rs)\n",
                 question_info.data.question.title_slug
             )
-            .as_str(),
+                .as_str(),
         );
         write_string.push_str(
             format!(
                 "    - [leetcode](https://leetcode-cn.com/problems/{}/)\n",
                 question_info.data.question.title_slug
             )
-            .as_str(),
+                .as_str(),
         );
     }
 
@@ -238,7 +236,7 @@ fn get_question_num() -> usize {
 
 /// 获取题目的编号
 fn get_question_no(s: &str) -> i32 {
-    s.split("：").into_iter().collect::<Vec<&str>>()[0]
+    s.split('：').into_iter().collect::<Vec<&str>>()[0]
         .trim_end_matches('：')
         .trim_start_matches('-')
         .trim_start()
@@ -290,5 +288,5 @@ pub fn make_new_file(resp: Resp) {
         }
     }
 
-    f.write(s.as_bytes()).unwrap();
+    f.write_all(s.as_bytes()).unwrap();
 }
