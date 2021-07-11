@@ -1,6 +1,6 @@
 # leetcode
 
-当前已刷：233
+当前已刷：234
 
 ### 题目
 - 1：两数之和
@@ -417,6 +417,9 @@
 - 232：用栈实现队列
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/implement-queue-using-stacks.rs)
     - [leetcode](https://leetcode-cn.com/problems/implement-queue-using-stacks/)
+- 234：回文链表
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/palindrome-linked-list.rs)
+    - [leetcode](https://leetcode-cn.com/problems/palindrome-linked-list/)
 - 235：二叉搜索树的最近公共祖先
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/lowest-common-ancestor-of-a-binary-search-tree.rs)
     - [leetcode](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)
