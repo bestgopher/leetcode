@@ -256,16 +256,19 @@ pub fn git_add_commit_files(files: Vec<String>) {
 
 pub fn add_and_commit(file: &str) {
     Command::new("git").arg("add").arg(file).output().unwrap();
-    Command::new("git")
+    let output = Command::new("git")
         .arg("commit")
         .arg("-m")
         .arg(file)
         .output()
         .unwrap();
+
+    println!("{}", String::from_utf8(output.stdout).unwrap());
 }
 
 pub fn push_to_origin() {
-    Command::new("git").arg("push").output().unwrap();
+    let output = Command::new("git").arg("push").output().unwrap();
+    println!("{}", String::from_utf8(output.stdout).unwrap());
 }
 
 /// 通过题目名获取rust答题模板
