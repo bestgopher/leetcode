@@ -21,8 +21,8 @@ impl TreeNode {
     }
 }
 
-use std::rc::Rc;
 use std::cell::RefCell;
+use std::rc::Rc;
 
 impl Solution {
     pub fn kth_smallest(root: Option<Rc<RefCell<TreeNode>>>, k: i32) -> i32 {
@@ -49,7 +49,6 @@ impl Solution {
         if r2.is_some() {
             return r2;
         }
-
 
         None
     }

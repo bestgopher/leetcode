@@ -24,7 +24,7 @@ impl Solution {
         let (mut numerator, mut denominator) = (numerator as i64, denominator as i64);
         let mut flag = false; // false为当前为整数部分，true为小数部分
         let mut n = 0;
-        let (mut r1, mut r2) = (String::new(), String::new());  // r1整数，r2小数
+        let (mut r1, mut r2) = (String::new(), String::new()); // r1整数，r2小数
 
         if numerator < 0 && denominator > 0 {
             r1.push('-');

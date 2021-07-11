@@ -7,10 +7,7 @@ fn main() {
                 val: 3,
                 next: Some(Box::new(ListNode {
                     val: 4,
-                    next: Some(Box::new(ListNode {
-                        val: 5,
-                        next: None,
-                    })),
+                    next: Some(Box::new(ListNode { val: 5, next: None })),
                 })),
             })),
         })),
@@ -32,16 +29,15 @@ pub struct ListNode {
 impl ListNode {
     #[inline]
     fn new(val: i32) -> Self {
-        ListNode {
-            next: None,
-            val,
-        }
+        ListNode { next: None, val }
     }
 }
 
 impl Solution {
     pub fn reverse_k_group(head: Option<Box<ListNode>>, k: i32) -> Option<Box<ListNode>> {
-        if head.is_none() || k == 1 { return head; }
+        if head.is_none() || k == 1 {
+            return head;
+        }
         let mut head = head;
         let mut k1 = k;
 

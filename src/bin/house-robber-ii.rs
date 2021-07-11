@@ -15,9 +15,23 @@ impl Solution {
         max
     }
 
-    fn dp(nums: &[i32], start: usize, now_index: usize, hash: &mut std::collections::HashMap<usize, i32>) -> i32 {
-        let now_index = if now_index >= nums.len() { now_index % nums.len() } else { now_index };
-        if (start == 0 && now_index == nums.len() - 1) || now_index == start || now_index == start + 1 || (start != 0 && now_index == start - 1) || (start == nums.len() - 1 && now_index == 0) {
+    fn dp(
+        nums: &[i32],
+        start: usize,
+        now_index: usize,
+        hash: &mut std::collections::HashMap<usize, i32>,
+    ) -> i32 {
+        let now_index = if now_index >= nums.len() {
+            now_index % nums.len()
+        } else {
+            now_index
+        };
+        if (start == 0 && now_index == nums.len() - 1)
+            || now_index == start
+            || now_index == start + 1
+            || (start != 0 && now_index == start - 1)
+            || (start == nums.len() - 1 && now_index == 0)
+        {
             return 0;
         }
 

@@ -31,7 +31,10 @@ impl Solution {
         if index.0 > 0 {
             let x = board[index.0 - 1][index.1];
             board[index.0 - 1][index.1] = '0';
-            if x != '0' && x as u8 == word[0] && Self::scan(board, &word[1..], (index.0 - 1, index.1)) {
+            if x != '0'
+                && x as u8 == word[0]
+                && Self::scan(board, &word[1..], (index.0 - 1, index.1))
+            {
                 return true;
             }
             board[index.0 - 1][index.1] = x;
@@ -40,7 +43,10 @@ impl Solution {
         if index.0 < board.len() - 1 {
             let x = board[index.0 + 1][index.1];
             board[index.0 + 1][index.1] = '0';
-            if x != '0' && x as u8 == word[0] && Self::scan(board, &word[1..], (index.0 + 1, index.1)) {
+            if x != '0'
+                && x as u8 == word[0]
+                && Self::scan(board, &word[1..], (index.0 + 1, index.1))
+            {
                 return true;
             }
             board[index.0 + 1][index.1] = x;
@@ -49,7 +55,10 @@ impl Solution {
         if index.1 > 0 {
             let x = board[index.0][index.1 - 1];
             board[index.0][index.1 - 1] = '0';
-            if x != '0' && x as u8 == word[0] && Self::scan(board, &word[1..], (index.0, index.1 - 1)) {
+            if x != '0'
+                && x as u8 == word[0]
+                && Self::scan(board, &word[1..], (index.0, index.1 - 1))
+            {
                 return true;
             }
             board[index.0][index.1 - 1] = x;
@@ -58,7 +67,10 @@ impl Solution {
         if index.1 < board[0].len() - 1 {
             let x = board[index.0][index.1 + 1];
             board[index.0][index.1 + 1] = '0';
-            if x != '0' && x as u8 == word[0] && Self::scan(board, &word[1..], (index.0, index.1 + 1)) {
+            if x != '0'
+                && x as u8 == word[0]
+                && Self::scan(board, &word[1..], (index.0, index.1 + 1))
+            {
                 return true;
             }
             board[index.0][index.1 + 1] = x;

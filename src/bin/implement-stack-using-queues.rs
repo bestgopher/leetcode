@@ -11,9 +11,8 @@ struct Solution;
  * let ret_4: bool = obj.empty();
  */
 struct MyStack {
-    data: std::cell::RefCell<Vec<i32>>
+    data: std::cell::RefCell<Vec<i32>>,
 }
-
 
 /**
  * `&self` means the method takes an immutable reference.
@@ -23,7 +22,7 @@ impl MyStack {
     /** Initialize your data structure here. */
     fn new() -> Self {
         Self {
-            data: std::cell::RefCell::new(Vec::new())
+            data: std::cell::RefCell::new(Vec::new()),
         }
     }
 
@@ -47,4 +46,3 @@ impl MyStack {
         self.data.borrow().len() == 0
     }
 }
-

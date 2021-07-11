@@ -11,7 +11,10 @@ impl Solution {
                 '(' | '{' | '[' => stack.push(i),
                 _ => {
                     if let Some(x) = stack.pop() {
-                        if (x == '(' && i != ')') || (x == '{' && i != '}') || (x == '[' && i != ']') {
+                        if (x == '(' && i != ')')
+                            || (x == '{' && i != '}')
+                            || (x == '[' && i != ']')
+                        {
                             return false;
                         }
                     } else {

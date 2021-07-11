@@ -21,8 +21,8 @@ impl TreeNode {
     }
 }
 
-use std::rc::Rc;
 use std::cell::RefCell;
+use std::rc::Rc;
 
 impl Solution {
     pub fn level_order_bottom(root: Option<Rc<RefCell<TreeNode>>>) -> Vec<Vec<i32>> {
@@ -35,7 +35,6 @@ impl Solution {
 
     fn f(nodes: Vec<Rc<RefCell<TreeNode>>>) -> Vec<Vec<i32>> {
         let mut result = vec![];
-
 
         if nodes.len() == 0 {
             return result;

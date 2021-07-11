@@ -15,7 +15,11 @@ impl Solution {
 
         for i in 1..nums.len() {
             if nums[i] != 0 {
-                v[i] = if v[i - 1] == 0 { nums[i] } else { nums[i] * v[i - 1] };
+                v[i] = if v[i - 1] == 0 {
+                    nums[i]
+                } else {
+                    nums[i] * v[i - 1]
+                };
             }
         }
 

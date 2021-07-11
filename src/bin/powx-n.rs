@@ -1,7 +1,7 @@
 fn main() {
     println!("{}", Solution::my_pow(0.00001, 2147483647));
     println!("{}", Solution::my_pow(2.00000, 10));
-    println!("{}", Solution::my_pow(2.00000, /**/-2));
+    println!("{}", Solution::my_pow(2.00000, /**/ -2));
     println!("{}", Solution::my_pow(2.00000, -2147483648));
 }
 
@@ -37,8 +37,14 @@ impl Solution {
             n1 = n2.0;
         }
 
-        if s { result *= x }
+        if s {
+            result *= x
+        }
 
-        if flag { 1f64 / result } else { result }
+        if flag {
+            1f64 / result
+        } else {
+            result
+        }
     }
 }

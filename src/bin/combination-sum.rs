@@ -25,7 +25,8 @@ impl Solution {
                 let mut x = Self::calc(&candidates, target - i);
                 for mut m in x {
                     if !m.is_empty() {
-                        if i >= *m.last().unwrap() {  // 递增排列，用于去重复
+                        if i >= *m.last().unwrap() {
+                            // 递增排列，用于去重复
                             m.push(i);
                             r.push(m);
                         }

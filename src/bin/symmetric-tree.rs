@@ -1,75 +1,33 @@
 fn main() {
-    let root = Some(
-        Rc::new(
-            RefCell::new(
-                TreeNode {
-                    val: 1,
-                    left: Some(
-                        Rc::new(
-                            RefCell::new(
-                                TreeNode {
-                                    val: 2,
-                                    left: Some(
-                                        Rc::new(
-                                            RefCell::new(
-                                                TreeNode {
-                                                    val: 3,
-                                                    left: None,
-                                                    right: None,
-                                                }
-                                            )
-                                        )
-                                    ),
-                                    right: Some(
-                                        Rc::new(
-                                            RefCell::new(
-                                                TreeNode {
-                                                    val: 4,
-                                                    left: None,
-                                                    right: None,
-                                                }
-                                            )
-                                        )
-                                    ),
-                                }
-                            )
-                        )
-                    ),
-                    right: Some(
-                        Rc::new(
-                            RefCell::new(
-                                TreeNode {
-                                    val: 2,
-                                    left: Some(
-                                        Rc::new(
-                                            RefCell::new(
-                                                TreeNode {
-                                                    val: 4,
-                                                    left: None,
-                                                    right: None,
-                                                }
-                                            )
-                                        )
-                                    ),
-                                    right: Some(
-                                        Rc::new(
-                                            RefCell::new(
-                                                TreeNode {
-                                                    val: 3,
-                                                    left: None,
-                                                    right: None,
-                                                }
-                                            )
-                                        )
-                                    ),
-                                }
-                            )
-                        )
-                    ),
-                }
-            )
-        )
-    );
+    let root = Some(Rc::new(RefCell::new(TreeNode {
+        val: 1,
+        left: Some(Rc::new(RefCell::new(TreeNode {
+            val: 2,
+            left: Some(Rc::new(RefCell::new(TreeNode {
+                val: 3,
+                left: None,
+                right: None,
+            }))),
+            right: Some(Rc::new(RefCell::new(TreeNode {
+                val: 4,
+                left: None,
+                right: None,
+            }))),
+        }))),
+        right: Some(Rc::new(RefCell::new(TreeNode {
+            val: 2,
+            left: Some(Rc::new(RefCell::new(TreeNode {
+                val: 4,
+                left: None,
+                right: None,
+            }))),
+            right: Some(Rc::new(RefCell::new(TreeNode {
+                val: 3,
+                left: None,
+                right: None,
+            }))),
+        }))),
+    })));
 
     assert!(Solution::is_symmetric(root));
 }
@@ -95,8 +53,8 @@ impl TreeNode {
     }
 }
 
-use std::rc::Rc;
 use std::cell::RefCell;
+use std::rc::Rc;
 
 impl Solution {
     pub fn is_symmetric(root: Option<Rc<RefCell<TreeNode>>>) -> bool {
@@ -132,7 +90,7 @@ impl Solution {
                         v1[j * 2] = None;
                         v1[j * 2 + 1] = None;
                     }
-                    _ => return false
+                    _ => return false,
                 }
                 i += 1;
                 j -= 1;

@@ -11,9 +11,8 @@ struct Solution;
  * let ret_4: bool = obj.empty();
  */
 struct MyQueue {
-    data: Vec<i32>
+    data: Vec<i32>,
 }
-
 
 /**
  * `&self` means the method takes an immutable reference.

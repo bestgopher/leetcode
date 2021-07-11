@@ -21,8 +21,8 @@ impl TreeNode {
     }
 }
 
-use std::rc::Rc;
 use std::cell::RefCell;
+use std::rc::Rc;
 
 impl Solution {
     pub fn invert_tree(root: Option<Rc<RefCell<TreeNode>>>) -> Option<Rc<RefCell<TreeNode>>> {
@@ -35,7 +35,6 @@ impl Solution {
         let right = root.as_ref().unwrap().borrow_mut().right.take();
         root.as_mut().unwrap().borrow_mut().right = Self::invert_tree(left);
         root.as_mut().unwrap().borrow_mut().left = Self::invert_tree(right);
-
 
         root
     }

@@ -21,8 +21,8 @@ impl TreeNode {
     }
 }
 
-use std::rc::Rc;
 use std::cell::RefCell;
+use std::rc::Rc;
 
 /**
  * Your BSTIterator object will be instantiated and called as such:
@@ -31,9 +31,8 @@ use std::cell::RefCell;
  * let ret_2: bool = obj.has_next();
  */
 struct BSTIterator {
-    stack: Vec::<Option<Rc<RefCell<TreeNode>>>>
+    stack: Vec<Option<Rc<RefCell<TreeNode>>>>,
 }
-
 
 /**
  * `&self` means the method takes an immutable reference.

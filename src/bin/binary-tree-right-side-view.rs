@@ -21,8 +21,8 @@ impl TreeNode {
     }
 }
 
-use std::rc::Rc;
 use std::cell::RefCell;
+use std::rc::Rc;
 
 impl Solution {
     pub fn right_side_view(root: Option<Rc<RefCell<TreeNode>>>) -> Vec<i32> {
@@ -35,7 +35,10 @@ impl Solution {
             level: i32,
             node: Option<Rc<RefCell<TreeNode>>>,
         }
-        let mut v = vec![S { level: 0, node: root }];
+        let mut v = vec![S {
+            level: 0,
+            node: root,
+        }];
         let mut level = 0;
         let mut index = 0;
 
@@ -50,11 +53,17 @@ impl Solution {
                 let right = x.node.as_ref().unwrap().borrow_mut().right.take();
                 let left = x.node.as_ref().unwrap().borrow_mut().left.take();
                 if right.is_some() {
-                    v.push(S { level: l + 1, node: right });
+                    v.push(S {
+                        level: l + 1,
+                        node: right,
+                    });
                 }
 
                 if left.is_some() {
-                    v.push(S { level: l + 1, node: left });
+                    v.push(S {
+                        level: l + 1,
+                        node: left,
+                    });
                 }
             }
             index += 1;

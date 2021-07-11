@@ -11,7 +11,9 @@ impl Solution {
             let mut s = i.clone().into_bytes();
             s.sort();
 
-            hash.entry(s).and_modify(|x| x.push(i.clone())).or_insert(vec![i]);
+            hash.entry(s)
+                .and_modify(|x| x.push(i.clone()))
+                .or_insert(vec![i]);
         }
 
         hash.into_iter().map(|(x, y)| y).collect()

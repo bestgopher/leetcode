@@ -28,7 +28,6 @@ impl Solution {
         Self::f(v, x, index1 + 1, index2);
         Self::f(v, x, index1 + 1, index2 + 1);
 
-
         x[index1][index2] = v[index1][index2] + x[index1 + 1][index2].min(x[index1 + 1][index2 + 1])
     }
 }

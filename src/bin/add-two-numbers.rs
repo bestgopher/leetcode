@@ -12,21 +12,24 @@ pub struct ListNode {
 impl ListNode {
     #[inline]
     fn new(val: i32) -> Self {
-        ListNode {
-            next: None,
-            val,
-        }
+        ListNode { next: None, val }
     }
 }
 
 impl Solution {
-    pub fn add_two_numbers(l1: Option<Box<ListNode>>, l2: Option<Box<ListNode>>) -> Option<Box<ListNode>> {
+    pub fn add_two_numbers(
+        l1: Option<Box<ListNode>>,
+        l2: Option<Box<ListNode>>,
+    ) -> Option<Box<ListNode>> {
         Self::re(l1, l2, 0)
     }
 
-
     /// base: 进制，相加和大于10进制
-    fn re(l1: Option<Box<ListNode>>, l2: Option<Box<ListNode>>, base: i32) -> Option<Box<ListNode>> {
+    fn re(
+        l1: Option<Box<ListNode>>,
+        l2: Option<Box<ListNode>>,
+        base: i32,
+    ) -> Option<Box<ListNode>> {
         if l1.is_none() && l2.is_none() {
             if base == 0 {
                 return None;

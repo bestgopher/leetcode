@@ -9,7 +9,9 @@ impl Solution {
         for i in path.split('/').into_iter() {
             if i != "" && i != "." {
                 match i {
-                    ".." => { v.pop(); }
+                    ".." => {
+                        v.pop();
+                    }
                     _ => v.push(i),
                 }
             }

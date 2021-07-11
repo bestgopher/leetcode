@@ -1,5 +1,8 @@
 fn main() {
-    println!("{:?}", Solution::find_repeated_dna_sequences("AAAAAAAAAAA".to_string()));
+    println!(
+        "{:?}",
+        Solution::find_repeated_dna_sequences("AAAAAAAAAAA".to_string())
+    );
 }
 
 struct Solution;

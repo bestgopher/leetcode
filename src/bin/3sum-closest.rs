@@ -14,7 +14,11 @@ impl Solution {
                     if s == target {
                         return s;
                     }
-                    sum = if (sum - target).abs() > (s - target).abs() { s } else { sum };
+                    sum = if (sum - target).abs() > (s - target).abs() {
+                        s
+                    } else {
+                        sum
+                    };
                 }
             }
         }
@@ -46,7 +50,11 @@ impl Solution {
                     left += 1;
                 }
 
-                sum = if (s - target).abs() > (sum - target).abs() { sum } else { s };
+                sum = if (s - target).abs() > (sum - target).abs() {
+                    sum
+                } else {
+                    s
+                };
             }
         }
 

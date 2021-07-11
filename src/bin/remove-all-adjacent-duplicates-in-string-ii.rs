@@ -5,7 +5,7 @@ struct Solution;
 impl Solution {
     pub fn remove_duplicates(s: String, k: i32) -> String {
         let mut v1 = vec![];
-        let mut v2 = vec![];  // 用于计数的栈
+        let mut v2 = vec![]; // 用于计数的栈
         let mut last = 0;
 
         for i in s.into_bytes().into_iter() {

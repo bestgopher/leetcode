@@ -12,10 +12,7 @@ pub struct ListNode {
 impl ListNode {
     #[inline]
     fn new(val: i32) -> Self {
-        ListNode {
-            next: None,
-            val,
-        }
+        ListNode { next: None, val }
     }
 }
 
@@ -36,7 +33,7 @@ impl Solution {
                         }
                     }
                 }
-                None => ()
+                None => (),
             }
         }
 
@@ -83,7 +80,7 @@ impl Solution {
             }
             (Some(x), None) => Some(x),
             (None, Some(y)) => Some(y),
-            (None, None) => None
+            (None, None) => None,
         }
     }
 }

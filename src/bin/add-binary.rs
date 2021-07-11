@@ -25,7 +25,6 @@ impl Solution {
                 b'0'
             };
 
-
             m = Self::add(a1, b1, m.1);
             let l = s.len() - index - 1;
             s[l] = m.0;
@@ -37,7 +36,10 @@ impl Solution {
             s[l] = b'1';
         }
 
-        String::from_utf8(s).unwrap().trim_start_matches('0').to_string()
+        String::from_utf8(s)
+            .unwrap()
+            .trim_start_matches('0')
+            .to_string()
     }
 
     /// 返回a+b的和与进制

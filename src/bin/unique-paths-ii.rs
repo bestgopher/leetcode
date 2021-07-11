@@ -6,7 +6,11 @@ impl Solution {
     pub fn unique_paths_with_obstacles(obstacle_grid: Vec<Vec<i32>>) -> i32 {
         let mut r = vec![vec![0; obstacle_grid[0].len()]; obstacle_grid.len()];
         Self::scan(&mut r, &obstacle_grid, 0, 0);
-        if r[0][0] != -1 { r[0][0] } else { 0 }
+        if r[0][0] != -1 {
+            r[0][0]
+        } else {
+            0
+        }
     }
 
     fn scan(v: &mut Vec<Vec<i32>>, ob: &Vec<Vec<i32>>, index1: usize, index2: usize) {
@@ -30,11 +34,19 @@ impl Solution {
         Self::scan(v, ob, index1, index2 + 1);
 
         if index1 < s1 {
-            v[index1][index2] += if v[index1 + 1][index2] != -1 { v[index1 + 1][index2] } else { 0 };
+            v[index1][index2] += if v[index1 + 1][index2] != -1 {
+                v[index1 + 1][index2]
+            } else {
+                0
+            };
         }
 
         if index2 < s2 {
-            v[index1][index2] += if v[index1][index2 + 1] != -1 { v[index1][index2 + 1] } else { 0 };
+            v[index1][index2] += if v[index1][index2 + 1] != -1 {
+                v[index1][index2 + 1]
+            } else {
+                0
+            };
         }
     }
 }

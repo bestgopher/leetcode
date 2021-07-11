@@ -1,9 +1,18 @@
 fn main() {
-    println!("{:?}", Solution::restore_ip_addresses(String::from("25525511135")));
+    println!(
+        "{:?}",
+        Solution::restore_ip_addresses(String::from("25525511135"))
+    );
     println!("{:?}", Solution::restore_ip_addresses(String::from("0000")));
-    println!("{:?}", Solution::restore_ip_addresses(String::from("010010")));
+    println!(
+        "{:?}",
+        Solution::restore_ip_addresses(String::from("010010"))
+    );
     println!("{:?}", Solution::restore_ip_addresses(String::from("1111")));
-    println!("{:?}", Solution::restore_ip_addresses(String::from("0279245587303")));
+    println!(
+        "{:?}",
+        Solution::restore_ip_addresses(String::from("0279245587303"))
+    );
 }
 
 struct Solution;
@@ -28,7 +37,6 @@ impl Solution {
                 vec![String::from(s)]
             };
         }
-
 
         for i in 0..3 {
             if s.len() > i {

@@ -21,8 +21,8 @@ impl TreeNode {
     }
 }
 
-use std::rc::Rc;
 use std::cell::RefCell;
+use std::rc::Rc;
 
 impl Solution {
     pub fn preorder_traversal(root: Option<Rc<RefCell<TreeNode>>>) -> Vec<i32> {
@@ -34,7 +34,6 @@ impl Solution {
             r.push(root.as_ref().unwrap().borrow().val);
             let left = root.as_ref().unwrap().borrow_mut().left.take();
             let right = root.as_ref().unwrap().borrow_mut().right.take();
-
 
             if left.is_some() {
                 root = left;

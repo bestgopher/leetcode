@@ -26,7 +26,11 @@ impl Solution {
         }
         let middle = (start + end) >> 1;
         if nums[middle] > target {
-            if middle > 0 { middle as i32 } else { 0 }
+            if middle > 0 {
+                middle as i32
+            } else {
+                0
+            }
         } else if nums[middle] < target {
             middle as i32 + 1
         } else {

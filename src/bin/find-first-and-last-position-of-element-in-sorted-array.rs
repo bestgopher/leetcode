@@ -1,5 +1,8 @@
 fn main() {
-    assert_eq!(vec![3, 4], Solution::search_range(vec![5, 7, 7, 8, 8, 10], 8));
+    assert_eq!(
+        vec![3, 4],
+        Solution::search_range(vec![5, 7, 7, 8, 8, 10], 8)
+    );
 }
 
 struct Solution;
@@ -56,7 +59,10 @@ impl Solution {
             if nums[middle] == target && (middle == nums.len() - 1 || nums[middle + 1] > target) {
                 v[1] = middle as i32;
                 break;
-            } else if nums[middle] == target && middle != nums.len() - 1 && nums[middle + 1] == target {
+            } else if nums[middle] == target
+                && middle != nums.len() - 1
+                && nums[middle + 1] == target
+            {
                 start = middle + 1;
             } else if nums[middle] > target {
                 if middle == 0 {

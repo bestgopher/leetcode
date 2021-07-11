@@ -21,8 +21,8 @@ impl TreeNode {
     }
 }
 
-use std::rc::Rc;
 use std::cell::RefCell;
+use std::rc::Rc;
 
 impl Solution {
     pub fn has_path_sum(root: Option<Rc<RefCell<TreeNode>>>, target_sum: i32) -> bool {
@@ -35,7 +35,8 @@ impl Solution {
                 return true;
             }
 
-            return Self::has_path_sum(left, target_sum - value) || Self::has_path_sum(right, target_sum - value);
+            return Self::has_path_sum(left, target_sum - value)
+                || Self::has_path_sum(right, target_sum - value);
         }
         false
     }

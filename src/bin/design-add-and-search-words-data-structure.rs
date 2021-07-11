@@ -25,13 +25,9 @@ impl Node {
             table.push(None);
         }
 
-        Self {
-            table,
-            is_word,
-        }
+        Self { table, is_word }
     }
 }
-
 
 /**
  * `&self` means the method takes an immutable reference.
@@ -45,9 +41,7 @@ impl WordDictionary {
             root.push(None);
         }
 
-        Self {
-            root
-        }
+        Self { root }
     }
 
     fn add_word(&mut self, word: String) {
@@ -61,7 +55,11 @@ impl WordDictionary {
 
         let is_word = letter.len() == 1;
 
-        let s = if letter[0] == b'.' { b'a'..=b'z' } else { letter[0]..=letter[0] };
+        let s = if letter[0] == b'.' {
+            b'a'..=b'z'
+        } else {
+            letter[0]..=letter[0]
+        };
 
         for i in s {
             let mut node = table[(i - b'a') as usize].as_mut();
@@ -73,7 +71,10 @@ impl WordDictionary {
                 }
             }
 
-            Self::add(table[(i - b'a') as usize].as_mut().unwrap().table.as_mut(), &letter[1..]);
+            Self::add(
+                table[(i - b'a') as usize].as_mut().unwrap().table.as_mut(),
+                &letter[1..],
+            );
         }
     }
 
@@ -86,7 +87,11 @@ impl WordDictionary {
             return false;
         }
 
-        let s = if letter[0] == b'.' { b'a'..=b'z' } else { letter[0]..=letter[0] };
+        let s = if letter[0] == b'.' {
+            b'a'..=b'z'
+        } else {
+            letter[0]..=letter[0]
+        };
         for i in s {
             let node = table[(i - b'a') as usize].as_ref();
             if node.is_none() {

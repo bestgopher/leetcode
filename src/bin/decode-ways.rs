@@ -1,8 +1,14 @@
 fn main() {
     println!("{}", Solution::num_decodings("12".to_string()));
     println!("{}", Solution::num_decodings("06".to_string()));
-    println!("{}", Solution::num_decodings("2611055971756562".to_string()));
-    println!("{}", Solution::num_decodings("111111111111111111111111111111111111111111111".to_string()));
+    println!(
+        "{}",
+        Solution::num_decodings("2611055971756562".to_string())
+    );
+    println!(
+        "{}",
+        Solution::num_decodings("111111111111111111111111111111111111111111111".to_string())
+    );
 }
 
 struct Solution;

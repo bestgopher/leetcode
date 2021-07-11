@@ -26,7 +26,9 @@ impl Solution {
                 break;
             } else if nums[middle] > target {
                 // 如果middle在前半区且target大于等于第一个元素，或者middle在后半区
-                if (nums[start] < nums[middle] && target >= nums[start]) || nums[start] > nums[middle] {
+                if (nums[start] < nums[middle] && target >= nums[start])
+                    || nums[start] > nums[middle]
+                {
                     end = middle;
                 } else {
                     start = middle + 1;
@@ -41,6 +43,10 @@ impl Solution {
             middle = (start + end) >> 1;
         }
 
-        if nums[middle] == target { middle as i32 } else { -1 }
+        if nums[middle] == target {
+            middle as i32
+        } else {
+            -1
+        }
     }
 }

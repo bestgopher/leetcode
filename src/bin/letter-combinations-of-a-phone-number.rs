@@ -2,7 +2,9 @@ fn main() {}
 
 struct Solution;
 
-static V: &[&str; 10] = &["", "!@#", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"];
+static V: &[&str; 10] = &[
+    "", "!@#", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz",
+];
 
 impl Solution {
     pub fn letter_combinations(digits: String) -> Vec<String> {

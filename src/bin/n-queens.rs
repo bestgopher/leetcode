@@ -24,7 +24,9 @@ impl Solution {
 
         for i in 0..len {
             // 如果当前点不满足条件，检查下一个点
-            if !Self::check(nums, len - n as usize, i) { continue; }
+            if !Self::check(nums, len - n as usize, i) {
+                continue;
+            }
 
             nums[len - n as usize][i] = b'Q';
             Self::queen(nums, n - 1, r);

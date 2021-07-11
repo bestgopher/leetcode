@@ -1,8 +1,20 @@
 fn main() {
     assert_eq!(true, Solution::search(vec![2, 5, 6, 0, 0, 1, 2], 0));
     assert_eq!(false, Solution::search(vec![2, 5, 6, 0, 0, 1, 2], 3));
-    assert_eq!(true, Solution::search(vec![1, 1, 1, 1, 1, 1, 1, 1, 1, 13, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], 13));
-    assert_eq!(true, Solution::search(vec![1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 1, 1, 1, 1, 1], 2));
+    assert_eq!(
+        true,
+        Solution::search(
+            vec![1, 1, 1, 1, 1, 1, 1, 1, 1, 13, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+            13
+        )
+    );
+    assert_eq!(
+        true,
+        Solution::search(
+            vec![1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 1, 1, 1, 1, 1],
+            2
+        )
+    );
     assert_eq!(true, Solution::search(vec![1, 0, 1, 1, 1], 0));
     assert_eq!(false, Solution::search(vec![1], 0));
     assert_eq!(true, Solution::search(vec![1], 1));

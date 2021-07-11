@@ -1,6 +1,20 @@
 fn main() {
-    assert_eq!("fl".to_string(), Solution::longest_common_prefix(vec!["flower".to_string(), "flow".to_string(), "flight".to_string()]));
-    assert_eq!("".to_string(), Solution::longest_common_prefix(vec!["dog".to_string(), "racecar".to_string(), "car".to_string()]));
+    assert_eq!(
+        "fl".to_string(),
+        Solution::longest_common_prefix(vec![
+            "flower".to_string(),
+            "flow".to_string(),
+            "flight".to_string()
+        ])
+    );
+    assert_eq!(
+        "".to_string(),
+        Solution::longest_common_prefix(vec![
+            "dog".to_string(),
+            "racecar".to_string(),
+            "car".to_string()
+        ])
+    );
 }
 
 struct Solution;

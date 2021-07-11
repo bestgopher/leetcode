@@ -1,11 +1,32 @@
 fn main() {
-    println!("{:?}", Solution::prefix_table("aabaabaaa".to_string().as_bytes()));
-    println!("{:?}", Solution::prefix_table("abcdabca".to_string().as_bytes()));
-    println!("{:?}", Solution::prefix_table("ababcaabc".to_string().as_bytes()));
-    println!("{:?}", Solution::prefix_table("aabaaac".to_string().as_bytes()));
-    println!("{}", Solution::str_str("abxabcabcaby".to_string(), "abcaby".to_string()));
-    println!("{}", Solution::str_str("ababcaababcaabc".to_string(), "ababcaabc".to_string()));
-    println!("{}", Solution::str_str("aabaaabaaac".to_string(), "aabaaac".to_string()));
+    println!(
+        "{:?}",
+        Solution::prefix_table("aabaabaaa".to_string().as_bytes())
+    );
+    println!(
+        "{:?}",
+        Solution::prefix_table("abcdabca".to_string().as_bytes())
+    );
+    println!(
+        "{:?}",
+        Solution::prefix_table("ababcaabc".to_string().as_bytes())
+    );
+    println!(
+        "{:?}",
+        Solution::prefix_table("aabaaac".to_string().as_bytes())
+    );
+    println!(
+        "{}",
+        Solution::str_str("abxabcabcaby".to_string(), "abcaby".to_string())
+    );
+    println!(
+        "{}",
+        Solution::str_str("ababcaababcaabc".to_string(), "ababcaabc".to_string())
+    );
+    println!(
+        "{}",
+        Solution::str_str("aabaaabaaac".to_string(), "aabaaac".to_string())
+    );
 }
 
 struct Solution;
@@ -39,7 +60,7 @@ impl Solution {
     /// 获取到前缀表
     fn prefix_table(nums: &[u8]) -> Vec<usize> {
         let mut tables = vec![0usize; nums.len()];
-        tables[0] = 0;  // 第一个元素的前缀表为0
+        tables[0] = 0; // 第一个元素的前缀表为0
         let mut j = 0;
         for i in 1..nums.len() {
             if nums[j] == nums[i] {

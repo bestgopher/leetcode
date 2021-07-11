@@ -21,14 +21,14 @@ impl TreeNode {
     }
 }
 
-use std::rc::Rc;
 use std::cell::RefCell;
+use std::rc::Rc;
 
 impl Solution {
     pub fn path_sum(root: Option<Rc<RefCell<TreeNode>>>, target_sum: i32) -> Vec<Vec<i32>> {
         match Self::f(root, target_sum) {
             Some(x) => x,
-            None => vec![]
+            None => vec![],
         }
     }
 
@@ -52,7 +52,7 @@ impl Solution {
                 x.iter_mut().for_each(|x| x.insert(0, value));
                 x
             }
-            None => vec![]
+            None => vec![],
         };
 
         let mut right = match Self::f(right, target_sum - value) {
@@ -60,7 +60,7 @@ impl Solution {
                 x.iter_mut().for_each(|x| x.insert(0, value));
                 x
             }
-            None => vec![]
+            None => vec![],
         };
 
         right.append(&mut left);

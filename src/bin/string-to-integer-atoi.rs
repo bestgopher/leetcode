@@ -54,9 +54,17 @@ impl Solution {
         }
 
         if is_positive {
-            if is_overflow { std::i32::MAX } else { result }
+            if is_overflow {
+                std::i32::MAX
+            } else {
+                result
+            }
         } else {
-            if is_overflow { std::i32::MIN } else { result * -1 }
+            if is_overflow {
+                std::i32::MIN
+            } else {
+                result * -1
+            }
         }
     }
 }

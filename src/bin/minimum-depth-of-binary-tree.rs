@@ -61,7 +61,9 @@ impl Solution {
         let mut index = 0;
 
         while index < v.len() {
-            if v[index].0.as_ref().unwrap().borrow().left.is_none() && v[index].0.as_ref().unwrap().borrow().right.is_none() {
+            if v[index].0.as_ref().unwrap().borrow().left.is_none()
+                && v[index].0.as_ref().unwrap().borrow().right.is_none()
+            {
                 height = v[index].1;
                 break;
             }

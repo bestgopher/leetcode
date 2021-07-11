@@ -12,7 +12,9 @@ impl Solution {
                 if j == 0 || j == i - 1 {
                     r.push(1);
                 } else {
-                    r.push(result[i as usize - 2][j as usize - 1] + result[i as usize - 2][j as usize]);
+                    r.push(
+                        result[i as usize - 2][j as usize - 1] + result[i as usize - 2][j as usize],
+                    );
                 }
             }
 
