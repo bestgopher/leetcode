@@ -1,6 +1,6 @@
 # leetcode
 
-当前已刷：234
+当前已刷：235
 
 ### 题目
 - 1：两数之和
@@ -426,6 +426,9 @@
 - 242：有效的字母异位词
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/valid-anagram.rs)
     - [leetcode](https://leetcode-cn.com/problems/valid-anagram/)
+- 257：二叉树的所有路径
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/binary-tree-paths.rs)
+    - [leetcode](https://leetcode-cn.com/problems/binary-tree-paths/)
 - 263：丑数
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/ugly-number.rs)
     - [leetcode](https://leetcode-cn.com/problems/ugly-number/)
