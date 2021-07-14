@@ -1,6 +1,6 @@
 # leetcode
 
-当前已刷：236
+当前已刷：237
 
 ### 题目
 - 1：两数之和
@@ -432,6 +432,9 @@
 - 257：二叉树的所有路径
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/binary-tree-paths.rs)
     - [leetcode](https://leetcode-cn.com/problems/binary-tree-paths/)
+- 258：各位相加
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/add-digits.rs)
+    - [leetcode](https://leetcode-cn.com/problems/add-digits/)
 - 263：丑数
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/ugly-number.rs)
     - [leetcode](https://leetcode-cn.com/problems/ugly-number/)
