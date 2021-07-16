@@ -1,6 +1,6 @@
 # leetcode
 
-当前已刷：237
+当前已刷：238
 
 ### 题目
 - 1：两数之和
@@ -438,6 +438,9 @@
 - 263：丑数
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/ugly-number.rs)
     - [leetcode](https://leetcode-cn.com/problems/ugly-number/)
+- 268：丢失的数字
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/missing-number.rs)
+    - [leetcode](https://leetcode-cn.com/problems/missing-number/)
 - 290：单词规律
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/word-pattern.rs)
     - [leetcode](https://leetcode-cn.com/problems/word-pattern/)
