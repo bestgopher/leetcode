@@ -1,6 +1,6 @@
 # leetcode
 
-当前已刷：238
+当前已刷：239
 
 ### 题目
 - 1：两数之和
@@ -441,6 +441,9 @@
 - 268：丢失的数字
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/missing-number.rs)
     - [leetcode](https://leetcode-cn.com/problems/missing-number/)
+- 274：H 指数
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/h-index.rs)
+    - [leetcode](https://leetcode-cn.com/problems/h-index/)
 - 290：单词规律
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/word-pattern.rs)
     - [leetcode](https://leetcode-cn.com/problems/word-pattern/)
