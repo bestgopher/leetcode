@@ -1,6 +1,6 @@
 # leetcode
 
-当前已刷：239
+当前已刷：240
 
 ### 题目
 - 1：两数之和
@@ -444,6 +444,9 @@
 - 274：H 指数
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/h-index.rs)
     - [leetcode](https://leetcode-cn.com/problems/h-index/)
+- 278：第一个错误的版本
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/first-bad-version.rs)
+    - [leetcode](https://leetcode-cn.com/problems/first-bad-version/)
 - 290：单词规律
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/word-pattern.rs)
     - [leetcode](https://leetcode-cn.com/problems/word-pattern/)
