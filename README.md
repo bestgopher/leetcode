@@ -1,6 +1,6 @@
 # leetcode
 
-当前已刷：240
+当前已刷：241
 
 ### 题目
 - 1：两数之和
@@ -450,6 +450,9 @@
 - 290：单词规律
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/word-pattern.rs)
     - [leetcode](https://leetcode-cn.com/problems/word-pattern/)
+- 303：区域和检索 - 数组不可变
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/range-sum-query-immutable.rs)
+    - [leetcode](https://leetcode-cn.com/problems/range-sum-query-immutable/)
 - 349：两个数组的交集
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/intersection-of-two-arrays.rs)
     - [leetcode](https://leetcode-cn.com/problems/intersection-of-two-arrays/)
