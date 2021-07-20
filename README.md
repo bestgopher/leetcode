@@ -1,6 +1,6 @@
 # leetcode
 
-当前已刷：241
+当前已刷：242
 
 ### 题目
 - 1：两数之和
@@ -453,6 +453,9 @@
 - 303：区域和检索 - 数组不可变
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/range-sum-query-immutable.rs)
     - [leetcode](https://leetcode-cn.com/problems/range-sum-query-immutable/)
+- 318：最大单词长度乘积
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-product-of-word-lengths.rs)
+    - [leetcode](https://leetcode-cn.com/problems/maximum-product-of-word-lengths/)
 - 349：两个数组的交集
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/intersection-of-two-arrays.rs)
     - [leetcode](https://leetcode-cn.com/problems/intersection-of-two-arrays/)
