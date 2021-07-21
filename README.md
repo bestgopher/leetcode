@@ -1,6 +1,6 @@
 # leetcode
 
-当前已刷：242
+当前已刷：243
 
 ### 题目
 - 1：两数之和
@@ -456,6 +456,9 @@
 - 318：最大单词长度乘积
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-product-of-word-lengths.rs)
     - [leetcode](https://leetcode-cn.com/problems/maximum-product-of-word-lengths/)
+- 319：灯泡开关
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/bulb-switcher.rs)
+    - [leetcode](https://leetcode-cn.com/problems/bulb-switcher/)
 - 349：两个数组的交集
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/intersection-of-two-arrays.rs)
     - [leetcode](https://leetcode-cn.com/problems/intersection-of-two-arrays/)
