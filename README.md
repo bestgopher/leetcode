@@ -1,6 +1,6 @@
 # leetcode
 
-当前已刷：243
+当前已刷：244
 
 ### 题目
 - 1：两数之和
@@ -462,6 +462,9 @@
 - 349：两个数组的交集
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/intersection-of-two-arrays.rs)
     - [leetcode](https://leetcode-cn.com/problems/intersection-of-two-arrays/)
+- 357：计算各个位数不同的数字个数
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/count-numbers-with-unique-digits.rs)
+    - [leetcode](https://leetcode-cn.com/problems/count-numbers-with-unique-digits/)
 - 367：有效的完全平方数
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/valid-perfect-square.rs)
     - [leetcode](https://leetcode-cn.com/problems/valid-perfect-square/)
