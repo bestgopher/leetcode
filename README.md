@@ -1,6 +1,6 @@
 # leetcode
 
-当前已刷：244
+当前已刷：245
 
 ### 题目
 - 1：两数之和
@@ -459,6 +459,9 @@
 - 319：灯泡开关
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/bulb-switcher.rs)
     - [leetcode](https://leetcode-cn.com/problems/bulb-switcher/)
+- 326：3的幂
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/power-of-three.rs)
+    - [leetcode](https://leetcode-cn.com/problems/power-of-three/)
 - 349：两个数组的交集
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/intersection-of-two-arrays.rs)
     - [leetcode](https://leetcode-cn.com/problems/intersection-of-two-arrays/)
