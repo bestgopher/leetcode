@@ -1,6 +1,6 @@
 # leetcode
 
-当前已刷：245
+当前已刷：246
 
 ### 题目
 - 1：两数之和
@@ -447,6 +447,9 @@
 - 278：第一个错误的版本
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/first-bad-version.rs)
     - [leetcode](https://leetcode-cn.com/problems/first-bad-version/)
+- 279：完全平方数
+    - [src](https://github.com/rustors/leetcode/blob/main/src/bin/perfect-squares.rs)
+    - [leetcode](https://leetcode-cn.com/problems/perfect-squares/)
 - 290：单词规律
     - [src](https://github.com/rustors/leetcode/blob/main/src/bin/word-pattern.rs)
     - [leetcode](https://leetcode-cn.com/problems/word-pattern/)
