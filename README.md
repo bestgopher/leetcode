@@ -1,6 +1,6 @@
 # leetcode
 
-当前已刷：202
+当前已刷：203
 
 ### 题目
 
@@ -196,6 +196,7 @@
 |1666    | 整理字符串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/.rs) | [leetcode](https://leetcode-cn.com/problems/) |
 |1791    | 最富有客户的资产总量 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/.rs) | [leetcode](https://leetcode-cn.com/problems/) |
 |1806    | 比赛中的配对次数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/.rs) | [leetcode](https://leetcode-cn.com/problems/) |
+|1983    | 人口最多的年份 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/.rs) | [leetcode](https://leetcode-cn.com/problems/) |
 |1983    | 人口最多的年份 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-population-year.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-population-year) |
 |100273    | 用两个栈实现队列 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/.rs) | [leetcode](https://leetcode-cn.com/problems/) |
 |100274    | 斐波那契数列 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/.rs) | [leetcode](https://leetcode-cn.com/problems/) |
