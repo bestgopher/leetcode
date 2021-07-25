@@ -6,7 +6,7 @@ use regex::Regex;
 use crate::http::{Resp, Data, Ques};
 
 lazy_static!(
-    static ref RE: Regex = Regex::new(r"\|\s*([0-9]*)\s*\|\s*(\w*)\s*\|.*?bin/(.*?).rs.*?\|.*?\|").unwrap();
+    static ref RE: Regex = Regex::new(r"\|\s*([0-9]*)\s*\|\s*(.*?)\s*\|.*?bin/(.*?).rs.*?\|.*?\|").unwrap();
 );
 
 /// 将结果写入README.md中
@@ -77,7 +77,7 @@ fn parse(contents: &str) -> Vec<Resp> {
                         translated_title: i.get(2).unwrap().as_str().to_string(),
                         title_slug: String::new(),
                         code_snippets: vec![],
-                        difficulty: String::new()
+                        difficulty: String::new(),
                     }
                 },
             })
@@ -93,11 +93,14 @@ mod tests {
 
     #[test]
     fn test_parse_readme() {
-        let content = r"| 1111   | 两数之和| [src](https://github.com/rustors/leetcode/blob/main/src/bin/two_sum.rs) | [leetcode](https://leetcode-cn.com/problems/two_sum/) |
-        | 1112   | 两数之和| [src](https://github.com/rustors/leetcode/blob/main/src/bin/two_sum.rs) | [leetcode](https://leetcode-cn.com/problems/two_sum/) |
-        ";
+        let contents = std::fs::read_to_string("README.md").unwrap();
+        let x = parse(&contents);
+        println!("{:?}", x);
+        println!("{}", x.len());
 
-        println!("{:?}", parse(content));
+        for i in x {
+            println!("{}", i.data.question.translated_title);
+        }
     }
 
     #[test]

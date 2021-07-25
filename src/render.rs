@@ -10,7 +10,7 @@ const TEMPLATE_STR: &str = r"# leetcode
 
 | 编号 | 题目  | 描述                                                            | 代码                                                  |
 | ---- | ----- | ------------------------------------------------------------ | ----------------------------------------------------- |
-{% for t in datas %}|{{ t.data.question.questionId }}    | {{ t.data.question.translatedTitle }} | [src](https://github.com/rustors/leetcode/blob/main/src/bin/{{ t.data.question.titleSlug }}.rs) | [leetcode](https://leetcode-cn.com/problems/{{ t.data.question.titleSlug }}) |
+{% for t in datas %}|{{ t.data.question.questionId }}    | {{ t.data.question.translatedTitle }} | [src](https://github.com/rustors/leetcode/blob/main/src/bin/{{ t.data.question.titleSlug }}.rs) | [leetcode](https://leetcode-cn.com/problems/{{ t.data.question.titleSlug }}/) |
 {% endfor %}";
 
 /// 模板名字
