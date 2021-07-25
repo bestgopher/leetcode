@@ -23,7 +23,7 @@ impl TreeNode {
 }
 
 use std::cell::RefCell;
-use std::ops::Deref;
+
 use std::rc::Rc;
 
 struct Solution;

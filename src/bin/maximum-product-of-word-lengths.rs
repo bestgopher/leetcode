@@ -8,7 +8,7 @@ impl Solution {
 
         for i in 0..words.len() {
             for &j in words[i].as_bytes() {
-                v[i] |= (1 << (j - b'a'));
+                v[i] |= 1 << (j - b'a');
             }
         }
 

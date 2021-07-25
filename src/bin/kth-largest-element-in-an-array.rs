@@ -17,7 +17,7 @@ impl Solution {
     }
 
     fn heapify(nums: &mut [i32]) {
-        let mut index = (nums.len() - 1) / 2;
+        let index = (nums.len() - 1) / 2;
 
         for i in (0..=index).rev() {
             Self::down_heap(nums, i);

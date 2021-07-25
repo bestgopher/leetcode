@@ -7,7 +7,7 @@ impl Solution {
         if s.is_empty() {
             return s;
         }
-        let mut s = s.as_bytes();
+        let s = s.as_bytes();
         let (mut start, mut end) = (0, s.len() - 1);
 
         for i in 0..s.len() {

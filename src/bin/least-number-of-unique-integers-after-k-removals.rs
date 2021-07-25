@@ -10,7 +10,7 @@ impl Solution {
             h.entry(i).and_modify(|x| *x += 1).or_insert(1);
         }
 
-        let mut s = h.iter().map(|(x, y)| *y).collect::<Vec<i32>>();
+        let mut s = h.iter().map(|(_x, y)| *y).collect::<Vec<i32>>();
         s.sort();
 
         let (mut l, mut k) = (h.len(), k);

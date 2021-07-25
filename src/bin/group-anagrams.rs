@@ -16,7 +16,7 @@ impl Solution {
                 .or_insert(vec![i]);
         }
 
-        hash.into_iter().map(|(x, y)| y).collect()
+        hash.into_iter().map(|(_x, y)| y).collect()
     }
 
     // 计算字母出现的个数
@@ -37,6 +37,6 @@ impl Solution {
             }
         }
 
-        hash.into_iter().map(|(x, y)| y).collect()
+        hash.into_iter().map(|(_x, y)| y).collect()
     }
 }

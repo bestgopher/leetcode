@@ -8,7 +8,7 @@ impl Solution {
             return n;
         }
         let (mut last, mut result) = (1, 1);
-        for i in 2..n {
+        for _i in 2..n {
             let result1 = result + last;
             last = result;
             result = result1 % 1000000007;

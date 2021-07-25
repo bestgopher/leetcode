@@ -34,7 +34,7 @@ impl Solution {
         let mut root = v.pop().unwrap();
         let mut s = &mut root;
         while !v.is_empty() {
-            let mut node = v.pop().unwrap();
+            let node = v.pop().unwrap();
             s.as_mut().unwrap().next = node;
             s = &mut s.as_mut().unwrap().next;
         }

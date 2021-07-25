@@ -11,7 +11,12 @@ git2 = "0.13.15"
 reqwest = { version = "0.10", features = ["blocking", "json"] }
 serde_json = "1.0"
 serde = { version = "1.0", features = ["derive"] }
+clap = "3.0.0-beta.2"
+tera = "1.12.1"
+lazy_static = "1.4.0"
+regex = "1"
+
 
 [[bin]]
 name ="leetcode"
-path ="src/main.rs"
+path = "src/main.rs"

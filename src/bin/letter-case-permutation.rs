@@ -11,7 +11,7 @@ impl Solution {
 
     fn func(s: String, v: &mut Vec<String>, index: usize) {
         let mut new_s = s.clone();
-        let mut new_s = unsafe { new_s.as_bytes_mut() };
+        let new_s = unsafe { new_s.as_bytes_mut() };
         v.push(s);
         if index == new_s.len() {
             return;

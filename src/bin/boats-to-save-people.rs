@@ -44,7 +44,7 @@ impl Solution {
         count
     }
 
-    pub fn num_rescue_boats(mut people: Vec<i32>, limit: i32) -> i32 {
+    pub fn num_rescue_boats(people: Vec<i32>, limit: i32) -> i32 {
         let mut v = vec![0; (limit + 1) as usize];
 
         for i in people {
