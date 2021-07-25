@@ -75,7 +75,7 @@ fn parse(contents: &str) -> Vec<Resp> {
                     question: Ques {
                         question_id: i.get(1).unwrap().as_str().to_string(),
                         translated_title: i.get(2).unwrap().as_str().to_string(),
-                        title_slug: String::new(),
+                        title_slug: i.get(3).unwrap().as_str().to_string(),
                         code_snippets: vec![],
                         difficulty: String::new(),
                     }
@@ -99,7 +99,7 @@ mod tests {
         println!("{}", x.len());
 
         for i in x {
-            println!("{}", i.data.question.translated_title);
+            println!("{}, {}, {}", i.data.question.translated_title, i.data.question.question_id, i.data.question.title_slug);
         }
     }
 
