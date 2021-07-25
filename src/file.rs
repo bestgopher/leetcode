@@ -6,7 +6,7 @@ use regex::Regex;
 use crate::http::{Resp, Data, Ques};
 
 lazy_static!(
-    static ref RE: Regex = Regex::new(r"\|\s*([0-9]*)\s*\|\s*(.*?)\s*\|.*?bin/(.*?).rs.*?\|.*?\|").unwrap();
+    static ref RE: Regex = Regex::new(r"\|\s*([0-9]*)\s*\|\s*(.*?)\s*\|.*?bin/(.*?)\.rs.*?\|.*?\|").unwrap();
 );
 
 /// 将结果写入README.md中
