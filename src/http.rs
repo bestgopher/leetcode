@@ -8,7 +8,7 @@ lazy_static! {
     static ref RE: Regex = Regex::new(r".*?/problems/(.*?)/").unwrap();
 }
 
-const URL: &'static str = "https://leetcode-cn.com/graphql/";
+const URL: &str = "https://leetcode-cn.com/graphql/";
 
 #[derive(Deserialize, Serialize, Debug)]
 pub struct Ques {

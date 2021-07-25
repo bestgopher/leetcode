@@ -52,7 +52,7 @@ pub fn write_question(resp: Resp) {
     for i in resp.data.question.code_snippets {
         if i.lang == "Rust" {
             s.push_str(i.code.replace("↵", "\n").as_str());
-            s.push_str("\n");
+            s.push('\n');
             break;
         }
     }

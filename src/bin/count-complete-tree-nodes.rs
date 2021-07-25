@@ -21,9 +21,9 @@ impl TreeNode {
     }
 }
 
-use std::arch::x86_64::_mm_xor_pd;
+
 use std::cell::RefCell;
-use std::cmp::{max, min};
+
 use std::rc::Rc;
 
 impl Solution {
@@ -70,7 +70,7 @@ impl Solution {
         }
 
         while max_count - min_count > 1 {
-            let mut middle = (min_count + max_count) / 2;
+            let middle = (min_count + max_count) / 2;
 
             let e = exists(root.as_ref(), middle, level);
             if e {

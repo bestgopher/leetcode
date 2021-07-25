@@ -3,7 +3,7 @@ fn main() {}
 struct Solution;
 
 impl Solution {
-    pub fn magical_string(mut n: i32) -> i32 {
+    pub fn magical_string(n: i32) -> i32 {
         if n == 0 {
             return 0;
         }

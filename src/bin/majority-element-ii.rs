@@ -22,8 +22,8 @@ impl Solution {
         }
 
         m.iter()
-            .filter(|(&x, &y)| y > length)
-            .map(|(&x, &y)| x)
+            .filter(|(&_x, &y)| y > length)
+            .map(|(&x, &_y)| x)
             .collect()
     }
 
@@ -106,7 +106,7 @@ impl Solution {
                 None
             })
             .filter(|x| x.is_some())
-            .map(|mut x| x.unwrap())
+            .map(|x| x.unwrap())
             .collect()
     }
 }

@@ -26,7 +26,7 @@ pub fn run() {
             Ok(x) => new::new(x),
             Err(_) => println!("please input the name of question")
         }
-    } else if let Some(_) = matches.subcommand_matches("all") {
+    } else if matches.subcommand_matches("all").is_some() {
         all::all();
     } else {
         git::push();

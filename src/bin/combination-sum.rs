@@ -22,7 +22,7 @@ impl Solution {
                 v.push(i);
                 r.push(v);
             } else if i < target {
-                let mut x = Self::calc(&candidates, target - i);
+                let x = Self::calc(&candidates, target - i);
                 for mut m in x {
                     if !m.is_empty() {
                         if i >= *m.last().unwrap() {

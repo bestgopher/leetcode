@@ -58,8 +58,8 @@ impl Solution {
             index += 1;
         }
 
-        let f = k_node.unwrap().val;
-        let s = slow.unwrap().val;
+        let _f = k_node.unwrap().val;
+        let _s = slow.unwrap().val;
 
         head
     }

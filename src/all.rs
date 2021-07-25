@@ -9,7 +9,7 @@ use crate::http::Resp;
 pub fn all() {
     let files = file::get_all_bin_file();
 
-    let mut v = Vec::<Resp>::with_capacity(files.len());
+    let v = Vec::<Resp>::with_capacity(files.len());
 
     let x = Arc::new(Mutex::new(v));
     let mut handlers = vec![];
@@ -26,6 +26,7 @@ pub fn all() {
 
         handlers.push(thread::spawn(move || {
             for i in files {
+                println!("{} downloading", i);
                 let resp = crate::http::get_question_info(&i);
                 x.lock().unwrap().push(resp);
             }
@@ -33,7 +34,7 @@ pub fn all() {
     }
 
     for i in handlers {
-        i.join();
+        i.join().unwrap();
     }
 
     crate::file::write_readme(&mut *x.lock().unwrap());

@@ -27,7 +27,7 @@ impl Solution {
         }
 
         let index = Self::split(&arr, x);
-        let (mut start, mut end, mut k) = (index, index, k as usize);
+        let (mut start, mut end, k) = (index, index, k as usize);
         while end - start < k - 1 {
             if start == 0 {
                 end += 1;

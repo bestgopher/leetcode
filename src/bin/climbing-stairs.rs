@@ -1,4 +1,4 @@
-use std::ptr::hash;
+
 
 fn main() {}
 
@@ -12,7 +12,7 @@ impl Solution {
 
         let (mut a, mut b) = (1, 2);
 
-        for i in 3..=n {
+        for _i in 3..=n {
             let a1 = a;
             a = b;
             b = a1 + b;
