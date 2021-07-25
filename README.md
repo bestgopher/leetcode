@@ -7,11 +7,11 @@
 | 编号 | 题目  | 描述                                                            | 代码                                                  |
 | ---- | ----- | ------------------------------------------------------------ | ----------------------------------------------------- |
 |1    | 两数之和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/two-sum.rs) | [leetcode](https://leetcode-cn.com/problems/two-sum/) |
-|2    | 两数相加 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/add-two-numbers.rs) | [leetcode](https://leetcode-cn.com/problems/add-two-numbers/) |
-|3    | 无重复字符的最长子串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/longest-substring-without-repeating-characters.rs) | [leetcode](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/) |
+|2    | 两数相加 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/add-two-numb.rs) | [leetcode](https://leetcode-cn.com/problems/add-two-numb/) |
+|3    | 无重复字符的最长子串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/longest-substring-without-repeating-charact.rs) | [leetcode](https://leetcode-cn.com/problems/longest-substring-without-repeating-charact/) |
 |4    | 寻找两个正序数组的中位数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/median-of-two-sorted-arrays.rs) | [leetcode](https://leetcode-cn.com/problems/median-of-two-sorted-arrays/) |
-|6    | Z 字形变换 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/zigzag-conversion.rs) | [leetcode](https://leetcode-cn.com/problems/zigzag-conversion/) |
-|7    | 整数反转 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/reverse-integer.rs) | [leetcode](https://leetcode-cn.com/problems/reverse-integer/) |
+|6    | Z 字形变换 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/zigzag-conv.rs) | [leetcode](https://leetcode-cn.com/problems/zigzag-conv/) |
+|7    | 整数反转 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/rev.rs) | [leetcode](https://leetcode-cn.com/problems/rev/) |
 |8    | 字符串转换整数 (atoi) | [src](https://github.com/rustors/leetcode/blob/main/src/bin/string-to-integer-atoi.rs) | [leetcode](https://leetcode-cn.com/problems/string-to-integer-atoi/) |
 |9    | 回文数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/palindrome-number.rs) | [leetcode](https://leetcode-cn.com/problems/palindrome-number/) |
 |11    | 盛最多水的容器 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/container-with-most-water.rs) | [leetcode](https://leetcode-cn.com/problems/container-with-most-water/) |
@@ -26,19 +26,19 @@
 |20    | 有效的括号 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/valid-parentheses.rs) | [leetcode](https://leetcode-cn.com/problems/valid-parentheses/) |
 |21    | 合并两个有序链表 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/merge-two-sorted-lists.rs) | [leetcode](https://leetcode-cn.com/problems/merge-two-sorted-lists/) |
 |23    | 合并K个升序链表 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/merge-k-sorted-lists.rs) | [leetcode](https://leetcode-cn.com/problems/merge-k-sorted-lists/) |
-|24    | 两两交换链表中的节点 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/swap-nodes-in-pairs.rs) | [leetcode](https://leetcode-cn.com/problems/swap-nodes-in-pairs/) |
-|25    | K 个一组翻转链表 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/reverse-nodes-in-k-group.rs) | [leetcode](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/) |
+|24    | 两两交换链表中的节点 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/swap-nodes-in-pa.rs) | [leetcode](https://leetcode-cn.com/problems/swap-nodes-in-pa/) |
+|25    | K 个一组翻转链表 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/rev.rs) | [leetcode](https://leetcode-cn.com/problems/rev/) |
 |26    | 删除有序数组中的重复项 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/remove-duplicates-from-sorted-array.rs) | [leetcode](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) |
 |27    | 移除元素 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/remove-element.rs) | [leetcode](https://leetcode-cn.com/problems/remove-element/) |
-|28    | 实现 strStr() | [src](https://github.com/rustors/leetcode/blob/main/src/bin/implement-strstr.rs) | [leetcode](https://leetcode-cn.com/problems/implement-strstr/) |
+|28    | 实现 strStr() | [src](https://github.com/rustors/leetcode/blob/main/src/bin/implement-s.rs) | [leetcode](https://leetcode-cn.com/problems/implement-s/) |
 |31    | 下一个排列 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/next-permutation.rs) | [leetcode](https://leetcode-cn.com/problems/next-permutation/) |
 |33    | 搜索旋转排序数组 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/search-in-rotated-sorted-array.rs) | [leetcode](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/) |
-|34    | 在排序数组中查找元素的第一个和最后一个位置 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-first-and-last-position-of-element-in-sorted-array.rs) | [leetcode](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/) |
+|34    | 在排序数组中查找元素的第一个和最后一个位置 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-f.rs) | [leetcode](https://leetcode-cn.com/problems/find-f/) |
 |35    | 搜索插入位置 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/search-insert-position.rs) | [leetcode](https://leetcode-cn.com/problems/search-insert-position/) |
 |36    | 有效的数独 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/valid-sudoku.rs) | [leetcode](https://leetcode-cn.com/problems/valid-sudoku/) |
 |38    | 外观数列 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/count-and-say.rs) | [leetcode](https://leetcode-cn.com/problems/count-and-say/) |
 |39    | 组合总和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/combination-sum.rs) | [leetcode](https://leetcode-cn.com/problems/combination-sum/) |
-|41    | 缺失的第一个正数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/first-missing-positive.rs) | [leetcode](https://leetcode-cn.com/problems/first-missing-positive/) |
+|41    | 缺失的第一个正数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/f.rs) | [leetcode](https://leetcode-cn.com/problems/f/) |
 |43    | 字符串相乘 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/multiply-strings.rs) | [leetcode](https://leetcode-cn.com/problems/multiply-strings/) |
 |45    | 跳跃游戏 II | [src](https://github.com/rustors/leetcode/blob/main/src/bin/jump-game-ii.rs) | [leetcode](https://leetcode-cn.com/problems/jump-game-ii/) |
 |46    | 全排列 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/permutations.rs) | [leetcode](https://leetcode-cn.com/problems/permutations/) |
@@ -58,11 +58,11 @@
 |66    | 加一 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/plus-one.rs) | [leetcode](https://leetcode-cn.com/problems/plus-one/) |
 |67    | 二进制求和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/add-binary.rs) | [leetcode](https://leetcode-cn.com/problems/add-binary/) |
 |69    | x 的平方根 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/sqrtx.rs) | [leetcode](https://leetcode-cn.com/problems/sqrtx/) |
-|70    | 爬楼梯 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/climbing-stairs.rs) | [leetcode](https://leetcode-cn.com/problems/climbing-stairs/) |
+|70    | 爬楼梯 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/climbing-sta.rs) | [leetcode](https://leetcode-cn.com/problems/climbing-sta/) |
 |71    | 简化路径 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/simplify-path.rs) | [leetcode](https://leetcode-cn.com/problems/simplify-path/) |
 |73    | 矩阵置零 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/set-matrix-zeroes.rs) | [leetcode](https://leetcode-cn.com/problems/set-matrix-zeroes/) |
 |74    | 搜索二维矩阵 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/search-a-2d-matrix.rs) | [leetcode](https://leetcode-cn.com/problems/search-a-2d-matrix/) |
-|75    | 颜色分类 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/sort-colors.rs) | [leetcode](https://leetcode-cn.com/problems/sort-colors/) |
+|75    | 颜色分类 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/sort-col.rs) | [leetcode](https://leetcode-cn.com/problems/sort-col/) |
 |77    | 组合 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/combinations.rs) | [leetcode](https://leetcode-cn.com/problems/combinations/) |
 |78    | 子集 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/subsets.rs) | [leetcode](https://leetcode-cn.com/problems/subsets/) |
 |79    | 单词搜索 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/word-search.rs) | [leetcode](https://leetcode-cn.com/problems/word-search/) |
@@ -74,18 +74,18 @@
 |89    | 格雷编码 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/gray-code.rs) | [leetcode](https://leetcode-cn.com/problems/gray-code/) |
 |91    | 解码方法 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/decode-ways.rs) | [leetcode](https://leetcode-cn.com/problems/decode-ways/) |
 |93    | 复原 IP 地址 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/restore-ip-addresses.rs) | [leetcode](https://leetcode-cn.com/problems/restore-ip-addresses/) |
-|94    | 二叉树的中序遍历 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/binary-tree-inorder-traversal.rs) | [leetcode](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/) |
+|94    | 二叉树的中序遍历 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/binary-tree-inorder-trav.rs) | [leetcode](https://leetcode-cn.com/problems/binary-tree-inorder-trav/) |
 |95    | 不同的二叉搜索树 II | [src](https://github.com/rustors/leetcode/blob/main/src/bin/unique-binary-search-trees-ii.rs) | [leetcode](https://leetcode-cn.com/problems/unique-binary-search-trees-ii/) |
 |96    | 不同的二叉搜索树 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/unique-binary-search-trees.rs) | [leetcode](https://leetcode-cn.com/problems/unique-binary-search-trees/) |
 |98    | 验证二叉搜索树 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/validate-binary-search-tree.rs) | [leetcode](https://leetcode-cn.com/problems/validate-binary-search-tree/) |
 |100    | 相同的树 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/same-tree.rs) | [leetcode](https://leetcode-cn.com/problems/same-tree/) |
 |101    | 对称二叉树 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/symmetric-tree.rs) | [leetcode](https://leetcode-cn.com/problems/symmetric-tree/) |
-|102    | 二叉树的层序遍历 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/binary-tree-level-order-traversal.rs) | [leetcode](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/) |
-|103    | 二叉树的锯齿形层序遍历 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/binary-tree-zigzag-level-order-traversal.rs) | [leetcode](https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal/) |
+|102    | 二叉树的层序遍历 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/binary-tree-level-order-trav.rs) | [leetcode](https://leetcode-cn.com/problems/binary-tree-level-order-trav/) |
+|103    | 二叉树的锯齿形层序遍历 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/binary-tree-zigzag-level-order-trav.rs) | [leetcode](https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-trav/) |
 |104    | 二叉树的最大深度 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-depth-of-binary-tree.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/) |
-|105    | 从前序与中序遍历序列构造二叉树 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/construct-binary-tree-from-preorder-and-inorder-traversal.rs) | [leetcode](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) |
-|106    | 从中序与后序遍历序列构造二叉树 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/construct-binary-tree-from-inorder-and-postorder-traversal.rs) | [leetcode](https://leetcode-cn.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/) |
-|107    | 二叉树的层序遍历 II | [src](https://github.com/rustors/leetcode/blob/main/src/bin/binary-tree-level-order-traversal-ii.rs) | [leetcode](https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii/) |
+|105    | 从前序与中序遍历序列构造二叉树 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/construct-binary-tree-from-preorder-and-inorder-trav.rs) | [leetcode](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-trav/) |
+|106    | 从中序与后序遍历序列构造二叉树 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/construct-binary-tree-from-inorder-and-postorder-trav.rs) | [leetcode](https://leetcode-cn.com/problems/construct-binary-tree-from-inorder-and-postorder-trav/) |
+|107    | 二叉树的层序遍历 II | [src](https://github.com/rustors/leetcode/blob/main/src/bin/binary-tree-level-order-trav.rs) | [leetcode](https://leetcode-cn.com/problems/binary-tree-level-order-trav/) |
 |108    | 将有序数组转换为二叉搜索树 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/convert-sorted-array-to-binary-search-tree.rs) | [leetcode](https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree/) |
 |110    | 平衡二叉树 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/balanced-binary-tree.rs) | [leetcode](https://leetcode-cn.com/problems/balanced-binary-tree/) |
 |111    | 二叉树的最小深度 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-depth-of-binary-tree.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/) |
@@ -97,18 +97,18 @@
 |121    | 买卖股票的最佳时机 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/best-time-to-buy-and-sell-stock.rs) | [leetcode](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/) |
 |122    | 买卖股票的最佳时机 II | [src](https://github.com/rustors/leetcode/blob/main/src/bin/best-time-to-buy-and-sell-stock-ii.rs) | [leetcode](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/) |
 |125    | 验证回文串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/valid-palindrome.rs) | [leetcode](https://leetcode-cn.com/problems/valid-palindrome/) |
-|129    | 求根节点到叶节点数字之和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/sum-root-to-leaf-numbers.rs) | [leetcode](https://leetcode-cn.com/problems/sum-root-to-leaf-numbers/) |
+|129    | 求根节点到叶节点数字之和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/sum-root-to-leaf-numb.rs) | [leetcode](https://leetcode-cn.com/problems/sum-root-to-leaf-numb/) |
 |136    | 只出现一次的数字 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/single-number.rs) | [leetcode](https://leetcode-cn.com/problems/single-number/) |
 |137    | 只出现一次的数字 II | [src](https://github.com/rustors/leetcode/blob/main/src/bin/single-number-ii.rs) | [leetcode](https://leetcode-cn.com/problems/single-number-ii/) |
-|144    | 二叉树的前序遍历 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/binary-tree-preorder-traversal.rs) | [leetcode](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/) |
-|145    | 二叉树的后序遍历 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/binary-tree-postorder-traversal.rs) | [leetcode](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/) |
-|150    | 逆波兰表达式求值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/evaluate-reverse-polish-notation.rs) | [leetcode](https://leetcode-cn.com/problems/evaluate-reverse-polish-notation/) |
-|151    | 翻转字符串里的单词 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/reverse-words-in-a-string.rs) | [leetcode](https://leetcode-cn.com/problems/reverse-words-in-a-string/) |
+|144    | 二叉树的前序遍历 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/binary-tree-preorder-trav.rs) | [leetcode](https://leetcode-cn.com/problems/binary-tree-preorder-trav/) |
+|145    | 二叉树的后序遍历 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/binary-tree-postorder-trav.rs) | [leetcode](https://leetcode-cn.com/problems/binary-tree-postorder-trav/) |
+|150    | 逆波兰表达式求值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/evaluate-rev.rs) | [leetcode](https://leetcode-cn.com/problems/evaluate-rev/) |
+|151    | 翻转字符串里的单词 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/rev.rs) | [leetcode](https://leetcode-cn.com/problems/rev/) |
 |152    | 乘积最大子数组 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-product-subarray.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-product-subarray/) |
 |153    | 寻找旋转排序数组中的最小值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-minimum-in-rotated-sorted-array.rs) | [leetcode](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/) |
 |155    | 最小栈 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/min-stack.rs) | [leetcode](https://leetcode-cn.com/problems/min-stack/) |
 |162    | 寻找峰值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-peak-element.rs) | [leetcode](https://leetcode-cn.com/problems/find-peak-element/) |
-|165    | 比较版本号 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/compare-version-numbers.rs) | [leetcode](https://leetcode-cn.com/problems/compare-version-numbers/) |
+|165    | 比较版本号 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/compare-v.rs) | [leetcode](https://leetcode-cn.com/problems/compare-v/) |
 |166    | 分数到小数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/fraction-to-recurring-decimal.rs) | [leetcode](https://leetcode-cn.com/problems/fraction-to-recurring-decimal/) |
 |167    | 两数之和 II - 输入有序数组 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/two-sum-ii-input-array-is-sorted.rs) | [leetcode](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/) |
 |168    | Excel表列名称 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/excel-sheet-column-title.rs) | [leetcode](https://leetcode-cn.com/problems/excel-sheet-column-title/) |
@@ -117,17 +117,17 @@
 |172    | 阶乘后的零 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/factorial-trailing-zeroes.rs) | [leetcode](https://leetcode-cn.com/problems/factorial-trailing-zeroes/) |
 |173    | 二叉搜索树迭代器 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/binary-search-tree-iterator.rs) | [leetcode](https://leetcode-cn.com/problems/binary-search-tree-iterator/) |
 |187    | 重复的DNA序列 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/repeated-dna-sequences.rs) | [leetcode](https://leetcode-cn.com/problems/repeated-dna-sequences/) |
-|190    | 颠倒二进制位 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/reverse-bits.rs) | [leetcode](https://leetcode-cn.com/problems/reverse-bits/) |
+|190    | 颠倒二进制位 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/rev.rs) | [leetcode](https://leetcode-cn.com/problems/rev/) |
 |191    | 位1的个数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/number-of-1-bits.rs) | [leetcode](https://leetcode-cn.com/problems/number-of-1-bits/) |
 |198    | 打家劫舍 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/house-robber.rs) | [leetcode](https://leetcode-cn.com/problems/house-robber/) |
 |199    | 二叉树的右视图 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/binary-tree-right-side-view.rs) | [leetcode](https://leetcode-cn.com/problems/binary-tree-right-side-view/) |
 |200    | 岛屿数量 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/number-of-islands.rs) | [leetcode](https://leetcode-cn.com/problems/number-of-islands/) |
-|201    | 数字范围按位与 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/bitwise-and-of-numbers-range.rs) | [leetcode](https://leetcode-cn.com/problems/bitwise-and-of-numbers-range/) |
+|201    | 数字范围按位与 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/bitwise-and-of-numb.rs) | [leetcode](https://leetcode-cn.com/problems/bitwise-and-of-numb/) |
 |202    | 快乐数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/happy-number.rs) | [leetcode](https://leetcode-cn.com/problems/happy-number/) |
 |203    | 移除链表元素 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/remove-linked-list-elements.rs) | [leetcode](https://leetcode-cn.com/problems/remove-linked-list-elements/) |
 |204    | 计数质数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/count-primes.rs) | [leetcode](https://leetcode-cn.com/problems/count-primes/) |
 |205    | 同构字符串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/isomorphic-strings.rs) | [leetcode](https://leetcode-cn.com/problems/isomorphic-strings/) |
-|206    | 反转链表 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/reverse-linked-list.rs) | [leetcode](https://leetcode-cn.com/problems/reverse-linked-list/) |
+|206    | 反转链表 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/rev.rs) | [leetcode](https://leetcode-cn.com/problems/rev/) |
 |208    | 实现 Trie (前缀树) | [src](https://github.com/rustors/leetcode/blob/main/src/bin/implement-trie-prefix-tree.rs) | [leetcode](https://leetcode-cn.com/problems/implement-trie-prefix-tree/) |
 |211    | 添加与搜索单词 - 数据结构设计 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/design-add-and-search-words-data-structure.rs) | [leetcode](https://leetcode-cn.com/problems/design-add-and-search-words-data-structure/) |
 |213    | 打家劫舍 II | [src](https://github.com/rustors/leetcode/blob/main/src/bin/house-robber-ii.rs) | [leetcode](https://leetcode-cn.com/problems/house-robber-ii/) |
@@ -153,19 +153,19 @@
 |263    | 丑数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/ugly-number.rs) | [leetcode](https://leetcode-cn.com/problems/ugly-number/) |
 |268    | 丢失的数字 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/missing-number.rs) | [leetcode](https://leetcode-cn.com/problems/missing-number/) |
 |274    | H 指数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/h-index.rs) | [leetcode](https://leetcode-cn.com/problems/h-index/) |
-|278    | 第一个错误的版本 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/first-bad-version.rs) | [leetcode](https://leetcode-cn.com/problems/first-bad-version/) |
+|278    | 第一个错误的版本 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/f.rs) | [leetcode](https://leetcode-cn.com/problems/f/) |
 |279    | 完全平方数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/perfect-squares.rs) | [leetcode](https://leetcode-cn.com/problems/perfect-squares/) |
 |290    | 单词规律 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/word-pattern.rs) | [leetcode](https://leetcode-cn.com/problems/word-pattern/) |
 |303    | 区域和检索 - 数组不可变 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/range-sum-query-immutable.rs) | [leetcode](https://leetcode-cn.com/problems/range-sum-query-immutable/) |
 |318    | 最大单词长度乘积 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-product-of-word-lengths.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-product-of-word-lengths/) |
 |319    | 灯泡开关 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/bulb-switcher.rs) | [leetcode](https://leetcode-cn.com/problems/bulb-switcher/) |
 |326    | 3的幂 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/power-of-three.rs) | [leetcode](https://leetcode-cn.com/problems/power-of-three/) |
-|349    | 两个数组的交集 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/intersection-of-two-arrays.rs) | [leetcode](https://leetcode-cn.com/problems/intersection-of-two-arrays/) |
-|357    | 计算各个位数不同的数字个数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/count-numbers-with-unique-digits.rs) | [leetcode](https://leetcode-cn.com/problems/count-numbers-with-unique-digits/) |
+|349    | 两个数组的交集 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/int.rs) | [leetcode](https://leetcode-cn.com/problems/int/) |
+|357    | 计算各个位数不同的数字个数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/count-numb.rs) | [leetcode](https://leetcode-cn.com/problems/count-numb/) |
 |367    | 有效的完全平方数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/valid-perfect-square.rs) | [leetcode](https://leetcode-cn.com/problems/valid-perfect-square/) |
-|371    | 两整数之和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/sum-of-two-integers.rs) | [leetcode](https://leetcode-cn.com/problems/sum-of-two-integers/) |
+|371    | 两整数之和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/sum-of-two-integ.rs) | [leetcode](https://leetcode-cn.com/problems/sum-of-two-integ/) |
 |374    | 猜数字大小 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/guess-number-higher-or-lower.rs) | [leetcode](https://leetcode-cn.com/problems/guess-number-higher-or-lower/) |
-|387    | 字符串中的第一个唯一字符 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/first-unique-character-in-a-string.rs) | [leetcode](https://leetcode-cn.com/problems/first-unique-character-in-a-string/) |
+|387    | 字符串中的第一个唯一字符 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/f.rs) | [leetcode](https://leetcode-cn.com/problems/f/) |
 |404    | 左叶子之和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/sum-of-left-leaves.rs) | [leetcode](https://leetcode-cn.com/problems/sum-of-left-leaves/) |
 |419    | 甲板上的战舰 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/battleships-in-a-board.rs) | [leetcode](https://leetcode-cn.com/problems/battleships-in-a-board/) |
 |423    | 从英文中重建数字 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/reconstruct-original-digits-from-english.rs) | [leetcode](https://leetcode-cn.com/problems/reconstruct-original-digits-from-english/) |
@@ -193,16 +193,16 @@
 |917    | 救生艇 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/boats-to-save-people.rs) | [leetcode](https://leetcode-cn.com/problems/boats-to-save-people/) |
 |921    | 螺旋矩阵 III | [src](https://github.com/rustors/leetcode/blob/main/src/bin/spiral-matrix-iii.rs) | [leetcode](https://leetcode-cn.com/problems/spiral-matrix-iii/) |
 |924    | 公平的糖果棒交换 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/fair-candy-swap.rs) | [leetcode](https://leetcode-cn.com/problems/fair-candy-swap/) |
-|925    | 根据前序和后序遍历构造二叉树 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/construct-binary-tree-from-preorder-and-postorder-traversal.rs) | [leetcode](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/) |
+|925    | 根据前序和后序遍历构造二叉树 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/construct-binary-tree-from-preorder-and-postorder-trav.rs) | [leetcode](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-postorder-trav/) |
 |932    | 单调数列 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/monotonic-array.rs) | [leetcode](https://leetcode-cn.com/problems/monotonic-array/) |
 |979    | 增减字符串匹配 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/di-string-match.rs) | [leetcode](https://leetcode-cn.com/problems/di-string-match/) |
 |981    | 删列造序 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/delete-columns-to-make-sorted.rs) | [leetcode](https://leetcode-cn.com/problems/delete-columns-to-make-sorted/) |
 |982    | 使数组唯一的最小增量 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-increment-to-make-array-unique.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-increment-to-make-array-unique/) |
 |1002    | 最大宽度坡 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-width-ramp.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-width-ramp/) |
 |1005    | 单值二叉树 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/univalued-binary-tree.rs) | [leetcode](https://leetcode-cn.com/problems/univalued-binary-tree/) |
-|1007    | 连续差相同的数字 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/numbers-with-same-consecutive-differences.rs) | [leetcode](https://leetcode-cn.com/problems/numbers-with-same-consecutive-differences/) |
+|1007    | 连续差相同的数字 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/numb.rs) | [leetcode](https://leetcode-cn.com/problems/numb/) |
 |1046    | 最大连续1的个数 III | [src](https://github.com/rustors/leetcode/blob/main/src/bin/max-consecutive-ones-iii.rs) | [leetcode](https://leetcode-cn.com/problems/max-consecutive-ones-iii/) |
-|1050    | 前序遍历构造二叉搜索树 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/construct-binary-search-tree-from-preorder-traversal.rs) | [leetcode](https://leetcode-cn.com/problems/construct-binary-search-tree-from-preorder-traversal/) |
+|1050    | 前序遍历构造二叉搜索树 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/construct-binary-search-tree-from-preorder-trav.rs) | [leetcode](https://leetcode-cn.com/problems/construct-binary-search-tree-from-preorder-trav/) |
 |1054    | 十进制整数的反码 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/complement-of-base-10-integer.rs) | [leetcode](https://leetcode-cn.com/problems/complement-of-base-10-integer/) |
 |1072    | 链表中的下一个更大节点 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/next-greater-node-in-linked-list.rs) | [leetcode](https://leetcode-cn.com/problems/next-greater-node-in-linked-list/) |
 |1119    | 困于环中的机器人 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/robot-bounded-in-circle.rs) | [leetcode](https://leetcode-cn.com/problems/robot-bounded-in-circle/) |
@@ -219,7 +219,7 @@
 |1379    | 重构 2 行二进制矩阵 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/reconstruct-a-2-row-binary-matrix.rs) | [leetcode](https://leetcode-cn.com/problems/reconstruct-a-2-row-binary-matrix/) |
 |1387    | 在受污染的二叉树中查找元素 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-elements-in-a-contaminated-binary-tree.rs) | [leetcode](https://leetcode-cn.com/problems/find-elements-in-a-contaminated-binary-tree/) |
 |1411    | 二进制链表转整数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/convert-binary-number-in-a-linked-list-to-integer.rs) | [leetcode](https://leetcode-cn.com/problems/convert-binary-number-in-a-linked-list-to-integer/) |
-|1426    | 和为零的N个唯一整数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-n-unique-integers-sum-up-to-zero.rs) | [leetcode](https://leetcode-cn.com/problems/find-n-unique-integers-sum-up-to-zero/) |
+|1426    | 和为零的N个唯一整数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-n-unique-integ.rs) | [leetcode](https://leetcode-cn.com/problems/find-n-unique-integ/) |
 |1428    | 跳跃游戏 III | [src](https://github.com/rustors/leetcode/blob/main/src/bin/jump-game-iii.rs) | [leetcode](https://leetcode-cn.com/problems/jump-game-iii/) |
 |1434    | 解码字母到整数映射 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/decrypt-string-from-alphabet-to-integer-mapping.rs) | [leetcode](https://leetcode-cn.com/problems/decrypt-string-from-alphabet-to-integer-mapping/) |
 |1441    | 或运算的最小翻转次数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-flips-to-make-a-or-b-equal-to-c.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-flips-to-make-a-or-b-equal-to-c/) |
@@ -227,19 +227,19 @@
 |1537    | 分割字符串的最大得分 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-score-after-splitting-a-string.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-score-after-splitting-a-string/) |
 |1538    | 可获得的最大点数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-points-you-can-obtain-from-cards.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-points-you-can-obtain-from-cards/) |
 |1552    | 用栈操作构建数组 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/build-an-array-with-stack-operations.rs) | [leetcode](https://leetcode-cn.com/problems/build-an-array-with-stack-operations/) |
-|1566    | 检查单词是否为句中其他单词的前缀 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence.rs) | [leetcode](https://leetcode-cn.com/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/) |
+|1566    | 检查单词是否为句中其他单词的前缀 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/check-if-a-word-occ.rs) | [leetcode](https://leetcode-cn.com/problems/check-if-a-word-occ/) |
 |1567    | 定长子串中元音的最大数目 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-number-of-vowels-in-a-substring-of-given-length.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/) |
 |1603    | 一维数组的动态和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/running-sum-of-1d-array.rs) | [leetcode](https://leetcode-cn.com/problems/running-sum-of-1d-array/) |
-|1604    | 不同整数的最少数目 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/least-number-of-unique-integers-after-k-removals.rs) | [leetcode](https://leetcode-cn.com/problems/least-number-of-unique-integers-after-k-removals/) |
-|1620    | 检查数组对是否可以被 k 整除 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/check-if-array-pairs-are-divisible-by-k.rs) | [leetcode](https://leetcode-cn.com/problems/check-if-array-pairs-are-divisible-by-k/) |
+|1604    | 不同整数的最少数目 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/least-number-of-unique-integ.rs) | [leetcode](https://leetcode-cn.com/problems/least-number-of-unique-integ/) |
+|1620    | 检查数组对是否可以被 k 整除 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/check-if-array-pa.rs) | [leetcode](https://leetcode-cn.com/problems/check-if-array-pa/) |
 |1642    | 换酒问题 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/water-bottles.rs) | [leetcode](https://leetcode-cn.com/problems/water-bottles/) |
 |1656    | 统计好三元组 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/count-good-triplets.rs) | [leetcode](https://leetcode-cn.com/problems/count-good-triplets/) |
 |1660    | 千位分隔数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/thousand-separator.rs) | [leetcode](https://leetcode-cn.com/problems/thousand-separator/) |
 |1666    | 整理字符串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/make-the-string-great.rs) | [leetcode](https://leetcode-cn.com/problems/make-the-string-great/) |
 |1791    | 最富有客户的资产总量 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/richest-customer-wealth.rs) | [leetcode](https://leetcode-cn.com/problems/richest-customer-wealth/) |
-|1797    | 设计 Goal 解析器 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/goal-parser-interpretation.rs) | [leetcode](https://leetcode-cn.com/problems/goal-parser-interpretation/) |
+|1797    | 设计 Goal 解析器 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/goal-p.rs) | [leetcode](https://leetcode-cn.com/problems/goal-p/) |
 |1806    | 比赛中的配对次数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/count-of-matches-in-tournament.rs) | [leetcode](https://leetcode-cn.com/problems/count-of-matches-in-tournament/) |
-|1807    | 十-二进制数的最少数目 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/partitioning-into-minimum-number-of-deci-binary-numbers.rs) | [leetcode](https://leetcode-cn.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers/) |
+|1807    | 十-二进制数的最少数目 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/partitioning-into-minimum-number-of-deci-binary-numb.rs) | [leetcode](https://leetcode-cn.com/problems/partitioning-into-minimum-number-of-deci-binary-numb/) |
 |1983    | 人口最多的年份 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-population-year.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-population-year/) |
 |100273    | 用两个栈实现队列 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/yong-liang-ge-zhan-shi-xian-dui-lie-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/) |
 |100274    | 斐波那契数列 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/fei-bo-na-qi-shu-lie-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/fei-bo-na-qi-shu-lie-lcof/) |
