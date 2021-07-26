@@ -1,7 +1,10 @@
 use lazy_static::lazy_static;
 use regex::Regex;
 use reqwest::blocking::Client;
-use serde::{Serialize, Deserialize};
+use serde::{Serialize, Deserialize, Serializer, Deserializer};
+use serde::de::{Error, Visitor};
+
+use std::fmt;
 
 
 lazy_static! {
@@ -9,6 +12,57 @@ lazy_static! {
 }
 
 const URL: &str = "https://leetcode-cn.com/graphql/";
+
+#[derive(Debug, Eq, PartialEq)]
+pub enum Difficulty {
+    Easy,
+    Medium,
+    Hard,
+}
+
+impl Serialize for Difficulty {
+    fn serialize<S>(&self, serializer: S) -> Result<S::Ok, S::Error>
+        where
+            S: Serializer
+    {
+        match self {
+            Self::Easy => serializer.serialize_str("Easy"),
+            Self::Medium => serializer.serialize_str("Medium"),
+            Self::Hard => serializer.serialize_str("Hard"),
+        }
+    }
+}
+
+struct DifficultyVisitor;
+
+impl<'de> Visitor<'de> for DifficultyVisitor {
+    type Value = Difficulty;
+
+    fn expecting(&self, formatter: &mut fmt::Formatter) -> fmt::Result {
+        write!(formatter, "")
+    }
+
+    fn visit_str<E>(self, v: &str) -> Result<Self::Value, E>
+        where
+            E: Error,
+    {
+        match v {
+            "Easy" => Ok(Self::Value::Easy),
+            "Medium" => Ok(Self::Value::Medium),
+            "Hard" => Ok(Self::Value::Hard),
+            _ => Err(Error::unknown_variant(v, &["Easy", "Medium", "Hard"])),
+        }
+    }
+}
+
+impl<'de> Deserialize<'de> for Difficulty {
+    fn deserialize<D>(deserializer: D) -> Result<Self, D::Error>
+        where
+            D: Deserializer<'de>
+    {
+        deserializer.deserialize_str(DifficultyVisitor)
+    }
+}
 
 #[derive(Deserialize, Serialize, Debug)]
 pub struct Ques {
@@ -21,7 +75,7 @@ pub struct Ques {
     #[serde(rename = "codeSnippets")]
     pub code_snippets: Vec<CodeSnippets>,
     #[serde(rename = "difficulty")]
-    pub difficulty: String,
+    pub difficulty: Difficulty,
 }
 
 #[derive(Deserialize, Serialize, Debug)]
