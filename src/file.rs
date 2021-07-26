@@ -3,7 +3,7 @@ use std::io::Write;
 use lazy_static::lazy_static;
 use regex::Regex;
 
-use crate::http::{Resp, Data, Ques};
+use crate::http::{Resp, Data, Ques, Difficulty};
 
 lazy_static!(
     static ref RE: Regex = Regex::new(r"\|\s*([0-9]*)\s*\|\s*(.*?)\s*\|.*?bin/(.*?)\.rs.*?\|.*?\|").unwrap();
@@ -77,7 +77,7 @@ fn parse(contents: &str) -> Vec<Resp> {
                         translated_title: i.get(2).unwrap().as_str().to_string(),
                         title_slug: i.get(3).unwrap().as_str().to_string(),
                         code_snippets: vec![],
-                        difficulty: String::new(),
+                        difficulty: Difficulty::Easy,
                     }
                 },
             })
