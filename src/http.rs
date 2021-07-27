@@ -20,6 +20,17 @@ pub enum Difficulty {
     Hard,
 }
 
+impl Difficulty {
+    pub fn new(s: &str) -> Self {
+        match s {
+            "Easy" => Self::Easy,
+            "Medium" => Self::Medium,
+            "Hard" => Self::Hard,
+            _ => Self::Easy
+        }
+    }
+}
+
 impl Serialize for Difficulty {
     fn serialize<S>(&self, serializer: S) -> Result<S::Ok, S::Error>
         where
@@ -117,7 +128,7 @@ pub fn get_question_info(mut ques: &str) -> Resp {
         .send()
         .unwrap()
         .json::<Resp>()
-        .unwrap()
+        .expect(format!("{} download failed", ques).as_str())
 }
 
 #[cfg(test)]

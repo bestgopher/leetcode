@@ -6,7 +6,7 @@ use regex::Regex;
 use crate::http::{Resp, Data, Ques, Difficulty};
 
 lazy_static!(
-    static ref RE: Regex = Regex::new(r"\|\s*([0-9]*)\s*\|\s*(.*?)\s*\|.*?bin/(.*?)\.rs.*?\|.*?\|").unwrap();
+    static ref RE: Regex = Regex::new(r"\|\s*([0-9]*)\s*\|\s*(.*?)\s*\|.*?bin/(.*?)\.rs.*?\|.*?\|\s*?(\w*)\s*?\|").unwrap();
 );
 
 /// 将结果写入README.md中
@@ -77,7 +77,7 @@ fn parse(contents: &str) -> Vec<Resp> {
                         translated_title: i.get(2).unwrap().as_str().to_string(),
                         title_slug: i.get(3).unwrap().as_str().to_string(),
                         code_snippets: vec![],
-                        difficulty: Difficulty::Easy,
+                        difficulty: Difficulty::new(i.get(4).unwrap().as_str()),
                     }
                 },
             })
@@ -99,7 +99,12 @@ mod tests {
         println!("{}", x.len());
 
         for i in x {
-            println!("{}, {}, {}", i.data.question.translated_title, i.data.question.question_id, i.data.question.title_slug);
+            println!("{}, {}, {}, {:?}",
+                     i.data.question.translated_title,
+                     i.data.question.question_id,
+                     i.data.question.title_slug,
+                     i.data.question.difficulty
+            );
         }
     }
 
