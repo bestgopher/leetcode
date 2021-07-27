@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 250 | 117 | 133 | 0 |
+| 250 | 117 | 127 | 6 |
 
 ### 题目
 
@@ -11,7 +11,7 @@
 |1    | 两数之和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/two-sum.rs) | [leetcode](https://leetcode-cn.com/problems/two-sum/) | Easy |
 |2    | 两数相加 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/add-two-numbers.rs) | [leetcode](https://leetcode-cn.com/problems/add-two-numbers/) | Medium |
 |3    | 无重复字符的最长子串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/longest-substring-without-repeating-characters.rs) | [leetcode](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/) | Medium |
-|4    | 寻找两个正序数组的中位数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/median-of-two-sorted-arrays.rs) | [leetcode](https://leetcode-cn.com/problems/median-of-two-sorted-arrays/) | Medium |
+|4    | 寻找两个正序数组的中位数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/median-of-two-sorted-arrays.rs) | [leetcode](https://leetcode-cn.com/problems/median-of-two-sorted-arrays/) | Hard |
 |6    | Z 字形变换 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/zigzag-conversion.rs) | [leetcode](https://leetcode-cn.com/problems/zigzag-conversion/) | Medium |
 |7    | 整数反转 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/reverse-integer.rs) | [leetcode](https://leetcode-cn.com/problems/reverse-integer/) | Easy |
 |8    | 字符串转换整数 (atoi) | [src](https://github.com/rustors/leetcode/blob/main/src/bin/string-to-integer-atoi.rs) | [leetcode](https://leetcode-cn.com/problems/string-to-integer-atoi/) | Medium |
@@ -24,12 +24,13 @@
 |16    | 最接近的三数之和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/3sum-closest.rs) | [leetcode](https://leetcode-cn.com/problems/3sum-closest/) | Medium |
 |17    | 电话号码的字母组合 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/letter-combinations-of-a-phone-number.rs) | [leetcode](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/) | Medium |
 |18    | 四数之和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/4sum.rs) | [leetcode](https://leetcode-cn.com/problems/4sum/) | Medium |
+|18    | 四数之和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/4sum.rs) | [leetcode](https://leetcode-cn.com/problems/4sum/) | Medium |
 |19    | 删除链表的倒数第 N 个结点 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/remove-nth-node-from-end-of-list.rs) | [leetcode](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/) | Medium |
 |20    | 有效的括号 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/valid-parentheses.rs) | [leetcode](https://leetcode-cn.com/problems/valid-parentheses/) | Easy |
 |21    | 合并两个有序链表 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/merge-two-sorted-lists.rs) | [leetcode](https://leetcode-cn.com/problems/merge-two-sorted-lists/) | Easy |
-|23    | 合并K个升序链表 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/merge-k-sorted-lists.rs) | [leetcode](https://leetcode-cn.com/problems/merge-k-sorted-lists/) | Medium |
+|23    | 合并K个升序链表 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/merge-k-sorted-lists.rs) | [leetcode](https://leetcode-cn.com/problems/merge-k-sorted-lists/) | Hard |
 |24    | 两两交换链表中的节点 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/swap-nodes-in-pairs.rs) | [leetcode](https://leetcode-cn.com/problems/swap-nodes-in-pairs/) | Medium |
-|25    | K 个一组翻转链表 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/reverse-nodes-in-k-group.rs) | [leetcode](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/) | Medium |
+|25    | K 个一组翻转链表 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/reverse-nodes-in-k-group.rs) | [leetcode](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/) | Hard |
 |26    | 删除有序数组中的重复项 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/remove-duplicates-from-sorted-array.rs) | [leetcode](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) | Easy |
 |27    | 移除元素 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/remove-element.rs) | [leetcode](https://leetcode-cn.com/problems/remove-element/) | Easy |
 |28    | 实现 strStr() | [src](https://github.com/rustors/leetcode/blob/main/src/bin/implement-strstr.rs) | [leetcode](https://leetcode-cn.com/problems/implement-strstr/) | Easy |
@@ -40,15 +41,15 @@
 |36    | 有效的数独 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/valid-sudoku.rs) | [leetcode](https://leetcode-cn.com/problems/valid-sudoku/) | Medium |
 |38    | 外观数列 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/count-and-say.rs) | [leetcode](https://leetcode-cn.com/problems/count-and-say/) | Medium |
 |39    | 组合总和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/combination-sum.rs) | [leetcode](https://leetcode-cn.com/problems/combination-sum/) | Medium |
-|41    | 缺失的第一个正数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/first-missing-positive.rs) | [leetcode](https://leetcode-cn.com/problems/first-missing-positive/) | Medium |
+|41    | 缺失的第一个正数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/first-missing-positive.rs) | [leetcode](https://leetcode-cn.com/problems/first-missing-positive/) | Hard |
 |43    | 字符串相乘 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/multiply-strings.rs) | [leetcode](https://leetcode-cn.com/problems/multiply-strings/) | Medium |
 |45    | 跳跃游戏 II | [src](https://github.com/rustors/leetcode/blob/main/src/bin/jump-game-ii.rs) | [leetcode](https://leetcode-cn.com/problems/jump-game-ii/) | Medium |
 |46    | 全排列 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/permutations.rs) | [leetcode](https://leetcode-cn.com/problems/permutations/) | Medium |
 |48    | 旋转图像 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/rotate-image.rs) | [leetcode](https://leetcode-cn.com/problems/rotate-image/) | Medium |
 |49    | 字母异位词分组 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/group-anagrams.rs) | [leetcode](https://leetcode-cn.com/problems/group-anagrams/) | Medium |
 |50    | Pow(x, n) | [src](https://github.com/rustors/leetcode/blob/main/src/bin/powx-n.rs) | [leetcode](https://leetcode-cn.com/problems/powx-n/) | Medium |
-|51    | N 皇后 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/n-queens.rs) | [leetcode](https://leetcode-cn.com/problems/n-queens/) | Medium |
-|52    | N皇后 II | [src](https://github.com/rustors/leetcode/blob/main/src/bin/n-queens-ii.rs) | [leetcode](https://leetcode-cn.com/problems/n-queens-ii/) | Medium |
+|51    | N 皇后 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/n-queens.rs) | [leetcode](https://leetcode-cn.com/problems/n-queens/) | Hard |
+|52    | N皇后 II | [src](https://github.com/rustors/leetcode/blob/main/src/bin/n-queens-ii.rs) | [leetcode](https://leetcode-cn.com/problems/n-queens-ii/) | Hard |
 |53    | 最大子序和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-subarray.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-subarray/) | Easy |
 |55    | 跳跃游戏 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/jump-game.rs) | [leetcode](https://leetcode-cn.com/problems/jump-game/) | Medium |
 |56    | 合并区间 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/merge-intervals.rs) | [leetcode](https://leetcode-cn.com/problems/merge-intervals/) | Medium |
@@ -185,7 +186,6 @@
 |594    | 最长和谐子序列 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/longest-harmonious-subsequence.rs) | [leetcode](https://leetcode-cn.com/problems/longest-harmonious-subsequence/) | Easy |
 |617    | 合并二叉树 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/merge-two-binary-trees.rs) | [leetcode](https://leetcode-cn.com/problems/merge-two-binary-trees/) | Easy |
 |649    | Dota2 参议院 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/dota2-senate.rs) | [leetcode](https://leetcode-cn.com/problems/dota2-senate/) | Medium |
-|650    | 只有两个键的键盘 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/2-keys-keyboard.rs) | [leetcode](https://leetcode-cn.com/problems/2-keys-keyboard/) | Medium |
 |650    | 只有两个键的键盘 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/2-keys-keyboard.rs) | [leetcode](https://leetcode-cn.com/problems/2-keys-keyboard/) | Medium |
 |653    | 两数之和 IV - 输入 BST | [src](https://github.com/rustors/leetcode/blob/main/src/bin/two-sum-iv-input-is-a-bst.rs) | [leetcode](https://leetcode-cn.com/problems/two-sum-iv-input-is-a-bst/) | Easy |
 |658    | 找到 K 个最接近的元素 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-k-closest-elements.rs) | [leetcode](https://leetcode-cn.com/problems/find-k-closest-elements/) | Medium |
