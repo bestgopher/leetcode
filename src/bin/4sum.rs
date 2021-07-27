@@ -1,7 +1,7 @@
 fn main() {
-    // println!("{:?}", Solution::four_sum(vec![1, 0, -1, 0, -2, 2], 0));
-    // println!("{:?}", Solution::four_sum(vec![0, 0, 0, 0], 0));
-    // println!("{:?}", Solution::four_sum(vec![-2, -1, -1, 1, 1, 2, 2], 0));
+    println!("{:?}", Solution::four_sum(vec![1, 0, -1, 0, -2, 2], 0));
+    println!("{:?}", Solution::four_sum(vec![0, 0, 0, 0], 0));
+    println!("{:?}", Solution::four_sum(vec![-2, -1, -1, 1, 1, 2, 2], 0));
     println!(
         "{:?}",
         Solution::four_sum(vec![1, -2, -5, -4, -3, 3, 3, 5], -11)
