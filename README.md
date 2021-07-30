@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 252 | 119 | 127 | 6 |
+| 253 | 120 | 127 | 6 |
 
 ### 题目
 
@@ -172,6 +172,7 @@
 |367    | 有效的完全平方数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/valid-perfect-square.rs) | [leetcode](https://leetcode-cn.com/problems/valid-perfect-square/) | Easy |
 |371    | 两整数之和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/sum-of-two-integers.rs) | [leetcode](https://leetcode-cn.com/problems/sum-of-two-integers/) | Medium |
 |374    | 猜数字大小 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/guess-number-higher-or-lower.rs) | [leetcode](https://leetcode-cn.com/problems/guess-number-higher-or-lower/) | Easy |
+|383    | 赎金信 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/ransom-note.rs) | [leetcode](https://leetcode-cn.com/problems/ransom-note/) | Easy |
 |387    | 字符串中的第一个唯一字符 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/first-unique-character-in-a-string.rs) | [leetcode](https://leetcode-cn.com/problems/first-unique-character-in-a-string/) | Easy |
 |404    | 左叶子之和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/sum-of-left-leaves.rs) | [leetcode](https://leetcode-cn.com/problems/sum-of-left-leaves/) | Easy |
 |419    | 甲板上的战舰 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/battleships-in-a-board.rs) | [leetcode](https://leetcode-cn.com/problems/battleships-in-a-board/) | Medium |
