@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 254 | 121 | 127 | 6 |
+| 255 | 122 | 127 | 6 |
 
 ### 题目
 
@@ -175,6 +175,7 @@
 |383    | 赎金信 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/ransom-note.rs) | [leetcode](https://leetcode-cn.com/problems/ransom-note/) | Easy |
 |383    | 赎金信 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/ransom-note.rs) | [leetcode](https://leetcode-cn.com/problems/ransom-note/) | Easy |
 |387    | 字符串中的第一个唯一字符 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/first-unique-character-in-a-string.rs) | [leetcode](https://leetcode-cn.com/problems/first-unique-character-in-a-string/) | Easy |
+|389    | 找不同 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-the-difference.rs) | [leetcode](https://leetcode-cn.com/problems/find-the-difference/) | Easy |
 |404    | 左叶子之和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/sum-of-left-leaves.rs) | [leetcode](https://leetcode-cn.com/problems/sum-of-left-leaves/) | Easy |
 |419    | 甲板上的战舰 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/battleships-in-a-board.rs) | [leetcode](https://leetcode-cn.com/problems/battleships-in-a-board/) | Medium |
 |423    | 从英文中重建数字 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/reconstruct-original-digits-from-english.rs) | [leetcode](https://leetcode-cn.com/problems/reconstruct-original-digits-from-english/) | Medium |
