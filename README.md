@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 257 | 124 | 127 | 6 |
+| 258 | 125 | 127 | 6 |
 
 ### 题目
 
@@ -176,6 +176,7 @@
 |383    | 赎金信 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/ransom-note.rs) | [leetcode](https://leetcode-cn.com/problems/ransom-note/) | Easy |
 |387    | 字符串中的第一个唯一字符 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/first-unique-character-in-a-string.rs) | [leetcode](https://leetcode-cn.com/problems/first-unique-character-in-a-string/) | Easy |
 |389    | 找不同 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-the-difference.rs) | [leetcode](https://leetcode-cn.com/problems/find-the-difference/) | Easy |
+|392    | 判断子序列 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/is-subsequence.rs) | [leetcode](https://leetcode-cn.com/problems/is-subsequence/) | Easy |
 |404    | 左叶子之和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/sum-of-left-leaves.rs) | [leetcode](https://leetcode-cn.com/problems/sum-of-left-leaves/) | Easy |
 |415    | 字符串相加 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/add-strings.rs) | [leetcode](https://leetcode-cn.com/problems/add-strings/) | Easy |
 |415    | 字符串相加 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/add-strings.rs) | [leetcode](https://leetcode-cn.com/problems/add-strings/) | Easy |
