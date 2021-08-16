@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 261 | 126 | 129 | 6 |
+| 262 | 127 | 129 | 6 |
 
 ### 题目
 
@@ -167,6 +167,7 @@
 |319    | 灯泡开关 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/bulb-switcher.rs) | [leetcode](https://leetcode-cn.com/problems/bulb-switcher/) | Medium |
 |322    | 零钱兑换 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/coin-change.rs) | [leetcode](https://leetcode-cn.com/problems/coin-change/) | Medium |
 |326    | 3的幂 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/power-of-three.rs) | [leetcode](https://leetcode-cn.com/problems/power-of-three/) | Easy |
+|344    | 反转字符串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/reverse-string.rs) | [leetcode](https://leetcode-cn.com/problems/reverse-string/) | Easy |
 |349    | 两个数组的交集 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/intersection-of-two-arrays.rs) | [leetcode](https://leetcode-cn.com/problems/intersection-of-two-arrays/) | Easy |
 |350    | 两个数组的交集 II | [src](https://github.com/rustors/leetcode/blob/main/src/bin/intersection-of-two-arrays-ii.rs) | [leetcode](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/) | Easy |
 |357    | 计算各个位数不同的数字个数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/count-numbers-with-unique-digits.rs) | [leetcode](https://leetcode-cn.com/problems/count-numbers-with-unique-digits/) | Medium |
