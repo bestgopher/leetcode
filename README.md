@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 264 | 127 | 131 | 6 |
+| 265 | 128 | 131 | 6 |
 
 ### 题目
 
@@ -191,6 +191,7 @@
 |434    | 字符串中的单词数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/number-of-segments-in-a-string.rs) | [leetcode](https://leetcode-cn.com/problems/number-of-segments-in-a-string/) | Easy |
 |476    | 数字的补数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/number-complement.rs) | [leetcode](https://leetcode-cn.com/problems/number-complement/) | Easy |
 |481    | 神奇字符串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/magical-string.rs) | [leetcode](https://leetcode-cn.com/problems/magical-string/) | Medium |
+|485    | 最大连续 1 的个数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/max-consecutive-ones.rs) | [leetcode](https://leetcode-cn.com/problems/max-consecutive-ones/) | Easy |
 |500    | 键盘行 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/keyboard-row.rs) | [leetcode](https://leetcode-cn.com/problems/keyboard-row/) | Easy |
 |520    | 检测大写字母 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/detect-capital.rs) | [leetcode](https://leetcode-cn.com/problems/detect-capital/) | Easy |
 |528    | 交换链表中的节点 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/swapping-nodes-in-a-linked-list.rs) | [leetcode](https://leetcode-cn.com/problems/swapping-nodes-in-a-linked-list/) | Medium |
