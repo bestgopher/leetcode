@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 265 | 128 | 131 | 6 |
+| 266 | 128 | 132 | 6 |
 
 ### 题目
 
@@ -184,6 +184,7 @@
 |392    | 判断子序列 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/is-subsequence.rs) | [leetcode](https://leetcode-cn.com/problems/is-subsequence/) | Easy |
 |404    | 左叶子之和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/sum-of-left-leaves.rs) | [leetcode](https://leetcode-cn.com/problems/sum-of-left-leaves/) | Easy |
 |412    | Fizz Buzz | [src](https://github.com/rustors/leetcode/blob/main/src/bin/fizz-buzz.rs) | [leetcode](https://leetcode-cn.com/problems/fizz-buzz/) | Easy |
+|413    | 等差数列划分 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/arithmetic-slices.rs) | [leetcode](https://leetcode-cn.com/problems/arithmetic-slices/) | Medium |
 |415    | 字符串相加 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/add-strings.rs) | [leetcode](https://leetcode-cn.com/problems/add-strings/) | Easy |
 |415    | 字符串相加 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/add-strings.rs) | [leetcode](https://leetcode-cn.com/problems/add-strings/) | Easy |
 |419    | 甲板上的战舰 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/battleships-in-a-board.rs) | [leetcode](https://leetcode-cn.com/problems/battleships-in-a-board/) | Medium |
