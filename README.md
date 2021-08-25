@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 266 | 128 | 132 | 6 |
+| 263 | 125 | 132 | 6 |
 
 ### 题目
 
@@ -23,7 +23,6 @@
 |15    | 三数之和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/3sum.rs) | [leetcode](https://leetcode-cn.com/problems/3sum/) | Medium |
 |16    | 最接近的三数之和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/3sum-closest.rs) | [leetcode](https://leetcode-cn.com/problems/3sum-closest/) | Medium |
 |17    | 电话号码的字母组合 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/letter-combinations-of-a-phone-number.rs) | [leetcode](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/) | Medium |
-|18    | 四数之和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/4sum.rs) | [leetcode](https://leetcode-cn.com/problems/4sum/) | Medium |
 |18    | 四数之和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/4sum.rs) | [leetcode](https://leetcode-cn.com/problems/4sum/) | Medium |
 |19    | 删除链表的倒数第 N 个结点 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/remove-nth-node-from-end-of-list.rs) | [leetcode](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/) | Medium |
 |20    | 有效的括号 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/valid-parentheses.rs) | [leetcode](https://leetcode-cn.com/problems/valid-parentheses/) | Easy |
@@ -116,7 +115,7 @@
 |167    | 两数之和 II - 输入有序数组 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/two-sum-ii-input-array-is-sorted.rs) | [leetcode](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/) | Easy |
 |168    | Excel表列名称 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/excel-sheet-column-title.rs) | [leetcode](https://leetcode-cn.com/problems/excel-sheet-column-title/) | Easy |
 |169    | 多数元素 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/majority-element.rs) | [leetcode](https://leetcode-cn.com/problems/majority-element/) | Easy |
-|171    | Excel表列序号 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/excel-sheet-column-number.rs) | [leetcode](https://leetcode-cn.com/problems/excel-sheet-column-number/) | Easy |
+|171    | Excel 表列序号 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/excel-sheet-column-number.rs) | [leetcode](https://leetcode-cn.com/problems/excel-sheet-column-number/) | Easy |
 |172    | 阶乘后的零 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/factorial-trailing-zeroes.rs) | [leetcode](https://leetcode-cn.com/problems/factorial-trailing-zeroes/) | Easy |
 |173    | 二叉搜索树迭代器 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/binary-search-tree-iterator.rs) | [leetcode](https://leetcode-cn.com/problems/binary-search-tree-iterator/) | Medium |
 |187    | 重复的DNA序列 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/repeated-dna-sequences.rs) | [leetcode](https://leetcode-cn.com/problems/repeated-dna-sequences/) | Medium |
@@ -177,7 +176,6 @@
 |378    | 有序矩阵中第 K 小的元素 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/kth-smallest-element-in-a-sorted-matrix.rs) | [leetcode](https://leetcode-cn.com/problems/kth-smallest-element-in-a-sorted-matrix/) | Medium |
 |380    | O(1) 时间插入、删除和获取随机元素 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/insert-delete-getrandom-o1.rs) | [leetcode](https://leetcode-cn.com/problems/insert-delete-getrandom-o1/) | Medium |
 |383    | 赎金信 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/ransom-note.rs) | [leetcode](https://leetcode-cn.com/problems/ransom-note/) | Easy |
-|383    | 赎金信 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/ransom-note.rs) | [leetcode](https://leetcode-cn.com/problems/ransom-note/) | Easy |
 |384    | 打乱数组 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/shuffle-an-array.rs) | [leetcode](https://leetcode-cn.com/problems/shuffle-an-array/) | Medium |
 |387    | 字符串中的第一个唯一字符 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/first-unique-character-in-a-string.rs) | [leetcode](https://leetcode-cn.com/problems/first-unique-character-in-a-string/) | Easy |
 |389    | 找不同 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-the-difference.rs) | [leetcode](https://leetcode-cn.com/problems/find-the-difference/) | Easy |
@@ -185,7 +183,6 @@
 |404    | 左叶子之和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/sum-of-left-leaves.rs) | [leetcode](https://leetcode-cn.com/problems/sum-of-left-leaves/) | Easy |
 |412    | Fizz Buzz | [src](https://github.com/rustors/leetcode/blob/main/src/bin/fizz-buzz.rs) | [leetcode](https://leetcode-cn.com/problems/fizz-buzz/) | Easy |
 |413    | 等差数列划分 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/arithmetic-slices.rs) | [leetcode](https://leetcode-cn.com/problems/arithmetic-slices/) | Medium |
-|415    | 字符串相加 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/add-strings.rs) | [leetcode](https://leetcode-cn.com/problems/add-strings/) | Easy |
 |415    | 字符串相加 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/add-strings.rs) | [leetcode](https://leetcode-cn.com/problems/add-strings/) | Easy |
 |419    | 甲板上的战舰 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/battleships-in-a-board.rs) | [leetcode](https://leetcode-cn.com/problems/battleships-in-a-board/) | Medium |
 |423    | 从英文中重建数字 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/reconstruct-original-digits-from-english.rs) | [leetcode](https://leetcode-cn.com/problems/reconstruct-original-digits-from-english/) | Medium |
@@ -208,7 +205,7 @@
 |674    | 最长连续递增序列 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/longest-continuous-increasing-subsequence.rs) | [leetcode](https://leetcode-cn.com/problems/longest-continuous-increasing-subsequence/) | Easy |
 |800    | 字母大小写全排列 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/letter-case-permutation.rs) | [leetcode](https://leetcode-cn.com/problems/letter-case-permutation/) | Medium |
 |825    | 保持城市天际线 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/max-increase-to-keep-city-skyline.rs) | [leetcode](https://leetcode-cn.com/problems/max-increase-to-keep-city-skyline/) | Medium |
-|829    | 子域名访问计数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/subdomain-visit-count.rs) | [leetcode](https://leetcode-cn.com/problems/subdomain-visit-count/) | Easy |
+|829    | 子域名访问计数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/subdomain-visit-count.rs) | [leetcode](https://leetcode-cn.com/problems/subdomain-visit-count/) | Medium |
 |857    | 较大分组的位置 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/positions-of-large-groups.rs) | [leetcode](https://leetcode-cn.com/problems/positions-of-large-groups/) | Easy |
 |868    | 推多米诺 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/push-dominoes.rs) | [leetcode](https://leetcode-cn.com/problems/push-dominoes/) | Medium |
 |917    | 救生艇 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/boats-to-save-people.rs) | [leetcode](https://leetcode-cn.com/problems/boats-to-save-people/) | Medium |
