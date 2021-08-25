@@ -6,7 +6,7 @@
 
 ### 题目
 
-| 编号 | 题目  | 描述    | 代码  |  难度 |
+| 编号 | 题目  | 代码    | 题目描述  |  难度 |
 | ---- | ---- | ---- | ---- | ---- |
 |1    | 两数之和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/two-sum.rs) | [leetcode](https://leetcode-cn.com/problems/two-sum/) | Easy |
 |2    | 两数相加 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/add-two-numbers.rs) | [leetcode](https://leetcode-cn.com/problems/add-two-numbers/) | Medium |
