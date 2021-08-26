@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 264 | 125 | 133 | 6 |
+| 265 | 125 | 134 | 6 |
 
 ### 题目
 
@@ -177,6 +177,7 @@
 |380    | O(1) 时间插入、删除和获取随机元素 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/insert-delete-getrandom-o1.rs) | [leetcode](https://leetcode-cn.com/problems/insert-delete-getrandom-o1/) | Medium |
 |383    | 赎金信 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/ransom-note.rs) | [leetcode](https://leetcode-cn.com/problems/ransom-note/) | Easy |
 |384    | 打乱数组 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/shuffle-an-array.rs) | [leetcode](https://leetcode-cn.com/problems/shuffle-an-array/) | Medium |
+|386    | 字典序排数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/lexicographical-numbers.rs) | [leetcode](https://leetcode-cn.com/problems/lexicographical-numbers/) | Medium |
 |386    | 字典序排数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/lexicographical-numbers.rs) | [leetcode](https://leetcode-cn.com/problems/lexicographical-numbers/) | Medium |
 |387    | 字符串中的第一个唯一字符 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/first-unique-character-in-a-string.rs) | [leetcode](https://leetcode-cn.com/problems/first-unique-character-in-a-string/) | Easy |
 |389    | 找不同 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-the-difference.rs) | [leetcode](https://leetcode-cn.com/problems/find-the-difference/) | Easy |
