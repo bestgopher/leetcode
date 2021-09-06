@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 270 | 126 | 137 | 7 |
+| 271 | 126 | 138 | 7 |
 
 ### 题目
 
@@ -176,6 +176,7 @@
 |378    | 有序矩阵中第 K 小的元素 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/kth-smallest-element-in-a-sorted-matrix.rs) | [leetcode](https://leetcode-cn.com/problems/kth-smallest-element-in-a-sorted-matrix/) | Medium |
 |380    | O(1) 时间插入、删除和获取随机元素 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/insert-delete-getrandom-o1.rs) | [leetcode](https://leetcode-cn.com/problems/insert-delete-getrandom-o1/) | Medium |
 |381    | O(1) 时间插入、删除和获取随机元素 - 允许重复 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/insert-delete-getrandom-o1-duplicates-allowed.rs) | [leetcode](https://leetcode-cn.com/problems/insert-delete-getrandom-o1-duplicates-allowed/) | Hard |
+|382    | 链表随机节点 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/linked-list-random-node.rs) | [leetcode](https://leetcode-cn.com/problems/linked-list-random-node/) | Medium |
 |383    | 赎金信 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/ransom-note.rs) | [leetcode](https://leetcode-cn.com/problems/ransom-note/) | Easy |
 |384    | 打乱数组 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/shuffle-an-array.rs) | [leetcode](https://leetcode-cn.com/problems/shuffle-an-array/) | Medium |
 |386    | 字典序排数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/lexicographical-numbers.rs) | [leetcode](https://leetcode-cn.com/problems/lexicographical-numbers/) | Medium |
