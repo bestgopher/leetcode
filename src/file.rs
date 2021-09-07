@@ -21,7 +21,7 @@ pub fn write_readme(r: &mut Vec<Resp>) {
 
     match std::fs::write("README.md", s) {
         Ok(_) => (),
-        Err(e) => println!("写入 README.md 失败，err{}", e.to_string())
+        Err(e) => eprintln!("写入 README.md 失败，err{}", e.to_string())
     }
 }
 
@@ -41,7 +41,7 @@ pub fn get_all_bin_file() -> Vec<String> {
 pub fn write_question(resp: Resp) {
     let file = format!("src/bin/{}.rs", resp.data.question.title_slug);
     if std::path::Path::new(file.as_str()).exists() {
-        println!("{} exists", file);
+        eprintln!("{} exists", file);
         return;
     }
 

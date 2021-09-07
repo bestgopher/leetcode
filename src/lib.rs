@@ -7,6 +7,8 @@ mod all;
 
 use clap::{App, Arg};
 
+use std::process;
+
 pub fn run() {
     let matches = App::new("leetcode")
         .version("0.0.1")
@@ -24,7 +26,10 @@ pub fn run() {
     if let Some(matches) = matches.subcommand_matches("new") {
         match matches.value_of_t::<String>("question_name") {
             Ok(x) => new::new(x),
-            Err(_) => println!("please input the name of question")
+            Err(_) => {
+                eprintln!("please input the name of question");
+                process::exit(1);
+            }
         }
     } else if matches.subcommand_matches("all").is_some() {
         all::all();

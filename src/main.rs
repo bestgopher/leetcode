@@ -1,3 +1,3 @@
 fn main() {
-    leetcode::run()
+    leetcode::run();
 }
