@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 271 | 126 | 138 | 7 |
+| 272 | 126 | 139 | 7 |
 
 ### 题目
 
@@ -184,6 +184,7 @@
 |387    | 字符串中的第一个唯一字符 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/first-unique-character-in-a-string.rs) | [leetcode](https://leetcode-cn.com/problems/first-unique-character-in-a-string/) | Easy |
 |389    | 找不同 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-the-difference.rs) | [leetcode](https://leetcode-cn.com/problems/find-the-difference/) | Easy |
 |392    | 判断子序列 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/is-subsequence.rs) | [leetcode](https://leetcode-cn.com/problems/is-subsequence/) | Easy |
+|393    | UTF-8 编码验证 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/utf-8-validation.rs) | [leetcode](https://leetcode-cn.com/problems/utf-8-validation/) | Medium |
 |397    | 整数替换 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/integer-replacement.rs) | [leetcode](https://leetcode-cn.com/problems/integer-replacement/) | Medium |
 |398    | 随机数索引 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/random-pick-index.rs) | [leetcode](https://leetcode-cn.com/problems/random-pick-index/) | Medium |
 |398    | 随机数索引 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/random-pick-index.rs) | [leetcode](https://leetcode-cn.com/problems/random-pick-index/) | Medium |
