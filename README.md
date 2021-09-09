@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 272 | 126 | 139 | 7 |
+| 273 | 127 | 139 | 7 |
 
 ### 题目
 
@@ -196,6 +196,7 @@
 |419    | 甲板上的战舰 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/battleships-in-a-board.rs) | [leetcode](https://leetcode-cn.com/problems/battleships-in-a-board/) | Medium |
 |423    | 从英文中重建数字 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/reconstruct-original-digits-from-english.rs) | [leetcode](https://leetcode-cn.com/problems/reconstruct-original-digits-from-english/) | Medium |
 |434    | 字符串中的单词数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/number-of-segments-in-a-string.rs) | [leetcode](https://leetcode-cn.com/problems/number-of-segments-in-a-string/) | Easy |
+|448    | 找到所有数组中消失的数字 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-all-numbers-disappeared-in-an-array.rs) | [leetcode](https://leetcode-cn.com/problems/find-all-numbers-disappeared-in-an-array/) | Easy |
 |476    | 数字的补数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/number-complement.rs) | [leetcode](https://leetcode-cn.com/problems/number-complement/) | Easy |
 |481    | 神奇字符串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/magical-string.rs) | [leetcode](https://leetcode-cn.com/problems/magical-string/) | Medium |
 |485    | 最大连续 1 的个数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/max-consecutive-ones.rs) | [leetcode](https://leetcode-cn.com/problems/max-consecutive-ones/) | Easy |

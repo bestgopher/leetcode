@@ -10,7 +10,13 @@ impl Solution {
             s.insert(i, ());
         }
 
-        let mut v= vec![];
-        for i in 1..=nums.len() {}
+        let mut v = vec![];
+        for i in 1..=nums.len() as i32 {
+            if s.get(&i).is_none() {
+                v.push(i);
+            }
+        }
+
+        v
     }
 }
