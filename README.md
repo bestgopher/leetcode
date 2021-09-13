@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 273 | 127 | 139 | 7 |
+| 274 | 127 | 140 | 7 |
 
 ### 题目
 
@@ -188,6 +188,7 @@
 |397    | 整数替换 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/integer-replacement.rs) | [leetcode](https://leetcode-cn.com/problems/integer-replacement/) | Medium |
 |398    | 随机数索引 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/random-pick-index.rs) | [leetcode](https://leetcode-cn.com/problems/random-pick-index/) | Medium |
 |398    | 随机数索引 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/random-pick-index.rs) | [leetcode](https://leetcode-cn.com/problems/random-pick-index/) | Medium |
+|400    | 第 N 位数字 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/nth-digit.rs) | [leetcode](https://leetcode-cn.com/problems/nth-digit/) | Medium |
 |404    | 左叶子之和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/sum-of-left-leaves.rs) | [leetcode](https://leetcode-cn.com/problems/sum-of-left-leaves/) | Easy |
 |409    | 最长回文串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/longest-palindrome.rs) | [leetcode](https://leetcode-cn.com/problems/longest-palindrome/) | Easy |
 |412    | Fizz Buzz | [src](https://github.com/rustors/leetcode/blob/main/src/bin/fizz-buzz.rs) | [leetcode](https://leetcode-cn.com/problems/fizz-buzz/) | Easy |
