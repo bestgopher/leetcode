@@ -41,48 +41,52 @@ impl Codec {
 
     /// 当为None是序列化为-1
     fn serialize(&self, root: Option<Rc<RefCell<TreeNode>>>) -> String {
-        let mut v = vec![root];
-        let mut high = 0u32;
-        let mut index = 0usize;
-        let mut has_more = true;
-        let mut s = vec![];
-        while has_more {
-            let mut i = 1i32;
-            has_more = false;
-            while i <= 2i32.pow(high) {
-                let mut x = v[index].take();
-                if let Some(x) = x {
-                    has_more = true;
-                    s.push(x.borrow().val.to_string());
-                    v.push(x.borrow_mut().left.take());
-                    v.push(x.borrow_mut().right.take());
-                } else {
-                    s.push((-1).to_string());
-                    v.push(None);
-                    v.push(None);
-                }
-                i += 1;
-                index += 1;
+        match root {
+            Some(root) => {
+                let value = root.borrow().val;
+                let left = root.borrow_mut().left.take();
+                let right = root.borrow_mut().right.take();
+                format!(
+                    "{},{},{}",
+                    self.serialize(left),
+                    value,
+                    self.serialize(right),
+                )
             }
-            high += 1;
+            None => "-1".to_string()
         }
-
-        s.join(",")
     }
 
     fn deserialize(&self, data: String) -> Option<Rc<RefCell<TreeNode>>> {
-        let s = data.split(',').into_iter().map(|x| x.parse().unwrap()).collect::<Vec<i32>>();
-        self.d(&s[..], 0)
+        println!("{:?}", data);
+        let s = data
+            .split(',')
+            .into_iter()
+            .map(|x| x.parse().unwrap())
+            .collect::<Vec<i32>>();
+
+        self.f(&s[..], &mut 0)
     }
 
-    fn d(&self, v: &[i32], index: usize) -> Option<Rc<RefCell<TreeNode>>> {
-        if index >= v.len() || v[index] == -1 {
+    fn f(&self, data: &[i32], index: &mut usize) -> Option<Rc<RefCell<TreeNode>>> {
+        if data.len() <= *index || data[*index] == -1 {
             return None;
         }
 
-        let mut node = TreeNode::new(v[index]);
-        node.left = self.d(v, 2 * index + 1);
-        node.right = self.d(v, 2 * index + 2);
+        let mut node = TreeNode::new(data[*index]);
+        *index += 1;
+        if data[*index] != -1 {
+            node.left = self.f(data, index);
+        } else {
+            node.left = None;
+        }
+
+        *index += 1;
+        if data[*index] != -1 {
+            node.right = self.f(data, index);
+        } else {
+            node.right = None;
+        }
 
         Some(Rc::new(RefCell::new(node)))
     }
