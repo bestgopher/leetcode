@@ -1,9 +1,9 @@
-mod new;
-mod http;
+mod all;
 mod file;
 mod git;
+mod http;
+mod new;
 mod render;
-mod all;
 
 use clap::{App, Arg};
 
@@ -14,13 +14,14 @@ pub fn run() {
         .version("0.0.1")
         .author("bestgopher <84328409@qq.com>")
         .about("a helper for leetcode")
-        .subcommand(App::new("new")
-            .about("get a new leetcode question")
-            .arg(Arg::new("question_name")
-                .about("The configuration file to use")
-                .index(1)))
-        .subcommand(App::new("all")
-            .about("get all questions' info and rewrite README.md"))
+        .subcommand(
+            App::new("new").about("get a new leetcode question").arg(
+                Arg::new("question_name")
+                    .about("The configuration file to use")
+                    .index(1),
+            ),
+        )
+        .subcommand(App::new("all").about("get all questions' info and rewrite README.md"))
         .get_matches();
 
     if let Some(matches) = matches.subcommand_matches("new") {

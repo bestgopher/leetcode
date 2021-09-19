@@ -21,13 +21,20 @@ impl TreeNode {
     }
 }
 
-use std::rc::Rc;
 use std::cell::RefCell;
+use std::rc::Rc;
 
 impl Solution {
     pub fn binary_tree_paths(root: Option<Rc<RefCell<TreeNode>>>) -> Vec<String> {
         let s = Self::f(root);
-        s.into_iter().map(|x| x.into_iter().map(|y| y.to_string()).collect::<Vec<String>>().join("->")).collect()
+        s.into_iter()
+            .map(|x| {
+                x.into_iter()
+                    .map(|y| y.to_string())
+                    .collect::<Vec<String>>()
+                    .join("->")
+            })
+            .collect()
     }
 
     fn f(root: Option<Rc<RefCell<TreeNode>>>) -> Vec<Vec<i32>> {
@@ -42,26 +49,33 @@ impl Solution {
             (Some(x), Some(y)) => {
                 let f = Self::f(Some(x));
                 let r = Self::f(Some(y));
-                f.into_iter().chain(r.into_iter()).map(|mut x| {
-                    x.insert(0, v);
-                    x
-                }).collect::<Vec<Vec<i32>>>()
+                f.into_iter()
+                    .chain(r.into_iter())
+                    .map(|mut x| {
+                        x.insert(0, v);
+                        x
+                    })
+                    .collect::<Vec<Vec<i32>>>()
             }
             (Some(x), None) => {
                 let f = Self::f(Some(x));
-                f.into_iter().map(|mut x| {
-                    x.insert(0, v);
-                    x
-                }).collect::<Vec<Vec<i32>>>()
+                f.into_iter()
+                    .map(|mut x| {
+                        x.insert(0, v);
+                        x
+                    })
+                    .collect::<Vec<Vec<i32>>>()
             }
             (None, Some(y)) => {
                 let f = Self::f(Some(y));
-                f.into_iter().map(|mut x| {
-                    x.insert(0, v);
-                    x
-                }).collect::<Vec<Vec<i32>>>()
+                f.into_iter()
+                    .map(|mut x| {
+                        x.insert(0, v);
+                        x
+                    })
+                    .collect::<Vec<Vec<i32>>>()
             }
-            (None, None) => vec![vec![v]]
+            (None, None) => vec![vec![v]],
         }
     }
 }

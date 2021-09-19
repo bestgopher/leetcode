@@ -13,12 +13,19 @@ impl Solution {
 
         let mut r = 0;
 
-        hash.into_iter().for_each(|(_, v)| if v % 2 == 0 { r += v; } else {
-            odd = true;
-            r += v - 1;
+        hash.into_iter().for_each(|(_, v)| {
+            if v % 2 == 0 {
+                r += v;
+            } else {
+                odd = true;
+                r += v - 1;
+            }
         });
 
-
-        if odd { r + 1 } else { r }
+        if odd {
+            r + 1
+        } else {
+            r
+        }
     }
 }

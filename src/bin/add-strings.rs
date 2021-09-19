@@ -44,9 +44,11 @@ impl Solution {
             v[vindex] = 1;
         }
 
-        v[vindex..].iter().fold(String::with_capacity((&v[vindex..]).len()), |mut x, y| {
-            x.push_str(&*y.to_string());
-            x
-        })
+        v[vindex..]
+            .iter()
+            .fold(String::with_capacity((&v[vindex..]).len()), |mut x, y| {
+                x.push_str(&*y.to_string());
+                x
+            })
     }
 }

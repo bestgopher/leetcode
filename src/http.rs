@@ -1,11 +1,10 @@
 use lazy_static::lazy_static;
 use regex::Regex;
 use reqwest::blocking::Client;
-use serde::{Serialize, Deserialize, Serializer, Deserializer};
 use serde::de::{Error, Visitor};
+use serde::{Deserialize, Deserializer, Serialize, Serializer};
 
 use std::fmt;
-
 
 lazy_static! {
     static ref RE: Regex = Regex::new(r".*?/problems/(.*?)/").unwrap();
@@ -26,15 +25,15 @@ impl Difficulty {
             "Easy" => Self::Easy,
             "Medium" => Self::Medium,
             "Hard" => Self::Hard,
-            _ => Self::Easy
+            _ => Self::Easy,
         }
     }
 }
 
 impl Serialize for Difficulty {
     fn serialize<S>(&self, serializer: S) -> Result<S::Ok, S::Error>
-        where
-            S: Serializer
+    where
+        S: Serializer,
     {
         match self {
             Self::Easy => serializer.serialize_str("Easy"),
@@ -54,8 +53,8 @@ impl<'de> Visitor<'de> for DifficultyVisitor {
     }
 
     fn visit_str<E>(self, v: &str) -> Result<Self::Value, E>
-        where
-            E: Error,
+    where
+        E: Error,
     {
         match v {
             "Easy" => Ok(Self::Value::Easy),
@@ -68,8 +67,8 @@ impl<'de> Visitor<'de> for DifficultyVisitor {
 
 impl<'de> Deserialize<'de> for Difficulty {
     fn deserialize<D>(deserializer: D) -> Result<Self, D::Error>
-        where
-            D: Deserializer<'de>
+    where
+        D: Deserializer<'de>,
     {
         deserializer.deserialize_str(DifficultyVisitor)
     }
@@ -113,7 +112,13 @@ pub struct Resp {
 
 pub fn get_question_info(mut ques: &str) -> Resp {
     if ques.starts_with("http") {
-        ques = RE.captures_iter(ques).next().unwrap().get(1).unwrap().as_str();
+        ques = RE
+            .captures_iter(ques)
+            .next()
+            .unwrap()
+            .get(1)
+            .unwrap()
+            .as_str();
     }
 
     let data_fmt = r#"{"operationName":"questionData","variables":{"titleSlug":"{}"},
@@ -138,6 +143,9 @@ mod tests {
     #[test]
     fn test_get_question_info() {
         println!("{:?}", get_question_info("container-with-most-water"));
-        println!("{:?}", get_question_info("https://leetcode-cn.com/problems/container-with-most-water/"));
+        println!(
+            "{:?}",
+            get_question_info("https://leetcode-cn.com/problems/container-with-most-water/")
+        );
     }
 }

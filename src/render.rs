@@ -1,5 +1,5 @@
 use lazy_static::lazy_static;
-use tera::{Tera, Context, Result as TeraResult};
+use tera::{Context, Result as TeraResult, Tera};
 
 /// 模板内容
 const TEMPLATE_STR: &str = r"# leetcode
@@ -27,14 +27,19 @@ lazy_static!(
     };
 );
 
-
 /// 把传入的内容渲染为模板内容
 pub fn render(data: &[crate::http::Resp]) -> TeraResult<String> {
     let mut ctx = Context::new();
 
-    let easy_num = counter(data, |x| x.data.question.difficulty == crate::http::Difficulty::Easy);
-    let medium_num = counter(data, |x| x.data.question.difficulty == crate::http::Difficulty::Medium);
-    let hard_num = counter(data, |x| x.data.question.difficulty == crate::http::Difficulty::Hard);
+    let easy_num = counter(data, |x| {
+        x.data.question.difficulty == crate::http::Difficulty::Easy
+    });
+    let medium_num = counter(data, |x| {
+        x.data.question.difficulty == crate::http::Difficulty::Medium
+    });
+    let hard_num = counter(data, |x| {
+        x.data.question.difficulty == crate::http::Difficulty::Hard
+    });
 
     ctx.insert("datas", data);
     ctx.insert("easy_num", &easy_num);
@@ -50,24 +55,22 @@ fn counter(data: &[crate::http::Resp], f: impl FnMut(&&crate::http::Resp) -> boo
 
 #[cfg(test)]
 mod tests {
-    use crate::http::{Resp, Ques, Data, Difficulty};
+    use crate::http::{Data, Difficulty, Ques, Resp};
     use crate::render::render;
 
     #[test]
     fn test_render() {
-        let data = vec![
-            Resp {
-                data: Data {
-                    question: Ques {
-                        question_id: "111".to_string(),
-                        title_slug: "aaa".to_string(),
-                        translated_title: "中国".to_string(),
-                        code_snippets: vec![],
-                        difficulty: Difficulty::Easy,
-                    }
+        let data = vec![Resp {
+            data: Data {
+                question: Ques {
+                    question_id: "111".to_string(),
+                    title_slug: "aaa".to_string(),
+                    translated_title: "中国".to_string(),
+                    code_snippets: vec![],
+                    difficulty: Difficulty::Easy,
                 },
             },
-        ];
+        }];
 
         println!("{:?}", render(&data).unwrap().to_string());
     }

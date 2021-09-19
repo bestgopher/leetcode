@@ -1,5 +1,8 @@
 fn main() {
-    println!("{}", Solution::length_of_lis(vec![10, 9, 2, 5, 3, 7, 101, 18]));
+    println!(
+        "{}",
+        Solution::length_of_lis(vec![10, 9, 2, 5, 3, 7, 101, 18])
+    );
     println!("{}", Solution::length_of_lis(vec![0, 1, 0, 3, 2, 3]));
     println!("{}", Solution::length_of_lis(vec![7, 7, 7, 7, 7, 7, 7]));
 }

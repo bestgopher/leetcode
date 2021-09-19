@@ -1,5 +1,3 @@
-
-
 fn main() {
     assert_eq!(4, Solution::search(vec![4, 5, 6, 7, 8, 1, 2, 3], 8));
     assert_eq!(-1, Solution::search(vec![1, 3], 0));

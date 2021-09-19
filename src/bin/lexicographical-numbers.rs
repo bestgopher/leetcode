@@ -11,7 +11,9 @@ impl Solution {
 
         s.sort();
 
-        s.into_iter().map(|x| x.parse::<i32>().unwrap()).collect::<Vec<i32>>()
+        s.into_iter()
+            .map(|x| x.parse::<i32>().unwrap())
+            .collect::<Vec<i32>>()
     }
 
     pub fn lexical_order(n: i32) -> Vec<i32> {
@@ -25,7 +27,9 @@ impl Solution {
     }
 
     fn dfs(v: &mut Vec<i32>, number: i32, n: i32) {
-        if number > n { return; }
+        if number > n {
+            return;
+        }
 
         let number = number * 10;
 

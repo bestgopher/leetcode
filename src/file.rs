@@ -1,13 +1,15 @@
-use std::fs::{self, File};
-use std::io::Write;
 use lazy_static::lazy_static;
 use regex::Regex;
+use std::fs::{self, File};
+use std::io::Write;
 
-use crate::http::{Resp, Data, Ques, Difficulty};
+use crate::http::{Data, Difficulty, Ques, Resp};
 
-lazy_static!(
-    static ref RE: Regex = Regex::new(r"\|\s*([0-9]*)\s*\|\s*(.*?)\s*\|.*?bin/(.*?)\.rs.*?\|.*?\|\s*?(\w*)\s*?\|").unwrap();
-);
+lazy_static! {
+    static ref RE: Regex =
+        Regex::new(r"\|\s*([0-9]*)\s*\|\s*(.*?)\s*\|.*?bin/(.*?)\.rs.*?\|.*?\|\s*?(\w*)\s*?\|")
+            .unwrap();
+};
 
 /// 将结果写入README.md中
 pub fn write_readme(r: &mut Vec<Resp>) {
@@ -21,21 +23,24 @@ pub fn write_readme(r: &mut Vec<Resp>) {
 
     match std::fs::write("README.md", s) {
         Ok(_) => (),
-        Err(e) => eprintln!("写入 README.md 失败，err{}", e.to_string())
+        Err(e) => eprintln!("写入 README.md 失败，err{}", e.to_string()),
     }
 }
 
 /// 获取 src/bin 目录下所有文件的名称
 pub fn get_all_bin_file() -> Vec<String> {
     let dir = fs::read_dir("src/bin/").unwrap();
-    dir.
-        into_iter().
-        map(|x| {
-            x.unwrap().file_name().to_str().unwrap().trim_end_matches(".rs").to_string()
-        }).
-        collect()
+    dir.into_iter()
+        .map(|x| {
+            x.unwrap()
+                .file_name()
+                .to_str()
+                .unwrap()
+                .trim_end_matches(".rs")
+                .to_string()
+        })
+        .collect()
 }
-
 
 /// 创建 bin/{quest_name}.rs 文件
 pub fn write_question(resp: Resp) {
@@ -78,7 +83,7 @@ fn parse(contents: &str) -> Vec<Resp> {
                         title_slug: i.get(3).unwrap().as_str().to_string(),
                         code_snippets: vec![],
                         difficulty: Difficulty::new(i.get(4).unwrap().as_str()),
-                    }
+                    },
                 },
             })
         }
@@ -89,7 +94,7 @@ fn parse(contents: &str) -> Vec<Resp> {
 
 #[cfg(test)]
 mod tests {
-    use crate::file::{parse, get_all_bin_file};
+    use crate::file::{get_all_bin_file, parse};
 
     #[test]
     fn test_parse_readme() {
@@ -99,11 +104,12 @@ mod tests {
         println!("{}", x.len());
 
         for i in x {
-            println!("{}, {}, {}, {:?}",
-                     i.data.question.translated_title,
-                     i.data.question.question_id,
-                     i.data.question.title_slug,
-                     i.data.question.difficulty
+            println!(
+                "{}, {}, {}, {:?}",
+                i.data.question.translated_title,
+                i.data.question.question_id,
+                i.data.question.title_slug,
+                i.data.question.difficulty
             );
         }
     }

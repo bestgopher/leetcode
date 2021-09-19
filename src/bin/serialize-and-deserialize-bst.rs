@@ -19,8 +19,8 @@ impl TreeNode {
     }
 }
 
-use std::rc::Rc;
 use std::cell::RefCell;
+use std::rc::Rc;
 
 /**
  * Your Codec object will be instantiated and called as such:
@@ -30,7 +30,7 @@ use std::cell::RefCell;
  */
 struct Codec {}
 
-/** 
+/**
  * `&self` means the method takes an immutable reference.
  * If you need a mutable reference, change it to `&mut self` instead.
  */
@@ -53,7 +53,7 @@ impl Codec {
                     self.serialize(right),
                 )
             }
-            None => "-1".to_string()
+            None => "-1".to_string(),
         }
     }
 

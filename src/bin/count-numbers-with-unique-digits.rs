@@ -16,7 +16,7 @@ impl Solution {
             return 10;
         }
 
-        let mut sum =9;
+        let mut sum = 9;
 
         for i in 0..n - 1 {
             sum *= 9 - i;

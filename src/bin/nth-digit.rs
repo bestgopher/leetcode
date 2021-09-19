@@ -25,7 +25,7 @@ impl Solution {
 
         let mut n = n;
 
-        let mut s: i32 = 1;  // n所在的数字有几位
+        let mut s: i32 = 1; // n所在的数字有几位
 
         loop {
             let m = 9i64 * s as i64 * 10i64.pow(s as u32 - 1) as i64;
@@ -40,8 +40,7 @@ impl Solution {
         // 基于相同位数的最小值的偏移，比如1123相对于1000偏移123
         let n1 = n - 1;
 
-
-        let x = 10i32.pow(s as u32 - 1) + n1 / s;  // 定位到具体的数字
+        let x = 10i32.pow(s as u32 - 1) + n1 / s; // 定位到具体的数字
 
         x / 10i32.pow((s - n1 % s - 1) as u32) % 10
     }

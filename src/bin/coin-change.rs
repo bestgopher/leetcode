@@ -8,7 +8,9 @@ struct Solution;
 
 impl Solution {
     pub fn coin_change(coins: Vec<i32>, amount: i32) -> i32 {
-        if amount == 0 { return 0; }
+        if amount == 0 {
+            return 0;
+        }
 
         let mut h = std::collections::HashMap::new();
 

@@ -10,7 +10,9 @@ struct Solution;
 
 impl Solution {
     pub fn min_steps(mut n: i32) -> i32 {
-        if n == 1 { return 0; }
+        if n == 1 {
+            return 0;
+        }
 
         // 检查是否是质数
         let mut count = 0;

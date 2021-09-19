@@ -28,8 +28,7 @@ impl Solution {
             nums[v as usize % l] += l as i32;
         }
 
-        nums
-            .into_iter()
+        nums.into_iter()
             .enumerate()
             .filter(|&(_, x)| x <= (l as i32))
             .map(|x| x.0 as i32 + 1)

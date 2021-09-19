@@ -15,11 +15,7 @@ impl Solution {
         let mut max = 0;
 
         for i in 1..v.len() {
-            max = if v[i] > v[max] {
-                i
-            } else {
-                max
-            }
+            max = if v[i] > v[max] { i } else { max }
         }
 
         max as i32 + 1950

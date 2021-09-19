@@ -12,10 +12,7 @@ pub struct ListNode {
 impl ListNode {
     #[inline]
     fn new(val: i32) -> Self {
-        ListNode {
-            next: None,
-            val,
-        }
+        ListNode { next: None, val }
     }
 }
 
@@ -25,9 +22,8 @@ impl ListNode {
  * let ret_1: i32 = obj.get_random();
  */
 struct Solution {
-    head: Option<Box<ListNode>>
+    head: Option<Box<ListNode>>,
 }
-
 
 /**
  * `&self` means the method takes an immutable reference.
@@ -35,7 +31,7 @@ struct Solution {
  */
 impl Solution {
     /** @param head The linked list's head.
-        Note that the head is guaranteed to be not null, so it contains at least one node. */
+    Note that the head is guaranteed to be not null, so it contains at least one node. */
     fn new(head: Option<Box<ListNode>>) -> Self {
         Self { head }
     }

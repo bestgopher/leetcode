@@ -6,9 +6,8 @@ fn main() {}
  * let ret_1: i32 = obj.pick(target);
  */
 struct Solution1 {
-    index_map: std::collections::HashMap<i32, Vec<usize>>
+    index_map: std::collections::HashMap<i32, Vec<usize>>,
 }
-
 
 /**
  * `&self` means the method takes an immutable reference.
@@ -18,13 +17,12 @@ impl Solution1 {
     fn new(nums: Vec<i32>) -> Self {
         let mut index_map = std::collections::HashMap::new();
 
-        nums
-            .into_iter()
-            .enumerate()
-            .for_each(|(index, value)| {
-                index_map.entry(value)
-                    .and_modify(|y: &mut Vec<usize>| y.push(index)).or_insert(vec![index]);
-            });
+        nums.into_iter().enumerate().for_each(|(index, value)| {
+            index_map
+                .entry(value)
+                .and_modify(|y: &mut Vec<usize>| y.push(index))
+                .or_insert(vec![index]);
+        });
 
         Self { index_map }
     }
@@ -33,16 +31,14 @@ impl Solution1 {
         use rand::Rng;
 
         match self.index_map.get(&target) {
-            Some(x) => {
-                x[rand::thread_rng().gen_range(0..x.len())] as i32
-            }
-            None => 0
+            Some(x) => x[rand::thread_rng().gen_range(0..x.len())] as i32,
+            None => 0,
         }
     }
 }
 
 struct Solution {
-    nums: Vec<i32>
+    nums: Vec<i32>,
 }
 
 impl Solution {

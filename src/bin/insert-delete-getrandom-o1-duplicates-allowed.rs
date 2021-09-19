@@ -27,7 +27,6 @@ struct RandomizedCollection {
     indexes: std::collections::HashMap<i32, std::collections::HashMap<usize, ()>>,
 }
 
-
 /**
  * `&self` means the method takes an immutable reference.
  * If you need a mutable reference, change it to `&mut self` instead.
@@ -46,8 +45,11 @@ impl RandomizedCollection {
         let has = self.indexes.get(&val).is_some();
         self.data.push(val);
         let index = self.data.len() - 1;
-        self.indexes.entry(val)
-            .and_modify(|i| { i.insert(index, ()); })
+        self.indexes
+            .entry(val)
+            .and_modify(|i| {
+                i.insert(index, ());
+            })
             .or_insert_with(|| {
                 let mut h = std::collections::HashMap::new();
                 h.insert(index, ());
@@ -59,7 +61,9 @@ impl RandomizedCollection {
 
     /** Removes a value from the collection. Returns true if the collection contained the specified element. */
     fn remove(&mut self, val: i32) -> bool {
-        if self.indexes.get(&val).is_none() { return false; }
+        if self.indexes.get(&val).is_none() {
+            return false;
+        }
 
         let index = {
             let i = *self.indexes.get(&val).unwrap().keys().next().unwrap();

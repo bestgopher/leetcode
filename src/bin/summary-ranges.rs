@@ -1,5 +1,3 @@
-
-
 fn main() {
     println!("{:?}", Solution::summary_ranges(vec![0, 1, 2, 4, 5, 7]));
 }

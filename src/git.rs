@@ -19,7 +19,6 @@ pub fn push() {
     push_to_origin();
 }
 
-
 fn get_uncommit_files() -> Vec<String> {
     let mut options = StatusOptions::new();
     options.pathspec("src/bin");
@@ -49,7 +48,6 @@ pub fn push_to_origin() {
     let output = Command::new("git").arg("push").output().unwrap();
     println!("{}", String::from_utf8(output.stdout).unwrap());
 }
-
 
 #[cfg(test)]
 mod tests {

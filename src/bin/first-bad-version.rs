@@ -5,7 +5,7 @@ fn main() {
 }
 
 struct Solution {
-    n: i32
+    n: i32,
 }
 
 // The API isBadVersion is defined for you.
@@ -13,7 +13,9 @@ struct Solution {
 // to call it use self.isBadVersion(versions)
 
 impl Solution {
-    fn new(n: i32) -> Self { Self { n } }
+    fn new(n: i32) -> Self {
+        Self { n }
+    }
 
     pub fn first_bad_version(&self, n: i32) -> i32 {
         let mut good: i64 = 0;

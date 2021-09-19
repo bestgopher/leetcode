@@ -2,16 +2,14 @@ fn main() {}
 
 struct Solution;
 
-
 /**
  * Your NumArray object will be instantiated and called as such:
  * let obj = NumArray::new(nums);
  * let ret_1: i32 = obj.sum_range(left, right);
  */
 struct NumArray {
-    sums: Vec<i32>
+    sums: Vec<i32>,
 }
-
 
 /**
  * `&self` means the method takes an immutable reference.
