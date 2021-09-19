@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 277 | 127 | 143 | 7 |
+| 278 | 127 | 144 | 7 |
 
 ### 题目
 
@@ -198,6 +198,7 @@
 |419    | 甲板上的战舰 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/battleships-in-a-board.rs) | [leetcode](https://leetcode-cn.com/problems/battleships-in-a-board/) | Medium |
 |423    | 从英文中重建数字 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/reconstruct-original-digits-from-english.rs) | [leetcode](https://leetcode-cn.com/problems/reconstruct-original-digits-from-english/) | Medium |
 |434    | 字符串中的单词数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/number-of-segments-in-a-string.rs) | [leetcode](https://leetcode-cn.com/problems/number-of-segments-in-a-string/) | Easy |
+|445    | 两数相加 II | [src](https://github.com/rustors/leetcode/blob/main/src/bin/add-two-numbers-ii.rs) | [leetcode](https://leetcode-cn.com/problems/add-two-numbers-ii/) | Medium |
 |448    | 找到所有数组中消失的数字 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-all-numbers-disappeared-in-an-array.rs) | [leetcode](https://leetcode-cn.com/problems/find-all-numbers-disappeared-in-an-array/) | Easy |
 |449    | 序列化和反序列化二叉搜索树 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/serialize-and-deserialize-bst.rs) | [leetcode](https://leetcode-cn.com/problems/serialize-and-deserialize-bst/) | Medium |
 |449    | 序列化和反序列化二叉搜索树 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/serialize-and-deserialize-bst.rs) | [leetcode](https://leetcode-cn.com/problems/serialize-and-deserialize-bst/) | Medium |
