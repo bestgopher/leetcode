@@ -9,7 +9,7 @@ lazy_static! {
     static ref RE: Regex =
         Regex::new(r"\|\s*([0-9]*)\s*\|\s*(.*?)\s*\|.*?bin/(.*?)\.rs.*?\|.*?\|\s*?(\w*)\s*?\|")
             .unwrap();
-};
+}
 
 /// 将结果写入README.md中
 pub fn write_readme(r: &mut Vec<Resp>) {
