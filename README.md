@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 282 | 128 | 147 | 7 |
+| 283 | 128 | 148 | 7 |
 
 ### 题目
 
@@ -222,6 +222,7 @@
 |658    | 找到 K 个最接近的元素 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-k-closest-elements.rs) | [leetcode](https://leetcode-cn.com/problems/find-k-closest-elements/) | Medium |
 |674    | 最长连续递增序列 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/longest-continuous-increasing-subsequence.rs) | [leetcode](https://leetcode-cn.com/problems/longest-continuous-increasing-subsequence/) | Easy |
 |782    | 宝石与石头 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/jewels-and-stones.rs) | [leetcode](https://leetcode-cn.com/problems/jewels-and-stones/) | Easy |
+|784    | 二叉搜索树中的插入操作 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/insert-into-a-binary-search-tree.rs) | [leetcode](https://leetcode-cn.com/problems/insert-into-a-binary-search-tree/) | Medium |
 |800    | 字母大小写全排列 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/letter-case-permutation.rs) | [leetcode](https://leetcode-cn.com/problems/letter-case-permutation/) | Medium |
 |825    | 保持城市天际线 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/max-increase-to-keep-city-skyline.rs) | [leetcode](https://leetcode-cn.com/problems/max-increase-to-keep-city-skyline/) | Medium |
 |829    | 子域名访问计数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/subdomain-visit-count.rs) | [leetcode](https://leetcode-cn.com/problems/subdomain-visit-count/) | Medium |
