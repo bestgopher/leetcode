@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 283 | 128 | 148 | 7 |
+| 284 | 128 | 149 | 7 |
 
 ### 题目
 
@@ -221,6 +221,7 @@
 |653    | 两数之和 IV - 输入 BST | [src](https://github.com/rustors/leetcode/blob/main/src/bin/two-sum-iv-input-is-a-bst.rs) | [leetcode](https://leetcode-cn.com/problems/two-sum-iv-input-is-a-bst/) | Easy |
 |658    | 找到 K 个最接近的元素 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-k-closest-elements.rs) | [leetcode](https://leetcode-cn.com/problems/find-k-closest-elements/) | Medium |
 |674    | 最长连续递增序列 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/longest-continuous-increasing-subsequence.rs) | [leetcode](https://leetcode-cn.com/problems/longest-continuous-increasing-subsequence/) | Easy |
+|718    | 最长重复子数组 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-length-of-repeated-subarray.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-length-of-repeated-subarray/) | Medium |
 |782    | 宝石与石头 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/jewels-and-stones.rs) | [leetcode](https://leetcode-cn.com/problems/jewels-and-stones/) | Easy |
 |784    | 二叉搜索树中的插入操作 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/insert-into-a-binary-search-tree.rs) | [leetcode](https://leetcode-cn.com/problems/insert-into-a-binary-search-tree/) | Medium |
 |800    | 字母大小写全排列 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/letter-case-permutation.rs) | [leetcode](https://leetcode-cn.com/problems/letter-case-permutation/) | Medium |
