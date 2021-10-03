@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 285 | 128 | 150 | 7 |
+| 286 | 128 | 151 | 7 |
 
 ### 题目
 
@@ -212,6 +212,7 @@
 |515    | 在每个树行中找最大值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-largest-value-in-each-tree-row.rs) | [leetcode](https://leetcode-cn.com/problems/find-largest-value-in-each-tree-row/) | Medium |
 |520    | 检测大写字母 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/detect-capital.rs) | [leetcode](https://leetcode-cn.com/problems/detect-capital/) | Easy |
 |528    | 交换链表中的节点 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/swapping-nodes-in-a-linked-list.rs) | [leetcode](https://leetcode-cn.com/problems/swapping-nodes-in-a-linked-list/) | Medium |
+|535    | TinyURL 的加密与解密 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/encode-and-decode-tinyurl.rs) | [leetcode](https://leetcode-cn.com/problems/encode-and-decode-tinyurl/) | Medium |
 |551    | 学生出勤记录 I | [src](https://github.com/rustors/leetcode/blob/main/src/bin/student-attendance-record-i.rs) | [leetcode](https://leetcode-cn.com/problems/student-attendance-record-i/) | Easy |
 |560    | 和为K的子数组 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/subarray-sum-equals-k.rs) | [leetcode](https://leetcode-cn.com/problems/subarray-sum-equals-k/) | Medium |
 |565    | 数组嵌套 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/array-nesting.rs) | [leetcode](https://leetcode-cn.com/problems/array-nesting/) | Medium |
