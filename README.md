@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 289 | 130 | 152 | 7 |
+| 290 | 130 | 153 | 7 |
 
 ### 题目
 
@@ -219,6 +219,7 @@
 |565    | 数组嵌套 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/array-nesting.rs) | [leetcode](https://leetcode-cn.com/problems/array-nesting/) | Medium |
 |594    | 最长和谐子序列 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/longest-harmonious-subsequence.rs) | [leetcode](https://leetcode-cn.com/problems/longest-harmonious-subsequence/) | Easy |
 |617    | 合并二叉树 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/merge-two-binary-trees.rs) | [leetcode](https://leetcode-cn.com/problems/merge-two-binary-trees/) | Easy |
+|623    | 在二叉树中增加一行 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/add-one-row-to-tree.rs) | [leetcode](https://leetcode-cn.com/problems/add-one-row-to-tree/) | Medium |
 |637    | 二叉树的层平均值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/average-of-levels-in-binary-tree.rs) | [leetcode](https://leetcode-cn.com/problems/average-of-levels-in-binary-tree/) | Easy |
 |649    | Dota2 参议院 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/dota2-senate.rs) | [leetcode](https://leetcode-cn.com/problems/dota2-senate/) | Medium |
 |650    | 只有两个键的键盘 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/2-keys-keyboard.rs) | [leetcode](https://leetcode-cn.com/problems/2-keys-keyboard/) | Medium |
