@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 290 | 130 | 153 | 7 |
+| 291 | 131 | 153 | 7 |
 
 ### 题目
 
@@ -218,6 +218,7 @@
 |560    | 和为K的子数组 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/subarray-sum-equals-k.rs) | [leetcode](https://leetcode-cn.com/problems/subarray-sum-equals-k/) | Medium |
 |565    | 数组嵌套 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/array-nesting.rs) | [leetcode](https://leetcode-cn.com/problems/array-nesting/) | Medium |
 |594    | 最长和谐子序列 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/longest-harmonious-subsequence.rs) | [leetcode](https://leetcode-cn.com/problems/longest-harmonious-subsequence/) | Easy |
+|605    | 种花问题 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/can-place-flowers.rs) | [leetcode](https://leetcode-cn.com/problems/can-place-flowers/) | Easy |
 |617    | 合并二叉树 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/merge-two-binary-trees.rs) | [leetcode](https://leetcode-cn.com/problems/merge-two-binary-trees/) | Easy |
 |623    | 在二叉树中增加一行 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/add-one-row-to-tree.rs) | [leetcode](https://leetcode-cn.com/problems/add-one-row-to-tree/) | Medium |
 |637    | 二叉树的层平均值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/average-of-levels-in-binary-tree.rs) | [leetcode](https://leetcode-cn.com/problems/average-of-levels-in-binary-tree/) | Easy |
