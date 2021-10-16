@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 291 | 131 | 153 | 7 |
+| 292 | 132 | 153 | 7 |
 
 ### 题目
 
@@ -208,6 +208,7 @@
 |485    | 最大连续 1 的个数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/max-consecutive-ones.rs) | [leetcode](https://leetcode-cn.com/problems/max-consecutive-ones/) | Easy |
 |500    | 键盘行 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/keyboard-row.rs) | [leetcode](https://leetcode-cn.com/problems/keyboard-row/) | Easy |
 |504    | 七进制数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/base-7.rs) | [leetcode](https://leetcode-cn.com/problems/base-7/) | Easy |
+|507    | 完美数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/perfect-number.rs) | [leetcode](https://leetcode-cn.com/problems/perfect-number/) | Easy |
 |508    | 出现次数最多的子树元素和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/most-frequent-subtree-sum.rs) | [leetcode](https://leetcode-cn.com/problems/most-frequent-subtree-sum/) | Medium |
 |513    | 找树左下角的值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-bottom-left-tree-value.rs) | [leetcode](https://leetcode-cn.com/problems/find-bottom-left-tree-value/) | Medium |
 |515    | 在每个树行中找最大值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-largest-value-in-each-tree-row.rs) | [leetcode](https://leetcode-cn.com/problems/find-largest-value-in-each-tree-row/) | Medium |
