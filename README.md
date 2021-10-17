@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 292 | 132 | 153 | 7 |
+| 293 | 133 | 153 | 7 |
 
 ### 题目
 
@@ -223,6 +223,7 @@
 |617    | 合并二叉树 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/merge-two-binary-trees.rs) | [leetcode](https://leetcode-cn.com/problems/merge-two-binary-trees/) | Easy |
 |623    | 在二叉树中增加一行 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/add-one-row-to-tree.rs) | [leetcode](https://leetcode-cn.com/problems/add-one-row-to-tree/) | Medium |
 |637    | 二叉树的层平均值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/average-of-levels-in-binary-tree.rs) | [leetcode](https://leetcode-cn.com/problems/average-of-levels-in-binary-tree/) | Easy |
+|643    | 子数组最大平均数 I | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-average-subarray-i.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-average-subarray-i/) | Easy |
 |649    | Dota2 参议院 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/dota2-senate.rs) | [leetcode](https://leetcode-cn.com/problems/dota2-senate/) | Medium |
 |650    | 只有两个键的键盘 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/2-keys-keyboard.rs) | [leetcode](https://leetcode-cn.com/problems/2-keys-keyboard/) | Medium |
 |653    | 两数之和 IV - 输入 BST | [src](https://github.com/rustors/leetcode/blob/main/src/bin/two-sum-iv-input-is-a-bst.rs) | [leetcode](https://leetcode-cn.com/problems/two-sum-iv-input-is-a-bst/) | Easy |
