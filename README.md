@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 294 | 134 | 153 | 7 |
+| 295 | 135 | 153 | 7 |
 
 ### 题目
 
@@ -232,6 +232,7 @@
 |674    | 最长连续递增序列 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/longest-continuous-increasing-subsequence.rs) | [leetcode](https://leetcode-cn.com/problems/longest-continuous-increasing-subsequence/) | Easy |
 |718    | 最长重复子数组 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-length-of-repeated-subarray.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-length-of-repeated-subarray/) | Medium |
 |782    | 宝石与石头 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/jewels-and-stones.rs) | [leetcode](https://leetcode-cn.com/problems/jewels-and-stones/) | Easy |
+|783    | 二叉搜索树中的搜索 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/search-in-a-binary-search-tree.rs) | [leetcode](https://leetcode-cn.com/problems/search-in-a-binary-search-tree/) | Easy |
 |784    | 二叉搜索树中的插入操作 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/insert-into-a-binary-search-tree.rs) | [leetcode](https://leetcode-cn.com/problems/insert-into-a-binary-search-tree/) | Medium |
 |800    | 字母大小写全排列 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/letter-case-permutation.rs) | [leetcode](https://leetcode-cn.com/problems/letter-case-permutation/) | Medium |
 |825    | 保持城市天际线 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/max-increase-to-keep-city-skyline.rs) | [leetcode](https://leetcode-cn.com/problems/max-increase-to-keep-city-skyline/) | Medium |
