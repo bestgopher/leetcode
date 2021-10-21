@@ -26,13 +26,29 @@ use std::cell::RefCell;
 
 impl Solution {
     pub fn get_minimum_difference(root: Option<Rc<RefCell<TreeNode>>>) -> i32 {
-        if root.is_none() { return std::i32::MAX; }
-        let v = root.as_ref().unwrap().borrow().val;
-        let left = root.as_ref().unwrap().borrow_mut().left.take();
-        let right = root.as_ref().unwrap().borrow_mut().right.take();
+        let mut v = vec![];
+        let mut stack = vec![root];
 
-        let x = (left.as_ref().map_or(std::i32::MAX, |x| x.borrow().val) - v).abs();
-        let x = x.min((right.as_ref().map_or(std::i32::MAX, |x| x.borrow().val) - v).abs());
-        x.min(Self::get_minimum_difference(left)).min(Self::get_minimum_difference(right))
+        while let Some(x) = stack.pop() {
+            if let Some(y) = x {
+                v.push(y.borrow().val);
+                if let Some(z) = y.borrow_mut().left.take() {
+                    stack.push(Some(z));
+                }
+                if let Some(o) = y.borrow_mut().right.take() {
+                    stack.push(Some(o));
+                }
+            }
+        }
+
+        v.sort();
+
+        let mut x = std::i32::MAX;
+
+        for i in 1..v.len() {
+            x = x.min(v[i] - v[i - 1]);
+        }
+
+        x
     }
 }
