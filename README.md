@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 296 | 136 | 153 | 7 |
+| 297 | 137 | 153 | 7 |
 
 ### 题目
 
@@ -214,6 +214,7 @@
 |515    | 在每个树行中找最大值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-largest-value-in-each-tree-row.rs) | [leetcode](https://leetcode-cn.com/problems/find-largest-value-in-each-tree-row/) | Medium |
 |520    | 检测大写字母 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/detect-capital.rs) | [leetcode](https://leetcode-cn.com/problems/detect-capital/) | Easy |
 |528    | 交换链表中的节点 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/swapping-nodes-in-a-linked-list.rs) | [leetcode](https://leetcode-cn.com/problems/swapping-nodes-in-a-linked-list/) | Medium |
+|530    | 二叉搜索树的最小绝对差 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-absolute-difference-in-bst.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-absolute-difference-in-bst/) | Easy |
 |530    | 二叉搜索树的最小绝对差 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-absolute-difference-in-bst.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-absolute-difference-in-bst/) | Easy |
 |535    | TinyURL 的加密与解密 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/encode-and-decode-tinyurl.rs) | [leetcode](https://leetcode-cn.com/problems/encode-and-decode-tinyurl/) | Medium |
 |551    | 学生出勤记录 I | [src](https://github.com/rustors/leetcode/blob/main/src/bin/student-attendance-record-i.rs) | [leetcode](https://leetcode-cn.com/problems/student-attendance-record-i/) | Easy |
