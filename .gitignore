@@ -1,6 +1,7 @@
 .idea
 /target
 leetcode.iml
+.DS_Store
 
 #Added by cargo
 #
