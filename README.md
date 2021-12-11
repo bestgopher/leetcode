@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 298 | 138 | 153 | 7 |
+| 299 | 138 | 154 | 7 |
 
 ### 题目
 
@@ -247,6 +247,7 @@
 |924    | 公平的糖果棒交换 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/fair-candy-swap.rs) | [leetcode](https://leetcode-cn.com/problems/fair-candy-swap/) | Easy |
 |925    | 根据前序和后序遍历构造二叉树 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/construct-binary-tree-from-preorder-and-postorder-traversal.rs) | [leetcode](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/) | Medium |
 |932    | 单调数列 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/monotonic-array.rs) | [leetcode](https://leetcode-cn.com/problems/monotonic-array/) | Easy |
+|947    | 在线选举 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/online-election.rs) | [leetcode](https://leetcode-cn.com/problems/online-election/) | Medium |
 |979    | 增减字符串匹配 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/di-string-match.rs) | [leetcode](https://leetcode-cn.com/problems/di-string-match/) | Easy |
 |981    | 删列造序 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/delete-columns-to-make-sorted.rs) | [leetcode](https://leetcode-cn.com/problems/delete-columns-to-make-sorted/) | Easy |
 |982    | 使数组唯一的最小增量 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-increment-to-make-array-unique.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-increment-to-make-array-unique/) | Medium |
