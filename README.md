@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 300 | 139 | 154 | 7 |
+| 301 | 140 | 154 | 7 |
 
 ### 题目
 
@@ -265,6 +265,7 @@
 |1210    | 删除某些元素后的数组均值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/mean-of-array-after-removing-some-elements.rs) | [leetcode](https://leetcode-cn.com/problems/mean-of-array-after-removing-some-elements/) | Easy |
 |1238    | 字母板上的路径 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/alphabet-board-path.rs) | [leetcode](https://leetcode-cn.com/problems/alphabet-board-path/) | Medium |
 |1287    | 公交站间的距离 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/distance-between-bus-stops.rs) | [leetcode](https://leetcode-cn.com/problems/distance-between-bus-stops/) | Easy |
+|1306    | 最小绝对差 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-absolute-difference.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-absolute-difference/) | Easy |
 |1320    | 删除字符串中的所有相邻重复项 II | [src](https://github.com/rustors/leetcode/blob/main/src/bin/remove-all-adjacent-duplicates-in-string-ii.rs) | [leetcode](https://leetcode-cn.com/problems/remove-all-adjacent-duplicates-in-string-ii/) | Medium |
 |1341    | 分割平衡字符串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/split-a-string-in-balanced-strings.rs) | [leetcode](https://leetcode-cn.com/problems/split-a-string-in-balanced-strings/) | Easy |
 |1362    | 飞机座位分配概率 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/airplane-seat-assignment-probability.rs) | [leetcode](https://leetcode-cn.com/problems/airplane-seat-assignment-probability/) | Medium |
