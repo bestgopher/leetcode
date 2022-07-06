@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 302 | 140 | 155 | 7 |
+| 304 | 142 | 155 | 7 |
 
 ### 题目
 
@@ -261,6 +261,7 @@
 |1072    | 链表中的下一个更大节点 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/next-greater-node-in-linked-list.rs) | [leetcode](https://leetcode-cn.com/problems/next-greater-node-in-linked-list/) | Medium |
 |1119    | 困于环中的机器人 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/robot-bounded-in-circle.rs) | [leetcode](https://leetcode-cn.com/problems/robot-bounded-in-circle/) | Medium |
 |1128    | 删除字符串中的所有相邻重复项 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/remove-all-adjacent-duplicates-in-string.rs) | [leetcode](https://leetcode-cn.com/problems/remove-all-adjacent-duplicates-in-string/) | Easy |
+|1128    | 删除字符串中的所有相邻重复项 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/remove-all-adjacent-duplicates-in-string.rs) | [leetcode](https://leetcode-cn.com/problems/remove-all-adjacent-duplicates-in-string/) | Easy |
 |1157    | 根到叶路径上的不足节点 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/insufficient-nodes-in-root-to-leaf-paths.rs) | [leetcode](https://leetcode-cn.com/problems/insufficient-nodes-in-root-to-leaf-paths/) | Medium |
 |1210    | 删除某些元素后的数组均值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/mean-of-array-after-removing-some-elements.rs) | [leetcode](https://leetcode-cn.com/problems/mean-of-array-after-removing-some-elements/) | Easy |
 |1238    | 字母板上的路径 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/alphabet-board-path.rs) | [leetcode](https://leetcode-cn.com/problems/alphabet-board-path/) | Medium |
@@ -309,4 +310,5 @@
 |100349    | 最大数值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-lcci.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-lcci/) | Easy |
 |100352    | 跳水板 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/diving-board-lcci.rs) | [leetcode](https://leetcode-cn.com/problems/diving-board-lcci/) | Easy |
 |100353    | 平分正方形 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/bisect-squares-lcci.rs) | [leetcode](https://leetcode-cn.com/problems/bisect-squares-lcci/) | Medium |
+|1000056    | 拿硬币 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/na-ying-bi.rs) | [leetcode](https://leetcode-cn.com/problems/na-ying-bi/) | Easy |
 |1000063    | 传递信息 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/chuan-di-xin-xi.rs) | [leetcode](https://leetcode-cn.com/problems/chuan-di-xin-xi/) | Easy |
