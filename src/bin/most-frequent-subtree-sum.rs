@@ -21,8 +21,8 @@ impl TreeNode {
     }
 }
 
-use std::rc::Rc;
 use std::cell::RefCell;
+use std::rc::Rc;
 
 impl Solution {
     pub fn find_frequent_tree_sum(root: Option<Rc<RefCell<TreeNode>>>) -> Vec<i32> {
@@ -31,17 +31,38 @@ impl Solution {
         let mut max = 0;
         Self::get_sum(&mut root, &mut h, &mut max);
 
-        h.iter().filter(|&(_, y)| *y == max).map(|(&x, _)| x).collect()
+        h.iter()
+            .filter(|&(_, y)| *y == max)
+            .map(|(&x, _)| x)
+            .collect()
     }
 
-    fn get_sum(root: &mut Option<Rc<RefCell<TreeNode>>>, h: &mut std::collections::HashMap<i32, i32>, max: &mut i32) {
-        if root.is_none() { return; }
+    fn get_sum(
+        root: &mut Option<Rc<RefCell<TreeNode>>>,
+        h: &mut std::collections::HashMap<i32, i32>,
+        max: &mut i32,
+    ) {
+        if root.is_none() {
+            return;
+        }
 
         Self::get_sum(&mut root.as_mut().unwrap().borrow_mut().left, h, max);
         Self::get_sum(&mut root.as_mut().unwrap().borrow_mut().right, h, max);
 
-        let sum = root.as_ref().unwrap().borrow().left.as_ref().map_or(0, |x| x.borrow().val)
-            + root.as_ref().unwrap().borrow().right.as_ref().map_or(0, |x| x.borrow().val)
+        let sum = root
+            .as_ref()
+            .unwrap()
+            .borrow()
+            .left
+            .as_ref()
+            .map_or(0, |x| x.borrow().val)
+            + root
+                .as_ref()
+                .unwrap()
+                .borrow()
+                .right
+                .as_ref()
+                .map_or(0, |x| x.borrow().val)
             + root.as_ref().unwrap().borrow().val;
 
         root.as_mut().unwrap().borrow_mut().val = sum;
