@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 305 | 143 | 155 | 7 |
+| 321 | 148 | 166 | 7 |
 
 ### 题目
 
@@ -199,6 +199,7 @@
 |423    | 从英文中重建数字 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/reconstruct-original-digits-from-english.rs) | [leetcode](https://leetcode-cn.com/problems/reconstruct-original-digits-from-english/) | Medium |
 |434    | 字符串中的单词数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/number-of-segments-in-a-string.rs) | [leetcode](https://leetcode-cn.com/problems/number-of-segments-in-a-string/) | Easy |
 |442    | 数组中重复的数据 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-all-duplicates-in-an-array.rs) | [leetcode](https://leetcode-cn.com/problems/find-all-duplicates-in-an-array/) | Medium |
+|442    | 数组中重复的数据 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-all-duplicates-in-an-array.rs) | [leetcode](https://leetcode-cn.com/problems/find-all-duplicates-in-an-array/) | Medium |
 |445    | 两数相加 II | [src](https://github.com/rustors/leetcode/blob/main/src/bin/add-two-numbers-ii.rs) | [leetcode](https://leetcode-cn.com/problems/add-two-numbers-ii/) | Medium |
 |448    | 找到所有数组中消失的数字 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-all-numbers-disappeared-in-an-array.rs) | [leetcode](https://leetcode-cn.com/problems/find-all-numbers-disappeared-in-an-array/) | Easy |
 |449    | 序列化和反序列化二叉搜索树 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/serialize-and-deserialize-bst.rs) | [leetcode](https://leetcode-cn.com/problems/serialize-and-deserialize-bst/) | Medium |
@@ -210,12 +211,17 @@
 |504    | 七进制数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/base-7.rs) | [leetcode](https://leetcode-cn.com/problems/base-7/) | Easy |
 |507    | 完美数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/perfect-number.rs) | [leetcode](https://leetcode-cn.com/problems/perfect-number/) | Easy |
 |508    | 出现次数最多的子树元素和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/most-frequent-subtree-sum.rs) | [leetcode](https://leetcode-cn.com/problems/most-frequent-subtree-sum/) | Medium |
+|508    | 出现次数最多的子树元素和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/most-frequent-subtree-sum.rs) | [leetcode](https://leetcode-cn.com/problems/most-frequent-subtree-sum/) | Medium |
 |513    | 找树左下角的值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-bottom-left-tree-value.rs) | [leetcode](https://leetcode-cn.com/problems/find-bottom-left-tree-value/) | Medium |
+|513    | 找树左下角的值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-bottom-left-tree-value.rs) | [leetcode](https://leetcode-cn.com/problems/find-bottom-left-tree-value/) | Medium |
+|515    | 在每个树行中找最大值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-largest-value-in-each-tree-row.rs) | [leetcode](https://leetcode-cn.com/problems/find-largest-value-in-each-tree-row/) | Medium |
 |515    | 在每个树行中找最大值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-largest-value-in-each-tree-row.rs) | [leetcode](https://leetcode-cn.com/problems/find-largest-value-in-each-tree-row/) | Medium |
 |520    | 检测大写字母 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/detect-capital.rs) | [leetcode](https://leetcode-cn.com/problems/detect-capital/) | Easy |
 |528    | 交换链表中的节点 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/swapping-nodes-in-a-linked-list.rs) | [leetcode](https://leetcode-cn.com/problems/swapping-nodes-in-a-linked-list/) | Medium |
 |530    | 二叉搜索树的最小绝对差 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-absolute-difference-in-bst.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-absolute-difference-in-bst/) | Easy |
 |530    | 二叉搜索树的最小绝对差 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-absolute-difference-in-bst.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-absolute-difference-in-bst/) | Easy |
+|530    | 二叉搜索树的最小绝对差 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-absolute-difference-in-bst.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-absolute-difference-in-bst/) | Easy |
+|535    | TinyURL 的加密与解密 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/encode-and-decode-tinyurl.rs) | [leetcode](https://leetcode-cn.com/problems/encode-and-decode-tinyurl/) | Medium |
 |535    | TinyURL 的加密与解密 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/encode-and-decode-tinyurl.rs) | [leetcode](https://leetcode-cn.com/problems/encode-and-decode-tinyurl/) | Medium |
 |551    | 学生出勤记录 I | [src](https://github.com/rustors/leetcode/blob/main/src/bin/student-attendance-record-i.rs) | [leetcode](https://leetcode-cn.com/problems/student-attendance-record-i/) | Easy |
 |560    | 和为K的子数组 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/subarray-sum-equals-k.rs) | [leetcode](https://leetcode-cn.com/problems/subarray-sum-equals-k/) | Medium |
@@ -224,23 +230,31 @@
 |605    | 种花问题 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/can-place-flowers.rs) | [leetcode](https://leetcode-cn.com/problems/can-place-flowers/) | Easy |
 |617    | 合并二叉树 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/merge-two-binary-trees.rs) | [leetcode](https://leetcode-cn.com/problems/merge-two-binary-trees/) | Easy |
 |623    | 在二叉树中增加一行 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/add-one-row-to-tree.rs) | [leetcode](https://leetcode-cn.com/problems/add-one-row-to-tree/) | Medium |
+|623    | 在二叉树中增加一行 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/add-one-row-to-tree.rs) | [leetcode](https://leetcode-cn.com/problems/add-one-row-to-tree/) | Medium |
+|637    | 二叉树的层平均值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/average-of-levels-in-binary-tree.rs) | [leetcode](https://leetcode-cn.com/problems/average-of-levels-in-binary-tree/) | Easy |
 |637    | 二叉树的层平均值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/average-of-levels-in-binary-tree.rs) | [leetcode](https://leetcode-cn.com/problems/average-of-levels-in-binary-tree/) | Easy |
 |643    | 子数组最大平均数 I | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-average-subarray-i.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-average-subarray-i/) | Easy |
 |649    | Dota2 参议院 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/dota2-senate.rs) | [leetcode](https://leetcode-cn.com/problems/dota2-senate/) | Medium |
 |650    | 只有两个键的键盘 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/2-keys-keyboard.rs) | [leetcode](https://leetcode-cn.com/problems/2-keys-keyboard/) | Medium |
 |653    | 两数之和 IV - 输入 BST | [src](https://github.com/rustors/leetcode/blob/main/src/bin/two-sum-iv-input-is-a-bst.rs) | [leetcode](https://leetcode-cn.com/problems/two-sum-iv-input-is-a-bst/) | Easy |
 |657    | 机器人能否返回原点 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/robot-return-to-origin.rs) | [leetcode](https://leetcode-cn.com/problems/robot-return-to-origin/) | Easy |
+|657    | 机器人能否返回原点 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/robot-return-to-origin.rs) | [leetcode](https://leetcode-cn.com/problems/robot-return-to-origin/) | Easy |
 |658    | 找到 K 个最接近的元素 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-k-closest-elements.rs) | [leetcode](https://leetcode-cn.com/problems/find-k-closest-elements/) | Medium |
 |674    | 最长连续递增序列 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/longest-continuous-increasing-subsequence.rs) | [leetcode](https://leetcode-cn.com/problems/longest-continuous-increasing-subsequence/) | Easy |
 |718    | 最长重复子数组 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-length-of-repeated-subarray.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-length-of-repeated-subarray/) | Medium |
+|718    | 最长重复子数组 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-length-of-repeated-subarray.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-length-of-repeated-subarray/) | Medium |
 |742    | 转换成小写字母 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/to-lower-case.rs) | [leetcode](https://leetcode-cn.com/problems/to-lower-case/) | Easy |
 |782    | 宝石与石头 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/jewels-and-stones.rs) | [leetcode](https://leetcode-cn.com/problems/jewels-and-stones/) | Easy |
+|782    | 宝石与石头 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/jewels-and-stones.rs) | [leetcode](https://leetcode-cn.com/problems/jewels-and-stones/) | Easy |
 |783    | 二叉搜索树中的搜索 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/search-in-a-binary-search-tree.rs) | [leetcode](https://leetcode-cn.com/problems/search-in-a-binary-search-tree/) | Easy |
+|783    | 二叉搜索树中的搜索 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/search-in-a-binary-search-tree.rs) | [leetcode](https://leetcode-cn.com/problems/search-in-a-binary-search-tree/) | Easy |
+|784    | 二叉搜索树中的插入操作 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/insert-into-a-binary-search-tree.rs) | [leetcode](https://leetcode-cn.com/problems/insert-into-a-binary-search-tree/) | Medium |
 |784    | 二叉搜索树中的插入操作 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/insert-into-a-binary-search-tree.rs) | [leetcode](https://leetcode-cn.com/problems/insert-into-a-binary-search-tree/) | Medium |
 |800    | 字母大小写全排列 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/letter-case-permutation.rs) | [leetcode](https://leetcode-cn.com/problems/letter-case-permutation/) | Medium |
 |825    | 保持城市天际线 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/max-increase-to-keep-city-skyline.rs) | [leetcode](https://leetcode-cn.com/problems/max-increase-to-keep-city-skyline/) | Medium |
 |829    | 子域名访问计数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/subdomain-visit-count.rs) | [leetcode](https://leetcode-cn.com/problems/subdomain-visit-count/) | Medium |
 |857    | 较大分组的位置 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/positions-of-large-groups.rs) | [leetcode](https://leetcode-cn.com/problems/positions-of-large-groups/) | Easy |
+|860    | 设计循环队列 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/design-circular-queue.rs) | [leetcode](https://leetcode-cn.com/problems/design-circular-queue/) | Medium |
 |860    | 设计循环队列 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/design-circular-queue.rs) | [leetcode](https://leetcode-cn.com/problems/design-circular-queue/) | Medium |
 |868    | 推多米诺 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/push-dominoes.rs) | [leetcode](https://leetcode-cn.com/problems/push-dominoes/) | Medium |
 |917    | 救生艇 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/boats-to-save-people.rs) | [leetcode](https://leetcode-cn.com/problems/boats-to-save-people/) | Medium |
@@ -248,6 +262,7 @@
 |924    | 公平的糖果棒交换 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/fair-candy-swap.rs) | [leetcode](https://leetcode-cn.com/problems/fair-candy-swap/) | Easy |
 |925    | 根据前序和后序遍历构造二叉树 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/construct-binary-tree-from-preorder-and-postorder-traversal.rs) | [leetcode](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/) | Medium |
 |932    | 单调数列 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/monotonic-array.rs) | [leetcode](https://leetcode-cn.com/problems/monotonic-array/) | Easy |
+|947    | 在线选举 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/online-election.rs) | [leetcode](https://leetcode-cn.com/problems/online-election/) | Medium |
 |947    | 在线选举 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/online-election.rs) | [leetcode](https://leetcode-cn.com/problems/online-election/) | Medium |
 |979    | 增减字符串匹配 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/di-string-match.rs) | [leetcode](https://leetcode-cn.com/problems/di-string-match/) | Easy |
 |981    | 删列造序 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/delete-columns-to-make-sorted.rs) | [leetcode](https://leetcode-cn.com/problems/delete-columns-to-make-sorted/) | Easy |
@@ -300,6 +315,7 @@
 |1983    | 人口最多的年份 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-population-year.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-population-year/) | Easy |
 |2128    | 反转单词前缀 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/reverse-prefix-of-word.rs) | [leetcode](https://leetcode-cn.com/problems/reverse-prefix-of-word/) | Easy |
 |2320    | 找出数组中的所有 K 近邻下标 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-all-k-distant-indices-in-an-array.rs) | [leetcode](https://leetcode-cn.com/problems/find-all-k-distant-indices-in-an-array/) | Easy |
+|2392    | 咒语和药水的成功对数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/successful-pairs-of-spells-and-potions.rs) | [leetcode](https://leetcode-cn.com/problems/successful-pairs-of-spells-and-potions/) | Medium |
 |100273    | 用两个栈实现队列 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/yong-liang-ge-zhan-shi-xian-dui-lie-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/) | Easy |
 |100274    | 斐波那契数列 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/fei-bo-na-qi-shu-lie-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/fei-bo-na-qi-shu-lie-lcof/) | Easy |
 |100299    | 删除链表的节点 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/shan-chu-lian-biao-de-jie-dian-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/shan-chu-lian-biao-de-jie-dian-lcof/) | Easy |
