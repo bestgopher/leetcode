@@ -21,15 +21,24 @@ impl TreeNode {
     }
 }
 
-use std::rc::Rc;
 use std::cell::RefCell;
+use std::rc::Rc;
 
 impl Solution {
-    pub fn add_one_row(root: Option<Rc<RefCell<TreeNode>>>, val: i32, depth: i32) -> Option<Rc<RefCell<TreeNode>>> {
+    pub fn add_one_row(
+        root: Option<Rc<RefCell<TreeNode>>>,
+        val: i32,
+        depth: i32,
+    ) -> Option<Rc<RefCell<TreeNode>>> {
         Self::add(root, val, depth, true)
     }
 
-    fn add(root: Option<Rc<RefCell<TreeNode>>>, val: i32, depth: i32, is_left: bool) -> Option<Rc<RefCell<TreeNode>>> {
+    fn add(
+        root: Option<Rc<RefCell<TreeNode>>>,
+        val: i32,
+        depth: i32,
+        is_left: bool,
+    ) -> Option<Rc<RefCell<TreeNode>>> {
         if depth == 1 {
             let mut node = TreeNode::new(val);
             if is_left {
@@ -39,7 +48,6 @@ impl Solution {
             }
             Some(Rc::new(RefCell::new(node)))
         } else {
-
             if root.is_none() {
                 return None;
             }
