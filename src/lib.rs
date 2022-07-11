@@ -17,7 +17,7 @@ pub fn run() {
         .subcommand(
             App::new("new").about("get a new leetcode question").arg(
                 Arg::new("question_name")
-                    .about("The configuration file to use")
+                    .help("The configuration file to use")
                     .index(1),
             ),
         )
