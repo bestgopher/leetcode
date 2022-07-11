@@ -18,7 +18,6 @@ struct MyCircularQueue {
     data: Vec<i32>,
 }
 
-
 /**
  * `&self` means the method takes an immutable reference.
  * If you need a mutable reference, change it to `&mut self` instead.
@@ -81,7 +80,11 @@ impl MyCircularQueue {
             return -1;
         }
 
-        self.data[if self.start == 0 { self.cap - 1 } else { self.start - 1 }]
+        self.data[if self.start == 0 {
+            self.cap - 1
+        } else {
+            self.start - 1
+        }]
     }
 
     fn is_empty(&self) -> bool {
