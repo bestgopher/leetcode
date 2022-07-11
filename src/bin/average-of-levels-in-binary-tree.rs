@@ -21,8 +21,8 @@ impl TreeNode {
     }
 }
 
-use std::rc::Rc;
 use std::cell::RefCell;
+use std::rc::Rc;
 
 impl Solution {
     pub fn average_of_levels(root: Option<Rc<RefCell<TreeNode>>>) -> Vec<f64> {
