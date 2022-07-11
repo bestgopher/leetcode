@@ -16,7 +16,6 @@ impl Solution {
             }
         }
 
-
         v == (0, 0)
     }
 }
