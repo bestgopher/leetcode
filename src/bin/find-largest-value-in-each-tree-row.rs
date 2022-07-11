@@ -21,12 +21,14 @@ impl TreeNode {
     }
 }
 
-use std::rc::Rc;
 use std::cell::RefCell;
+use std::rc::Rc;
 
 impl Solution {
     pub fn largest_values(root: Option<Rc<RefCell<TreeNode>>>) -> Vec<i32> {
-        if root.is_none() { return vec![]; }
+        if root.is_none() {
+            return vec![];
+        }
         let mut stack = vec![root];
         let mut result = vec![];
         while !stack.is_empty() {
