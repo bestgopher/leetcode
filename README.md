@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 322 | 149 | 166 | 7 |
+| 323 | 149 | 167 | 7 |
 
 ### 题目
 
@@ -262,6 +262,7 @@
 |924    | 公平的糖果棒交换 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/fair-candy-swap.rs) | [leetcode](https://leetcode-cn.com/problems/fair-candy-swap/) | Easy |
 |925    | 根据前序和后序遍历构造二叉树 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/construct-binary-tree-from-preorder-and-postorder-traversal.rs) | [leetcode](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/) | Medium |
 |932    | 单调数列 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/monotonic-array.rs) | [leetcode](https://leetcode-cn.com/problems/monotonic-array/) | Easy |
+|936    | RLE 迭代器 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/rle-iterator.rs) | [leetcode](https://leetcode-cn.com/problems/rle-iterator/) | Medium |
 |947    | 在线选举 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/online-election.rs) | [leetcode](https://leetcode-cn.com/problems/online-election/) | Medium |
 |947    | 在线选举 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/online-election.rs) | [leetcode](https://leetcode-cn.com/problems/online-election/) | Medium |
 |979    | 增减字符串匹配 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/di-string-match.rs) | [leetcode](https://leetcode-cn.com/problems/di-string-match/) | Easy |
