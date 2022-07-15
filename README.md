@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 323 | 149 | 167 | 7 |
+| 324 | 150 | 167 | 7 |
 
 ### 题目
 
@@ -320,6 +320,7 @@
 |2392    | 咒语和药水的成功对数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/successful-pairs-of-spells-and-potions.rs) | [leetcode](https://leetcode-cn.com/problems/successful-pairs-of-spells-and-potions/) | Medium |
 |100273    | 用两个栈实现队列 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/yong-liang-ge-zhan-shi-xian-dui-lie-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/) | Easy |
 |100274    | 斐波那契数列 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/fei-bo-na-qi-shu-lie-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/fei-bo-na-qi-shu-lie-lcof/) | Easy |
+|100275    | 数组中重复的数字 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/shu-zu-zhong-zhong-fu-de-shu-zi-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/) | Easy |
 |100299    | 删除链表的节点 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/shan-chu-lian-biao-de-jie-dian-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/shan-chu-lian-biao-de-jie-dian-lcof/) | Easy |
 |100316    | 第一个只出现一次的字符 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/di-yi-ge-zhi-chu-xian-yi-ci-de-zi-fu-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/di-yi-ge-zhi-chu-xian-yi-ci-de-zi-fu-lcof/) | Easy |
 |100325    | 把数字翻译成字符串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof/) | Medium |
