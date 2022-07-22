@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 327 | 152 | 168 | 7 |
+| 328 | 152 | 169 | 7 |
 
 ### 题目
 
@@ -323,6 +323,7 @@
 |100275    | 数组中重复的数字 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/shu-zu-zhong-zhong-fu-de-shu-zi-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/) | Easy |
 |100280    | 替换空格 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/ti-huan-kong-ge-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/ti-huan-kong-ge-lcof/) | Easy |
 |100282    | 从尾到头打印链表 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/cong-wei-dao-tou-da-yin-lian-biao-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof/) | Easy |
+|100283    | 重建二叉树 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/zhong-jian-er-cha-shu-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/zhong-jian-er-cha-shu-lcof/) | Medium |
 |100283    | 重建二叉树 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/zhong-jian-er-cha-shu-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/zhong-jian-er-cha-shu-lcof/) | Medium |
 |100299    | 删除链表的节点 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/shan-chu-lian-biao-de-jie-dian-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/shan-chu-lian-biao-de-jie-dian-lcof/) | Easy |
 |100316    | 第一个只出现一次的字符 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/di-yi-ge-zhi-chu-xian-yi-ci-de-zi-fu-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/di-yi-ge-zhi-chu-xian-yi-ci-de-zi-fu-lcof/) | Easy |
