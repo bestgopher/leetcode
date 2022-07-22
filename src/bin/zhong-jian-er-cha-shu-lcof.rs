@@ -1,7 +1,13 @@
 use std::cell::RefCell;
 use std::rc::Rc;
 
-fn main() {}
+fn main() {
+    println!(
+        "{:?}",
+        Solution::build_tree(vec![3, 9, 20, 15, 7], vec![9, 3, 15, 20, 7])
+    );
+    println!("{:?}", Solution::build_tree(vec![1, 2], vec![1, 2]));
+}
 
 struct Solution;
 
@@ -26,10 +32,6 @@ impl TreeNode {
 
 impl Solution {
     pub fn build_tree(preorder: Vec<i32>, inorder: Vec<i32>) -> Option<Rc<RefCell<TreeNode>>> {
-        Self::build(&preorder[..], &inorder[..])
-    }
-
-    fn build(preorder: &[i32], inorder: &[i32]) -> Option<Rc<RefCell<TreeNode>>> {
         if preorder.is_empty() {
             return None;
         }
@@ -40,20 +42,48 @@ impl Solution {
             .map(|(x, &y)| (y, x))
             .collect::<std::collections::HashMap<i32, usize>>();
 
-        let node_value = preorder[0];
-        let node_index = index.get(&node_value).unwrap();
-        let left_len = *node_index;
-        let node = Rc::new(RefCell::new(TreeNode::new(node_value)));
+        Self::build(
+            &preorder,
+            &inorder,
+            (0, preorder.len() - 1),
+            (0, inorder.len() - 1),
+            &index,
+        )
+    }
 
-        if left_len > 0 {
-            node.borrow_mut().left =
-                Self::build(&preorder[1..left_len + 1], &inorder[..left_len + 1]);
+    fn build(
+        preorder: &Vec<i32>,
+        inorder: &Vec<i32>,
+        preorder_index: (usize, usize),
+        inorder_index: (usize, usize),
+        index: &std::collections::HashMap<i32, usize>,
+    ) -> Option<Rc<RefCell<TreeNode>>> {
+        if preorder_index.0 > preorder_index.1 {
+            return None;
         }
 
-        if left_len < inorder.len() {
-            node.borrow_mut().right =
-                Self::build(&preorder[left_len + 1..], &inorder[node_index + 1..]);
+        let root_value = preorder[preorder_index.0];
+        let &root_index = index.get(&root_value).unwrap();
+        let left_len = root_index - inorder_index.0;
+        let node = Rc::new(RefCell::new(TreeNode::new(root_value)));
+
+        if root_index > 0 {
+            node.borrow_mut().left = Self::build(
+                preorder,
+                inorder,
+                (preorder_index.0 + 1, (preorder_index.0 + left_len)),
+                (inorder_index.0, (root_index - 1)),
+                index,
+            );
         }
+
+        node.borrow_mut().right = Self::build(
+            preorder,
+            inorder,
+            (preorder_index.0 + left_len + 1, preorder_index.1),
+            (root_index + 1, inorder_index.1),
+            index,
+        );
 
         Some(node)
     }
