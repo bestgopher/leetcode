@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 328 | 152 | 169 | 7 |
+| 329 | 153 | 169 | 7 |
 
 ### 题目
 
@@ -321,6 +321,7 @@
 |100273    | 用两个栈实现队列 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/yong-liang-ge-zhan-shi-xian-dui-lie-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/) | Easy |
 |100274    | 斐波那契数列 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/fei-bo-na-qi-shu-lie-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/fei-bo-na-qi-shu-lie-lcof/) | Easy |
 |100275    | 数组中重复的数字 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/shu-zu-zhong-zhong-fu-de-shu-zi-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/) | Easy |
+|100277    | 青蛙跳台阶问题 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/qing-wa-tiao-tai-jie-wen-ti-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/qing-wa-tiao-tai-jie-wen-ti-lcof/) | Easy |
 |100280    | 替换空格 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/ti-huan-kong-ge-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/ti-huan-kong-ge-lcof/) | Easy |
 |100282    | 从尾到头打印链表 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/cong-wei-dao-tou-da-yin-lian-biao-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof/) | Easy |
 |100283    | 重建二叉树 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/zhong-jian-er-cha-shu-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/zhong-jian-er-cha-shu-lcof/) | Medium |
