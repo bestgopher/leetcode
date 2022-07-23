@@ -1,3 +1,5 @@
+#![allow(dead_code, unused, unused_variables)]
+
 fn main() {
     println!("{}", Solution::convert_to_title(701));
     println!("{}", Solution::convert_to_title(27));
