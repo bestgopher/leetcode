@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 619 | 289 | 316 | 14 |
+| 621 | 290 | 316 | 15 |
 
 ### 题目
 
@@ -200,6 +200,7 @@
 |152    | 乘积最大子数组 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-product-subarray.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-product-subarray/) | Medium |
 |153    | 寻找旋转排序数组中的最小值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-minimum-in-rotated-sorted-array.rs) | [leetcode](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/) | Medium |
 |153    | 寻找旋转排序数组中的最小值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-minimum-in-rotated-sorted-array.rs) | [leetcode](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/) | Medium |
+|154    | 寻找旋转排序数组中的最小值 II | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-minimum-in-rotated-sorted-array-ii.rs) | [leetcode](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array-ii/) | Hard |
 |155    | 最小栈 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/min-stack.rs) | [leetcode](https://leetcode-cn.com/problems/min-stack/) | Easy |
 |155    | 最小栈 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/min-stack.rs) | [leetcode](https://leetcode-cn.com/problems/min-stack/) | Medium |
 |162    | 寻找峰值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-peak-element.rs) | [leetcode](https://leetcode-cn.com/problems/find-peak-element/) | Medium |
@@ -599,6 +600,7 @@
 |100275    | 数组中重复的数字 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/shu-zu-zhong-zhong-fu-de-shu-zi-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/) | Easy |
 |100277    | 青蛙跳台阶问题 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/qing-wa-tiao-tai-jie-wen-ti-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/qing-wa-tiao-tai-jie-wen-ti-lcof/) | Easy |
 |100277    | 青蛙跳台阶问题 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/qing-wa-tiao-tai-jie-wen-ti-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/qing-wa-tiao-tai-jie-wen-ti-lcof/) | Easy |
+|100278    | 旋转数组的最小数字 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof/) | Easy |
 |100280    | 替换空格 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/ti-huan-kong-ge-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/ti-huan-kong-ge-lcof/) | Easy |
 |100280    | 替换空格 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/ti-huan-kong-ge-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/ti-huan-kong-ge-lcof/) | Easy |
 |100282    | 从尾到头打印链表 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/cong-wei-dao-tou-da-yin-lian-biao-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof/) | Easy |
