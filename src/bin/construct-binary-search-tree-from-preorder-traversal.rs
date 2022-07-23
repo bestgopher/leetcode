@@ -1,3 +1,5 @@
+#![allow(dead_code, unused, unused_variables)]
+
 fn main() {
     let v = vec![1, 23, 2, 25, 12, 6];
     Solution::bst_from_preorder(v);
