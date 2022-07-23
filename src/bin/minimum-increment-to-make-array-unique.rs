@@ -1,3 +1,5 @@
+#![allow(dead_code, unused, unused_variables)]
+
 fn main() {
     assert_eq!(1, Solution::min_increment_for_unique(vec![1, 2, 2]));
     assert_eq!(
