@@ -1,3 +1,5 @@
+#![allow(dead_code, unused, unused_variables)]
+
 fn main() {
     Solution::find_kth_largest(vec![1], 1);
 }
