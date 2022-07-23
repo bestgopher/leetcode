@@ -1,3 +1,5 @@
+#![allow(dead_code, unused, unused_variables)]
+
 fn main() {
     let mut x = vec![vec![1, 1, 1], vec![1, 0, 1], vec![1, 1, 1]];
     Solution::set_zeroes(&mut x);
