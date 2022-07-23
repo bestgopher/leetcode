@@ -1,3 +1,5 @@
+#![allow(dead_code, unused, unused_variables)]
+
 fn main() {
     // assert_eq!(0, Solution::split(&vec![1, 2, 3, 7, 8, 9], 1));
     // assert_eq!(1, Solution::split(&vec![1, 2, 3, 7, 8, 9], 2));
