@@ -1,3 +1,5 @@
+#![allow(dead_code, unused, unused_variables)]
+
 fn main() {
     println!("{:?}", Solution::product_except_self(vec![1, 2, 3, 4]));
 }
