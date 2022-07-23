@@ -1,3 +1,5 @@
+#![allow(dead_code, unused, unused_variables)]
+
 // Definition for a binary tree node.
 #[derive(Debug, PartialEq, Eq)]
 pub struct TreeNode {
