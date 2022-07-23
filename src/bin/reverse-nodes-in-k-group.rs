@@ -1,3 +1,5 @@
+#![allow(dead_code, unused, unused_variables)]
+
 fn main() {
     let x = Some(Box::new(ListNode {
         val: 1,
