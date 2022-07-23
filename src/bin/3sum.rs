@@ -1,3 +1,5 @@
+#![allow(dead_code, unused, unused_variables)]
+
 fn main() {
     // println!("{:?}", Solution::three_sum(vec![0, 0, 0, 0]));
     // println!("{:?}", Solution::three_sum(vec![-1, 0, 1, 2, -1, -4]));
