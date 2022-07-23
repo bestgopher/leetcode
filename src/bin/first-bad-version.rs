@@ -1,4 +1,4 @@
-#![allow(dead_code, unused, unused_variables)]
+#![allow(dead_code, unused, unused_variables, non_snake_case)]
 
 fn main() {
     // println!("{}", Solution::new(1702766719).first_bad_version(2126753390));
