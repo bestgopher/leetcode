@@ -1,3 +1,5 @@
+#![allow(dead_code, unused, unused_variables)]
+
 fn main() {
     println!("{}", Solution::h_index(vec![3, 0, 6, 1, 5]));
     println!("{}", Solution::h_index(vec![1]));
