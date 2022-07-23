@@ -1,3 +1,5 @@
+#![allow(dead_code, unused, unused_variables)]
+
 fn main() {
     assert_eq!(3, Solution::min_steps(3));
     assert_eq!(7, Solution::min_steps(10));
