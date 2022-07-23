@@ -1,3 +1,5 @@
+#![allow(dead_code, unused, unused_variables)]
+
 fn main() {
     // assert_eq!(3, Solution::num_rescue_boats(vec![3, 2, 2, 1], 3));
     // assert_eq!(1, Solution::num_rescue_boats(vec![2, 2], 6));
