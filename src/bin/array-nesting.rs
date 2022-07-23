@@ -1,3 +1,5 @@
+#![allow(dead_code, unused, unused_variables)]
+
 fn main() {
     assert_eq!(4, Solution::array_nesting(vec![5, 4, 0, 3, 1, 6, 2]));
 }
