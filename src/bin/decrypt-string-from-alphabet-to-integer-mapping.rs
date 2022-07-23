@@ -1,3 +1,5 @@
+#![allow(dead_code, unused, unused_variables)]
+
 fn main() {
     println!("{}", Solution::freq_alphabets("10#11#12".to_string()));
     println!("{}", Solution::freq_alphabets("1326#".to_string()));
