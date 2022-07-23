@@ -1,3 +1,5 @@
+#![allow(dead_code, unused, unused_variables)]
+
 fn main() {
     let mut v = vec![0, 0, 1, 1, 1, 1, 2, 3, 3];
     let s = Solution::remove_duplicates(&mut v);
