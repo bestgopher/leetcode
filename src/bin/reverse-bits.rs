@@ -1,3 +1,5 @@
+#![allow(dead_code, unused, unused_variables)]
+
 fn main() {
     println!("{}", Solution::reverse_bits(43261596));
     println!("{}", Solution::reverse_bits(4294967293));
