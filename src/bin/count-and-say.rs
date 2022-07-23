@@ -1,3 +1,5 @@
+#![allow(dead_code, unused, unused_variables)]
+
 fn main() {
     assert_eq!("1211".to_string(), Solution::count_and_say(4));
 }
