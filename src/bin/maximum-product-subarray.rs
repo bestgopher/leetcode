@@ -1,3 +1,5 @@
+#![allow(dead_code, unused, unused_variables)]
+
 fn main() {
     assert_eq!(4, Solution::max_product(vec![3, -1, 4]));
     assert_eq!(0, Solution::max_product(vec![-2, 0]));
