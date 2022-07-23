@@ -1,3 +1,5 @@
+#![allow(dead_code, unused, unused_variables)]
+
 use std::cell::RefCell;
 use std::rc::Rc;
 
