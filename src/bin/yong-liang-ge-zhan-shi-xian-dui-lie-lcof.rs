@@ -1,3 +1,5 @@
+#![allow(dead_code, unused, unused_variables)]
+
 /// 思路：
 /// 栈stack1用来存放插入的数据
 /// 栈stack2用来存放删除的数据
