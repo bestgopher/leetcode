@@ -1,3 +1,5 @@
+#![allow(dead_code, unused, unused_variables)]
+
 fn main() {
     println!("{:?}", Solution::combination_sum3(3, 9));
     println!("{:?}", Solution::combination_sum3(3, 7));
