@@ -1,3 +1,5 @@
+#![allow(dead_code, unused, unused_variables)]
+
 fn main() {
     assert_eq!(99, Solution::single_number(vec![0, 1, 0, 1, 0, 1, 99]));
     assert_eq!(
