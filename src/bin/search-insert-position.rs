@@ -1,3 +1,5 @@
+#![allow(dead_code, unused, unused_variables)]
+
 fn main() {
     // assert_eq!(2, Solution::search_insert(vec![1, 3, 5, 6], 5));
     // assert_eq!(1, Solution::search_insert(vec![1, 3, 5, 6], 2));
