@@ -1,3 +1,5 @@
+#![allow(dead_code, unused, unused_variables)]
+
 fn main() {
     assert!(Solution::valid_utf8(vec![197, 130, 1]));
     assert!(!Solution::valid_utf8(vec![235, 140, 4]));
