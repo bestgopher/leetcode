@@ -1,3 +1,5 @@
+#![allow(dead_code, unused, unused_variables)]
+
 fn main() {
     let mut v = vec![0, 1, 0, 3, 12];
     Solution::move_zeroes(&mut v);
