@@ -1,3 +1,5 @@
+#![allow(dead_code, unused, unused_variables)]
+
 fn main() {
     assert_eq!(3, Solution::roman_to_int("III".to_string()));
     assert_eq!(4, Solution::roman_to_int("IV".to_string()));
