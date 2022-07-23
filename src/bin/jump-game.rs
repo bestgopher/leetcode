@@ -1,3 +1,5 @@
+#![allow(dead_code, unused, unused_variables)]
+
 fn main() {
     assert_eq!(true, Solution::can_jump(vec![2, 3, 1, 1, 4]));
     assert_eq!(false, Solution::can_jump(vec![3, 2, 1, 0, 4]));
