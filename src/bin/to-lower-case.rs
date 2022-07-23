@@ -1,3 +1,5 @@
+#![allow(dead_code, unused, unused_variables)]
+
 use serde::de::Unexpected::Str;
 
 fn main() {}
