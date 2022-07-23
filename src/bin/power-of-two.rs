@@ -1,3 +1,5 @@
+#![allow(dead_code, unused, unused_variables)]
+
 fn main() {
     println!("{}", Solution::is_power_of_two(16));
     println!("{}", Solution::is_power_of_two(15));
