@@ -1,3 +1,5 @@
+#![allow(dead_code, unused, unused_variables)]
+
 fn main() {
     assert_eq!(10, Solution::get_sum(4, 6));
     assert_eq!(10, Solution::get_sum(12, -2));
