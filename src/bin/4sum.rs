@@ -1,3 +1,5 @@
+#![allow(dead_code, unused, unused_variables)]
+
 fn main() {
     println!("{:?}", Solution::four_sum(vec![1, 0, -1, 0, -2, 2], 0));
     println!("{:?}", Solution::four_sum(vec![0, 0, 0, 0], 0));
