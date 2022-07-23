@@ -1,3 +1,5 @@
+#![allow(dead_code, unused, unused_variables)]
+
 fn main() {
     println!("{:?}", Solution::gray_code(2));
     println!("{:?}", Solution::gray_code(0));
