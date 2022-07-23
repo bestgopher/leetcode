@@ -1,3 +1,5 @@
+#![allow(dead_code, unused, unused_variables)]
+
 fn main() {
     println!("{}", Solution::title_to_number("AB".to_string()));
     println!("{}", Solution::title_to_number("ZY".to_string()));
