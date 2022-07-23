@@ -1,3 +1,5 @@
+#![allow(dead_code, unused, unused_variables)]
+
 struct Solution;
 
 impl Solution {
