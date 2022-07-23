@@ -1,3 +1,5 @@
+#![allow(dead_code, unused, unused_variables)]
+
 fn main() {
     println!("{}", Solution::coin_change(vec![1, 2, 5], 11));
     println!("{}", Solution::coin_change(vec![1], 1));
