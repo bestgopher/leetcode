@@ -1,4 +1,4 @@
-#![allow(dead_code, unused, unused_variables)]
+#![allow(dead_code, unused, unused_variables, non_snake_case)]
 
 struct Solution;
 
