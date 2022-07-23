@@ -1,3 +1,5 @@
+#![allow(dead_code, unused, unused_variables)]
+
 fn main() {
     println!("{}", Solution::push_dominoes(".L.R...LR..L..".to_string()));
 }
