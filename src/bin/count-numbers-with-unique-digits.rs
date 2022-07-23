@@ -1,3 +1,5 @@
+#![allow(dead_code, unused, unused_variables)]
+
 fn main() {
     println!("{}", Solution::count_numbers_with_unique_digits(2));
     println!("{}", Solution::count_numbers_with_unique_digits(8));
