@@ -1,3 +1,5 @@
+#![allow(dead_code, unused, unused_variables)]
+
 fn main() {
     let s = vec![3, 2, 3, 2, 2, 3, 1, 1, 1];
     println!("{:?}", Solution::majority_element1(s));
