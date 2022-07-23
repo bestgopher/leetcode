@@ -1,3 +1,5 @@
+#![allow(dead_code, unused, unused_variables)]
+
 fn main() {
     let mut v = vec![1, 2, 3];
     Solution::next_permutation(&mut v);
