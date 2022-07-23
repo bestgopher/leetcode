@@ -1,3 +1,5 @@
+#![allow(dead_code, unused, unused_variables)]
+
 fn main() {
     // println!("{}", Solution::new(1702766719).first_bad_version(2126753390));
     // println!("{}", Solution::new(1).first_bad_version(1));
