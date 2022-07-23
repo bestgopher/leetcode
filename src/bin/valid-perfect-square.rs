@@ -1,3 +1,5 @@
+#![allow(dead_code, unused, unused_variables)]
+
 fn main() {
     assert_eq!(true, Solution::is_perfect_square(4), "4");
     assert_eq!(false, Solution::is_perfect_square(5), "5");
