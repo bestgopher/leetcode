@@ -1,3 +1,5 @@
+#![allow(dead_code, unused, unused_variables)]
+
 fn main() {
     let mut s = RLEIterator::new(vec![3, 8, 0, 9, 2, 5]);
     println!("{}", s.next(2));
