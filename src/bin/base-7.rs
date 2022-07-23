@@ -1,3 +1,5 @@
+#![allow(dead_code, unused, unused_variables)]
+
 fn main() {
     assert_eq!("202".to_string(), Solution::convert_to_base7(100));
     assert_eq!("-10".to_string(), Solution::convert_to_base7(-7));
