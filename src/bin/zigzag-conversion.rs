@@ -1,3 +1,5 @@
+#![allow(dead_code, unused, unused_variables)]
+
 fn main() {
     // assert_eq!(Solution::convert("LEETCODEISHIRINGS".to_string(), 4), "LDREOEIIECIHNSTSG".to_string());
     assert_eq!(Solution::convert("AB".to_string(), 1), "AB".to_string());
