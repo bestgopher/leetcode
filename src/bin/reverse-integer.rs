@@ -1,3 +1,5 @@
+#![allow(dead_code, unused, unused_variables)]
+
 fn main() {
     println!("{}, {}", std::i32::MAX, std::i32::MIN);
 }
