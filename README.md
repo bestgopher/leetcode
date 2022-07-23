@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 615 | 286 | 315 | 14 |
+| 619 | 289 | 316 | 14 |
 
 ### 题目
 
@@ -106,7 +106,7 @@
 |66    | 加一 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/plus-one.rs) | [leetcode](https://leetcode-cn.com/problems/plus-one/) | Easy |
 |67    | 二进制求和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/add-binary.rs) | [leetcode](https://leetcode-cn.com/problems/add-binary/) | Easy |
 |69    | x 的平方根 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/sqrtx.rs) | [leetcode](https://leetcode-cn.com/problems/sqrtx/) | Easy |
-|69    | x 的平方根  | [src](https://github.com/rustors/leetcode/blob/main/src/bin/sqrtx.rs) | [leetcode](https://leetcode-cn.com/problems/sqrtx/) | Easy |
+|69    | x 的平方根 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/sqrtx.rs) | [leetcode](https://leetcode-cn.com/problems/sqrtx/) | Easy |
 |70    | 爬楼梯 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/climbing-stairs.rs) | [leetcode](https://leetcode-cn.com/problems/climbing-stairs/) | Easy |
 |70    | 爬楼梯 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/climbing-stairs.rs) | [leetcode](https://leetcode-cn.com/problems/climbing-stairs/) | Easy |
 |71    | 简化路径 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/simplify-path.rs) | [leetcode](https://leetcode-cn.com/problems/simplify-path/) | Medium |
@@ -225,6 +225,7 @@
 |190    | 颠倒二进制位 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/reverse-bits.rs) | [leetcode](https://leetcode-cn.com/problems/reverse-bits/) | Easy |
 |191    | 位1的个数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/number-of-1-bits.rs) | [leetcode](https://leetcode-cn.com/problems/number-of-1-bits/) | Easy |
 |191    | 位1的个数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/number-of-1-bits.rs) | [leetcode](https://leetcode-cn.com/problems/number-of-1-bits/) | Easy |
+|191    | 位1的个数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/number-of-1-bits.rs) | [leetcode](https://leetcode-cn.com/problems/number-of-1-bits/) | Easy |
 |198    | 打家劫舍 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/house-robber.rs) | [leetcode](https://leetcode-cn.com/problems/house-robber/) | Medium |
 |198    | 打家劫舍 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/house-robber.rs) | [leetcode](https://leetcode-cn.com/problems/house-robber/) | Medium |
 |199    | 二叉树的右视图 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/binary-tree-right-side-view.rs) | [leetcode](https://leetcode-cn.com/problems/binary-tree-right-side-view/) | Medium |
@@ -294,6 +295,7 @@
 |274    | H 指数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/h-index.rs) | [leetcode](https://leetcode-cn.com/problems/h-index/) | Medium |
 |278    | 第一个错误的版本 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/first-bad-version.rs) | [leetcode](https://leetcode-cn.com/problems/first-bad-version/) | Easy |
 |278    | 第一个错误的版本 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/first-bad-version.rs) | [leetcode](https://leetcode-cn.com/problems/first-bad-version/) | Easy |
+|278    | 第一个错误的版本 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/first-bad-version.rs) | [leetcode](https://leetcode-cn.com/problems/first-bad-version/) | Easy |
 |279    | 完全平方数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/perfect-squares.rs) | [leetcode](https://leetcode-cn.com/problems/perfect-squares/) | Medium |
 |279    | 完全平方数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/perfect-squares.rs) | [leetcode](https://leetcode-cn.com/problems/perfect-squares/) | Medium |
 |283    | 移动零 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/move-zeroes.rs) | [leetcode](https://leetcode-cn.com/problems/move-zeroes/) | Easy |
@@ -326,6 +328,7 @@
 |367    | 有效的完全平方数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/valid-perfect-square.rs) | [leetcode](https://leetcode-cn.com/problems/valid-perfect-square/) | Easy |
 |371    | 两整数之和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/sum-of-two-integers.rs) | [leetcode](https://leetcode-cn.com/problems/sum-of-two-integers/) | Medium |
 |371    | 两整数之和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/sum-of-two-integers.rs) | [leetcode](https://leetcode-cn.com/problems/sum-of-two-integers/) | Medium |
+|374    | 猜数字大小 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/guess-number-higher-or-lower.rs) | [leetcode](https://leetcode-cn.com/problems/guess-number-higher-or-lower/) | Easy |
 |374    | 猜数字大小 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/guess-number-higher-or-lower.rs) | [leetcode](https://leetcode-cn.com/problems/guess-number-higher-or-lower/) | Easy |
 |374    | 猜数字大小 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/guess-number-higher-or-lower.rs) | [leetcode](https://leetcode-cn.com/problems/guess-number-higher-or-lower/) | Easy |
 |376    | 摆动序列 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/wiggle-subsequence.rs) | [leetcode](https://leetcode-cn.com/problems/wiggle-subsequence/) | Medium |
@@ -410,6 +413,7 @@
 |530    | 二叉搜索树的最小绝对差 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-absolute-difference-in-bst.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-absolute-difference-in-bst/) | Easy |
 |530    | 二叉搜索树的最小绝对差 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-absolute-difference-in-bst.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-absolute-difference-in-bst/) | Easy |
 |530    | 二叉搜索树的最小绝对差 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-absolute-difference-in-bst.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-absolute-difference-in-bst/) | Easy |
+|535    | TinyURL 的加密与解密 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/encode-and-decode-tinyurl.rs) | [leetcode](https://leetcode-cn.com/problems/encode-and-decode-tinyurl/) | Medium |
 |535    | TinyURL 的加密与解密 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/encode-and-decode-tinyurl.rs) | [leetcode](https://leetcode-cn.com/problems/encode-and-decode-tinyurl/) | Medium |
 |535    | TinyURL 的加密与解密 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/encode-and-decode-tinyurl.rs) | [leetcode](https://leetcode-cn.com/problems/encode-and-decode-tinyurl/) | Medium |
 |535    | TinyURL 的加密与解密 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/encode-and-decode-tinyurl.rs) | [leetcode](https://leetcode-cn.com/problems/encode-and-decode-tinyurl/) | Medium |
