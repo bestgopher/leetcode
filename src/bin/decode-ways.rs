@@ -1,3 +1,5 @@
+#![allow(dead_code, unused, unused_variables)]
+
 fn main() {
     println!("{}", Solution::num_decodings("12".to_string()));
     println!("{}", Solution::num_decodings("06".to_string()));
