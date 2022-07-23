@@ -1,3 +1,5 @@
+#![allow(dead_code, unused, unused_variables)]
+
 fn main() {
     println!("{}", Solution::fraction_to_decimal(1, 2));
     println!("{}", Solution::fraction_to_decimal(2, 1));
