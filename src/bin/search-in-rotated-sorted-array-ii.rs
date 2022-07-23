@@ -1,3 +1,5 @@
+#![allow(dead_code, unused, unused_variables)]
+
 fn main() {
     assert_eq!(true, Solution::search(vec![2, 5, 6, 0, 0, 1, 2], 0));
     assert_eq!(false, Solution::search(vec![2, 5, 6, 0, 0, 1, 2], 3));
