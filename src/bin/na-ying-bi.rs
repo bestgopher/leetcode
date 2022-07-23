@@ -1,3 +1,5 @@
+#![allow(dead_code, unused, unused_variables)]
+
 fn main() {
     assert_eq!(Solution::min_count(vec![4, 2, 1]), 4);
 }
