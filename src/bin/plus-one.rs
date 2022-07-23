@@ -1,3 +1,5 @@
+#![allow(dead_code, unused, unused_variables)]
+
 fn main() {
     println!("{:?}", Solution::plus_one(vec![1]));
     println!("{:?}", Solution::plus_one(vec![9]));
