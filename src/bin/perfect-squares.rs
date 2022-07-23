@@ -1,3 +1,5 @@
+#![allow(dead_code, unused, unused_variables)]
+
 fn main() {
     println!("{}", Solution::num_squares(12));
     println!("{}", Solution::num_squares(13));
