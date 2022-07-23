@@ -1,3 +1,5 @@
+#![allow(dead_code, unused, unused_variables)]
+
 fn main() {
     println!("{}", Solution::add_digits(38));
     println!("{}", Solution::add_digits(3143243));
