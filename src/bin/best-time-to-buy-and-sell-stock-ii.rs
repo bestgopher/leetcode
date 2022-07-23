@@ -1,3 +1,5 @@
+#![allow(dead_code, unused, unused_variables)]
+
 fn main() {
     assert_eq!(7, Solution::max_profit(vec![7, 1, 5, 3, 6, 4]));
     assert_eq!(4, Solution::max_profit(vec![1, 2, 3, 4, 5]));
