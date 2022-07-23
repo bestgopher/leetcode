@@ -1,3 +1,5 @@
+#![allow(dead_code, unused, unused_variables)]
+
 fn main() {
     assert_eq!(1, Solution::find_min(vec![3, 4, 5, 1, 2]));
     assert_eq!(0, Solution::find_min(vec![4, 5, 6, 7, 0, 1, 2]));
