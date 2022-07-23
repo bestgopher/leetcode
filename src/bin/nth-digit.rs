@@ -1,3 +1,5 @@
+#![allow(dead_code, unused, unused_variables)]
+
 fn main() {
     println!("{}", Solution::find_nth_digit(1));
     println!("{}", Solution::find_nth_digit(2));
