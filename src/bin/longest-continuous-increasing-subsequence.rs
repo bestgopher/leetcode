@@ -1,3 +1,5 @@
+#![allow(dead_code, unused, unused_variables)]
+
 fn main() {
     assert_eq!(3, Solution::find_length_of_lcis(vec![1, 3, 5, 4, 7]));
     assert_eq!(1, Solution::find_length_of_lcis(vec![2, 2, 2, 2, 2]));
