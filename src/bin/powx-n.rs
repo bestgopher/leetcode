@@ -1,3 +1,5 @@
+#![allow(dead_code, unused, unused_variables)]
+
 fn main() {
     println!("{}", Solution::my_pow(0.00001, 2147483647));
     println!("{}", Solution::my_pow(2.00000, 10));
