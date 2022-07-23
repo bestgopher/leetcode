@@ -1,3 +1,5 @@
+#![allow(dead_code, unused, unused_variables)]
+
 fn main() {
     let s = Solution::successful_pairs(vec![5, 1, 3], vec![1, 2, 3, 4, 5], 7);
     println!("{s:?}");
