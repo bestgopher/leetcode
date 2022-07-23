@@ -1,3 +1,5 @@
+#![allow(dead_code, unused, unused_variables)]
+
 fn main() {
     println!("{}", Solution::num_ways(2));
     println!("{}", Solution::num_ways(7));
