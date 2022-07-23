@@ -1,3 +1,5 @@
+#![allow(dead_code, unused, unused_variables)]
+
 fn main() {
     let root = Some(Rc::new(RefCell::new(TreeNode {
         val: 1,
