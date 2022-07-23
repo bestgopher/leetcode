@@ -1,3 +1,5 @@
+#![allow(dead_code, unused, unused_variables)]
+
 fn main() {
     let mut v = vec![3, 2, 2, 3];
     assert_eq!(2, Solution::remove_element(&mut v, 3));
