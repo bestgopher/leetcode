@@ -1,3 +1,5 @@
+#![allow(dead_code, unused, unused_variables)]
+
 fn main() {
     let s = Solution::smaller_numbers_than_current(vec![8, 1, 2, 2, 3]);
     println!("{s:?}");
