@@ -1,3 +1,5 @@
+#![allow(dead_code, unused, unused_variables)]
+
 fn main() {
     println!("{}", Solution::jump(vec![2, 3, 1, 1, 4]));
     println!("{}", Solution::jump(vec![1, 1, 1, 1]));
