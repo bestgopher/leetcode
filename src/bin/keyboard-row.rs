@@ -1,3 +1,5 @@
+#![allow(dead_code, unused, unused_variables)]
+
 fn main() {
     assert_eq!(
         vec!["Alaska".to_string(), "Dad".to_string()],
