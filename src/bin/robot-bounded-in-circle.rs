@@ -1,3 +1,5 @@
+#![allow(dead_code, unused, unused_variables)]
+
 fn main() {
     assert_eq!(true, Solution::is_robot_bounded(String::from("LLGRL")));
 }
