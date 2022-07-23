@@ -1,3 +1,5 @@
+#![allow(dead_code, unused, unused_variables)]
+
 fn main() {
     assert_eq!(false, Solution::can_reach(vec![3, 0, 2, 1, 2], 2));
 }
