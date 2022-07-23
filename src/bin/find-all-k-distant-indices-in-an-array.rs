@@ -1,3 +1,5 @@
+#![allow(dead_code, unused, unused_variables)]
+
 fn main() {
     let s = Solution::find_k_distant_indices(vec![3, 4, 9, 1, 3, 9, 5], 9, 1);
     println!("{s:?}");
