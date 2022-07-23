@@ -52,7 +52,9 @@ pub fn write_question(resp: Resp) {
 
     let mut f = File::create(file.as_str()).unwrap();
     let mut s = String::new();
-    s.push_str("fn main() {}\n\nstruct Solution;\n\n");
+    s.push_str("#![allow(dead_code, unused, unused_variables)]\n\n");
+    s.push_str("fn main() {}\n\n");
+    s.push_str("struct Solution;\n\n");
 
     for i in resp.data.question.code_snippets {
         if i.lang == "Rust" {
