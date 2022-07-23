@@ -1,3 +1,5 @@
+#![allow(dead_code, unused, unused_variables)]
+
 fn main() {
     println!("{}", Solution::num_trees(3));
     println!("{}", Solution::num_trees(4));
