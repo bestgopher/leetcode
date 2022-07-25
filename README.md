@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 621 | 290 | 316 | 15 |
+| 622 | 290 | 317 | 15 |
 
 ### 题目
 
@@ -603,6 +603,7 @@
 |100278    | 旋转数组的最小数字 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof/) | Easy |
 |100280    | 替换空格 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/ti-huan-kong-ge-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/ti-huan-kong-ge-lcof/) | Easy |
 |100280    | 替换空格 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/ti-huan-kong-ge-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/ti-huan-kong-ge-lcof/) | Easy |
+|100281    | 机器人的运动范围 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/ji-qi-ren-de-yun-dong-fan-wei-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/ji-qi-ren-de-yun-dong-fan-wei-lcof/) | Medium |
 |100282    | 从尾到头打印链表 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/cong-wei-dao-tou-da-yin-lian-biao-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof/) | Easy |
 |100282    | 从尾到头打印链表 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/cong-wei-dao-tou-da-yin-lian-biao-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof/) | Easy |
 |100283    | 重建二叉树 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/zhong-jian-er-cha-shu-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/zhong-jian-er-cha-shu-lcof/) | Medium |
