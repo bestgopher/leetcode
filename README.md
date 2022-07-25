@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 622 | 290 | 317 | 15 |
+| 623 | 290 | 318 | 15 |
 
 ### 题目
 
@@ -609,6 +609,7 @@
 |100283    | 重建二叉树 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/zhong-jian-er-cha-shu-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/zhong-jian-er-cha-shu-lcof/) | Medium |
 |100283    | 重建二叉树 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/zhong-jian-er-cha-shu-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/zhong-jian-er-cha-shu-lcof/) | Medium |
 |100283    | 重建二叉树 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/zhong-jian-er-cha-shu-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/zhong-jian-er-cha-shu-lcof/) | Medium |
+|100284    | 剪绳子 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/jian-sheng-zi-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/jian-sheng-zi-lcof/) | Medium |
 |100299    | 删除链表的节点 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/shan-chu-lian-biao-de-jie-dian-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/shan-chu-lian-biao-de-jie-dian-lcof/) | Easy |
 |100299    | 删除链表的节点 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/shan-chu-lian-biao-de-jie-dian-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/shan-chu-lian-biao-de-jie-dian-lcof/) | Easy |
 |100316    | 第一个只出现一次的字符 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/di-yi-ge-zhi-chu-xian-yi-ci-de-zi-fu-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/di-yi-ge-zhi-chu-xian-yi-ci-de-zi-fu-lcof/) | Easy |
