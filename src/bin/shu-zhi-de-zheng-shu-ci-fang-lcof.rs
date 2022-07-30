@@ -18,8 +18,6 @@ impl Solution {
             return 1.0;
         }
 
-        let n = n as i64;
-
         let m = Self::pow(x, n.abs() / 2);
         let mut r = if n.abs() % 2 == 1 { m * m * x } else { m * m };
 
