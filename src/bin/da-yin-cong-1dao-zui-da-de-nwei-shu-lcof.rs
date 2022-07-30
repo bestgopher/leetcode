@@ -8,6 +8,6 @@ struct Solution;
 
 impl Solution {
     pub fn print_numbers(n: i32) -> Vec<i32> {
-        (1..=10i32.pow(n as u32) - 1).collect()
+        (1..10i32.pow(n as u32)).collect()
     }
 }
