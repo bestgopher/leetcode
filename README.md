@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 318 | 143 | 167 | 8 |
+| 319 | 144 | 167 | 8 |
 
 ### 题目
 
@@ -314,6 +314,7 @@
 |100292    | 二进制中1的个数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/er-jin-zhi-zhong-1de-ge-shu-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/er-jin-zhi-zhong-1de-ge-shu-lcof/) | Easy |
 |100295    | 数值的整数次方 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/shu-zhi-de-zheng-shu-ci-fang-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/shu-zhi-de-zheng-shu-ci-fang-lcof/) | Medium |
 |100295    | 数值的整数次方 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/shu-zhi-de-zheng-shu-ci-fang-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/shu-zhi-de-zheng-shu-ci-fang-lcof/) | Medium |
+|100296    | 打印从1到最大的n位数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/da-yin-cong-1dao-zui-da-de-nwei-shu-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/da-yin-cong-1dao-zui-da-de-nwei-shu-lcof/) | Easy |
 |100296    | 打印从1到最大的n位数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/da-yin-cong-1dao-zui-da-de-nwei-shu-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/da-yin-cong-1dao-zui-da-de-nwei-shu-lcof/) | Easy |
 |100299    | 删除链表的节点 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/shan-chu-lian-biao-de-jie-dian-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/shan-chu-lian-biao-de-jie-dian-lcof/) | Easy |
 |100316    | 第一个只出现一次的字符 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/di-yi-ge-zhi-chu-xian-yi-ci-de-zi-fu-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/di-yi-ge-zhi-chu-xian-yi-ci-de-zi-fu-lcof/) | Easy |
