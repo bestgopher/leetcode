@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 319 | 144 | 167 | 8 |
+| 320 | 145 | 167 | 8 |
 
 ### 题目
 
@@ -311,6 +311,7 @@
 |100283    | 重建二叉树 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/zhong-jian-er-cha-shu-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/zhong-jian-er-cha-shu-lcof/) | Medium |
 |100284    | 剪绳子 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/jian-sheng-zi-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/jian-sheng-zi-lcof/) | Medium |
 |100285    | 剪绳子 II | [src](https://github.com/rustors/leetcode/blob/main/src/bin/jian-sheng-zi-ii-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/jian-sheng-zi-ii-lcof/) | Medium |
+|100291    | 调整数组顺序使奇数位于偶数前面 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof/) | Easy |
 |100292    | 二进制中1的个数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/er-jin-zhi-zhong-1de-ge-shu-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/er-jin-zhi-zhong-1de-ge-shu-lcof/) | Easy |
 |100295    | 数值的整数次方 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/shu-zhi-de-zheng-shu-ci-fang-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/shu-zhi-de-zheng-shu-ci-fang-lcof/) | Medium |
 |100295    | 数值的整数次方 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/shu-zhi-de-zheng-shu-ci-fang-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/shu-zhi-de-zheng-shu-ci-fang-lcof/) | Medium |
