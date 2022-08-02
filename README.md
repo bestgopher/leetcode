@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 320 | 145 | 167 | 8 |
+| 321 | 146 | 167 | 8 |
 
 ### 题目
 
@@ -313,6 +313,7 @@
 |100285    | 剪绳子 II | [src](https://github.com/rustors/leetcode/blob/main/src/bin/jian-sheng-zi-ii-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/jian-sheng-zi-ii-lcof/) | Medium |
 |100291    | 调整数组顺序使奇数位于偶数前面 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof/) | Easy |
 |100292    | 二进制中1的个数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/er-jin-zhi-zhong-1de-ge-shu-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/er-jin-zhi-zhong-1de-ge-shu-lcof/) | Easy |
+|100294    | 链表中倒数第k个节点 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/) | Easy |
 |100295    | 数值的整数次方 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/shu-zhi-de-zheng-shu-ci-fang-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/shu-zhi-de-zheng-shu-ci-fang-lcof/) | Medium |
 |100295    | 数值的整数次方 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/shu-zhi-de-zheng-shu-ci-fang-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/shu-zhi-de-zheng-shu-ci-fang-lcof/) | Medium |
 |100296    | 打印从1到最大的n位数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/da-yin-cong-1dao-zui-da-de-nwei-shu-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/da-yin-cong-1dao-zui-da-de-nwei-shu-lcof/) | Easy |
