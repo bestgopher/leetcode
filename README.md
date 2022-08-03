@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 321 | 146 | 167 | 8 |
+| 322 | 147 | 167 | 8 |
 
 ### 题目
 
@@ -318,6 +318,7 @@
 |100295    | 数值的整数次方 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/shu-zhi-de-zheng-shu-ci-fang-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/shu-zhi-de-zheng-shu-ci-fang-lcof/) | Medium |
 |100296    | 打印从1到最大的n位数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/da-yin-cong-1dao-zui-da-de-nwei-shu-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/da-yin-cong-1dao-zui-da-de-nwei-shu-lcof/) | Easy |
 |100296    | 打印从1到最大的n位数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/da-yin-cong-1dao-zui-da-de-nwei-shu-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/da-yin-cong-1dao-zui-da-de-nwei-shu-lcof/) | Easy |
+|100298    | 反转链表 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/fan-zhuan-lian-biao-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/fan-zhuan-lian-biao-lcof/) | Easy |
 |100299    | 删除链表的节点 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/shan-chu-lian-biao-de-jie-dian-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/shan-chu-lian-biao-de-jie-dian-lcof/) | Easy |
 |100316    | 第一个只出现一次的字符 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/di-yi-ge-zhi-chu-xian-yi-ci-de-zi-fu-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/di-yi-ge-zhi-chu-xian-yi-ci-de-zi-fu-lcof/) | Easy |
 |100325    | 把数字翻译成字符串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof/) | Medium |
