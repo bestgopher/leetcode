@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 323 | 148 | 167 | 8 |
+| 324 | 148 | 168 | 8 |
 
 ### 题目
 
@@ -312,6 +312,7 @@
 |100284    | 剪绳子 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/jian-sheng-zi-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/jian-sheng-zi-lcof/) | Medium |
 |100285    | 剪绳子 II | [src](https://github.com/rustors/leetcode/blob/main/src/bin/jian-sheng-zi-ii-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/jian-sheng-zi-ii-lcof/) | Medium |
 |100286    | 合并两个排序的链表 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/he-bing-liang-ge-pai-xu-de-lian-biao-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/he-bing-liang-ge-pai-xu-de-lian-biao-lcof/) | Easy |
+|100287    | 树的子结构 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/shu-de-zi-jie-gou-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/shu-de-zi-jie-gou-lcof/) | Medium |
 |100291    | 调整数组顺序使奇数位于偶数前面 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof/) | Easy |
 |100292    | 二进制中1的个数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/er-jin-zhi-zhong-1de-ge-shu-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/er-jin-zhi-zhong-1de-ge-shu-lcof/) | Easy |
 |100294    | 链表中倒数第k个节点 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/) | Easy |
