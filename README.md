@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 330 | 152 | 170 | 8 |
+| 331 | 152 | 171 | 8 |
 
 ### 题目
 
@@ -251,6 +251,7 @@
 |979    | 增减字符串匹配 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/di-string-match.rs) | [leetcode](https://leetcode-cn.com/problems/di-string-match/) | Easy |
 |981    | 删列造序 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/delete-columns-to-make-sorted.rs) | [leetcode](https://leetcode-cn.com/problems/delete-columns-to-make-sorted/) | Easy |
 |982    | 使数组唯一的最小增量 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-increment-to-make-array-unique.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-increment-to-make-array-unique/) | Medium |
+|983    | 验证栈序列 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/validate-stack-sequences.rs) | [leetcode](https://leetcode-cn.com/problems/validate-stack-sequences/) | Medium |
 |1002    | 最大宽度坡 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-width-ramp.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-width-ramp/) | Medium |
 |1005    | 单值二叉树 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/univalued-binary-tree.rs) | [leetcode](https://leetcode-cn.com/problems/univalued-binary-tree/) | Easy |
 |1007    | 连续差相同的数字 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/numbers-with-same-consecutive-differences.rs) | [leetcode](https://leetcode-cn.com/problems/numbers-with-same-consecutive-differences/) | Medium |
