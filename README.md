@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 328 | 151 | 169 | 8 |
+| 329 | 152 | 169 | 8 |
 
 ### 题目
 
@@ -326,6 +326,7 @@
 |100296    | 打印从1到最大的n位数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/da-yin-cong-1dao-zui-da-de-nwei-shu-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/da-yin-cong-1dao-zui-da-de-nwei-shu-lcof/) | Easy |
 |100298    | 反转链表 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/fan-zhuan-lian-biao-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/fan-zhuan-lian-biao-lcof/) | Easy |
 |100299    | 删除链表的节点 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/shan-chu-lian-biao-de-jie-dian-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/shan-chu-lian-biao-de-jie-dian-lcof/) | Easy |
+|100302    | 包含min函数的栈 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/bao-han-minhan-shu-de-zhan-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/bao-han-minhan-shu-de-zhan-lcof/) | Easy |
 |100316    | 第一个只出现一次的字符 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/di-yi-ge-zhi-chu-xian-yi-ci-de-zi-fu-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/di-yi-ge-zhi-chu-xian-yi-ci-de-zi-fu-lcof/) | Easy |
 |100325    | 把数字翻译成字符串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof/) | Medium |
 |100333    | 二叉搜索树的第k大节点 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof/) | Easy |
