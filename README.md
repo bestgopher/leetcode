@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 336 | 153 | 175 | 8 |
+| 337 | 153 | 176 | 8 |
 
 ### 题目
 
@@ -329,6 +329,7 @@
 |100299    | 删除链表的节点 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/shan-chu-lian-biao-de-jie-dian-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/shan-chu-lian-biao-de-jie-dian-lcof/) | Easy |
 |100302    | 包含min函数的栈 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/bao-han-minhan-shu-de-zhan-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/bao-han-minhan-shu-de-zhan-lcof/) | Easy |
 |100306    | 栈的压入、弹出序列 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/zhan-de-ya-ru-dan-chu-xu-lie-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/zhan-de-ya-ru-dan-chu-xu-lie-lcof/) | Medium |
+|100308    | 字符串的排列 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/zi-fu-chuan-de-pai-lie-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/zi-fu-chuan-de-pai-lie-lcof/) | Medium |
 |100311    | 从上到下打印二叉树 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/cong-shang-dao-xia-da-yin-er-cha-shu-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-lcof/) | Medium |
 |100312    | 从上到下打印二叉树 II | [src](https://github.com/rustors/leetcode/blob/main/src/bin/cong-shang-dao-xia-da-yin-er-cha-shu-ii-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-ii-lcof/) | Easy |
 |100314    | 从上到下打印二叉树 III | [src](https://github.com/rustors/leetcode/blob/main/src/bin/cong-shang-dao-xia-da-yin-er-cha-shu-iii-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-iii-lcof/) | Medium |
