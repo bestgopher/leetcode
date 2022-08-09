@@ -9,7 +9,7 @@ fn main() {
 struct Solution;
 
 impl Solution {
-    pub fn permutation(s: String) -> Vec<String> {
+    pub fn permutation1(s: String) -> Vec<String> {
         Self::f(s.as_bytes())
             .into_iter()
             .map(|x| String::from_utf8(x).unwrap())
@@ -39,5 +39,48 @@ impl Solution {
         }
 
         data
+    }
+
+    pub fn permutation(s: String) -> Vec<String> {
+        let mut s = s;
+        unsafe {
+            let bytes = s.as_bytes_mut();
+            bytes.sort();
+        }
+
+        let mut data = vec![s];
+        let mut index = 0;
+
+        while index < data.len() {
+            match Self::next_permutation(data[index].clone()) {
+                Some(s) => data.push(s),
+                None => break,
+            }
+            index += 1;
+        }
+
+        data
+    }
+
+    pub fn next_permutation(mut string: String) -> Option<String> {
+        unsafe {
+            let s = string.as_bytes_mut();
+            for i in (0..s.len() - 1).rev() {
+                if s[i] < s[i + 1] {
+                    let mut min = i + 1;
+                    for j in (i + 1..s.len()).rev() {
+                        if s[j] > s[i] && s[j] < s[min] {
+                            min = j;
+                        }
+                    }
+                    s.swap(i, min);
+                    s[i + 1..].sort();
+
+                    return Some(string);
+                }
+            }
+
+            None
+        }
     }
 }
