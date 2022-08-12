@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 342 | 156 | 177 | 9 |
+| 343 | 156 | 178 | 9 |
 
 ### 题目
 
@@ -337,6 +337,7 @@
 |100310    | 数组中出现次数超过一半的数字 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/shu-zu-zhong-chu-xian-ci-shu-chao-guo-yi-ban-de-shu-zi-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/shu-zu-zhong-chu-xian-ci-shu-chao-guo-yi-ban-de-shu-zi-lcof/) | Easy |
 |100311    | 从上到下打印二叉树 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/cong-shang-dao-xia-da-yin-er-cha-shu-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-lcof/) | Medium |
 |100312    | 从上到下打印二叉树 II | [src](https://github.com/rustors/leetcode/blob/main/src/bin/cong-shang-dao-xia-da-yin-er-cha-shu-ii-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-ii-lcof/) | Easy |
+|100313    | 数字序列中某一位的数字 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/shu-zi-xu-lie-zhong-mou-yi-wei-de-shu-zi-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/shu-zi-xu-lie-zhong-mou-yi-wei-de-shu-zi-lcof/) | Medium |
 |100314    | 从上到下打印二叉树 III | [src](https://github.com/rustors/leetcode/blob/main/src/bin/cong-shang-dao-xia-da-yin-er-cha-shu-iii-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-iii-lcof/) | Medium |
 |100315    | 二叉搜索树的后序遍历序列 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/er-cha-sou-suo-shu-de-hou-xu-bian-li-xu-lie-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-hou-xu-bian-li-xu-lie-lcof/) | Medium |
 |100316    | 第一个只出现一次的字符 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/di-yi-ge-zhi-chu-xian-yi-ci-de-zi-fu-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/di-yi-ge-zhi-chu-xian-yi-ci-de-zi-fu-lcof/) | Easy |
