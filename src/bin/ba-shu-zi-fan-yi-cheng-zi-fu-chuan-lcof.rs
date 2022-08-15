@@ -5,7 +5,7 @@ fn main() {}
 struct Solution;
 
 impl Solution {
-    pub fn translate_num(num: i32) -> i32 {
+    pub fn translate_num1(num: i32) -> i32 {
         let s = num.to_string();
         let s = s.as_bytes();
         let mut count = 0;
@@ -25,5 +25,22 @@ impl Solution {
             }
         }
         Self::dp(&s[1..], count);
+    }
+
+    pub fn translate_num(num: i32) -> i32 {
+        if num == 0 {
+            return 0;
+        }
+
+        let mut count = 1;
+        count += Self::translate_num(num / 10);
+
+        let new_num = num % 100;
+        if new_num >= 10 && new_num <= 25 {
+            count += 1;
+            count += Self::translate_num(num / 100);
+        }
+
+        count
     }
 }
