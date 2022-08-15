@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 344 | 156 | 179 | 9 |
+| 346 | 156 | 181 | 9 |
 
 ### 题目
 
@@ -344,6 +344,8 @@
 |100317    | 二叉树中和为某一值的路径 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/er-cha-shu-zhong-he-wei-mou-yi-zhi-de-lu-jing-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/er-cha-shu-zhong-he-wei-mou-yi-zhi-de-lu-jing-lcof/) | Medium |
 |100323    | 把数组排成最小的数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof/) | Medium |
 |100325    | 把数字翻译成字符串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof/) | Medium |
+|100325    | 把数字翻译成字符串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof/) | Medium |
+|100327    | 礼物的最大价值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/li-wu-de-zui-da-jie-zhi-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/li-wu-de-zui-da-jie-zhi-lcof/) | Medium |
 |100333    | 二叉搜索树的第k大节点 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof/) | Easy |
 |100344    | 股票的最大利润 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/gu-piao-de-zui-da-li-run-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/gu-piao-de-zui-da-li-run-lcof/) | Medium |
 |100345    | 求1+2+…+n | [src](https://github.com/rustors/leetcode/blob/main/src/bin/qiu-12n-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/qiu-12n-lcof/) | Medium |
