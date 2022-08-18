@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 353 | 160 | 183 | 10 |
+| 354 | 161 | 183 | 10 |
 
 ### 题目
 
@@ -354,6 +354,7 @@
 |100332    | 最长不含重复字符的子字符串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/zui-chang-bu-han-zhong-fu-zi-fu-de-zi-zi-fu-chuan-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/zui-chang-bu-han-zhong-fu-zi-fu-de-zi-zi-fu-chuan-lcof/) | Medium |
 |100333    | 二叉搜索树的第k大节点 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof/) | Easy |
 |100334    | 丑数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/chou-shu-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/chou-shu-lcof/) | Medium |
+|100342    | 平衡二叉树 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/ping-heng-er-cha-shu-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/ping-heng-er-cha-shu-lcof/) | Easy |
 |100344    | 股票的最大利润 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/gu-piao-de-zui-da-li-run-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/gu-piao-de-zui-da-li-run-lcof/) | Medium |
 |100345    | 求1+2+…+n | [src](https://github.com/rustors/leetcode/blob/main/src/bin/qiu-12n-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/qiu-12n-lcof/) | Medium |
 |100349    | 最大数值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-lcci.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-lcci/) | Easy |
