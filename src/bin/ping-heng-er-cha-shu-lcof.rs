@@ -26,32 +26,31 @@ use std::cell::RefCell;
 use std::rc::Rc;
 impl Solution {
     pub fn is_balanced(root: Option<Rc<RefCell<TreeNode>>>) -> bool {
-        let (result, _) = Self::scan(root);
-        result
+        Self::scan(root) != -1
     }
 
-    pub fn scan(root: Option<Rc<RefCell<TreeNode>>>) -> (bool, i32) {
+    pub fn scan(root: Option<Rc<RefCell<TreeNode>>>) -> i32 {
         if root.is_none() {
-            return (true, 0);
+            return 0;
         }
         let root = root.clone().unwrap();
         let left = root.borrow_mut().left.take();
         let right = root.borrow_mut().right.take();
 
-        let (r1, h1) = Self::scan(left);
-        if !r1 {
-            return (false, 0);
+        let h1 = Self::scan(left);
+        if h1 == -1 {
+            return -1;
         }
 
-        let (r2, h2) = Self::scan(right);
-        if !r2 {
-            return (false, 0);
+        let h2 = Self::scan(right);
+        if h2 == -1 {
+            return -1;
         }
 
         if (h1 - h2).abs() > 1 {
-            return (false, 0);
+            return -1;
         }
 
-        (true, 1 + h1.max(h2))
+        1 + h1.max(h2)
     }
 }
