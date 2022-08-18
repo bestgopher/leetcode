@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 354 | 161 | 183 | 10 |
+| 356 | 162 | 184 | 10 |
 
 ### 题目
 
@@ -345,6 +345,7 @@
 |100318    | 数组中的逆序对 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/shu-zu-zhong-de-ni-xu-dui-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/shu-zu-zhong-de-ni-xu-dui-lcof/) | Hard |
 |100319    | 二叉树的深度 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/er-cha-shu-de-shen-du-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/er-cha-shu-de-shen-du-lcof/) | Easy |
 |100319    | 二叉树的深度 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/er-cha-shu-de-shen-du-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/er-cha-shu-de-shen-du-lcof/) | Easy |
+|100320    | 数组中数字出现的次数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/shu-zu-zhong-shu-zi-chu-xian-de-ci-shu-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/shu-zu-zhong-shu-zi-chu-xian-de-ci-shu-lcof/) | Medium |
 |100323    | 把数组排成最小的数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof/) | Medium |
 |100325    | 把数字翻译成字符串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof/) | Medium |
 |100325    | 把数字翻译成字符串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof/) | Medium |
@@ -354,6 +355,7 @@
 |100332    | 最长不含重复字符的子字符串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/zui-chang-bu-han-zhong-fu-zi-fu-de-zi-zi-fu-chuan-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/zui-chang-bu-han-zhong-fu-zi-fu-de-zi-zi-fu-chuan-lcof/) | Medium |
 |100333    | 二叉搜索树的第k大节点 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof/) | Easy |
 |100334    | 丑数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/chou-shu-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/chou-shu-lcof/) | Medium |
+|100342    | 平衡二叉树 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/ping-heng-er-cha-shu-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/ping-heng-er-cha-shu-lcof/) | Easy |
 |100342    | 平衡二叉树 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/ping-heng-er-cha-shu-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/ping-heng-er-cha-shu-lcof/) | Easy |
 |100344    | 股票的最大利润 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/gu-piao-de-zui-da-li-run-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/gu-piao-de-zui-da-li-run-lcof/) | Medium |
 |100345    | 求1+2+…+n | [src](https://github.com/rustors/leetcode/blob/main/src/bin/qiu-12n-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/qiu-12n-lcof/) | Medium |
