@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 356 | 162 | 184 | 10 |
+| 357 | 162 | 185 | 10 |
 
 ### 题目
 
@@ -346,6 +346,7 @@
 |100319    | 二叉树的深度 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/er-cha-shu-de-shen-du-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/er-cha-shu-de-shen-du-lcof/) | Easy |
 |100319    | 二叉树的深度 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/er-cha-shu-de-shen-du-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/er-cha-shu-de-shen-du-lcof/) | Easy |
 |100320    | 数组中数字出现的次数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/shu-zu-zhong-shu-zi-chu-xian-de-ci-shu-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/shu-zu-zhong-shu-zi-chu-xian-de-ci-shu-lcof/) | Medium |
+|100321    | 数组中数字出现的次数 II | [src](https://github.com/rustors/leetcode/blob/main/src/bin/shu-zu-zhong-shu-zi-chu-xian-de-ci-shu-ii-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/shu-zu-zhong-shu-zi-chu-xian-de-ci-shu-ii-lcof/) | Medium |
 |100323    | 把数组排成最小的数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof/) | Medium |
 |100325    | 把数字翻译成字符串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof/) | Medium |
 |100325    | 把数字翻译成字符串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof/) | Medium |
