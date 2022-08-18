@@ -28,7 +28,7 @@ use std::rc::Rc;
 
 use serde::__private::de;
 impl Solution {
-    pub fn max_depth(root: Option<Rc<RefCell<TreeNode>>>) -> i32 {
+    pub fn max_depth1(root: Option<Rc<RefCell<TreeNode>>>) -> i32 {
         if root.is_none() {
             return 0;
         }
@@ -56,5 +56,16 @@ impl Solution {
         }
 
         depth
+    }
+
+    pub fn max_depth(root: Option<Rc<RefCell<TreeNode>>>) -> i32 {
+        if root.is_none() {
+            return 0;
+        }
+
+        let left = root.clone().unwrap().borrow_mut().left.take();
+        let right = root.clone().unwrap().borrow_mut().right.take();
+
+        1 + Self::max_depth(left).max(Self::max_depth(right))
     }
 }
