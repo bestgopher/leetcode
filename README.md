@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 358 | 163 | 185 | 10 |
+| 359 | 164 | 185 | 10 |
 
 ### 题目
 
@@ -349,6 +349,7 @@
 |100321    | 数组中数字出现的次数 II | [src](https://github.com/rustors/leetcode/blob/main/src/bin/shu-zu-zhong-shu-zi-chu-xian-de-ci-shu-ii-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/shu-zu-zhong-shu-zi-chu-xian-de-ci-shu-ii-lcof/) | Medium |
 |100322    | 和为s的两个数字 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/he-wei-sde-liang-ge-shu-zi-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/he-wei-sde-liang-ge-shu-zi-lcof/) | Easy |
 |100323    | 把数组排成最小的数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof/) | Medium |
+|100324    | 和为s的连续正数序列 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof/) | Easy |
 |100325    | 把数字翻译成字符串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof/) | Medium |
 |100325    | 把数字翻译成字符串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof/) | Medium |
 |100327    | 礼物的最大价值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/li-wu-de-zui-da-jie-zhi-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/li-wu-de-zui-da-jie-zhi-lcof/) | Medium |
