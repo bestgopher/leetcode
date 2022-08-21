@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 359 | 164 | 185 | 10 |
+| 360 | 165 | 185 | 10 |
 
 ### 题目
 
@@ -354,6 +354,7 @@
 |100325    | 把数字翻译成字符串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof/) | Medium |
 |100327    | 礼物的最大价值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/li-wu-de-zui-da-jie-zhi-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/li-wu-de-zui-da-jie-zhi-lcof/) | Medium |
 |100329    | 在排序数组中查找数字 I | [src](https://github.com/rustors/leetcode/blob/main/src/bin/zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof/) | Easy |
+|100330    | 左旋转字符串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/zuo-xuan-zhuan-zi-fu-chuan-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/zuo-xuan-zhuan-zi-fu-chuan-lcof/) | Easy |
 |100331    | 0～n-1中缺失的数字 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/que-shi-de-shu-zi-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/que-shi-de-shu-zi-lcof/) | Easy |
 |100332    | 最长不含重复字符的子字符串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/zui-chang-bu-han-zhong-fu-zi-fu-de-zi-zi-fu-chuan-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/zui-chang-bu-han-zhong-fu-zi-fu-de-zi-zi-fu-chuan-lcof/) | Medium |
 |100333    | 二叉搜索树的第k大节点 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof/) | Easy |
