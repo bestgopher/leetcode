@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 361 | 165 | 186 | 10 |
+| 362 | 166 | 186 | 10 |
 
 ### 题目
 
@@ -360,6 +360,7 @@
 |100333    | 二叉搜索树的第k大节点 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof/) | Easy |
 |100334    | 丑数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/chou-shu-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/chou-shu-lcof/) | Medium |
 |100339    | n个骰子的点数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/nge-tou-zi-de-dian-shu-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/nge-tou-zi-de-dian-shu-lcof/) | Medium |
+|100341    | 扑克牌中的顺子 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/bu-ke-pai-zhong-de-shun-zi-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/bu-ke-pai-zhong-de-shun-zi-lcof/) | Easy |
 |100342    | 平衡二叉树 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/ping-heng-er-cha-shu-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/ping-heng-er-cha-shu-lcof/) | Easy |
 |100342    | 平衡二叉树 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/ping-heng-er-cha-shu-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/ping-heng-er-cha-shu-lcof/) | Easy |
 |100344    | 股票的最大利润 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/gu-piao-de-zui-da-li-run-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/gu-piao-de-zui-da-li-run-lcof/) | Medium |
