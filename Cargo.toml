@@ -7,8 +7,8 @@ edition = "2018"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-git2 = "0.13.15"
-reqwest = { version = "0.10", features = ["blocking", "json"] }
+git2 = "0.14.4"
+reqwest = { version = "0.11.11", features = ["blocking", "json"] }
 serde_json = "1.0"
 serde = { version = "1.0", features = ["derive"] }
 clap = "3.0.0-beta.2"
@@ -19,5 +19,5 @@ rand = "0.8.4"
 
 
 [[bin]]
-name ="leetcode"
+name = "leetcode"
 path = "src/main.rs"
