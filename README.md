@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 366 | 167 | 189 | 10 |
+| 367 | 167 | 190 | 10 |
 
 ### 题目
 
@@ -304,6 +304,7 @@
 |100273    | 用两个栈实现队列 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/yong-liang-ge-zhan-shi-xian-dui-lie-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/) | Easy |
 |100274    | 斐波那契数列 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/fei-bo-na-qi-shu-lie-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/fei-bo-na-qi-shu-lie-lcof/) | Easy |
 |100275    | 数组中重复的数字 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/shu-zu-zhong-zhong-fu-de-shu-zi-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/) | Easy |
+|100276    | 二维数组中的查找 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/er-wei-shu-zu-zhong-de-cha-zhao-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/er-wei-shu-zu-zhong-de-cha-zhao-lcof/) | Medium |
 |100277    | 青蛙跳台阶问题 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/qing-wa-tiao-tai-jie-wen-ti-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/qing-wa-tiao-tai-jie-wen-ti-lcof/) | Easy |
 |100278    | 旋转数组的最小数字 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof/) | Easy |
 |100279    | 矩阵中的路径 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/ju-zhen-zhong-de-lu-jing-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/ju-zhen-zhong-de-lu-jing-lcof/) | Medium |
