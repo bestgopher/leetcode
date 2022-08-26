@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 365 | 166 | 189 | 10 |
+| 366 | 167 | 189 | 10 |
 
 ### 题目
 
@@ -353,6 +353,7 @@
 |100325    | 把数字翻译成字符串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof/) | Medium |
 |100325    | 把数字翻译成字符串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof/) | Medium |
 |100327    | 礼物的最大价值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/li-wu-de-zui-da-jie-zhi-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/li-wu-de-zui-da-jie-zhi-lcof/) | Medium |
+|100328    | 翻转单词顺序 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/fan-zhuan-dan-ci-shun-xu-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/fan-zhuan-dan-ci-shun-xu-lcof/) | Easy |
 |100329    | 在排序数组中查找数字 I | [src](https://github.com/rustors/leetcode/blob/main/src/bin/zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof/) | Easy |
 |100330    | 左旋转字符串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/zuo-xuan-zhuan-zi-fu-chuan-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/zuo-xuan-zhuan-zi-fu-chuan-lcof/) | Easy |
 |100331    | 0～n-1中缺失的数字 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/que-shi-de-shu-zi-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/que-shi-de-shu-zi-lcof/) | Easy |
