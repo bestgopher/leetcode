@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 368 | 167 | 191 | 10 |
+| 369 | 167 | 192 | 10 |
 
 ### 题目
 
@@ -319,6 +319,7 @@
 |100287    | 树的子结构 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/shu-de-zi-jie-gou-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/shu-de-zi-jie-gou-lcof/) | Medium |
 |100288    | 二叉树的镜像 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/er-cha-shu-de-jing-xiang-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/er-cha-shu-de-jing-xiang-lcof/) | Easy |
 |100289    | 对称的二叉树 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/dui-cheng-de-er-cha-shu-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/dui-cheng-de-er-cha-shu-lcof/) | Easy |
+|100290    | 表示数值的字符串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/biao-shi-shu-zhi-de-zi-fu-chuan-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/biao-shi-shu-zhi-de-zi-fu-chuan-lcof/) | Medium |
 |100291    | 调整数组顺序使奇数位于偶数前面 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof/) | Easy |
 |100292    | 二进制中1的个数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/er-jin-zhi-zhong-1de-ge-shu-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/er-jin-zhi-zhong-1de-ge-shu-lcof/) | Easy |
 |100293    | 顺时针打印矩阵 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/shun-shi-zhen-da-yin-ju-zhen-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/shun-shi-zhen-da-yin-ju-zhen-lcof/) | Easy |
