@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 369 | 167 | 192 | 10 |
+| 370 | 167 | 192 | 11 |
 
 ### 题目
 
@@ -337,6 +337,7 @@
 |100306    | 栈的压入、弹出序列 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/zhan-de-ya-ru-dan-chu-xu-lie-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/zhan-de-ya-ru-dan-chu-xu-lie-lcof/) | Medium |
 |100308    | 字符串的排列 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/zi-fu-chuan-de-pai-lie-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/zi-fu-chuan-de-pai-lie-lcof/) | Medium |
 |100308    | 字符串的排列 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/zi-fu-chuan-de-pai-lie-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/zi-fu-chuan-de-pai-lie-lcof/) | Medium |
+|100309    | 1～n 整数中 1 出现的次数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/1nzheng-shu-zhong-1chu-xian-de-ci-shu-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/1nzheng-shu-zhong-1chu-xian-de-ci-shu-lcof/) | Hard |
 |100310    | 数组中出现次数超过一半的数字 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/shu-zu-zhong-chu-xian-ci-shu-chao-guo-yi-ban-de-shu-zi-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/shu-zu-zhong-chu-xian-ci-shu-chao-guo-yi-ban-de-shu-zi-lcof/) | Easy |
 |100311    | 从上到下打印二叉树 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/cong-shang-dao-xia-da-yin-er-cha-shu-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-lcof/) | Medium |
 |100312    | 从上到下打印二叉树 II | [src](https://github.com/rustors/leetcode/blob/main/src/bin/cong-shang-dao-xia-da-yin-er-cha-shu-ii-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-ii-lcof/) | Easy |
