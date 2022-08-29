@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 370 | 167 | 192 | 11 |
+| 371 | 168 | 192 | 11 |
 
 ### 题目
 
@@ -371,6 +371,7 @@
 |100341    | 扑克牌中的顺子 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/bu-ke-pai-zhong-de-shun-zi-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/bu-ke-pai-zhong-de-shun-zi-lcof/) | Easy |
 |100342    | 平衡二叉树 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/ping-heng-er-cha-shu-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/ping-heng-er-cha-shu-lcof/) | Easy |
 |100342    | 平衡二叉树 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/ping-heng-er-cha-shu-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/ping-heng-er-cha-shu-lcof/) | Easy |
+|100343    | 圆圈中最后剩下的数字 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof/) | Easy |
 |100344    | 股票的最大利润 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/gu-piao-de-zui-da-li-run-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/gu-piao-de-zui-da-li-run-lcof/) | Medium |
 |100345    | 求1+2+…+n | [src](https://github.com/rustors/leetcode/blob/main/src/bin/qiu-12n-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/qiu-12n-lcof/) | Medium |
 |100349    | 最大数值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-lcci.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-lcci/) | Easy |
