@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 371 | 168 | 192 | 11 |
+| 372 | 168 | 193 | 11 |
 
 ### 题目
 
@@ -298,6 +298,7 @@
 |1797    | 设计 Goal 解析器 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/goal-parser-interpretation.rs) | [leetcode](https://leetcode-cn.com/problems/goal-parser-interpretation/) | Easy |
 |1806    | 比赛中的配对次数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/count-of-matches-in-tournament.rs) | [leetcode](https://leetcode-cn.com/problems/count-of-matches-in-tournament/) | Easy |
 |1807    | 十-二进制数的最少数目 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/partitioning-into-minimum-number-of-deci-binary-numbers.rs) | [leetcode](https://leetcode-cn.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers/) | Medium |
+|1940    | 每个查询的最大异或值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-xor-for-each-query.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-xor-for-each-query/) | Medium |
 |1983    | 人口最多的年份 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-population-year.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-population-year/) | Easy |
 |2128    | 反转单词前缀 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/reverse-prefix-of-word.rs) | [leetcode](https://leetcode-cn.com/problems/reverse-prefix-of-word/) | Easy |
 |2320    | 找出数组中的所有 K 近邻下标 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-all-k-distant-indices-in-an-array.rs) | [leetcode](https://leetcode-cn.com/problems/find-all-k-distant-indices-in-an-array/) | Easy |
