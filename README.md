@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 372 | 168 | 193 | 11 |
+| 373 | 169 | 193 | 11 |
 
 ### 题目
 
@@ -365,6 +365,7 @@
 |100332    | 最长不含重复字符的子字符串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/zui-chang-bu-han-zhong-fu-zi-fu-de-zi-zi-fu-chuan-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/zui-chang-bu-han-zhong-fu-zi-fu-de-zi-zi-fu-chuan-lcof/) | Medium |
 |100333    | 二叉搜索树的第k大节点 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof/) | Easy |
 |100334    | 丑数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/chou-shu-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/chou-shu-lcof/) | Medium |
+|100335    | 不用加减乘除做加法 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/bu-yong-jia-jian-cheng-chu-zuo-jia-fa-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/bu-yong-jia-jian-cheng-chu-zuo-jia-fa-lcof/) | Easy |
 |100337    | 队列的最大值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/dui-lie-de-zui-da-zhi-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/dui-lie-de-zui-da-zhi-lcof/) | Medium |
 |100338    | 构建乘积数组 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/gou-jian-cheng-ji-shu-zu-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/gou-jian-cheng-ji-shu-zu-lcof/) | Medium |
 |100339    | n个骰子的点数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/nge-tou-zi-de-dian-shu-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/nge-tou-zi-de-dian-shu-lcof/) | Medium |
