@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 374 | 170 | 193 | 11 |
+| 375 | 171 | 193 | 11 |
 
 ### 题目
 
@@ -295,6 +295,7 @@
 |1656    | 统计好三元组 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/count-good-triplets.rs) | [leetcode](https://leetcode-cn.com/problems/count-good-triplets/) | Easy |
 |1660    | 千位分隔数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/thousand-separator.rs) | [leetcode](https://leetcode-cn.com/problems/thousand-separator/) | Easy |
 |1666    | 整理字符串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/make-the-string-great.rs) | [leetcode](https://leetcode-cn.com/problems/make-the-string-great/) | Easy |
+|1677    | 矩阵对角线元素的和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/matrix-diagonal-sum.rs) | [leetcode](https://leetcode-cn.com/problems/matrix-diagonal-sum/) | Easy |
 |1791    | 最富有客户的资产总量 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/richest-customer-wealth.rs) | [leetcode](https://leetcode-cn.com/problems/richest-customer-wealth/) | Easy |
 |1797    | 设计 Goal 解析器 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/goal-parser-interpretation.rs) | [leetcode](https://leetcode-cn.com/problems/goal-parser-interpretation/) | Easy |
 |1806    | 比赛中的配对次数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/count-of-matches-in-tournament.rs) | [leetcode](https://leetcode-cn.com/problems/count-of-matches-in-tournament/) | Easy |
