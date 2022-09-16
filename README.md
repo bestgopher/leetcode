@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 375 | 171 | 193 | 11 |
+| 376 | 171 | 194 | 11 |
 
 ### 题目
 
@@ -207,6 +207,7 @@
 |476    | 数字的补数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/number-complement.rs) | [leetcode](https://leetcode-cn.com/problems/number-complement/) | Easy |
 |481    | 神奇字符串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/magical-string.rs) | [leetcode](https://leetcode-cn.com/problems/magical-string/) | Medium |
 |485    | 最大连续 1 的个数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/max-consecutive-ones.rs) | [leetcode](https://leetcode-cn.com/problems/max-consecutive-ones/) | Easy |
+|494    | 目标和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/target-sum.rs) | [leetcode](https://leetcode-cn.com/problems/target-sum/) | Medium |
 |500    | 键盘行 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/keyboard-row.rs) | [leetcode](https://leetcode-cn.com/problems/keyboard-row/) | Easy |
 |504    | 七进制数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/base-7.rs) | [leetcode](https://leetcode-cn.com/problems/base-7/) | Easy |
 |507    | 完美数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/perfect-number.rs) | [leetcode](https://leetcode-cn.com/problems/perfect-number/) | Easy |
