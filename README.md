@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 377 | 172 | 194 | 11 |
+| 378 | 173 | 194 | 11 |
 
 ### 题目
 
@@ -269,6 +269,7 @@
 |1238    | 字母板上的路径 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/alphabet-board-path.rs) | [leetcode](https://leetcode-cn.com/problems/alphabet-board-path/) | Medium |
 |1253    | 将矩阵按对角线排序 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/sort-the-matrix-diagonally.rs) | [leetcode](https://leetcode-cn.com/problems/sort-the-matrix-diagonally/) | Medium |
 |1287    | 公交站间的距离 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/distance-between-bus-stops.rs) | [leetcode](https://leetcode-cn.com/problems/distance-between-bus-stops/) | Easy |
+|1293    | 存在连续三个奇数的数组 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/three-consecutive-odds.rs) | [leetcode](https://leetcode-cn.com/problems/three-consecutive-odds/) | Easy |
 |1306    | 最小绝对差 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-absolute-difference.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-absolute-difference/) | Easy |
 |1320    | 删除字符串中的所有相邻重复项 II | [src](https://github.com/rustors/leetcode/blob/main/src/bin/remove-all-adjacent-duplicates-in-string-ii.rs) | [leetcode](https://leetcode-cn.com/problems/remove-all-adjacent-duplicates-in-string-ii/) | Medium |
 |1341    | 分割平衡字符串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/split-a-string-in-balanced-strings.rs) | [leetcode](https://leetcode-cn.com/problems/split-a-string-in-balanced-strings/) | Easy |
