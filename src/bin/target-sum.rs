@@ -27,3 +27,4 @@ impl Solution {
             Self::calc(&nums[1..], target - nums[0]) + Self::calc(&nums[1..], target + nums[0])
         }
     }
+}
