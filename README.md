@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 379 | 174 | 194 | 11 |
+| 380 | 174 | 195 | 11 |
 
 ### 题目
 
@@ -12,6 +12,7 @@
 |2    | 两数相加 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/add-two-numbers.rs) | [leetcode](https://leetcode-cn.com/problems/add-two-numbers/) | Medium |
 |3    | 无重复字符的最长子串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/longest-substring-without-repeating-characters.rs) | [leetcode](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/) | Medium |
 |4    | 寻找两个正序数组的中位数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/median-of-two-sorted-arrays.rs) | [leetcode](https://leetcode-cn.com/problems/median-of-two-sorted-arrays/) | Hard |
+|5    | 最长回文子串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/longest-palindromic-substring.rs) | [leetcode](https://leetcode-cn.com/problems/longest-palindromic-substring/) | Medium |
 |6    | Z 字形变换 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/zigzag-conversion.rs) | [leetcode](https://leetcode-cn.com/problems/zigzag-conversion/) | Medium |
 |7    | 整数反转 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/reverse-integer.rs) | [leetcode](https://leetcode-cn.com/problems/reverse-integer/) | Medium |
 |8    | 字符串转换整数 (atoi) | [src](https://github.com/rustors/leetcode/blob/main/src/bin/string-to-integer-atoi.rs) | [leetcode](https://leetcode-cn.com/problems/string-to-integer-atoi/) | Medium |
