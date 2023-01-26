@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 380 | 174 | 195 | 11 |
+| 382 | 174 | 197 | 11 |
 
 ### 题目
 
@@ -28,6 +28,7 @@
 |19    | 删除链表的倒数第 N 个结点 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/remove-nth-node-from-end-of-list.rs) | [leetcode](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/) | Medium |
 |20    | 有效的括号 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/valid-parentheses.rs) | [leetcode](https://leetcode-cn.com/problems/valid-parentheses/) | Easy |
 |21    | 合并两个有序链表 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/merge-two-sorted-lists.rs) | [leetcode](https://leetcode-cn.com/problems/merge-two-sorted-lists/) | Easy |
+|22    | 括号生成 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/generate-parentheses.rs) | [leetcode](https://leetcode-cn.com/problems/generate-parentheses/) | Medium |
 |23    | 合并K个升序链表 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/merge-k-sorted-lists.rs) | [leetcode](https://leetcode-cn.com/problems/merge-k-sorted-lists/) | Hard |
 |24    | 两两交换链表中的节点 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/swap-nodes-in-pairs.rs) | [leetcode](https://leetcode-cn.com/problems/swap-nodes-in-pairs/) | Medium |
 |25    | K 个一组翻转链表 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/reverse-nodes-in-k-group.rs) | [leetcode](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/) | Hard |
@@ -208,6 +209,7 @@
 |476    | 数字的补数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/number-complement.rs) | [leetcode](https://leetcode-cn.com/problems/number-complement/) | Easy |
 |481    | 神奇字符串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/magical-string.rs) | [leetcode](https://leetcode-cn.com/problems/magical-string/) | Medium |
 |485    | 最大连续 1 的个数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/max-consecutive-ones.rs) | [leetcode](https://leetcode-cn.com/problems/max-consecutive-ones/) | Easy |
+|494    | 目标和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/target-sum.rs) | [leetcode](https://leetcode-cn.com/problems/target-sum/) | Medium |
 |494    | 目标和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/target-sum.rs) | [leetcode](https://leetcode-cn.com/problems/target-sum/) | Medium |
 |500    | 键盘行 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/keyboard-row.rs) | [leetcode](https://leetcode-cn.com/problems/keyboard-row/) | Easy |
 |504    | 七进制数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/base-7.rs) | [leetcode](https://leetcode-cn.com/problems/base-7/) | Easy |
