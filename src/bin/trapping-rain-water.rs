@@ -2,6 +2,10 @@
 
 fn main() {
     assert_eq!(Solution::trap(vec![0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1]), 6);
+    assert_eq!(
+        Solution::trap_stack(vec![0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1]),
+        6
+    );
 }
 
 struct Solution;
@@ -36,6 +40,28 @@ impl Solution {
             if v < min {
                 ans += min - v;
             }
+        }
+
+        ans
+    }
+
+    pub fn trap_stack(height: Vec<i32>) -> i32 {
+        let mut ans = 0;
+        let mut stack = vec![];
+
+        for i in 0..height.len() {
+            while !stack.is_empty() && height[stack[stack.len() - 1]] < height[i] {
+                let top = stack.pop().unwrap();
+                if stack.is_empty() {
+                    break;
+                }
+
+                let &l = stack.last().unwrap();
+                let h = height[i].min(height[l]) - height[top];
+                ans += (i as i32 - l as i32 - 1) * h;
+            }
+
+            stack.push(i);
         }
 
         ans
