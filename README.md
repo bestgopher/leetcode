@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 382 | 174 | 197 | 11 |
+| 383 | 174 | 197 | 12 |
 
 ### 题目
 
@@ -43,6 +43,7 @@
 |38    | 外观数列 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/count-and-say.rs) | [leetcode](https://leetcode-cn.com/problems/count-and-say/) | Medium |
 |39    | 组合总和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/combination-sum.rs) | [leetcode](https://leetcode-cn.com/problems/combination-sum/) | Medium |
 |41    | 缺失的第一个正数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/first-missing-positive.rs) | [leetcode](https://leetcode-cn.com/problems/first-missing-positive/) | Hard |
+|42    | 接雨水 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/trapping-rain-water.rs) | [leetcode](https://leetcode-cn.com/problems/trapping-rain-water/) | Hard |
 |43    | 字符串相乘 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/multiply-strings.rs) | [leetcode](https://leetcode-cn.com/problems/multiply-strings/) | Medium |
 |45    | 跳跃游戏 II | [src](https://github.com/rustors/leetcode/blob/main/src/bin/jump-game-ii.rs) | [leetcode](https://leetcode-cn.com/problems/jump-game-ii/) | Medium |
 |46    | 全排列 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/permutations.rs) | [leetcode](https://leetcode-cn.com/problems/permutations/) | Medium |
