@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 385 | 174 | 197 | 14 |
+| 386 | 174 | 197 | 15 |
 
 ### 题目
 
@@ -78,6 +78,7 @@
 |81    | 搜索旋转排序数组 II | [src](https://github.com/rustors/leetcode/blob/main/src/bin/search-in-rotated-sorted-array-ii.rs) | [leetcode](https://leetcode-cn.com/problems/search-in-rotated-sorted-array-ii/) | Medium |
 |82    | 删除排序链表中的重复元素 II | [src](https://github.com/rustors/leetcode/blob/main/src/bin/remove-duplicates-from-sorted-list-ii.rs) | [leetcode](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii/) | Medium |
 |83    | 删除排序链表中的重复元素 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/remove-duplicates-from-sorted-list.rs) | [leetcode](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/) | Easy |
+|84    | 柱状图中最大的矩形 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/largest-rectangle-in-histogram.rs) | [leetcode](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/) | Hard |
 |88    | 合并两个有序数组 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/merge-sorted-array.rs) | [leetcode](https://leetcode-cn.com/problems/merge-sorted-array/) | Easy |
 |89    | 格雷编码 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/gray-code.rs) | [leetcode](https://leetcode-cn.com/problems/gray-code/) | Medium |
 |91    | 解码方法 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/decode-ways.rs) | [leetcode](https://leetcode-cn.com/problems/decode-ways/) | Medium |
