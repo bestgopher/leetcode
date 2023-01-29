@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 384 | 174 | 197 | 13 |
+| 385 | 174 | 197 | 14 |
 
 ### 题目
 
@@ -67,6 +67,7 @@
 |69    | x 的平方根 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/sqrtx.rs) | [leetcode](https://leetcode-cn.com/problems/sqrtx/) | Easy |
 |70    | 爬楼梯 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/climbing-stairs.rs) | [leetcode](https://leetcode-cn.com/problems/climbing-stairs/) | Easy |
 |71    | 简化路径 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/simplify-path.rs) | [leetcode](https://leetcode-cn.com/problems/simplify-path/) | Medium |
+|72    | 编辑距离 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/edit-distance.rs) | [leetcode](https://leetcode-cn.com/problems/edit-distance/) | Hard |
 |73    | 矩阵置零 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/set-matrix-zeroes.rs) | [leetcode](https://leetcode-cn.com/problems/set-matrix-zeroes/) | Medium |
 |74    | 搜索二维矩阵 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/search-a-2d-matrix.rs) | [leetcode](https://leetcode-cn.com/problems/search-a-2d-matrix/) | Medium |
 |75    | 颜色分类 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/sort-colors.rs) | [leetcode](https://leetcode-cn.com/problems/sort-colors/) | Medium |
