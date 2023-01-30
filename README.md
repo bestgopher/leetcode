@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 388 | 174 | 197 | 17 |
+| 389 | 174 | 197 | 18 |
 
 ### 题目
 
@@ -36,6 +36,7 @@
 |27    | 移除元素 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/remove-element.rs) | [leetcode](https://leetcode-cn.com/problems/remove-element/) | Easy |
 |28    | 实现 strStr() | [src](https://github.com/rustors/leetcode/blob/main/src/bin/implement-strstr.rs) | [leetcode](https://leetcode-cn.com/problems/implement-strstr/) | Easy |
 |31    | 下一个排列 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/next-permutation.rs) | [leetcode](https://leetcode-cn.com/problems/next-permutation/) | Medium |
+|32    | 最长有效括号 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/longest-valid-parentheses.rs) | [leetcode](https://leetcode-cn.com/problems/longest-valid-parentheses/) | Hard |
 |33    | 搜索旋转排序数组 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/search-in-rotated-sorted-array.rs) | [leetcode](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/) | Medium |
 |34    | 在排序数组中查找元素的第一个和最后一个位置 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-first-and-last-position-of-element-in-sorted-array.rs) | [leetcode](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | Medium |
 |35    | 搜索插入位置 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/search-insert-position.rs) | [leetcode](https://leetcode-cn.com/problems/search-insert-position/) | Easy |
