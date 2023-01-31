@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 391 | 174 | 198 | 19 |
+| 392 | 174 | 199 | 19 |
 
 ### 题目
 
@@ -114,6 +114,7 @@
 |129    | 求根节点到叶节点数字之和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/sum-root-to-leaf-numbers.rs) | [leetcode](https://leetcode-cn.com/problems/sum-root-to-leaf-numbers/) | Medium |
 |136    | 只出现一次的数字 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/single-number.rs) | [leetcode](https://leetcode-cn.com/problems/single-number/) | Easy |
 |137    | 只出现一次的数字 II | [src](https://github.com/rustors/leetcode/blob/main/src/bin/single-number-ii.rs) | [leetcode](https://leetcode-cn.com/problems/single-number-ii/) | Medium |
+|139    | 单词拆分 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/word-break.rs) | [leetcode](https://leetcode-cn.com/problems/word-break/) | Medium |
 |144    | 二叉树的前序遍历 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/binary-tree-preorder-traversal.rs) | [leetcode](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/) | Easy |
 |145    | 二叉树的后序遍历 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/binary-tree-postorder-traversal.rs) | [leetcode](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/) | Easy |
 |150    | 逆波兰表达式求值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/evaluate-reverse-polish-notation.rs) | [leetcode](https://leetcode-cn.com/problems/evaluate-reverse-polish-notation/) | Medium |
