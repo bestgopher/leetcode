@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 389 | 174 | 197 | 18 |
+| 390 | 174 | 197 | 19 |
 
 ### 题目
 
@@ -108,6 +108,7 @@
 |120    | 三角形最小路径和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/triangle.rs) | [leetcode](https://leetcode-cn.com/problems/triangle/) | Medium |
 |121    | 买卖股票的最佳时机 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/best-time-to-buy-and-sell-stock.rs) | [leetcode](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/) | Easy |
 |122    | 买卖股票的最佳时机 II | [src](https://github.com/rustors/leetcode/blob/main/src/bin/best-time-to-buy-and-sell-stock-ii.rs) | [leetcode](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/) | Medium |
+|124    | 二叉树中的最大路径和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/binary-tree-maximum-path-sum.rs) | [leetcode](https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/) | Hard |
 |125    | 验证回文串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/valid-palindrome.rs) | [leetcode](https://leetcode-cn.com/problems/valid-palindrome/) | Easy |
 |129    | 求根节点到叶节点数字之和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/sum-root-to-leaf-numbers.rs) | [leetcode](https://leetcode-cn.com/problems/sum-root-to-leaf-numbers/) | Medium |
 |136    | 只出现一次的数字 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/single-number.rs) | [leetcode](https://leetcode-cn.com/problems/single-number/) | Easy |
