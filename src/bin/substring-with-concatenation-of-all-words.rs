@@ -36,6 +36,9 @@ fn main() {
 struct Solution;
 
 impl Solution {
+    /// 先对words的单词计数，使用hashmap，m
+    /// 遍历s的下标为i，获取words单词长度的子字符串，如果在m存在，如果数量大于1则数量-1，如果数量为1则从m中删除此字符串，如果不存在则说明i为起始的子字符串不满足条件
+    /// 注意：每次遍历时都要生成一个新的m
     pub fn find_substring(s: String, words: Vec<String>) -> Vec<i32> {
         let word_len = words[0].len();
         let sub_string_len = words.len() * word_len;
