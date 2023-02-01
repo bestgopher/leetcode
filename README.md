@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 392 | 174 | 199 | 19 |
+| 393 | 174 | 200 | 19 |
 
 ### 题目
 
@@ -35,6 +35,7 @@
 |26    | 删除有序数组中的重复项 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/remove-duplicates-from-sorted-array.rs) | [leetcode](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) | Easy |
 |27    | 移除元素 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/remove-element.rs) | [leetcode](https://leetcode-cn.com/problems/remove-element/) | Easy |
 |28    | 实现 strStr() | [src](https://github.com/rustors/leetcode/blob/main/src/bin/implement-strstr.rs) | [leetcode](https://leetcode-cn.com/problems/implement-strstr/) | Easy |
+|29    | 两数相除 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/divide-two-integers.rs) | [leetcode](https://leetcode-cn.com/problems/divide-two-integers/) | Medium |
 |31    | 下一个排列 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/next-permutation.rs) | [leetcode](https://leetcode-cn.com/problems/next-permutation/) | Medium |
 |32    | 最长有效括号 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/longest-valid-parentheses.rs) | [leetcode](https://leetcode-cn.com/problems/longest-valid-parentheses/) | Hard |
 |33    | 搜索旋转排序数组 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/search-in-rotated-sorted-array.rs) | [leetcode](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/) | Medium |
