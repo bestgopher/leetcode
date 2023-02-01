@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 394 | 174 | 200 | 20 |
+| 395 | 174 | 200 | 21 |
 
 ### 题目
 
@@ -43,6 +43,7 @@
 |34    | 在排序数组中查找元素的第一个和最后一个位置 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-first-and-last-position-of-element-in-sorted-array.rs) | [leetcode](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | Medium |
 |35    | 搜索插入位置 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/search-insert-position.rs) | [leetcode](https://leetcode-cn.com/problems/search-insert-position/) | Easy |
 |36    | 有效的数独 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/valid-sudoku.rs) | [leetcode](https://leetcode-cn.com/problems/valid-sudoku/) | Medium |
+|37    | 解数独 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/sudoku-solver.rs) | [leetcode](https://leetcode-cn.com/problems/sudoku-solver/) | Hard |
 |38    | 外观数列 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/count-and-say.rs) | [leetcode](https://leetcode-cn.com/problems/count-and-say/) | Medium |
 |39    | 组合总和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/combination-sum.rs) | [leetcode](https://leetcode-cn.com/problems/combination-sum/) | Medium |
 |41    | 缺失的第一个正数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/first-missing-positive.rs) | [leetcode](https://leetcode-cn.com/problems/first-missing-positive/) | Hard |
