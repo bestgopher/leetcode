@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 399 | 174 | 202 | 23 |
+| 400 | 174 | 203 | 23 |
 
 ### 题目
 
@@ -263,6 +263,7 @@
 |857    | 较大分组的位置 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/positions-of-large-groups.rs) | [leetcode](https://leetcode-cn.com/problems/positions-of-large-groups/) | Easy |
 |860    | 设计循环队列 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/design-circular-queue.rs) | [leetcode](https://leetcode-cn.com/problems/design-circular-queue/) | Medium |
 |868    | 推多米诺 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/push-dominoes.rs) | [leetcode](https://leetcode-cn.com/problems/push-dominoes/) | Medium |
+|905    | 最长的斐波那契子序列的长度 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/length-of-longest-fibonacci-subsequence.rs) | [leetcode](https://leetcode-cn.com/problems/length-of-longest-fibonacci-subsequence/) | Medium |
 |917    | 救生艇 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/boats-to-save-people.rs) | [leetcode](https://leetcode-cn.com/problems/boats-to-save-people/) | Medium |
 |921    | 螺旋矩阵 III | [src](https://github.com/rustors/leetcode/blob/main/src/bin/spiral-matrix-iii.rs) | [leetcode](https://leetcode-cn.com/problems/spiral-matrix-iii/) | Medium |
 |924    | 公平的糖果交换 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/fair-candy-swap.rs) | [leetcode](https://leetcode-cn.com/problems/fair-candy-swap/) | Easy |
