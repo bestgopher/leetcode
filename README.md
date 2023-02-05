@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 400 | 174 | 203 | 23 |
+| 401 | 174 | 204 | 23 |
 
 ### 题目
 
@@ -122,6 +122,7 @@
 |144    | 二叉树的前序遍历 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/binary-tree-preorder-traversal.rs) | [leetcode](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/) | Easy |
 |145    | 二叉树的后序遍历 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/binary-tree-postorder-traversal.rs) | [leetcode](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/) | Easy |
 |146    | LRU 缓存 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/lru-cache.rs) | [leetcode](https://leetcode-cn.com/problems/lru-cache/) | Medium |
+|148    | 排序链表 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/sort-list.rs) | [leetcode](https://leetcode-cn.com/problems/sort-list/) | Medium |
 |150    | 逆波兰表达式求值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/evaluate-reverse-polish-notation.rs) | [leetcode](https://leetcode-cn.com/problems/evaluate-reverse-polish-notation/) | Medium |
 |151    | 颠倒字符串中的单词 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/reverse-words-in-a-string.rs) | [leetcode](https://leetcode-cn.com/problems/reverse-words-in-a-string/) | Medium |
 |152    | 乘积最大子数组 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-product-subarray.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-product-subarray/) | Medium |
