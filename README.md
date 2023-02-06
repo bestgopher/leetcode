@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 401 | 174 | 204 | 23 |
+| 402 | 174 | 205 | 23 |
 
 ### 题目
 
@@ -150,6 +150,7 @@
 |204    | 计数质数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/count-primes.rs) | [leetcode](https://leetcode-cn.com/problems/count-primes/) | Medium |
 |205    | 同构字符串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/isomorphic-strings.rs) | [leetcode](https://leetcode-cn.com/problems/isomorphic-strings/) | Easy |
 |206    | 反转链表 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/reverse-linked-list.rs) | [leetcode](https://leetcode-cn.com/problems/reverse-linked-list/) | Easy |
+|207    | 课程表 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/course-schedule.rs) | [leetcode](https://leetcode-cn.com/problems/course-schedule/) | Medium |
 |208    | 实现 Trie (前缀树) | [src](https://github.com/rustors/leetcode/blob/main/src/bin/implement-trie-prefix-tree.rs) | [leetcode](https://leetcode-cn.com/problems/implement-trie-prefix-tree/) | Medium |
 |211    | 添加与搜索单词 - 数据结构设计 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/design-add-and-search-words-data-structure.rs) | [leetcode](https://leetcode-cn.com/problems/design-add-and-search-words-data-structure/) | Medium |
 |213    | 打家劫舍 II | [src](https://github.com/rustors/leetcode/blob/main/src/bin/house-robber-ii.rs) | [leetcode](https://leetcode-cn.com/problems/house-robber-ii/) | Medium |
