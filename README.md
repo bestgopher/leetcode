@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 403 | 174 | 206 | 23 |
+| 404 | 174 | 207 | 23 |
 
 ### 题目
 
@@ -181,6 +181,7 @@
 |278    | 第一个错误的版本 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/first-bad-version.rs) | [leetcode](https://leetcode-cn.com/problems/first-bad-version/) | Easy |
 |279    | 完全平方数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/perfect-squares.rs) | [leetcode](https://leetcode-cn.com/problems/perfect-squares/) | Medium |
 |283    | 移动零 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/move-zeroes.rs) | [leetcode](https://leetcode-cn.com/problems/move-zeroes/) | Easy |
+|287    | 寻找重复数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-the-duplicate-number.rs) | [leetcode](https://leetcode-cn.com/problems/find-the-duplicate-number/) | Medium |
 |290    | 单词规律 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/word-pattern.rs) | [leetcode](https://leetcode-cn.com/problems/word-pattern/) | Easy |
 |292    | Nim 游戏 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/nim-game.rs) | [leetcode](https://leetcode-cn.com/problems/nim-game/) | Easy |
 |300    | 最长递增子序列 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/longest-increasing-subsequence.rs) | [leetcode](https://leetcode-cn.com/problems/longest-increasing-subsequence/) | Medium |
