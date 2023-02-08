@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 404 | 174 | 207 | 23 |
+| 405 | 174 | 207 | 24 |
 
 ### 题目
 
@@ -184,6 +184,7 @@
 |287    | 寻找重复数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-the-duplicate-number.rs) | [leetcode](https://leetcode-cn.com/problems/find-the-duplicate-number/) | Medium |
 |290    | 单词规律 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/word-pattern.rs) | [leetcode](https://leetcode-cn.com/problems/word-pattern/) | Easy |
 |292    | Nim 游戏 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/nim-game.rs) | [leetcode](https://leetcode-cn.com/problems/nim-game/) | Easy |
+|297    | 二叉树的序列化与反序列化 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/serialize-and-deserialize-binary-tree.rs) | [leetcode](https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/) | Hard |
 |300    | 最长递增子序列 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/longest-increasing-subsequence.rs) | [leetcode](https://leetcode-cn.com/problems/longest-increasing-subsequence/) | Medium |
 |303    | 区域和检索 - 数组不可变 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/range-sum-query-immutable.rs) | [leetcode](https://leetcode-cn.com/problems/range-sum-query-immutable/) | Easy |
 |318    | 最大单词长度乘积 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-product-of-word-lengths.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-product-of-word-lengths/) | Medium |
