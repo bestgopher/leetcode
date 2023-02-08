@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 405 | 174 | 207 | 24 |
+| 406 | 174 | 207 | 25 |
 
 ### 题目
 
@@ -171,6 +171,7 @@
 |235    | 二叉搜索树的最近公共祖先 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/lowest-common-ancestor-of-a-binary-search-tree.rs) | [leetcode](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | Easy |
 |236    | 二叉树的最近公共祖先 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/lowest-common-ancestor-of-a-binary-tree.rs) | [leetcode](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/) | Medium |
 |238    | 除自身以外数组的乘积 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/product-of-array-except-self.rs) | [leetcode](https://leetcode-cn.com/problems/product-of-array-except-self/) | Medium |
+|239    | 滑动窗口最大值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/sliding-window-maximum.rs) | [leetcode](https://leetcode-cn.com/problems/sliding-window-maximum/) | Hard |
 |240    | 搜索二维矩阵 II | [src](https://github.com/rustors/leetcode/blob/main/src/bin/search-a-2d-matrix-ii.rs) | [leetcode](https://leetcode-cn.com/problems/search-a-2d-matrix-ii/) | Medium |
 |242    | 有效的字母异位词 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/valid-anagram.rs) | [leetcode](https://leetcode-cn.com/problems/valid-anagram/) | Easy |
 |257    | 二叉树的所有路径 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/binary-tree-paths.rs) | [leetcode](https://leetcode-cn.com/problems/binary-tree-paths/) | Easy |

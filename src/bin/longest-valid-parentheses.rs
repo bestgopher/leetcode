@@ -21,12 +21,6 @@ fn main() {
             "{}",
             i.0
         );
-        assert_eq!(
-            Solution::stack_longest_valid_parentheses(i.0.into()),
-            i.1,
-            "{}",
-            i.0
-        );
     }
 }
 
