@@ -8,7 +8,7 @@
 ///		6.再次重复2-5步，直到begin == end为止
 ///		7.最后s[begin] = p
 ///		8.递归快速排序以begin为分界线的两部分序列
-pub fn quick_sort<T: Ord + Clone>(target: &mut [T]) {
+pub fn sort<T: Ord + Clone>(target: &mut [T]) {
     if target.len() < 2 {
         return;
     }
@@ -41,6 +41,6 @@ pub fn quick_sort<T: Ord + Clone>(target: &mut [T]) {
 
     target[begin] = p;
 
-    quick_sort(&mut target[..begin]);
-    quick_sort(&mut target[begin + 1..]);
+    sort(&mut target[..begin]);
+    sort(&mut target[begin + 1..]);
 }
