@@ -32,7 +32,7 @@ pub fn sort<T: Ord + Clone>(target: &mut [T]) {
                 std::cmp::Ordering::Less => {
                     target[end] = target[begin].clone();
                     end -= 1;
-                    break;
+                    break;             
                 }
                 _ => begin += 1,
             }
