@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 406 | 174 | 207 | 25 |
+| 407 | 174 | 208 | 25 |
 
 ### 题目
 
@@ -414,3 +414,4 @@
 |100353    | 平分正方形 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/bisect-squares-lcci.rs) | [leetcode](https://leetcode-cn.com/problems/bisect-squares-lcci/) | Medium |
 |1000056    | 拿硬币 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/na-ying-bi.rs) | [leetcode](https://leetcode-cn.com/problems/na-ying-bi/) | Easy |
 |1000063    | 传递信息 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/chuan-di-xin-xi.rs) | [leetcode](https://leetcode-cn.com/problems/chuan-di-xin-xi/) | Easy |
+|1000341    | 链表排序 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/7WHec2.rs) | [leetcode](https://leetcode-cn.com/problems/7WHec2/) | Medium |
