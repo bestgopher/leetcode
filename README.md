@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 409 | 174 | 210 | 25 |
+| 410 | 175 | 210 | 25 |
 
 ### 题目
 
@@ -194,6 +194,7 @@
 |322    | 零钱兑换 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/coin-change.rs) | [leetcode](https://leetcode-cn.com/problems/coin-change/) | Medium |
 |326    | 3 的幂 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/power-of-three.rs) | [leetcode](https://leetcode-cn.com/problems/power-of-three/) | Easy |
 |337    | 打家劫舍 III | [src](https://github.com/rustors/leetcode/blob/main/src/bin/house-robber-iii.rs) | [leetcode](https://leetcode-cn.com/problems/house-robber-iii/) | Medium |
+|338    | 比特位计数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/counting-bits.rs) | [leetcode](https://leetcode-cn.com/problems/counting-bits/) | Easy |
 |344    | 反转字符串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/reverse-string.rs) | [leetcode](https://leetcode-cn.com/problems/reverse-string/) | Easy |
 |345    | 反转字符串中的元音字母 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/reverse-vowels-of-a-string.rs) | [leetcode](https://leetcode-cn.com/problems/reverse-vowels-of-a-string/) | Easy |
 |349    | 两个数组的交集 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/intersection-of-two-arrays.rs) | [leetcode](https://leetcode-cn.com/problems/intersection-of-two-arrays/) | Easy |
