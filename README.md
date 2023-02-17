@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 410 | 175 | 210 | 25 |
+| 411 | 175 | 211 | 25 |
 
 ### 题目
 
@@ -197,6 +197,7 @@
 |338    | 比特位计数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/counting-bits.rs) | [leetcode](https://leetcode-cn.com/problems/counting-bits/) | Easy |
 |344    | 反转字符串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/reverse-string.rs) | [leetcode](https://leetcode-cn.com/problems/reverse-string/) | Easy |
 |345    | 反转字符串中的元音字母 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/reverse-vowels-of-a-string.rs) | [leetcode](https://leetcode-cn.com/problems/reverse-vowels-of-a-string/) | Easy |
+|347    | 前 K 个高频元素 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/top-k-frequent-elements.rs) | [leetcode](https://leetcode-cn.com/problems/top-k-frequent-elements/) | Medium |
 |349    | 两个数组的交集 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/intersection-of-two-arrays.rs) | [leetcode](https://leetcode-cn.com/problems/intersection-of-two-arrays/) | Easy |
 |350    | 两个数组的交集 II | [src](https://github.com/rustors/leetcode/blob/main/src/bin/intersection-of-two-arrays-ii.rs) | [leetcode](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/) | Easy |
 |357    | 统计各位数字都不同的数字个数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/count-numbers-with-unique-digits.rs) | [leetcode](https://leetcode-cn.com/problems/count-numbers-with-unique-digits/) | Medium |
