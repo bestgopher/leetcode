@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 412 | 175 | 212 | 25 |
+| 413 | 175 | 213 | 25 |
 
 ### 题目
 
@@ -228,6 +228,7 @@
 |419    | 甲板上的战舰 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/battleships-in-a-board.rs) | [leetcode](https://leetcode-cn.com/problems/battleships-in-a-board/) | Medium |
 |423    | 从英文中重建数字 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/reconstruct-original-digits-from-english.rs) | [leetcode](https://leetcode-cn.com/problems/reconstruct-original-digits-from-english/) | Medium |
 |434    | 字符串中的单词数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/number-of-segments-in-a-string.rs) | [leetcode](https://leetcode-cn.com/problems/number-of-segments-in-a-string/) | Easy |
+|438    | 找到字符串中所有字母异位词 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-all-anagrams-in-a-string.rs) | [leetcode](https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/) | Medium |
 |442    | 数组中重复的数据 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-all-duplicates-in-an-array.rs) | [leetcode](https://leetcode-cn.com/problems/find-all-duplicates-in-an-array/) | Medium |
 |445    | 两数相加 II | [src](https://github.com/rustors/leetcode/blob/main/src/bin/add-two-numbers-ii.rs) | [leetcode](https://leetcode-cn.com/problems/add-two-numbers-ii/) | Medium |
 |448    | 找到所有数组中消失的数字 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-all-numbers-disappeared-in-an-array.rs) | [leetcode](https://leetcode-cn.com/problems/find-all-numbers-disappeared-in-an-array/) | Easy |
