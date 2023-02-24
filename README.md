@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 419 | 177 | 217 | 25 |
+| 420 | 177 | 218 | 25 |
 
 ### 题目
 
@@ -271,6 +271,7 @@
 |658    | 找到 K 个最接近的元素 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-k-closest-elements.rs) | [leetcode](https://leetcode-cn.com/problems/find-k-closest-elements/) | Medium |
 |674    | 最长连续递增序列 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/longest-continuous-increasing-subsequence.rs) | [leetcode](https://leetcode-cn.com/problems/longest-continuous-increasing-subsequence/) | Easy |
 |718    | 最长重复子数组 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-length-of-repeated-subarray.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-length-of-repeated-subarray/) | Medium |
+|739    | 每日温度 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/daily-temperatures.rs) | [leetcode](https://leetcode-cn.com/problems/daily-temperatures/) | Medium |
 |742    | 转换成小写字母 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/to-lower-case.rs) | [leetcode](https://leetcode-cn.com/problems/to-lower-case/) | Easy |
 |782    | 宝石与石头 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/jewels-and-stones.rs) | [leetcode](https://leetcode-cn.com/problems/jewels-and-stones/) | Easy |
 |783    | 二叉搜索树中的搜索 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/search-in-a-binary-search-tree.rs) | [leetcode](https://leetcode-cn.com/problems/search-in-a-binary-search-tree/) | Easy |
