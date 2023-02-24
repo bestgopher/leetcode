@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 417 | 177 | 215 | 25 |
+| 418 | 177 | 216 | 25 |
 
 ### 题目
 
@@ -259,6 +259,7 @@
 |599    | 两个列表的最小索引总和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-index-sum-of-two-lists.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-index-sum-of-two-lists/) | Easy |
 |605    | 种花问题 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/can-place-flowers.rs) | [leetcode](https://leetcode-cn.com/problems/can-place-flowers/) | Easy |
 |617    | 合并二叉树 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/merge-two-binary-trees.rs) | [leetcode](https://leetcode-cn.com/problems/merge-two-binary-trees/) | Easy |
+|621    | 任务调度器 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/task-scheduler.rs) | [leetcode](https://leetcode-cn.com/problems/task-scheduler/) | Medium |
 |623    | 在二叉树中增加一行 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/add-one-row-to-tree.rs) | [leetcode](https://leetcode-cn.com/problems/add-one-row-to-tree/) | Medium |
 |637    | 二叉树的层平均值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/average-of-levels-in-binary-tree.rs) | [leetcode](https://leetcode-cn.com/problems/average-of-levels-in-binary-tree/) | Easy |
 |643    | 子数组最大平均数 I | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-average-subarray-i.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-average-subarray-i/) | Easy |
