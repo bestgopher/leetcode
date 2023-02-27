@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 425 | 180 | 220 | 25 |
+| 426 | 181 | 220 | 25 |
 
 ### 题目
 
@@ -432,4 +432,5 @@
 |1000231    | 二进制加法 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/JFETK5.rs) | [leetcode](https://leetcode-cn.com/problems/JFETK5/) | Easy |
 |1000233    | 只出现一次的数字 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/WGki4K.rs) | [leetcode](https://leetcode-cn.com/problems/WGki4K/) | Medium |
 |1000236    | 单词长度的最大乘积 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/aseY1I.rs) | [leetcode](https://leetcode-cn.com/problems/aseY1I/) | Medium |
+|1000237    | 排序数组中两个数字之和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/kLl5u1.rs) | [leetcode](https://leetcode-cn.com/problems/kLl5u1/) | Easy |
 |1000341    | 链表排序 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/7WHec2.rs) | [leetcode](https://leetcode-cn.com/problems/7WHec2/) | Medium |
