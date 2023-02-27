@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 424 | 180 | 219 | 25 |
+| 425 | 180 | 220 | 25 |
 
 ### 题目
 
@@ -430,5 +430,6 @@
 |1000228    | 整数除法 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/xoh6Oh.rs) | [leetcode](https://leetcode-cn.com/problems/xoh6Oh/) | Easy |
 |1000230    | 前 n 个数字二进制中 1 的个数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/w3tCBm.rs) | [leetcode](https://leetcode-cn.com/problems/w3tCBm/) | Easy |
 |1000231    | 二进制加法 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/JFETK5.rs) | [leetcode](https://leetcode-cn.com/problems/JFETK5/) | Easy |
-|1000233    | 只出现一次的数字  | [src](https://github.com/rustors/leetcode/blob/main/src/bin/WGki4K.rs) | [leetcode](https://leetcode-cn.com/problems/WGki4K/) | Medium |
+|1000233    | 只出现一次的数字 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/WGki4K.rs) | [leetcode](https://leetcode-cn.com/problems/WGki4K/) | Medium |
+|1000236    | 单词长度的最大乘积 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/aseY1I.rs) | [leetcode](https://leetcode-cn.com/problems/aseY1I/) | Medium |
 |1000341    | 链表排序 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/7WHec2.rs) | [leetcode](https://leetcode-cn.com/problems/7WHec2/) | Medium |
