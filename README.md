@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 428 | 181 | 222 | 25 |
+| 429 | 181 | 223 | 25 |
 
 ### 题目
 
@@ -435,4 +435,5 @@
 |1000237    | 排序数组中两个数字之和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/kLl5u1.rs) | [leetcode](https://leetcode-cn.com/problems/kLl5u1/) | Easy |
 |1000242    | 和大于等于 target 的最短子数组 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/2VG8Kg.rs) | [leetcode](https://leetcode-cn.com/problems/2VG8Kg/) | Medium |
 |1000244    | 乘积小于 K 的子数组 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/ZVAVXX.rs) | [leetcode](https://leetcode-cn.com/problems/ZVAVXX/) | Medium |
+|1000246    | 和为 k 的子数组 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/QTMn0o.rs) | [leetcode](https://leetcode-cn.com/problems/QTMn0o/) | Medium |
 |1000341    | 链表排序 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/7WHec2.rs) | [leetcode](https://leetcode-cn.com/problems/7WHec2/) | Medium |
