@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 430 | 181 | 224 | 25 |
+| 431 | 182 | 224 | 25 |
 
 ### 题目
 
@@ -437,4 +437,5 @@
 |1000244    | 乘积小于 K 的子数组 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/ZVAVXX.rs) | [leetcode](https://leetcode-cn.com/problems/ZVAVXX/) | Medium |
 |1000246    | 和为 k 的子数组 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/QTMn0o.rs) | [leetcode](https://leetcode-cn.com/problems/QTMn0o/) | Medium |
 |1000247    | 0 和 1 个数相同的子数组 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/A1NYOS.rs) | [leetcode](https://leetcode-cn.com/problems/A1NYOS/) | Medium |
+|1000248    | 左右两边子数组的和相等 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/tvdfij.rs) | [leetcode](https://leetcode-cn.com/problems/tvdfij/) | Easy |
 |1000341    | 链表排序 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/7WHec2.rs) | [leetcode](https://leetcode-cn.com/problems/7WHec2/) | Medium |
