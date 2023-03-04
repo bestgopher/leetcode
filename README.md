@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 433 | 182 | 226 | 25 |
+| 434 | 182 | 227 | 25 |
 
 ### 题目
 
@@ -440,4 +440,5 @@
 |1000248    | 左右两边子数组的和相等 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/tvdfij.rs) | [leetcode](https://leetcode-cn.com/problems/tvdfij/) | Easy |
 |1000249    | 二维子矩阵的和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/O4NDxx.rs) | [leetcode](https://leetcode-cn.com/problems/O4NDxx/) | Medium |
 |1000250    | 字符串中的变位词 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/MPnaiL.rs) | [leetcode](https://leetcode-cn.com/problems/MPnaiL/) | Medium |
+|1000251    | 字符串中的所有变位词 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/VabMRr.rs) | [leetcode](https://leetcode-cn.com/problems/VabMRr/) | Medium |
 |1000341    | 链表排序 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/7WHec2.rs) | [leetcode](https://leetcode-cn.com/problems/7WHec2/) | Medium |
