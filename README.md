@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 434 | 182 | 227 | 25 |
+| 435 | 182 | 228 | 25 |
 
 ### 题目
 
@@ -441,4 +441,5 @@
 |1000249    | 二维子矩阵的和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/O4NDxx.rs) | [leetcode](https://leetcode-cn.com/problems/O4NDxx/) | Medium |
 |1000250    | 字符串中的变位词 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/MPnaiL.rs) | [leetcode](https://leetcode-cn.com/problems/MPnaiL/) | Medium |
 |1000251    | 字符串中的所有变位词 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/VabMRr.rs) | [leetcode](https://leetcode-cn.com/problems/VabMRr/) | Medium |
+|1000252    | 不含重复字符的最长子字符串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/wtcaE1.rs) | [leetcode](https://leetcode-cn.com/problems/wtcaE1/) | Medium |
 |1000341    | 链表排序 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/7WHec2.rs) | [leetcode](https://leetcode-cn.com/problems/7WHec2/) | Medium |
