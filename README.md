@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 435 | 182 | 228 | 25 |
+| 436 | 183 | 228 | 25 |
 
 ### 题目
 
@@ -442,4 +442,5 @@
 |1000250    | 字符串中的变位词 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/MPnaiL.rs) | [leetcode](https://leetcode-cn.com/problems/MPnaiL/) | Medium |
 |1000251    | 字符串中的所有变位词 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/VabMRr.rs) | [leetcode](https://leetcode-cn.com/problems/VabMRr/) | Medium |
 |1000252    | 不含重复字符的最长子字符串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/wtcaE1.rs) | [leetcode](https://leetcode-cn.com/problems/wtcaE1/) | Medium |
+|1000254    | 有效的回文 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/XltzEq.rs) | [leetcode](https://leetcode-cn.com/problems/XltzEq/) | Easy |
 |1000341    | 链表排序 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/7WHec2.rs) | [leetcode](https://leetcode-cn.com/problems/7WHec2/) | Medium |
