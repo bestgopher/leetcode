@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 437 | 184 | 228 | 25 |
+| 438 | 184 | 229 | 25 |
 
 ### 题目
 
@@ -444,4 +444,5 @@
 |1000252    | 不含重复字符的最长子字符串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/wtcaE1.rs) | [leetcode](https://leetcode-cn.com/problems/wtcaE1/) | Medium |
 |1000254    | 有效的回文 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/XltzEq.rs) | [leetcode](https://leetcode-cn.com/problems/XltzEq/) | Easy |
 |1000255    | 最多删除一个字符得到回文 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/RQku0D.rs) | [leetcode](https://leetcode-cn.com/problems/RQku0D/) | Easy |
+|1000256    | 回文子字符串的个数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/a7VOhD.rs) | [leetcode](https://leetcode-cn.com/problems/a7VOhD/) | Medium |
 |1000341    | 链表排序 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/7WHec2.rs) | [leetcode](https://leetcode-cn.com/problems/7WHec2/) | Medium |
