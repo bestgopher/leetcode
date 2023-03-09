@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 440 | 184 | 231 | 25 |
+| 441 | 185 | 231 | 25 |
 
 ### 题目
 
@@ -447,4 +447,5 @@
 |1000256    | 回文子字符串的个数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/a7VOhD.rs) | [leetcode](https://leetcode-cn.com/problems/a7VOhD/) | Medium |
 |1000261    | 链表中的两数相加 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/lMSNwu.rs) | [leetcode](https://leetcode-cn.com/problems/lMSNwu/) | Medium |
 |1000262    | 重排链表 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/LGjMqU.rs) | [leetcode](https://leetcode-cn.com/problems/LGjMqU/) | Medium |
+|1000263    | 回文链表 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/aMhZSa.rs) | [leetcode](https://leetcode-cn.com/problems/aMhZSa/) | Easy |
 |1000341    | 链表排序 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/7WHec2.rs) | [leetcode](https://leetcode-cn.com/problems/7WHec2/) | Medium |
