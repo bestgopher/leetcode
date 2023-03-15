@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 444 | 187 | 232 | 25 |
+| 445 | 187 | 233 | 25 |
 
 ### 题目
 
@@ -451,4 +451,5 @@
 |1000273    | 有效的变位词 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/dKk3P7.rs) | [leetcode](https://leetcode-cn.com/problems/dKk3P7/) | Easy |
 |1000275    | 变位词组 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/sfvd7V.rs) | [leetcode](https://leetcode-cn.com/problems/sfvd7V/) | Medium |
 |1000276    | 外星语言是否排序 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/lwyVBB.rs) | [leetcode](https://leetcode-cn.com/problems/lwyVBB/) | Easy |
+|1000278    | 最小时间差 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/569nqc.rs) | [leetcode](https://leetcode-cn.com/problems/569nqc/) | Medium |
 |1000341    | 链表排序 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/7WHec2.rs) | [leetcode](https://leetcode-cn.com/problems/7WHec2/) | Medium |
