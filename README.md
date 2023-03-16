@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 446 | 187 | 234 | 25 |
+| 447 | 187 | 235 | 25 |
 
 ### 题目
 
@@ -453,4 +453,5 @@
 |1000276    | 外星语言是否排序 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/lwyVBB.rs) | [leetcode](https://leetcode-cn.com/problems/lwyVBB/) | Easy |
 |1000278    | 最小时间差 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/569nqc.rs) | [leetcode](https://leetcode-cn.com/problems/569nqc/) | Medium |
 |1000279    | 后缀表达式 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/8Zf90G.rs) | [leetcode](https://leetcode-cn.com/problems/8Zf90G/) | Medium |
+|1000281    | 小行星碰撞 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/XagZNi.rs) | [leetcode](https://leetcode-cn.com/problems/XagZNi/) | Medium |
 |1000341    | 链表排序 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/7WHec2.rs) | [leetcode](https://leetcode-cn.com/problems/7WHec2/) | Medium |
