@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 450 | 188 | 237 | 25 |
+| 451 | 188 | 238 | 25 |
 
 ### 题目
 
@@ -457,4 +457,5 @@
 |1000282    | 每日温度 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/iIQa4I.rs) | [leetcode](https://leetcode-cn.com/problems/iIQa4I/) | Medium |
 |1000292    | 滑动窗口的平均值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/qIsx9U.rs) | [leetcode](https://leetcode-cn.com/problems/qIsx9U/) | Easy |
 |1000295    | 往完全二叉树添加节点 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/NaqhDT.rs) | [leetcode](https://leetcode-cn.com/problems/NaqhDT/) | Medium |
+|1000297    | 二叉树每层的最大值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/hPov7L.rs) | [leetcode](https://leetcode-cn.com/problems/hPov7L/) | Medium |
 |1000341    | 链表排序 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/7WHec2.rs) | [leetcode](https://leetcode-cn.com/problems/7WHec2/) | Medium |
