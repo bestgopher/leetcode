@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 453 | 188 | 240 | 25 |
+| 454 | 188 | 241 | 25 |
 
 ### 题目
 
@@ -460,4 +460,5 @@
 |1000297    | 二叉树每层的最大值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/hPov7L.rs) | [leetcode](https://leetcode-cn.com/problems/hPov7L/) | Medium |
 |1000298    | 二叉树最底层最左边的值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/LwUNpT.rs) | [leetcode](https://leetcode-cn.com/problems/LwUNpT/) | Medium |
 |1000299    | 二叉树的右侧视图 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/WNC0Lk.rs) | [leetcode](https://leetcode-cn.com/problems/WNC0Lk/) | Medium |
+|1000301    | 二叉树剪枝 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/pOCWxh.rs) | [leetcode](https://leetcode-cn.com/problems/pOCWxh/) | Medium |
 |1000341    | 链表排序 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/7WHec2.rs) | [leetcode](https://leetcode-cn.com/problems/7WHec2/) | Medium |
