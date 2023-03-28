@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 455 | 188 | 242 | 25 |
+| 456 | 188 | 243 | 25 |
 
 ### 题目
 
@@ -462,4 +462,5 @@
 |1000299    | 二叉树的右侧视图 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/WNC0Lk.rs) | [leetcode](https://leetcode-cn.com/problems/WNC0Lk/) | Medium |
 |1000301    | 二叉树剪枝 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/pOCWxh.rs) | [leetcode](https://leetcode-cn.com/problems/pOCWxh/) | Medium |
 |1000306    | 从根节点到叶节点的路径数字之和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/3Etpl5.rs) | [leetcode](https://leetcode-cn.com/problems/3Etpl5/) | Medium |
+|1000307    | 向下的路径节点之和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/6eUYwP.rs) | [leetcode](https://leetcode-cn.com/problems/6eUYwP/) | Medium |
 |1000341    | 链表排序 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/7WHec2.rs) | [leetcode](https://leetcode-cn.com/problems/7WHec2/) | Medium |
