@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 460 | 191 | 244 | 25 |
+| 461 | 191 | 245 | 25 |
 
 ### 题目
 
@@ -466,5 +466,6 @@
 |1000307    | 向下的路径节点之和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/6eUYwP.rs) | [leetcode](https://leetcode-cn.com/problems/6eUYwP/) | Medium |
 |1000311    | 展平二叉搜索树 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/NYBBNL.rs) | [leetcode](https://leetcode-cn.com/problems/NYBBNL/) | Easy |
 |1000319    | 二叉搜索树中两个节点之和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/opLdQZ.rs) | [leetcode](https://leetcode-cn.com/problems/opLdQZ/) | Easy |
+|1000321    | 值和下标之差都在给定的范围内 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/7WqeDu.rs) | [leetcode](https://leetcode-cn.com/problems/7WqeDu/) | Medium |
 |1000333    | 山峰数组的顶部 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/B1IidL.rs) | [leetcode](https://leetcode-cn.com/problems/B1IidL/) | Easy |
 |1000341    | 链表排序 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/7WHec2.rs) | [leetcode](https://leetcode-cn.com/problems/7WHec2/) | Medium |
