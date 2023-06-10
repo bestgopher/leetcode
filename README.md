@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 462 | 192 | 245 | 25 |
+| 464 | 192 | 247 | 25 |
 
 ### 题目
 
@@ -214,6 +214,7 @@
 |386    | 字典序排数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/lexicographical-numbers.rs) | [leetcode](https://leetcode-cn.com/problems/lexicographical-numbers/) | Medium |
 |387    | 字符串中的第一个唯一字符 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/first-unique-character-in-a-string.rs) | [leetcode](https://leetcode-cn.com/problems/first-unique-character-in-a-string/) | Easy |
 |389    | 找不同 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-the-difference.rs) | [leetcode](https://leetcode-cn.com/problems/find-the-difference/) | Easy |
+|390    | 消除游戏 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/elimination-game.rs) | [leetcode](https://leetcode-cn.com/problems/elimination-game/) | Medium |
 |392    | 判断子序列 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/is-subsequence.rs) | [leetcode](https://leetcode-cn.com/problems/is-subsequence/) | Easy |
 |393    | UTF-8 编码验证 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/utf-8-validation.rs) | [leetcode](https://leetcode-cn.com/problems/utf-8-validation/) | Medium |
 |397    | 整数替换 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/integer-replacement.rs) | [leetcode](https://leetcode-cn.com/problems/integer-replacement/) | Medium |
@@ -308,6 +309,7 @@
 |1210    | 删除某些元素后的数组均值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/mean-of-array-after-removing-some-elements.rs) | [leetcode](https://leetcode-cn.com/problems/mean-of-array-after-removing-some-elements/) | Easy |
 |1238    | 字母板上的路径 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/alphabet-board-path.rs) | [leetcode](https://leetcode-cn.com/problems/alphabet-board-path/) | Medium |
 |1253    | 将矩阵按对角线排序 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/sort-the-matrix-diagonally.rs) | [leetcode](https://leetcode-cn.com/problems/sort-the-matrix-diagonally/) | Medium |
+|1273    | 比较字符串最小字母出现频次 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/compare-strings-by-frequency-of-the-smallest-character.rs) | [leetcode](https://leetcode-cn.com/problems/compare-strings-by-frequency-of-the-smallest-character/) | Medium |
 |1287    | 公交站间的距离 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/distance-between-bus-stops.rs) | [leetcode](https://leetcode-cn.com/problems/distance-between-bus-stops/) | Easy |
 |1293    | 存在连续三个奇数的数组 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/three-consecutive-odds.rs) | [leetcode](https://leetcode-cn.com/problems/three-consecutive-odds/) | Easy |
 |1306    | 最小绝对差 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-absolute-difference.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-absolute-difference/) | Easy |
