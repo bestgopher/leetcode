@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 465 | 193 | 247 | 25 |
+| 466 | 193 | 248 | 25 |
 
 ### 题目
 
@@ -327,6 +327,7 @@
 |1441    | 或运算的最小翻转次数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-flips-to-make-a-or-b-equal-to-c.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-flips-to-make-a-or-b-equal-to-c/) | Medium |
 |1468    | 检查整数及其两倍数是否存在 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/check-if-n-and-its-double-exist.rs) | [leetcode](https://leetcode-cn.com/problems/check-if-n-and-its-double-exist/) | Easy |
 |1482    | 有多少小于当前数字的数字 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/how-many-numbers-are-smaller-than-the-current-number.rs) | [leetcode](https://leetcode-cn.com/problems/how-many-numbers-are-smaller-than-the-current-number/) | Easy |
+|1491    | 二进制字符串前缀一致的次数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/number-of-times-binary-string-is-prefix-aligned.rs) | [leetcode](https://leetcode-cn.com/problems/number-of-times-binary-string-is-prefix-aligned/) | Medium |
 |1537    | 分割字符串的最大得分 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-score-after-splitting-a-string.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-score-after-splitting-a-string/) | Easy |
 |1538    | 可获得的最大点数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-points-you-can-obtain-from-cards.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-points-you-can-obtain-from-cards/) | Medium |
 |1552    | 用栈操作构建数组 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/build-an-array-with-stack-operations.rs) | [leetcode](https://leetcode-cn.com/problems/build-an-array-with-stack-operations/) | Easy |
