@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 473 | 197 | 251 | 25 |
+| 474 | 197 | 252 | 25 |
 
 ### 题目
 
@@ -299,6 +299,7 @@
 |1002    | 最大宽度坡 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-width-ramp.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-width-ramp/) | Medium |
 |1005    | 单值二叉树 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/univalued-binary-tree.rs) | [leetcode](https://leetcode-cn.com/problems/univalued-binary-tree/) | Easy |
 |1007    | 连续差相同的数字 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/numbers-with-same-consecutive-differences.rs) | [leetcode](https://leetcode-cn.com/problems/numbers-with-same-consecutive-differences/) | Medium |
+|1010    | 强整数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/powerful-integers.rs) | [leetcode](https://leetcode-cn.com/problems/powerful-integers/) | Medium |
 |1046    | 最大连续1的个数 III | [src](https://github.com/rustors/leetcode/blob/main/src/bin/max-consecutive-ones-iii.rs) | [leetcode](https://leetcode-cn.com/problems/max-consecutive-ones-iii/) | Medium |
 |1050    | 前序遍历构造二叉搜索树 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/construct-binary-search-tree-from-preorder-traversal.rs) | [leetcode](https://leetcode-cn.com/problems/construct-binary-search-tree-from-preorder-traversal/) | Medium |
 |1054    | 十进制整数的反码 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/complement-of-base-10-integer.rs) | [leetcode](https://leetcode-cn.com/problems/complement-of-base-10-integer/) | Easy |
