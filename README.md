@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 474 | 197 | 252 | 25 |
+| 475 | 198 | 252 | 25 |
 
 ### 题目
 
@@ -353,6 +353,7 @@
 |1952    | 最少侧跳次数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-sideway-jumps.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-sideway-jumps/) | Medium |
 |1983    | 人口最多的年份 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-population-year.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-population-year/) | Easy |
 |2128    | 反转单词前缀 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/reverse-prefix-of-word.rs) | [leetcode](https://leetcode-cn.com/problems/reverse-prefix-of-word/) | Easy |
+|2292    | 统计包含给定前缀的字符串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/counting-words-with-a-given-prefix.rs) | [leetcode](https://leetcode-cn.com/problems/counting-words-with-a-given-prefix/) | Easy |
 |2320    | 找出数组中的所有 K 近邻下标 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-all-k-distant-indices-in-an-array.rs) | [leetcode](https://leetcode-cn.com/problems/find-all-k-distant-indices-in-an-array/) | Easy |
 |2392    | 咒语和药水的成功对数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/successful-pairs-of-spells-and-potions.rs) | [leetcode](https://leetcode-cn.com/problems/successful-pairs-of-spells-and-potions/) | Medium |
 |2551    | 对数组执行操作 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/apply-operations-to-an-array.rs) | [leetcode](https://leetcode-cn.com/problems/apply-operations-to-an-array/) | Easy |
