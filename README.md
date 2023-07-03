@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 475 | 198 | 252 | 25 |
+| 476 | 199 | 252 | 25 |
 
 ### 题目
 
@@ -360,6 +360,7 @@
 |2566    | 数组中不等三元组的数目 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/number-of-unequal-triplets-in-array.rs) | [leetcode](https://leetcode-cn.com/problems/number-of-unequal-triplets-in-array/) | Easy |
 |2571    | 找出中枢整数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-the-pivot-integer.rs) | [leetcode](https://leetcode-cn.com/problems/find-the-pivot-integer/) | Easy |
 |2575    | 分割圆的最少切割次数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-cuts-to-divide-a-circle.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-cuts-to-divide-a-circle/) | Easy |
+|2580    | 回环句 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/circular-sentence.rs) | [leetcode](https://leetcode-cn.com/problems/circular-sentence/) | Easy |
 |2589    | 数组中字符串的最大值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-value-of-a-string-in-an-array.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-value-of-a-string-in-an-array/) | Easy |
 |2691    | 统计范围内的元音字符串数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/count-vowel-strings-in-ranges.rs) | [leetcode](https://leetcode-cn.com/problems/count-vowel-strings-in-ranges/) | Medium |
 |100162    | 字符串轮转 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/string-rotation-lcci.rs) | [leetcode](https://leetcode-cn.com/problems/string-rotation-lcci/) | Easy |
