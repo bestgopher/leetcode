@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 477 | 199 | 253 | 25 |
+| 478 | 200 | 253 | 25 |
 
 ### 题目
 
@@ -363,6 +363,7 @@
 |2580    | 回环句 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/circular-sentence.rs) | [leetcode](https://leetcode-cn.com/problems/circular-sentence/) | Easy |
 |2589    | 数组中字符串的最大值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-value-of-a-string-in-an-array.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-value-of-a-string-in-an-array/) | Easy |
 |2691    | 统计范围内的元音字符串数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/count-vowel-strings-in-ranges.rs) | [leetcode](https://leetcode-cn.com/problems/count-vowel-strings-in-ranges/) | Medium |
+|2715    | K 件物品的最大和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/k-items-with-the-maximum-sum.rs) | [leetcode](https://leetcode-cn.com/problems/k-items-with-the-maximum-sum/) | Easy |
 |2728    | 矩阵中的和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/sum-in-a-matrix.rs) | [leetcode](https://leetcode-cn.com/problems/sum-in-a-matrix/) | Medium |
 |100162    | 字符串轮转 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/string-rotation-lcci.rs) | [leetcode](https://leetcode-cn.com/problems/string-rotation-lcci/) | Easy |
 |100273    | 用两个栈实现队列 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/yong-liang-ge-zhan-shi-xian-dui-lie-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/) | Easy |
