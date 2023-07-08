@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 479 | 200 | 254 | 25 |
+| 480 | 200 | 255 | 25 |
 
 ### 题目
 
@@ -443,6 +443,7 @@
 |100349    | 最大数值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-lcci.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-lcci/) | Easy |
 |100352    | 跳水板 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/diving-board-lcci.rs) | [leetcode](https://leetcode-cn.com/problems/diving-board-lcci/) | Easy |
 |100353    | 平分正方形 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/bisect-squares-lcci.rs) | [leetcode](https://leetcode-cn.com/problems/bisect-squares-lcci/) | Medium |
+|1000022    | 最长单词 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/longest-word-lcci.rs) | [leetcode](https://leetcode-cn.com/problems/longest-word-lcci/) | Medium |
 |1000056    | 拿硬币 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/na-ying-bi.rs) | [leetcode](https://leetcode-cn.com/problems/na-ying-bi/) | Easy |
 |1000063    | 传递信息 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/chuan-di-xin-xi.rs) | [leetcode](https://leetcode-cn.com/problems/chuan-di-xin-xi/) | Easy |
 |1000228    | 整数除法 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/xoh6Oh.rs) | [leetcode](https://leetcode-cn.com/problems/xoh6Oh/) | Easy |
