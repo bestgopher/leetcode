@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 483 | 200 | 258 | 25 |
+| 484 | 201 | 258 | 25 |
 
 ### 题目
 
@@ -365,6 +365,7 @@
 |2575    | 分割圆的最少切割次数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-cuts-to-divide-a-circle.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-cuts-to-divide-a-circle/) | Easy |
 |2580    | 回环句 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/circular-sentence.rs) | [leetcode](https://leetcode-cn.com/problems/circular-sentence/) | Easy |
 |2589    | 数组中字符串的最大值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-value-of-a-string-in-an-array.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-value-of-a-string-in-an-array/) | Easy |
+|2630    | 交替数字和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/alternating-digit-sum.rs) | [leetcode](https://leetcode-cn.com/problems/alternating-digit-sum/) | Easy |
 |2691    | 统计范围内的元音字符串数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/count-vowel-strings-in-ranges.rs) | [leetcode](https://leetcode-cn.com/problems/count-vowel-strings-in-ranges/) | Medium |
 |2715    | K 件物品的最大和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/k-items-with-the-maximum-sum.rs) | [leetcode](https://leetcode-cn.com/problems/k-items-with-the-maximum-sum/) | Easy |
 |2728    | 矩阵中的和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/sum-in-a-matrix.rs) | [leetcode](https://leetcode-cn.com/problems/sum-in-a-matrix/) | Medium |
