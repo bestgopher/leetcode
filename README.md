@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 486 | 202 | 259 | 25 |
+| 487 | 202 | 260 | 25 |
 
 ### 题目
 
@@ -357,6 +357,7 @@
 |1983    | 人口最多的年份 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-population-year.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-population-year/) | Easy |
 |2022    | 最大子序列交替和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-alternating-subsequence-sum.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-alternating-subsequence-sum/) | Medium |
 |2128    | 反转单词前缀 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/reverse-prefix-of-word.rs) | [leetcode](https://leetcode-cn.com/problems/reverse-prefix-of-word/) | Easy |
+|2261    | 分组得分最高的所有下标 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/all-divisions-with-the-highest-score-of-a-binary-array.rs) | [leetcode](https://leetcode-cn.com/problems/all-divisions-with-the-highest-score-of-a-binary-array/) | Medium |
 |2279    | 拆分成最多数目的正偶数之和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-split-of-positive-even-integers.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-split-of-positive-even-integers/) | Medium |
 |2292    | 统计包含给定前缀的字符串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/counting-words-with-a-given-prefix.rs) | [leetcode](https://leetcode-cn.com/problems/counting-words-with-a-given-prefix/) | Easy |
 |2320    | 找出数组中的所有 K 近邻下标 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-all-k-distant-indices-in-an-array.rs) | [leetcode](https://leetcode-cn.com/problems/find-all-k-distant-indices-in-an-array/) | Easy |
