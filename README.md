@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 487 | 202 | 260 | 25 |
+| 489 | 203 | 261 | 25 |
 
 ### 题目
 
@@ -302,6 +302,7 @@
 |1005    | 单值二叉树 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/univalued-binary-tree.rs) | [leetcode](https://leetcode-cn.com/problems/univalued-binary-tree/) | Easy |
 |1007    | 连续差相同的数字 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/numbers-with-same-consecutive-differences.rs) | [leetcode](https://leetcode-cn.com/problems/numbers-with-same-consecutive-differences/) | Medium |
 |1010    | 强整数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/powerful-integers.rs) | [leetcode](https://leetcode-cn.com/problems/powerful-integers/) | Medium |
+|1021    | 在二叉树中分配硬币 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/distribute-coins-in-binary-tree.rs) | [leetcode](https://leetcode-cn.com/problems/distribute-coins-in-binary-tree/) | Medium |
 |1046    | 最大连续1的个数 III | [src](https://github.com/rustors/leetcode/blob/main/src/bin/max-consecutive-ones-iii.rs) | [leetcode](https://leetcode-cn.com/problems/max-consecutive-ones-iii/) | Medium |
 |1050    | 前序遍历构造二叉搜索树 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/construct-binary-search-tree-from-preorder-traversal.rs) | [leetcode](https://leetcode-cn.com/problems/construct-binary-search-tree-from-preorder-traversal/) | Medium |
 |1054    | 十进制整数的反码 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/complement-of-base-10-integer.rs) | [leetcode](https://leetcode-cn.com/problems/complement-of-base-10-integer/) | Easy |
@@ -357,6 +358,7 @@
 |1983    | 人口最多的年份 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-population-year.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-population-year/) | Easy |
 |2022    | 最大子序列交替和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-alternating-subsequence-sum.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-alternating-subsequence-sum/) | Medium |
 |2128    | 反转单词前缀 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/reverse-prefix-of-word.rs) | [leetcode](https://leetcode-cn.com/problems/reverse-prefix-of-word/) | Easy |
+|2210    | 找出数组排序后的目标下标 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-target-indices-after-sorting-array.rs) | [leetcode](https://leetcode-cn.com/problems/find-target-indices-after-sorting-array/) | Easy |
 |2261    | 分组得分最高的所有下标 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/all-divisions-with-the-highest-score-of-a-binary-array.rs) | [leetcode](https://leetcode-cn.com/problems/all-divisions-with-the-highest-score-of-a-binary-array/) | Medium |
 |2279    | 拆分成最多数目的正偶数之和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-split-of-positive-even-integers.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-split-of-positive-even-integers/) | Medium |
 |2292    | 统计包含给定前缀的字符串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/counting-words-with-a-given-prefix.rs) | [leetcode](https://leetcode-cn.com/problems/counting-words-with-a-given-prefix/) | Easy |
