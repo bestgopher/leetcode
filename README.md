@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 491 | 203 | 263 | 25 |
+| 492 | 204 | 263 | 25 |
 
 ### 题目
 
@@ -313,6 +313,7 @@
 |1128    | 删除字符串中的所有相邻重复项 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/remove-all-adjacent-duplicates-in-string.rs) | [leetcode](https://leetcode-cn.com/problems/remove-all-adjacent-duplicates-in-string/) | Easy |
 |1157    | 根到叶路径上的不足节点 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/insufficient-nodes-in-root-to-leaf-paths.rs) | [leetcode](https://leetcode-cn.com/problems/insufficient-nodes-in-root-to-leaf-paths/) | Medium |
 |1210    | 删除某些元素后的数组均值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/mean-of-array-after-removing-some-elements.rs) | [leetcode](https://leetcode-cn.com/problems/mean-of-array-after-removing-some-elements/) | Easy |
+|1236    | 第 N 个泰波那契数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/n-th-tribonacci-number.rs) | [leetcode](https://leetcode-cn.com/problems/n-th-tribonacci-number/) | Easy |
 |1238    | 字母板上的路径 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/alphabet-board-path.rs) | [leetcode](https://leetcode-cn.com/problems/alphabet-board-path/) | Medium |
 |1253    | 将矩阵按对角线排序 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/sort-the-matrix-diagonally.rs) | [leetcode](https://leetcode-cn.com/problems/sort-the-matrix-diagonally/) | Medium |
 |1273    | 比较字符串最小字母出现频次 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/compare-strings-by-frequency-of-the-smallest-character.rs) | [leetcode](https://leetcode-cn.com/problems/compare-strings-by-frequency-of-the-smallest-character/) | Medium |
