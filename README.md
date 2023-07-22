@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 492 | 204 | 263 | 25 |
+| 493 | 205 | 263 | 25 |
 
 ### 题目
 
@@ -283,6 +283,7 @@
 |857    | 较大分组的位置 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/positions-of-large-groups.rs) | [leetcode](https://leetcode-cn.com/problems/positions-of-large-groups/) | Easy |
 |860    | 设计循环队列 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/design-circular-queue.rs) | [leetcode](https://leetcode-cn.com/problems/design-circular-queue/) | Medium |
 |868    | 推多米诺 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/push-dominoes.rs) | [leetcode](https://leetcode-cn.com/problems/push-dominoes/) | Medium |
+|890    | 柠檬水找零 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/lemonade-change.rs) | [leetcode](https://leetcode-cn.com/problems/lemonade-change/) | Easy |
 |905    | 最长的斐波那契子序列的长度 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/length-of-longest-fibonacci-subsequence.rs) | [leetcode](https://leetcode-cn.com/problems/length-of-longest-fibonacci-subsequence/) | Medium |
 |906    | 模拟行走机器人 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/walking-robot-simulation.rs) | [leetcode](https://leetcode-cn.com/problems/walking-robot-simulation/) | Medium |
 |917    | 救生艇 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/boats-to-save-people.rs) | [leetcode](https://leetcode-cn.com/problems/boats-to-save-people/) | Medium |
