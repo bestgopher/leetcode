@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 494 | 205 | 264 | 25 |
+| 496 | 206 | 264 | 26 |
 
 ### 题目
 
@@ -238,6 +238,7 @@
 |476    | 数字的补数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/number-complement.rs) | [leetcode](https://leetcode-cn.com/problems/number-complement/) | Easy |
 |481    | 神奇字符串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/magical-string.rs) | [leetcode](https://leetcode-cn.com/problems/magical-string/) | Medium |
 |485    | 最大连续 1 的个数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/max-consecutive-ones.rs) | [leetcode](https://leetcode-cn.com/problems/max-consecutive-ones/) | Easy |
+|489    | 第 K 条最小指令 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/kth-smallest-instructions.rs) | [leetcode](https://leetcode-cn.com/problems/kth-smallest-instructions/) | Hard |
 |494    | 目标和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/target-sum.rs) | [leetcode](https://leetcode-cn.com/problems/target-sum/) | Medium |
 |494    | 目标和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/target-sum.rs) | [leetcode](https://leetcode-cn.com/problems/target-sum/) | Medium |
 |500    | 键盘行 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/keyboard-row.rs) | [leetcode](https://leetcode-cn.com/problems/keyboard-row/) | Easy |
@@ -502,3 +503,4 @@
 |1000321    | 值和下标之差都在给定的范围内 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/7WqeDu.rs) | [leetcode](https://leetcode-cn.com/problems/7WqeDu/) | Medium |
 |1000333    | 山峰数组的顶部 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/B1IidL.rs) | [leetcode](https://leetcode-cn.com/problems/B1IidL/) | Easy |
 |1000341    | 链表排序 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/7WHec2.rs) | [leetcode](https://leetcode-cn.com/problems/7WHec2/) | Medium |
+|1000433    | 宝石补给 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/WHnhjV.rs) | [leetcode](https://leetcode-cn.com/problems/WHnhjV/) | Easy |
