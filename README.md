@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 497 | 206 | 265 | 26 |
+| 498 | 206 | 266 | 26 |
 
 ### 题目
 
@@ -340,6 +340,7 @@
 |1482    | 有多少小于当前数字的数字 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/how-many-numbers-are-smaller-than-the-current-number.rs) | [leetcode](https://leetcode-cn.com/problems/how-many-numbers-are-smaller-than-the-current-number/) | Easy |
 |1491    | 二进制字符串前缀一致的次数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/number-of-times-binary-string-is-prefix-aligned.rs) | [leetcode](https://leetcode-cn.com/problems/number-of-times-binary-string-is-prefix-aligned/) | Medium |
 |1501    | 圆和矩形是否有重叠 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/circle-and-rectangle-overlapping.rs) | [leetcode](https://leetcode-cn.com/problems/circle-and-rectangle-overlapping/) | Medium |
+|1512    | 设计地铁系统 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/design-underground-system.rs) | [leetcode](https://leetcode-cn.com/problems/design-underground-system/) | Medium |
 |1537    | 分割字符串的最大得分 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-score-after-splitting-a-string.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-score-after-splitting-a-string/) | Easy |
 |1538    | 可获得的最大点数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-points-you-can-obtain-from-cards.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-points-you-can-obtain-from-cards/) | Medium |
 |1552    | 用栈操作构建数组 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/build-an-array-with-stack-operations.rs) | [leetcode](https://leetcode-cn.com/problems/build-an-array-with-stack-operations/) | Easy |
