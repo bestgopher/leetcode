@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 498 | 206 | 266 | 26 |
+| 499 | 207 | 266 | 26 |
 
 ### 题目
 
@@ -377,6 +377,7 @@
 |2571    | 找出中枢整数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-the-pivot-integer.rs) | [leetcode](https://leetcode-cn.com/problems/find-the-pivot-integer/) | Easy |
 |2575    | 分割圆的最少切割次数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-cuts-to-divide-a-circle.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-cuts-to-divide-a-circle/) | Easy |
 |2580    | 回环句 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/circular-sentence.rs) | [leetcode](https://leetcode-cn.com/problems/circular-sentence/) | Easy |
+|2585    | 删除每行中的最大值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/delete-greatest-value-in-each-row.rs) | [leetcode](https://leetcode-cn.com/problems/delete-greatest-value-in-each-row/) | Easy |
 |2589    | 数组中字符串的最大值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-value-of-a-string-in-an-array.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-value-of-a-string-in-an-array/) | Easy |
 |2630    | 交替数字和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/alternating-digit-sum.rs) | [leetcode](https://leetcode-cn.com/problems/alternating-digit-sum/) | Easy |
 |2691    | 统计范围内的元音字符串数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/count-vowel-strings-in-ranges.rs) | [leetcode](https://leetcode-cn.com/problems/count-vowel-strings-in-ranges/) | Medium |
