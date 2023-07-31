@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 500 | 208 | 266 | 26 |
+| 501 | 208 | 267 | 26 |
 
 ### 题目
 
@@ -119,6 +119,7 @@
 |136    | 只出现一次的数字 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/single-number.rs) | [leetcode](https://leetcode-cn.com/problems/single-number/) | Easy |
 |137    | 只出现一次的数字 II | [src](https://github.com/rustors/leetcode/blob/main/src/bin/single-number-ii.rs) | [leetcode](https://leetcode-cn.com/problems/single-number-ii/) | Medium |
 |139    | 单词拆分 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/word-break.rs) | [leetcode](https://leetcode-cn.com/problems/word-break/) | Medium |
+|143    | 重排链表 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/reorder-list.rs) | [leetcode](https://leetcode-cn.com/problems/reorder-list/) | Medium |
 |144    | 二叉树的前序遍历 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/binary-tree-preorder-traversal.rs) | [leetcode](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/) | Easy |
 |145    | 二叉树的后序遍历 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/binary-tree-postorder-traversal.rs) | [leetcode](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/) | Easy |
 |146    | LRU 缓存 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/lru-cache.rs) | [leetcode](https://leetcode-cn.com/problems/lru-cache/) | Medium |
