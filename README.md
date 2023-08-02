@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 502 | 208 | 268 | 26 |
+| 503 | 208 | 269 | 26 |
 
 ### 题目
 
@@ -282,6 +282,7 @@
 |800    | 字母大小写全排列 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/letter-case-permutation.rs) | [leetcode](https://leetcode-cn.com/problems/letter-case-permutation/) | Medium |
 |825    | 保持城市天际线 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/max-increase-to-keep-city-skyline.rs) | [leetcode](https://leetcode-cn.com/problems/max-increase-to-keep-city-skyline/) | Medium |
 |829    | 子域名访问计数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/subdomain-visit-count.rs) | [leetcode](https://leetcode-cn.com/problems/subdomain-visit-count/) | Medium |
+|842    | 翻转卡片游戏 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/card-flipping-game.rs) | [leetcode](https://leetcode-cn.com/problems/card-flipping-game/) | Medium |
 |857    | 较大分组的位置 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/positions-of-large-groups.rs) | [leetcode](https://leetcode-cn.com/problems/positions-of-large-groups/) | Easy |
 |860    | 设计循环队列 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/design-circular-queue.rs) | [leetcode](https://leetcode-cn.com/problems/design-circular-queue/) | Medium |
 |868    | 推多米诺 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/push-dominoes.rs) | [leetcode](https://leetcode-cn.com/problems/push-dominoes/) | Medium |
