@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 504 | 208 | 270 | 26 |
+| 505 | 208 | 271 | 26 |
 
 ### 题目
 
@@ -239,6 +239,7 @@
 |476    | 数字的补数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/number-complement.rs) | [leetcode](https://leetcode-cn.com/problems/number-complement/) | Easy |
 |481    | 神奇字符串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/magical-string.rs) | [leetcode](https://leetcode-cn.com/problems/magical-string/) | Medium |
 |485    | 最大连续 1 的个数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/max-consecutive-ones.rs) | [leetcode](https://leetcode-cn.com/problems/max-consecutive-ones/) | Easy |
+|486    | 预测赢家 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/predict-the-winner.rs) | [leetcode](https://leetcode-cn.com/problems/predict-the-winner/) | Medium |
 |489    | 第 K 条最小指令 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/kth-smallest-instructions.rs) | [leetcode](https://leetcode-cn.com/problems/kth-smallest-instructions/) | Hard |
 |494    | 目标和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/target-sum.rs) | [leetcode](https://leetcode-cn.com/problems/target-sum/) | Medium |
 |494    | 目标和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/target-sum.rs) | [leetcode](https://leetcode-cn.com/problems/target-sum/) | Medium |
