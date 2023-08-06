@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 505 | 208 | 271 | 26 |
+| 506 | 209 | 271 | 26 |
 
 ### 题目
 
@@ -328,6 +328,7 @@
 |1293    | 存在连续三个奇数的数组 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/three-consecutive-odds.rs) | [leetcode](https://leetcode-cn.com/problems/three-consecutive-odds/) | Easy |
 |1306    | 最小绝对差 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-absolute-difference.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-absolute-difference/) | Easy |
 |1320    | 删除字符串中的所有相邻重复项 II | [src](https://github.com/rustors/leetcode/blob/main/src/bin/remove-all-adjacent-duplicates-in-string-ii.rs) | [leetcode](https://leetcode-cn.com/problems/remove-all-adjacent-duplicates-in-string-ii/) | Medium |
+|1329    | 玩筹码 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-cost-to-move-chips-to-the-same-position.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-cost-to-move-chips-to-the-same-position/) | Easy |
 |1341    | 分割平衡字符串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/split-a-string-in-balanced-strings.rs) | [leetcode](https://leetcode-cn.com/problems/split-a-string-in-balanced-strings/) | Easy |
 |1362    | 飞机座位分配概率 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/airplane-seat-assignment-probability.rs) | [leetcode](https://leetcode-cn.com/problems/airplane-seat-assignment-probability/) | Medium |
 |1370    | 统计「优美子数组」 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/count-number-of-nice-subarrays.rs) | [leetcode](https://leetcode-cn.com/problems/count-number-of-nice-subarrays/) | Medium |
