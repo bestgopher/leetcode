@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 506 | 209 | 271 | 26 |
+| 507 | 209 | 272 | 26 |
 
 ### 题目
 
@@ -201,6 +201,7 @@
 |347    | 前 K 个高频元素 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/top-k-frequent-elements.rs) | [leetcode](https://leetcode-cn.com/problems/top-k-frequent-elements/) | Medium |
 |349    | 两个数组的交集 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/intersection-of-two-arrays.rs) | [leetcode](https://leetcode-cn.com/problems/intersection-of-two-arrays/) | Easy |
 |350    | 两个数组的交集 II | [src](https://github.com/rustors/leetcode/blob/main/src/bin/intersection-of-two-arrays-ii.rs) | [leetcode](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/) | Easy |
+|355    | 设计推特 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/design-twitter.rs) | [leetcode](https://leetcode-cn.com/problems/design-twitter/) | Medium |
 |357    | 统计各位数字都不同的数字个数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/count-numbers-with-unique-digits.rs) | [leetcode](https://leetcode-cn.com/problems/count-numbers-with-unique-digits/) | Medium |
 |367    | 有效的完全平方数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/valid-perfect-square.rs) | [leetcode](https://leetcode-cn.com/problems/valid-perfect-square/) | Easy |
 |371    | 两整数之和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/sum-of-two-integers.rs) | [leetcode](https://leetcode-cn.com/problems/sum-of-two-integers/) | Medium |
