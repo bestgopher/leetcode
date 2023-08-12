@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 510 | 210 | 274 | 26 |
+| 511 | 211 | 274 | 26 |
 
 ### 题目
 
@@ -374,6 +374,7 @@
 |1983    | 人口最多的年份 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-population-year.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-population-year/) | Easy |
 |2022    | 最大子序列交替和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-alternating-subsequence-sum.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-alternating-subsequence-sum/) | Medium |
 |2128    | 反转单词前缀 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/reverse-prefix-of-word.rs) | [leetcode](https://leetcode-cn.com/problems/reverse-prefix-of-word/) | Easy |
+|2159    | 至少在两个数组中出现的值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/two-out-of-three.rs) | [leetcode](https://leetcode-cn.com/problems/two-out-of-three/) | Easy |
 |2210    | 找出数组排序后的目标下标 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-target-indices-after-sorting-array.rs) | [leetcode](https://leetcode-cn.com/problems/find-target-indices-after-sorting-array/) | Easy |
 |2261    | 分组得分最高的所有下标 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/all-divisions-with-the-highest-score-of-a-binary-array.rs) | [leetcode](https://leetcode-cn.com/problems/all-divisions-with-the-highest-score-of-a-binary-array/) | Medium |
 |2279    | 拆分成最多数目的正偶数之和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-split-of-positive-even-integers.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-split-of-positive-even-integers/) | Medium |
