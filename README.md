@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 511 | 211 | 274 | 26 |
+| 512 | 212 | 274 | 26 |
 
 ### 题目
 
@@ -345,6 +345,7 @@
 |1441    | 或运算的最小翻转次数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-flips-to-make-a-or-b-equal-to-c.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-flips-to-make-a-or-b-equal-to-c/) | Medium |
 |1455    | 餐厅过滤器 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/filter-restaurants-by-vegan-friendly-price-and-distance.rs) | [leetcode](https://leetcode-cn.com/problems/filter-restaurants-by-vegan-friendly-price-and-distance/) | Medium |
 |1468    | 检查整数及其两倍数是否存在 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/check-if-n-and-its-double-exist.rs) | [leetcode](https://leetcode-cn.com/problems/check-if-n-and-its-double-exist/) | Easy |
+|1472    | 上升下降字符串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/increasing-decreasing-string.rs) | [leetcode](https://leetcode-cn.com/problems/increasing-decreasing-string/) | Easy |
 |1482    | 有多少小于当前数字的数字 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/how-many-numbers-are-smaller-than-the-current-number.rs) | [leetcode](https://leetcode-cn.com/problems/how-many-numbers-are-smaller-than-the-current-number/) | Easy |
 |1491    | 二进制字符串前缀一致的次数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/number-of-times-binary-string-is-prefix-aligned.rs) | [leetcode](https://leetcode-cn.com/problems/number-of-times-binary-string-is-prefix-aligned/) | Medium |
 |1501    | 圆和矩形是否有重叠 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/circle-and-rectangle-overlapping.rs) | [leetcode](https://leetcode-cn.com/problems/circle-and-rectangle-overlapping/) | Medium |
