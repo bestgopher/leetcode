@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 512 | 212 | 274 | 26 |
+| 513 | 212 | 275 | 26 |
 
 ### 题目
 
@@ -288,6 +288,7 @@
 |842    | 翻转卡片游戏 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/card-flipping-game.rs) | [leetcode](https://leetcode-cn.com/problems/card-flipping-game/) | Medium |
 |857    | 较大分组的位置 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/positions-of-large-groups.rs) | [leetcode](https://leetcode-cn.com/problems/positions-of-large-groups/) | Easy |
 |860    | 设计循环队列 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/design-circular-queue.rs) | [leetcode](https://leetcode-cn.com/problems/design-circular-queue/) | Medium |
+|862    | 字符串中的查找与替换 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-and-replace-in-string.rs) | [leetcode](https://leetcode-cn.com/problems/find-and-replace-in-string/) | Medium |
 |868    | 推多米诺 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/push-dominoes.rs) | [leetcode](https://leetcode-cn.com/problems/push-dominoes/) | Medium |
 |890    | 柠檬水找零 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/lemonade-change.rs) | [leetcode](https://leetcode-cn.com/problems/lemonade-change/) | Easy |
 |905    | 最长的斐波那契子序列的长度 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/length-of-longest-fibonacci-subsequence.rs) | [leetcode](https://leetcode-cn.com/problems/length-of-longest-fibonacci-subsequence/) | Medium |
