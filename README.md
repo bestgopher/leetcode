@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 514 | 213 | 275 | 26 |
+| 515 | 214 | 275 | 26 |
 
 ### 题目
 
@@ -384,6 +384,7 @@
 |2310    | 将数组和减半的最少操作次数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-operations-to-halve-array-sum.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-operations-to-halve-array-sum/) | Medium |
 |2320    | 找出数组中的所有 K 近邻下标 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-all-k-distant-indices-in-an-array.rs) | [leetcode](https://leetcode-cn.com/problems/find-all-k-distant-indices-in-an-array/) | Easy |
 |2392    | 咒语和药水的成功对数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/successful-pairs-of-spells-and-potions.rs) | [leetcode](https://leetcode-cn.com/problems/successful-pairs-of-spells-and-potions/) | Medium |
+|2518    | 处理用时最长的那个任务的员工 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/the-employee-that-worked-on-the-longest-task.rs) | [leetcode](https://leetcode-cn.com/problems/the-employee-that-worked-on-the-longest-task/) | Easy |
 |2551    | 对数组执行操作 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/apply-operations-to-an-array.rs) | [leetcode](https://leetcode-cn.com/problems/apply-operations-to-an-array/) | Easy |
 |2566    | 数组中不等三元组的数目 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/number-of-unequal-triplets-in-array.rs) | [leetcode](https://leetcode-cn.com/problems/number-of-unequal-triplets-in-array/) | Easy |
 |2571    | 找出中枢整数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-the-pivot-integer.rs) | [leetcode](https://leetcode-cn.com/problems/find-the-pivot-integer/) | Easy |
