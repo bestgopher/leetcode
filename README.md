@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 516 | 215 | 275 | 26 |
+| 517 | 215 | 276 | 26 |
 
 ### 题目
 
@@ -385,6 +385,7 @@
 |2320    | 找出数组中的所有 K 近邻下标 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-all-k-distant-indices-in-an-array.rs) | [leetcode](https://leetcode-cn.com/problems/find-all-k-distant-indices-in-an-array/) | Easy |
 |2384    | 判断根结点是否等于子结点之和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/root-equals-sum-of-children.rs) | [leetcode](https://leetcode-cn.com/problems/root-equals-sum-of-children/) | Easy |
 |2392    | 咒语和药水的成功对数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/successful-pairs-of-spells-and-potions.rs) | [leetcode](https://leetcode-cn.com/problems/successful-pairs-of-spells-and-potions/) | Medium |
+|2414    | 移动片段得到字符串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/move-pieces-to-obtain-a-string.rs) | [leetcode](https://leetcode-cn.com/problems/move-pieces-to-obtain-a-string/) | Medium |
 |2518    | 处理用时最长的那个任务的员工 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/the-employee-that-worked-on-the-longest-task.rs) | [leetcode](https://leetcode-cn.com/problems/the-employee-that-worked-on-the-longest-task/) | Easy |
 |2551    | 对数组执行操作 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/apply-operations-to-an-array.rs) | [leetcode](https://leetcode-cn.com/problems/apply-operations-to-an-array/) | Easy |
 |2566    | 数组中不等三元组的数目 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/number-of-unequal-triplets-in-array.rs) | [leetcode](https://leetcode-cn.com/problems/number-of-unequal-triplets-in-array/) | Easy |
