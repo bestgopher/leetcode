@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 517 | 215 | 276 | 26 |
+| 518 | 215 | 277 | 26 |
 
 ### 题目
 
@@ -290,6 +290,7 @@
 |860    | 设计循环队列 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/design-circular-queue.rs) | [leetcode](https://leetcode-cn.com/problems/design-circular-queue/) | Medium |
 |862    | 字符串中的查找与替换 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-and-replace-in-string.rs) | [leetcode](https://leetcode-cn.com/problems/find-and-replace-in-string/) | Medium |
 |868    | 推多米诺 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/push-dominoes.rs) | [leetcode](https://leetcode-cn.com/problems/push-dominoes/) | Medium |
+|879    | 到最近的人的最大距离 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximize-distance-to-closest-person.rs) | [leetcode](https://leetcode-cn.com/problems/maximize-distance-to-closest-person/) | Medium |
 |890    | 柠檬水找零 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/lemonade-change.rs) | [leetcode](https://leetcode-cn.com/problems/lemonade-change/) | Easy |
 |905    | 最长的斐波那契子序列的长度 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/length-of-longest-fibonacci-subsequence.rs) | [leetcode](https://leetcode-cn.com/problems/length-of-longest-fibonacci-subsequence/) | Medium |
 |906    | 模拟行走机器人 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/walking-robot-simulation.rs) | [leetcode](https://leetcode-cn.com/problems/walking-robot-simulation/) | Medium |
