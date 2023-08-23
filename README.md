@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 518 | 215 | 277 | 26 |
+| 519 | 216 | 277 | 26 |
 
 ### 题目
 
@@ -402,6 +402,7 @@
 |2728    | 矩阵中的和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/sum-in-a-matrix.rs) | [leetcode](https://leetcode-cn.com/problems/sum-in-a-matrix/) | Medium |
 |2791    | 找出转圈游戏输家 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-the-losers-of-the-circular-game.rs) | [leetcode](https://leetcode-cn.com/problems/find-the-losers-of-the-circular-game/) | Easy |
 |2838    | 查询后矩阵的和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/sum-of-matrix-after-queries.rs) | [leetcode](https://leetcode-cn.com/problems/sum-of-matrix-after-queries/) | Medium |
+|2977    | 判别首字母缩略词 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/check-if-a-string-is-an-acronym-of-words.rs) | [leetcode](https://leetcode-cn.com/problems/check-if-a-string-is-an-acronym-of-words/) | Easy |
 |100162    | 字符串轮转 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/string-rotation-lcci.rs) | [leetcode](https://leetcode-cn.com/problems/string-rotation-lcci/) | Easy |
 |100273    | 用两个栈实现队列 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/yong-liang-ge-zhan-shi-xian-dui-lie-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/) | Easy |
 |100274    | 斐波那契数列 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/fei-bo-na-qi-shu-lie-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/fei-bo-na-qi-shu-lie-lcof/) | Easy |
