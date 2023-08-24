@@ -22,9 +22,6 @@ impl Solution {
             }
         }
 
-        println!("{row:?}");
-        println!("{col:?}");
-
         for i in 0..grid.len() {
             for j in 0..grid[0].len() {
                 if grid[i][j] == 1 {
