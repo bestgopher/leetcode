@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 519 | 216 | 277 | 26 |
+| 520 | 216 | 278 | 26 |
 
 ### 题目
 
@@ -339,6 +339,7 @@
 |1379    | 重构 2 行二进制矩阵 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/reconstruct-a-2-row-binary-matrix.rs) | [leetcode](https://leetcode-cn.com/problems/reconstruct-a-2-row-binary-matrix/) | Medium |
 |1380    | 统计封闭岛屿的数目 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/number-of-closed-islands.rs) | [leetcode](https://leetcode-cn.com/problems/number-of-closed-islands/) | Medium |
 |1387    | 在受污染的二叉树中查找元素 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-elements-in-a-contaminated-binary-tree.rs) | [leetcode](https://leetcode-cn.com/problems/find-elements-in-a-contaminated-binary-tree/) | Medium |
+|1396    | 统计参与通信的服务器 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/count-servers-that-communicate.rs) | [leetcode](https://leetcode-cn.com/problems/count-servers-that-communicate/) | Medium |
 |1406    | 整数的各位积和之差 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/subtract-the-product-and-sum-of-digits-of-an-integer.rs) | [leetcode](https://leetcode-cn.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/) | Easy |
 |1411    | 二进制链表转整数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/convert-binary-number-in-a-linked-list-to-integer.rs) | [leetcode](https://leetcode-cn.com/problems/convert-binary-number-in-a-linked-list-to-integer/) | Easy |
 |1426    | 和为零的 N 个不同整数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-n-unique-integers-sum-up-to-zero.rs) | [leetcode](https://leetcode-cn.com/problems/find-n-unique-integers-sum-up-to-zero/) | Easy |
