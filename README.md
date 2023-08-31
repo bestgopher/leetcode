@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 524 | 217 | 281 | 26 |
+| 525 | 217 | 282 | 26 |
 
 ### 题目
 
@@ -358,6 +358,7 @@
 |1512    | 设计地铁系统 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/design-underground-system.rs) | [leetcode](https://leetcode-cn.com/problems/design-underground-system/) | Medium |
 |1537    | 分割字符串的最大得分 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-score-after-splitting-a-string.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-score-after-splitting-a-string/) | Easy |
 |1538    | 可获得的最大点数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-points-you-can-obtain-from-cards.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-points-you-can-obtain-from-cards/) | Medium |
+|1544    | 统计二叉树中好节点的数目 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/count-good-nodes-in-binary-tree.rs) | [leetcode](https://leetcode-cn.com/problems/count-good-nodes-in-binary-tree/) | Medium |
 |1552    | 用栈操作构建数组 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/build-an-array-with-stack-operations.rs) | [leetcode](https://leetcode-cn.com/problems/build-an-array-with-stack-operations/) | Easy |
 |1566    | 检查单词是否为句中其他单词的前缀 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence.rs) | [leetcode](https://leetcode-cn.com/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/) | Easy |
 |1567    | 定长子串中元音的最大数目 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-number-of-vowels-in-a-substring-of-given-length.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/) | Medium |
