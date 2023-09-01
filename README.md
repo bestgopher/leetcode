@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 525 | 217 | 282 | 26 |
+| 526 | 217 | 283 | 26 |
 
 ### 题目
 
@@ -390,6 +390,7 @@
 |2310    | 将数组和减半的最少操作次数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-operations-to-halve-array-sum.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-operations-to-halve-array-sum/) | Medium |
 |2320    | 找出数组中的所有 K 近邻下标 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-all-k-distant-indices-in-an-array.rs) | [leetcode](https://leetcode-cn.com/problems/find-all-k-distant-indices-in-an-array/) | Easy |
 |2346    | 字符串中最大的 3 位相同数字 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/largest-3-same-digit-number-in-string.rs) | [leetcode](https://leetcode-cn.com/problems/largest-3-same-digit-number-in-string/) | Easy |
+|2351    | 买钢笔和铅笔的方案数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/number-of-ways-to-buy-pens-and-pencils.rs) | [leetcode](https://leetcode-cn.com/problems/number-of-ways-to-buy-pens-and-pencils/) | Medium |
 |2384    | 判断根结点是否等于子结点之和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/root-equals-sum-of-children.rs) | [leetcode](https://leetcode-cn.com/problems/root-equals-sum-of-children/) | Easy |
 |2392    | 咒语和药水的成功对数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/successful-pairs-of-spells-and-potions.rs) | [leetcode](https://leetcode-cn.com/problems/successful-pairs-of-spells-and-potions/) | Medium |
 |2414    | 移动片段得到字符串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/move-pieces-to-obtain-a-string.rs) | [leetcode](https://leetcode-cn.com/problems/move-pieces-to-obtain-a-string/) | Medium |
