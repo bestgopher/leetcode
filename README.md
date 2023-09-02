@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 526 | 217 | 283 | 26 |
+| 527 | 218 | 283 | 26 |
 
 ### 题目
 
@@ -402,6 +402,7 @@
 |2580    | 回环句 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/circular-sentence.rs) | [leetcode](https://leetcode-cn.com/problems/circular-sentence/) | Easy |
 |2585    | 删除每行中的最大值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/delete-greatest-value-in-each-row.rs) | [leetcode](https://leetcode-cn.com/problems/delete-greatest-value-in-each-row/) | Easy |
 |2589    | 数组中字符串的最大值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-value-of-a-string-in-an-array.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-value-of-a-string-in-an-array/) | Easy |
+|2602    | 最多可以摧毁的敌人城堡数目 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-enemy-forts-that-can-be-captured.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-enemy-forts-that-can-be-captured/) | Easy |
 |2630    | 交替数字和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/alternating-digit-sum.rs) | [leetcode](https://leetcode-cn.com/problems/alternating-digit-sum/) | Easy |
 |2676    | 一个数组所有前缀的分数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-the-score-of-all-prefixes-of-an-array.rs) | [leetcode](https://leetcode-cn.com/problems/find-the-score-of-all-prefixes-of-an-array/) | Medium |
 |2691    | 统计范围内的元音字符串数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/count-vowel-strings-in-ranges.rs) | [leetcode](https://leetcode-cn.com/problems/count-vowel-strings-in-ranges/) | Medium |
