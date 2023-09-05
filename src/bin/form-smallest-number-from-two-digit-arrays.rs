@@ -37,8 +37,8 @@ impl Solution {
         if x & y != 0 {
             (x & y).trailing_zeros() as i32
         } else {
-            (x.trailing_ones() * 10 + y.trailing_ones())
-                .min(y.trailing_ones() * 10 + x.trailing_ones()) as i32
+            (x.trailing_zeros() * 10 + y.trailing_zeros())
+                .min(y.trailing_zeros() * 10 + x.trailing_zeros()) as i32
         }
     }
 }
