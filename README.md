@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 533 | 221 | 286 | 26 |
+| 534 | 222 | 286 | 26 |
 
 ### 题目
 
@@ -414,6 +414,7 @@
 |2691    | 统计范围内的元音字符串数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/count-vowel-strings-in-ranges.rs) | [leetcode](https://leetcode-cn.com/problems/count-vowel-strings-in-ranges/) | Medium |
 |2715    | K 件物品的最大和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/k-items-with-the-maximum-sum.rs) | [leetcode](https://leetcode-cn.com/problems/k-items-with-the-maximum-sum/) | Easy |
 |2728    | 矩阵中的和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/sum-in-a-matrix.rs) | [leetcode](https://leetcode-cn.com/problems/sum-in-a-matrix/) | Medium |
+|2748    | 计算列车到站时间 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/calculate-delayed-arrival-time.rs) | [leetcode](https://leetcode-cn.com/problems/calculate-delayed-arrival-time/) | Easy |
 |2791    | 找出转圈游戏输家 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-the-losers-of-the-circular-game.rs) | [leetcode](https://leetcode-cn.com/problems/find-the-losers-of-the-circular-game/) | Easy |
 |2838    | 查询后矩阵的和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/sum-of-matrix-after-queries.rs) | [leetcode](https://leetcode-cn.com/problems/sum-of-matrix-after-queries/) | Medium |
 |2977    | 判别首字母缩略词 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/check-if-a-string-is-an-acronym-of-words.rs) | [leetcode](https://leetcode-cn.com/problems/check-if-a-string-is-an-acronym-of-words/) | Easy |
