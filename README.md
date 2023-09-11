@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 535 | 223 | 286 | 26 |
+| 536 | 223 | 287 | 26 |
 
 ### 题目
 
@@ -506,6 +506,7 @@
 |1000233    | 只出现一次的数字 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/WGki4K.rs) | [leetcode](https://leetcode-cn.com/problems/WGki4K/) | Medium |
 |1000236    | 单词长度的最大乘积 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/aseY1I.rs) | [leetcode](https://leetcode-cn.com/problems/aseY1I/) | Medium |
 |1000237    | 排序数组中两个数字之和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/kLl5u1.rs) | [leetcode](https://leetcode-cn.com/problems/kLl5u1/) | Easy |
+|1000238    | 括号生成 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/IDBivT.rs) | [leetcode](https://leetcode-cn.com/problems/IDBivT/) | Medium |
 |1000242    | 和大于等于 target 的最短子数组 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/2VG8Kg.rs) | [leetcode](https://leetcode-cn.com/problems/2VG8Kg/) | Medium |
 |1000244    | 乘积小于 K 的子数组 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/ZVAVXX.rs) | [leetcode](https://leetcode-cn.com/problems/ZVAVXX/) | Medium |
 |1000246    | 和为 k 的子数组 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/QTMn0o.rs) | [leetcode](https://leetcode-cn.com/problems/QTMn0o/) | Medium |
