@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 537 | 223 | 288 | 26 |
+| 538 | 223 | 289 | 26 |
 
 ### 题目
 
@@ -409,6 +409,7 @@
 |2589    | 数组中字符串的最大值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-value-of-a-string-in-an-array.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-value-of-a-string-in-an-array/) | Easy |
 |2602    | 最多可以摧毁的敌人城堡数目 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-enemy-forts-that-can-be-captured.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-enemy-forts-that-can-be-captured/) | Easy |
 |2630    | 交替数字和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/alternating-digit-sum.rs) | [leetcode](https://leetcode-cn.com/problems/alternating-digit-sum/) | Easy |
+|2662    | 检查骑士巡视方案 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/check-knight-tour-configuration.rs) | [leetcode](https://leetcode-cn.com/problems/check-knight-tour-configuration/) | Medium |
 |2668    | 从两个数字数组里生成最小数字 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/form-smallest-number-from-two-digit-arrays.rs) | [leetcode](https://leetcode-cn.com/problems/form-smallest-number-from-two-digit-arrays/) | Easy |
 |2668    | 从两个数字数组里生成最小数字 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/form-smallest-number-from-two-digit-arrays.rs) | [leetcode](https://leetcode-cn.com/problems/form-smallest-number-from-two-digit-arrays/) | Easy |
 |2676    | 一个数组所有前缀的分数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-the-score-of-all-prefixes-of-an-array.rs) | [leetcode](https://leetcode-cn.com/problems/find-the-score-of-all-prefixes-of-an-array/) | Medium |
