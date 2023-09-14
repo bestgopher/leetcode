@@ -1,10 +1,10 @@
+use std::fmt;
+
 use lazy_static::lazy_static;
 use regex::Regex;
 use reqwest::blocking::Client;
-use serde::de::{Error, Visitor};
 use serde::{Deserialize, Deserializer, Serialize, Serializer};
-
-use std::fmt;
+use serde::de::{Error, Visitor};
 
 lazy_static! {
     static ref RE: Regex = Regex::new(r".*?/problems/(.*?)/").unwrap();
@@ -32,8 +32,8 @@ impl Difficulty {
 
 impl Serialize for Difficulty {
     fn serialize<S>(&self, serializer: S) -> Result<S::Ok, S::Error>
-    where
-        S: Serializer,
+        where
+            S: Serializer,
     {
         match self {
             Self::Easy => serializer.serialize_str("Easy"),
@@ -43,33 +43,33 @@ impl Serialize for Difficulty {
     }
 }
 
-struct DifficultyVisitor;
-
-impl<'de> Visitor<'de> for DifficultyVisitor {
-    type Value = Difficulty;
-
-    fn expecting(&self, formatter: &mut fmt::Formatter) -> fmt::Result {
-        write!(formatter, "")
-    }
-
-    fn visit_str<E>(self, v: &str) -> Result<Self::Value, E>
-    where
-        E: Error,
-    {
-        match v {
-            "Easy" => Ok(Self::Value::Easy),
-            "Medium" => Ok(Self::Value::Medium),
-            "Hard" => Ok(Self::Value::Hard),
-            _ => Err(Error::unknown_variant(v, &["Easy", "Medium", "Hard"])),
-        }
-    }
-}
-
 impl<'de> Deserialize<'de> for Difficulty {
     fn deserialize<D>(deserializer: D) -> Result<Self, D::Error>
-    where
-        D: Deserializer<'de>,
+        where
+            D: Deserializer<'de>,
     {
+        struct DifficultyVisitor;
+
+        impl<'de> Visitor<'de> for DifficultyVisitor {
+            type Value = Difficulty;
+
+            fn expecting(&self, formatter: &mut fmt::Formatter) -> fmt::Result {
+                write!(formatter, "")
+            }
+
+            fn visit_str<E>(self, v: &str) -> Result<Self::Value, E>
+                where
+                    E: Error,
+            {
+                match v {
+                    "Easy" => Ok(Self::Value::Easy),
+                    "Medium" => Ok(Self::Value::Medium),
+                    "Hard" => Ok(Self::Value::Hard),
+                    _ => Err(Error::unknown_variant(v, &["Easy", "Medium", "Hard"])),
+                }
+            }
+        }
+
         deserializer.deserialize_str(DifficultyVisitor)
     }
 }
