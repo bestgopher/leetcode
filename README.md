@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 541 | 224 | 291 | 26 |
+| 542 | 225 | 291 | 26 |
 
 ### 题目
 
@@ -415,6 +415,7 @@
 |2668    | 从两个数字数组里生成最小数字 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/form-smallest-number-from-two-digit-arrays.rs) | [leetcode](https://leetcode-cn.com/problems/form-smallest-number-from-two-digit-arrays/) | Easy |
 |2668    | 从两个数字数组里生成最小数字 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/form-smallest-number-from-two-digit-arrays.rs) | [leetcode](https://leetcode-cn.com/problems/form-smallest-number-from-two-digit-arrays/) | Easy |
 |2676    | 一个数组所有前缀的分数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-the-score-of-all-prefixes-of-an-array.rs) | [leetcode](https://leetcode-cn.com/problems/find-the-score-of-all-prefixes-of-an-array/) | Medium |
+|2679    | 统计桌面上的不同数字 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/count-distinct-numbers-on-board.rs) | [leetcode](https://leetcode-cn.com/problems/count-distinct-numbers-on-board/) | Easy |
 |2691    | 统计范围内的元音字符串数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/count-vowel-strings-in-ranges.rs) | [leetcode](https://leetcode-cn.com/problems/count-vowel-strings-in-ranges/) | Medium |
 |2694    | 找出可整除性得分最大的整数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-the-maximum-divisibility-score.rs) | [leetcode](https://leetcode-cn.com/problems/find-the-maximum-divisibility-score/) | Easy |
 |2715    | K 件物品的最大和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/k-items-with-the-maximum-sum.rs) | [leetcode](https://leetcode-cn.com/problems/k-items-with-the-maximum-sum/) | Easy |
