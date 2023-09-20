@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 543 | 226 | 291 | 26 |
+| 544 | 226 | 292 | 26 |
 
 ### 题目
 
@@ -352,6 +352,7 @@
 |1428    | 跳跃游戏 III | [src](https://github.com/rustors/leetcode/blob/main/src/bin/jump-game-iii.rs) | [leetcode](https://leetcode-cn.com/problems/jump-game-iii/) | Medium |
 |1434    | 解码字母到整数映射 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/decrypt-string-from-alphabet-to-integer-mapping.rs) | [leetcode](https://leetcode-cn.com/problems/decrypt-string-from-alphabet-to-integer-mapping/) | Easy |
 |1441    | 或运算的最小翻转次数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-flips-to-make-a-or-b-equal-to-c.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-flips-to-make-a-or-b-equal-to-c/) | Medium |
+|1450    | 删除给定值的叶子节点 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/delete-leaves-with-a-given-value.rs) | [leetcode](https://leetcode-cn.com/problems/delete-leaves-with-a-given-value/) | Medium |
 |1455    | 餐厅过滤器 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/filter-restaurants-by-vegan-friendly-price-and-distance.rs) | [leetcode](https://leetcode-cn.com/problems/filter-restaurants-by-vegan-friendly-price-and-distance/) | Medium |
 |1468    | 检查整数及其两倍数是否存在 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/check-if-n-and-its-double-exist.rs) | [leetcode](https://leetcode-cn.com/problems/check-if-n-and-its-double-exist/) | Easy |
 |1472    | 上升下降字符串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/increasing-decreasing-string.rs) | [leetcode](https://leetcode-cn.com/problems/increasing-decreasing-string/) | Easy |
