@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 544 | 226 | 292 | 26 |
+| 545 | 227 | 292 | 26 |
 
 ### 题目
 
@@ -424,6 +424,7 @@
 |2728    | 矩阵中的和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/sum-in-a-matrix.rs) | [leetcode](https://leetcode-cn.com/problems/sum-in-a-matrix/) | Medium |
 |2748    | 计算列车到站时间 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/calculate-delayed-arrival-time.rs) | [leetcode](https://leetcode-cn.com/problems/calculate-delayed-arrival-time/) | Easy |
 |2791    | 找出转圈游戏输家 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-the-losers-of-the-circular-game.rs) | [leetcode](https://leetcode-cn.com/problems/find-the-losers-of-the-circular-game/) | Easy |
+|2812    | 找出最大的可达成数字 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-the-maximum-achievable-number.rs) | [leetcode](https://leetcode-cn.com/problems/find-the-maximum-achievable-number/) | Easy |
 |2838    | 查询后矩阵的和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/sum-of-matrix-after-queries.rs) | [leetcode](https://leetcode-cn.com/problems/sum-of-matrix-after-queries/) | Medium |
 |2977    | 判别首字母缩略词 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/check-if-a-string-is-an-acronym-of-words.rs) | [leetcode](https://leetcode-cn.com/problems/check-if-a-string-is-an-acronym-of-words/) | Easy |
 |100162    | 字符串轮转 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/string-rotation-lcci.rs) | [leetcode](https://leetcode-cn.com/problems/string-rotation-lcci/) | Easy |
