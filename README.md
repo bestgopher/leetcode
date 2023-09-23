@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 546 | 228 | 292 | 26 |
+| 547 | 228 | 293 | 26 |
 
 ### 题目
 
@@ -388,6 +388,7 @@
 |1983    | 人口最多的年份 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-population-year.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-population-year/) | Easy |
 |2022    | 最大子序列交替和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-alternating-subsequence-sum.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-alternating-subsequence-sum/) | Medium |
 |2049    | 消灭怪物的最大数量 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/eliminate-maximum-number-of-monsters.rs) | [leetcode](https://leetcode-cn.com/problems/eliminate-maximum-number-of-monsters/) | Medium |
+|2104    | 树上的操作 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/operations-on-tree.rs) | [leetcode](https://leetcode-cn.com/problems/operations-on-tree/) | Medium |
 |2128    | 反转单词前缀 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/reverse-prefix-of-word.rs) | [leetcode](https://leetcode-cn.com/problems/reverse-prefix-of-word/) | Easy |
 |2159    | 至少在两个数组中出现的值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/two-out-of-three.rs) | [leetcode](https://leetcode-cn.com/problems/two-out-of-three/) | Easy |
 |2210    | 找出数组排序后的目标下标 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-target-indices-after-sorting-array.rs) | [leetcode](https://leetcode-cn.com/problems/find-target-indices-after-sorting-array/) | Easy |
