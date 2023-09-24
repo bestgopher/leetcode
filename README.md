@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 547 | 228 | 293 | 26 |
+| 548 | 229 | 293 | 26 |
 
 ### 题目
 
@@ -382,6 +382,7 @@
 |1849    | 任意子数组和的绝对值的最大值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-absolute-sum-of-any-subarray.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-absolute-sum-of-any-subarray/) | Medium |
 |1894    | 交替合并字符串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/merge-strings-alternately.rs) | [leetcode](https://leetcode-cn.com/problems/merge-strings-alternately/) | Easy |
 |1929    | 有界数组中指定下标处的最大值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-value-at-a-given-index-in-a-bounded-array.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-value-at-a-given-index-in-a-bounded-array/) | Medium |
+|1938    | 最少操作使数组递增 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-operations-to-make-the-array-increasing.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-operations-to-make-the-array-increasing/) | Easy |
 |1940    | 每个查询的最大异或值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-xor-for-each-query.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-xor-for-each-query/) | Medium |
 |1952    | 最少侧跳次数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-sideway-jumps.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-sideway-jumps/) | Medium |
 |1971    | 增长的内存泄露 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/incremental-memory-leak.rs) | [leetcode](https://leetcode-cn.com/problems/incremental-memory-leak/) | Medium |
