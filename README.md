@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 552 | 231 | 294 | 27 |
+| 553 | 232 | 294 | 27 |
 
 ### 题目
 
@@ -383,6 +383,7 @@
 |1806    | 比赛中的配对次数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/count-of-matches-in-tournament.rs) | [leetcode](https://leetcode-cn.com/problems/count-of-matches-in-tournament/) | Easy |
 |1807    | 十-二进制数的最少数目 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/partitioning-into-minimum-number-of-deci-binary-numbers.rs) | [leetcode](https://leetcode-cn.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers/) | Medium |
 |1849    | 任意子数组和的绝对值的最大值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-absolute-sum-of-any-subarray.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-absolute-sum-of-any-subarray/) | Medium |
+|1858    | 替换隐藏数字得到的最晚时间 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/latest-time-by-replacing-hidden-digits.rs) | [leetcode](https://leetcode-cn.com/problems/latest-time-by-replacing-hidden-digits/) | Easy |
 |1894    | 交替合并字符串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/merge-strings-alternately.rs) | [leetcode](https://leetcode-cn.com/problems/merge-strings-alternately/) | Easy |
 |1929    | 有界数组中指定下标处的最大值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-value-at-a-given-index-in-a-bounded-array.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-value-at-a-given-index-in-a-bounded-array/) | Medium |
 |1938    | 最少操作使数组递增 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-operations-to-make-the-array-increasing.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-operations-to-make-the-array-increasing/) | Easy |
