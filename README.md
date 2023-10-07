@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 553 | 232 | 294 | 27 |
+| 554 | 232 | 295 | 27 |
 
 ### 题目
 
@@ -305,6 +305,7 @@
 |925    | 根据前序和后序遍历构造二叉树 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/construct-binary-tree-from-preorder-and-postorder-traversal.rs) | [leetcode](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/) | Medium |
 |932    | 单调数列 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/monotonic-array.rs) | [leetcode](https://leetcode-cn.com/problems/monotonic-array/) | Easy |
 |936    | RLE 迭代器 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/rle-iterator.rs) | [leetcode](https://leetcode-cn.com/problems/rle-iterator/) | Medium |
+|937    | 股票价格跨度 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/online-stock-span.rs) | [leetcode](https://leetcode-cn.com/problems/online-stock-span/) | Medium |
 |947    | 在线选举 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/online-election.rs) | [leetcode](https://leetcode-cn.com/problems/online-election/) | Medium |
 |953    | 仅仅反转字母 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/reverse-only-letters.rs) | [leetcode](https://leetcode-cn.com/problems/reverse-only-letters/) | Easy |
 |954    | 环形子数组的最大和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-sum-circular-subarray.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-sum-circular-subarray/) | Medium |
