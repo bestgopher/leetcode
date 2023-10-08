@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 554 | 232 | 295 | 27 |
+| 555 | 232 | 296 | 27 |
 
 ### 题目
 
@@ -397,6 +397,7 @@
 |2104    | 树上的操作 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/operations-on-tree.rs) | [leetcode](https://leetcode-cn.com/problems/operations-on-tree/) | Medium |
 |2128    | 反转单词前缀 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/reverse-prefix-of-word.rs) | [leetcode](https://leetcode-cn.com/problems/reverse-prefix-of-word/) | Easy |
 |2159    | 至少在两个数组中出现的值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/two-out-of-three.rs) | [leetcode](https://leetcode-cn.com/problems/two-out-of-three/) | Easy |
+|2161    | 股票价格波动 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/stock-price-fluctuation.rs) | [leetcode](https://leetcode-cn.com/problems/stock-price-fluctuation/) | Medium |
 |2210    | 找出数组排序后的目标下标 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-target-indices-after-sorting-array.rs) | [leetcode](https://leetcode-cn.com/problems/find-target-indices-after-sorting-array/) | Easy |
 |2233    | 股票平滑下跌阶段的数目 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/number-of-smooth-descent-periods-of-a-stock.rs) | [leetcode](https://leetcode-cn.com/problems/number-of-smooth-descent-periods-of-a-stock/) | Medium |
 |2261    | 分组得分最高的所有下标 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/all-divisions-with-the-highest-score-of-a-binary-array.rs) | [leetcode](https://leetcode-cn.com/problems/all-divisions-with-the-highest-score-of-a-binary-array/) | Medium |
