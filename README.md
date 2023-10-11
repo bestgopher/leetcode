@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 557 | 233 | 297 | 27 |
+| 558 | 233 | 298 | 27 |
 
 ### 题目
 
@@ -420,6 +420,7 @@
 |2585    | 删除每行中的最大值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/delete-greatest-value-in-each-row.rs) | [leetcode](https://leetcode-cn.com/problems/delete-greatest-value-in-each-row/) | Easy |
 |2589    | 数组中字符串的最大值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-value-of-a-string-in-an-array.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-value-of-a-string-in-an-array/) | Easy |
 |2602    | 最多可以摧毁的敌人城堡数目 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-enemy-forts-that-can-be-captured.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-enemy-forts-that-can-be-captured/) | Easy |
+|2603    | 奖励最顶尖的 K 名学生 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/reward-top-k-students.rs) | [leetcode](https://leetcode-cn.com/problems/reward-top-k-students/) | Medium |
 |2630    | 交替数字和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/alternating-digit-sum.rs) | [leetcode](https://leetcode-cn.com/problems/alternating-digit-sum/) | Easy |
 |2645    | 递枕头 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/pass-the-pillow.rs) | [leetcode](https://leetcode-cn.com/problems/pass-the-pillow/) | Easy |
 |2650    | 最小和分割 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/split-with-minimum-sum.rs) | [leetcode](https://leetcode-cn.com/problems/split-with-minimum-sum/) | Easy |
