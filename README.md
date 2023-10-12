@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 558 | 233 | 298 | 27 |
+| 559 | 234 | 298 | 27 |
 
 ### 题目
 
@@ -432,6 +432,7 @@
 |2679    | 统计桌面上的不同数字 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/count-distinct-numbers-on-board.rs) | [leetcode](https://leetcode-cn.com/problems/count-distinct-numbers-on-board/) | Easy |
 |2691    | 统计范围内的元音字符串数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/count-vowel-strings-in-ranges.rs) | [leetcode](https://leetcode-cn.com/problems/count-vowel-strings-in-ranges/) | Medium |
 |2694    | 找出可整除性得分最大的整数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-the-maximum-divisibility-score.rs) | [leetcode](https://leetcode-cn.com/problems/find-the-maximum-divisibility-score/) | Easy |
+|2698    | 找出数组的串联值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-the-array-concatenation-value.rs) | [leetcode](https://leetcode-cn.com/problems/find-the-array-concatenation-value/) | Easy |
 |2715    | K 件物品的最大和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/k-items-with-the-maximum-sum.rs) | [leetcode](https://leetcode-cn.com/problems/k-items-with-the-maximum-sum/) | Easy |
 |2728    | 矩阵中的和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/sum-in-a-matrix.rs) | [leetcode](https://leetcode-cn.com/problems/sum-in-a-matrix/) | Medium |
 |2748    | 计算列车到站时间 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/calculate-delayed-arrival-time.rs) | [leetcode](https://leetcode-cn.com/problems/calculate-delayed-arrival-time/) | Easy |
