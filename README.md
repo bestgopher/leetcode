@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 560 | 235 | 298 | 27 |
+| 561 | 235 | 299 | 27 |
 
 ### 题目
 
@@ -177,6 +177,7 @@
 |242    | 有效的字母异位词 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/valid-anagram.rs) | [leetcode](https://leetcode-cn.com/problems/valid-anagram/) | Easy |
 |257    | 二叉树的所有路径 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/binary-tree-paths.rs) | [leetcode](https://leetcode-cn.com/problems/binary-tree-paths/) | Easy |
 |258    | 各位相加 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/add-digits.rs) | [leetcode](https://leetcode-cn.com/problems/add-digits/) | Easy |
+|260    | 只出现一次的数字 III | [src](https://github.com/rustors/leetcode/blob/main/src/bin/single-number-iii.rs) | [leetcode](https://leetcode-cn.com/problems/single-number-iii/) | Medium |
 |263    | 丑数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/ugly-number.rs) | [leetcode](https://leetcode-cn.com/problems/ugly-number/) | Easy |
 |268    | 丢失的数字 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/missing-number.rs) | [leetcode](https://leetcode-cn.com/problems/missing-number/) | Easy |
 |274    | H 指数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/h-index.rs) | [leetcode](https://leetcode-cn.com/problems/h-index/) | Medium |
