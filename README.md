@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 561 | 235 | 299 | 27 |
+| 562 | 236 | 299 | 27 |
 
 ### 题目
 
@@ -438,6 +438,7 @@
 |2715    | K 件物品的最大和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/k-items-with-the-maximum-sum.rs) | [leetcode](https://leetcode-cn.com/problems/k-items-with-the-maximum-sum/) | Easy |
 |2728    | 矩阵中的和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/sum-in-a-matrix.rs) | [leetcode](https://leetcode-cn.com/problems/sum-in-a-matrix/) | Medium |
 |2748    | 计算列车到站时间 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/calculate-delayed-arrival-time.rs) | [leetcode](https://leetcode-cn.com/problems/calculate-delayed-arrival-time/) | Easy |
+|2752    | 倍数求和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/sum-multiples.rs) | [leetcode](https://leetcode-cn.com/problems/sum-multiples/) | Easy |
 |2787    | 移动机器人 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/movement-of-robots.rs) | [leetcode](https://leetcode-cn.com/problems/movement-of-robots/) | Medium |
 |2791    | 找出转圈游戏输家 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-the-losers-of-the-circular-game.rs) | [leetcode](https://leetcode-cn.com/problems/find-the-losers-of-the-circular-game/) | Easy |
 |2812    | 找出最大的可达成数字 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-the-maximum-achievable-number.rs) | [leetcode](https://leetcode-cn.com/problems/find-the-maximum-achievable-number/) | Easy |
