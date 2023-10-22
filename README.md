@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 565 | 237 | 301 | 27 |
+| 566 | 237 | 301 | 28 |
 
 ### 题目
 
@@ -364,6 +364,7 @@
 |1482    | 有多少小于当前数字的数字 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/how-many-numbers-are-smaller-than-the-current-number.rs) | [leetcode](https://leetcode-cn.com/problems/how-many-numbers-are-smaller-than-the-current-number/) | Easy |
 |1491    | 二进制字符串前缀一致的次数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/number-of-times-binary-string-is-prefix-aligned.rs) | [leetcode](https://leetcode-cn.com/problems/number-of-times-binary-string-is-prefix-aligned/) | Medium |
 |1501    | 圆和矩形是否有重叠 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/circle-and-rectangle-overlapping.rs) | [leetcode](https://leetcode-cn.com/problems/circle-and-rectangle-overlapping/) | Medium |
+|1503    | 做菜顺序 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/reducing-dishes.rs) | [leetcode](https://leetcode-cn.com/problems/reducing-dishes/) | Hard |
 |1505    | 按既定顺序创建目标数组 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/create-target-array-in-the-given-order.rs) | [leetcode](https://leetcode-cn.com/problems/create-target-array-in-the-given-order/) | Easy |
 |1512    | 设计地铁系统 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/design-underground-system.rs) | [leetcode](https://leetcode-cn.com/problems/design-underground-system/) | Medium |
 |1537    | 分割字符串的最大得分 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-score-after-splitting-a-string.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-score-after-splitting-a-string/) | Easy |
