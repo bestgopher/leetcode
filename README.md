@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 567 | 238 | 301 | 28 |
+| 568 | 238 | 302 | 28 |
 
 ### 题目
 
@@ -333,6 +333,7 @@
 |1236    | 第 N 个泰波那契数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/n-th-tribonacci-number.rs) | [leetcode](https://leetcode-cn.com/problems/n-th-tribonacci-number/) | Easy |
 |1238    | 字母板上的路径 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/alphabet-board-path.rs) | [leetcode](https://leetcode-cn.com/problems/alphabet-board-path/) | Medium |
 |1253    | 将矩阵按对角线排序 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/sort-the-matrix-diagonally.rs) | [leetcode](https://leetcode-cn.com/problems/sort-the-matrix-diagonally/) | Medium |
+|1263    | 掷骰子等于目标和的方法数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/number-of-dice-rolls-with-target-sum.rs) | [leetcode](https://leetcode-cn.com/problems/number-of-dice-rolls-with-target-sum/) | Medium |
 |1273    | 比较字符串最小字母出现频次 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/compare-strings-by-frequency-of-the-smallest-character.rs) | [leetcode](https://leetcode-cn.com/problems/compare-strings-by-frequency-of-the-smallest-character/) | Medium |
 |1287    | 公交站间的距离 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/distance-between-bus-stops.rs) | [leetcode](https://leetcode-cn.com/problems/distance-between-bus-stops/) | Easy |
 |1293    | 存在连续三个奇数的数组 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/three-consecutive-odds.rs) | [leetcode](https://leetcode-cn.com/problems/three-consecutive-odds/) | Easy |
