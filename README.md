@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 568 | 238 | 302 | 28 |
+| 569 | 238 | 303 | 28 |
 
 ### 题目
 
@@ -447,6 +447,7 @@
 |2752    | 倍数求和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/sum-multiples.rs) | [leetcode](https://leetcode-cn.com/problems/sum-multiples/) | Easy |
 |2787    | 移动机器人 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/movement-of-robots.rs) | [leetcode](https://leetcode-cn.com/problems/movement-of-robots/) | Medium |
 |2791    | 找出转圈游戏输家 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-the-losers-of-the-circular-game.rs) | [leetcode](https://leetcode-cn.com/problems/find-the-losers-of-the-circular-game/) | Easy |
+|2802    | 求一个整数的惩罚数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-the-punishment-number-of-an-integer.rs) | [leetcode](https://leetcode-cn.com/problems/find-the-punishment-number-of-an-integer/) | Medium |
 |2812    | 找出最大的可达成数字 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-the-maximum-achievable-number.rs) | [leetcode](https://leetcode-cn.com/problems/find-the-maximum-achievable-number/) | Easy |
 |2838    | 查询后矩阵的和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/sum-of-matrix-after-queries.rs) | [leetcode](https://leetcode-cn.com/problems/sum-of-matrix-after-queries/) | Medium |
 |2977    | 判别首字母缩略词 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/check-if-a-string-is-an-acronym-of-words.rs) | [leetcode](https://leetcode-cn.com/problems/check-if-a-string-is-an-acronym-of-words/) | Easy |
