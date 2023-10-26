@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 569 | 238 | 303 | 28 |
+| 570 | 239 | 303 | 28 |
 
 ### 题目
 
@@ -426,6 +426,7 @@
 |2589    | 数组中字符串的最大值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-value-of-a-string-in-an-array.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-value-of-a-string-in-an-array/) | Easy |
 |2602    | 最多可以摧毁的敌人城堡数目 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-enemy-forts-that-can-be-captured.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-enemy-forts-that-can-be-captured/) | Easy |
 |2603    | 奖励最顶尖的 K 名学生 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/reward-top-k-students.rs) | [leetcode](https://leetcode-cn.com/problems/reward-top-k-students/) | Medium |
+|2608    | 统计能整除数字的位数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/count-the-digits-that-divide-a-number.rs) | [leetcode](https://leetcode-cn.com/problems/count-the-digits-that-divide-a-number/) | Easy |
 |2616    | 执行 K 次操作后的最大分数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximal-score-after-applying-k-operations.rs) | [leetcode](https://leetcode-cn.com/problems/maximal-score-after-applying-k-operations/) | Medium |
 |2619    | 根据规则将箱子分类 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/categorize-box-according-to-criteria.rs) | [leetcode](https://leetcode-cn.com/problems/categorize-box-according-to-criteria/) | Easy |
 |2630    | 交替数字和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/alternating-digit-sum.rs) | [leetcode](https://leetcode-cn.com/problems/alternating-digit-sum/) | Easy |
