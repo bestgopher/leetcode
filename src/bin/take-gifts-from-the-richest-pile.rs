@@ -1,9 +1,5 @@
 #![allow(dead_code, unused, unused_variables, non_snake_case)]
 
-extern crate core;
-
-use core::f64;
-
 fn main() {}
 
 struct Solution;
