@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 574 | 242 | 304 | 28 |
+| 575 | 242 | 305 | 28 |
 
 ### 题目
 
@@ -181,6 +181,7 @@
 |263    | 丑数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/ugly-number.rs) | [leetcode](https://leetcode-cn.com/problems/ugly-number/) | Easy |
 |268    | 丢失的数字 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/missing-number.rs) | [leetcode](https://leetcode-cn.com/problems/missing-number/) | Easy |
 |274    | H 指数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/h-index.rs) | [leetcode](https://leetcode-cn.com/problems/h-index/) | Medium |
+|275    | H 指数 II | [src](https://github.com/rustors/leetcode/blob/main/src/bin/h-index-ii.rs) | [leetcode](https://leetcode-cn.com/problems/h-index-ii/) | Medium |
 |278    | 第一个错误的版本 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/first-bad-version.rs) | [leetcode](https://leetcode-cn.com/problems/first-bad-version/) | Easy |
 |279    | 完全平方数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/perfect-squares.rs) | [leetcode](https://leetcode-cn.com/problems/perfect-squares/) | Medium |
 |283    | 移动零 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/move-zeroes.rs) | [leetcode](https://leetcode-cn.com/problems/move-zeroes/) | Easy |
