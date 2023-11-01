@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 576 | 243 | 305 | 28 |
+| 577 | 244 | 305 | 28 |
 
 ### 题目
 
@@ -347,6 +347,7 @@
 |1341    | 分割平衡字符串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/split-a-string-in-balanced-strings.rs) | [leetcode](https://leetcode-cn.com/problems/split-a-string-in-balanced-strings/) | Easy |
 |1342    | 可以攻击国王的皇后 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/queens-that-can-attack-the-king.rs) | [leetcode](https://leetcode-cn.com/problems/queens-that-can-attack-the-king/) | Medium |
 |1362    | 飞机座位分配概率 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/airplane-seat-assignment-probability.rs) | [leetcode](https://leetcode-cn.com/problems/airplane-seat-assignment-probability/) | Medium |
+|1363    | 兼具大小写的最好英文字母 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/greatest-english-letter-in-upper-and-lower-case.rs) | [leetcode](https://leetcode-cn.com/problems/greatest-english-letter-in-upper-and-lower-case/) | Easy |
 |1364    | 同积元组 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/tuple-with-same-product.rs) | [leetcode](https://leetcode-cn.com/problems/tuple-with-same-product/) | Medium |
 |1370    | 统计「优美子数组」 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/count-number-of-nice-subarrays.rs) | [leetcode](https://leetcode-cn.com/problems/count-number-of-nice-subarrays/) | Medium |
 |1371    | 移除无效的括号 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-remove-to-make-valid-parentheses.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-remove-to-make-valid-parentheses/) | Medium |
