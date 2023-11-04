@@ -1,7 +1,9 @@
 use lazy_static::lazy_static;
 use regex::Regex;
-use std::fs::{self, File};
-use std::io::Write;
+use tokio::fs::{self, File};
+use tokio::io::AsyncWriteExt;
+use tokio_stream::wrappers::ReadDirStream;
+use tokio_stream::StreamExt;
 
 use crate::http::{Data, Difficulty, Ques, Resp};
 
@@ -12,7 +14,7 @@ lazy_static! {
 }
 
 /// 将结果写入README.md中
-pub fn write_readme(r: &mut Vec<Resp>) {
+pub async fn write_readme(r: &mut Vec<Resp>) {
     // 先按id排序
     r.sort_by(|x, y| {
         let x_id = x.data.question.question_id.parse::<i32>().unwrap();
@@ -21,36 +23,39 @@ pub fn write_readme(r: &mut Vec<Resp>) {
     });
     let s = crate::render::render(r).unwrap();
 
-    match std::fs::write("README.md", s) {
+    match tokio::fs::write("README.md", s).await {
         Ok(_) => (),
         Err(e) => eprintln!("写入 README.md 失败，err{}", e.to_string()),
     }
 }
 
 /// 获取 src/bin 目录下所有文件的名称
-pub fn get_all_bin_file() -> Vec<String> {
-    let dir = fs::read_dir("src/bin/").unwrap();
-    dir.into_iter()
-        .map(|x| {
+pub async fn get_all_bin_file() -> Vec<String> {
+    let mut dir = ReadDirStream::new(fs::read_dir("src/bin/").await.unwrap());
+    let mut v = vec![];
+    while let Some(x) = dir.next().await {
+        v.push(
             x.unwrap()
                 .file_name()
                 .to_str()
                 .unwrap()
                 .trim_end_matches(".rs")
-                .to_string()
-        })
-        .collect()
+                .to_string(),
+        );
+    }
+
+    v
 }
 
 /// 创建 bin/{quest_name}.rs 文件
-pub fn write_question(resp: Resp) {
+pub async fn write_question(resp: Resp) {
     let file = format!("src/bin/{}.rs", resp.data.question.title_slug);
     if std::path::Path::new(file.as_str()).exists() {
         eprintln!("{} exists", file);
         return;
     }
 
-    let mut f = File::create(file.as_str()).unwrap();
+    let mut f = File::create(file.as_str()).await.unwrap();
     let mut s = String::new();
     s.push_str("#![allow(dead_code, unused, unused_variables, non_snake_case)]\n\n");
     s.push_str("fn main() {}\n\n");
@@ -64,12 +69,12 @@ pub fn write_question(resp: Resp) {
         }
     }
 
-    f.write_all(s.as_bytes()).unwrap();
+    f.write_all(s.as_bytes()).await.unwrap();
 }
 
 /// 解析README.md
-pub fn parse_readme() -> Vec<Resp> {
-    let contents = fs::read_to_string("README.md").unwrap();
+pub async fn parse_readme() -> Vec<Resp> {
+    let contents = fs::read_to_string("README.md").await.unwrap();
     parse(&contents)
 }
 
@@ -96,11 +101,12 @@ fn parse(contents: &str) -> Vec<Resp> {
 
 #[cfg(test)]
 mod tests {
-    use crate::file::{get_all_bin_file, parse};
+    use super::get_all_bin_file;
+    use super::parse;
 
-    #[test]
-    fn test_parse_readme() {
-        let contents = std::fs::read_to_string("README.md").unwrap();
+    #[tokio::test]
+    async fn test_parse_readme() {
+        let contents = tokio::fs::read_to_string("README.md").await.unwrap();
         let x = parse(&contents);
         println!("{:?}", x);
         println!("{}", x.len());
@@ -116,8 +122,8 @@ mod tests {
         }
     }
 
-    #[test]
-    fn test_get_all_bin_file() {
-        println!("{:?}", get_all_bin_file());
+    #[tokio::test]
+    async fn test_get_all_bin_file() {
+        println!("{:?}", get_all_bin_file().await);
     }
 }

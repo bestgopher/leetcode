@@ -1,3 +1,4 @@
-fn main() {
-    leetcode::run();
+#[tokio::main]
+async fn main() {
+    leetcode::run().await;
 }

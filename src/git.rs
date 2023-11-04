@@ -1,20 +1,20 @@
-use git2::{Repository, StatusOptions};
-
 use std::process::Command;
 
+use git2::{Repository, StatusOptions};
+
 /// 把新文件加入到git中
-pub fn push() {
+pub async fn push() {
     // 解析readme.md文件
-    let mut r = crate::file::parse_readme();
+    let mut r = crate::file::parse_readme().await;
     let new_file = get_uncommit_files();
     for i in new_file.iter() {
         let x = i.trim_end_matches(".rs"); // 去掉后缀
         let x = x.trim_start_matches("src/bin/"); // 去掉路径
         git_add(i);
-        r.push(crate::http::get_question_info(x));
+        r.push(crate::http::get_question_info(x).await);
     }
 
-    crate::file::write_readme(&mut r);
+    crate::file::write_readme(&mut r).await;
     git_add("README.md");
     push_to_origin();
 }

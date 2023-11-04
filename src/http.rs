@@ -2,9 +2,9 @@ use std::fmt;
 
 use lazy_static::lazy_static;
 use regex::Regex;
-use reqwest::blocking::Client;
-use serde::{Deserialize, Deserializer, Serialize, Serializer};
+use reqwest::Client;
 use serde::de::{Error, Visitor};
+use serde::{Deserialize, Deserializer, Serialize, Serializer};
 
 lazy_static! {
     static ref RE: Regex = Regex::new(r".*?/problems/(.*?)/").unwrap();
@@ -32,8 +32,8 @@ impl Difficulty {
 
 impl Serialize for Difficulty {
     fn serialize<S>(&self, serializer: S) -> Result<S::Ok, S::Error>
-        where
-            S: Serializer,
+    where
+        S: Serializer,
     {
         match self {
             Self::Easy => serializer.serialize_str("Easy"),
@@ -45,8 +45,8 @@ impl Serialize for Difficulty {
 
 impl<'de> Deserialize<'de> for Difficulty {
     fn deserialize<D>(deserializer: D) -> Result<Self, D::Error>
-        where
-            D: Deserializer<'de>,
+    where
+        D: Deserializer<'de>,
     {
         struct DifficultyVisitor;
 
@@ -58,8 +58,8 @@ impl<'de> Deserialize<'de> for Difficulty {
             }
 
             fn visit_str<E>(self, v: &str) -> Result<Self::Value, E>
-                where
-                    E: Error,
+            where
+                E: Error,
             {
                 match v {
                     "Easy" => Ok(Self::Value::Easy),
@@ -110,7 +110,7 @@ pub struct Resp {
     pub data: Data,
 }
 
-pub fn get_question_info(mut ques: &str) -> Resp {
+pub async fn get_question_info(mut ques: &str) -> Resp {
     if ques.starts_with("http") {
         ques = RE
             .captures_iter(ques)
@@ -131,21 +131,23 @@ pub fn get_question_info(mut ques: &str) -> Resp {
         .header("content-type", "application/json")
         .body(data)
         .send()
+        .await
         .unwrap()
         .json::<Resp>()
+        .await
         .expect(format!("{} download failed", ques).as_str())
 }
 
 #[cfg(test)]
 mod tests {
-    use crate::http::get_question_info;
+    use super::get_question_info;
 
-    #[test]
-    fn test_get_question_info() {
-        println!("{:?}", get_question_info("container-with-most-water"));
+    #[tokio::test]
+    async fn test_get_question_info() {
+        println!("{:?}", get_question_info("container-with-most-water").await);
         println!(
             "{:?}",
-            get_question_info("https://leetcode-cn.com/problems/container-with-most-water/")
+            get_question_info("https://leetcode-cn.com/problems/container-with-most-water/").await
         );
     }
 }

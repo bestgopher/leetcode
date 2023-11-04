@@ -1,12 +1,11 @@
-use crate::file;
-
-use crate::http::Resp;
 use std::sync::{Arc, Mutex};
-use std::thread;
+
+use crate::file;
+use crate::http::Resp;
 
 /// 重新格式化
-pub fn all() {
-    let files = file::get_all_bin_file();
+pub async fn all() {
+    let files = file::get_all_bin_file().await;
 
     let v = Vec::<Resp>::with_capacity(files.len());
 
@@ -23,18 +22,18 @@ pub fn all() {
 
         let x = x.clone();
 
-        handlers.push(thread::spawn(move || {
+        handlers.push(tokio::spawn(async move {
             for i in files {
                 println!("{} downloading", i);
-                let resp = crate::http::get_question_info(&i);
+                let resp = crate::http::get_question_info(&i).await;
                 x.lock().unwrap().push(resp);
             }
         }))
     }
 
     for i in handlers {
-        i.join().unwrap();
+        i.await.unwrap();
     }
 
-    crate::file::write_readme(&mut *x.lock().unwrap());
+    file::write_readme(&mut *x.lock().unwrap()).await;
 }

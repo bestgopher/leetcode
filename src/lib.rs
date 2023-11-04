@@ -1,3 +1,7 @@
+use std::process;
+
+use clap::{App, Arg};
+
 mod all;
 mod file;
 mod git;
@@ -5,11 +9,7 @@ mod http;
 mod new;
 mod render;
 
-use clap::{App, Arg};
-
-use std::process;
-
-pub fn run() {
+pub async fn run() {
     let matches = App::new("leetcode")
         .version("0.0.1")
         .author("bestgopher <84328409@qq.com>")
@@ -26,15 +26,15 @@ pub fn run() {
 
     if let Some(matches) = matches.subcommand_matches("new") {
         match matches.value_of_t::<String>("question_name") {
-            Ok(x) => new::new(x),
+            Ok(x) => new::new(x).await,
             Err(_) => {
                 eprintln!("please input the name of question");
                 process::exit(1);
             }
         }
     } else if matches.subcommand_matches("all").is_some() {
-        all::all();
+        all::all().await;
     } else {
-        git::push();
+        git::push().await;
     }
 }
