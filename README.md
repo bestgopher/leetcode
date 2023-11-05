@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 578 | 245 | 305 | 28 |
+| 579 | 246 | 305 | 28 |
 
 ### 题目
 
@@ -393,6 +393,7 @@
 |1797    | 设计 Goal 解析器 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/goal-parser-interpretation.rs) | [leetcode](https://leetcode-cn.com/problems/goal-parser-interpretation/) | Easy |
 |1806    | 比赛中的配对次数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/count-of-matches-in-tournament.rs) | [leetcode](https://leetcode-cn.com/problems/count-of-matches-in-tournament/) | Easy |
 |1807    | 十-二进制数的最少数目 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/partitioning-into-minimum-number-of-deci-binary-numbers.rs) | [leetcode](https://leetcode-cn.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers/) | Medium |
+|1829    | 卡车上的最大单元数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-units-on-a-truck.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-units-on-a-truck/) | Easy |
 |1849    | 任意子数组和的绝对值的最大值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-absolute-sum-of-any-subarray.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-absolute-sum-of-any-subarray/) | Medium |
 |1858    | 替换隐藏数字得到的最晚时间 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/latest-time-by-replacing-hidden-digits.rs) | [leetcode](https://leetcode-cn.com/problems/latest-time-by-replacing-hidden-digits/) | Easy |
 |1894    | 交替合并字符串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/merge-strings-alternately.rs) | [leetcode](https://leetcode-cn.com/problems/merge-strings-alternately/) | Easy |
