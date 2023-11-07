@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 580 | 246 | 306 | 28 |
+| 581 | 247 | 306 | 28 |
 
 ### 题目
 
@@ -439,6 +439,7 @@
 |2630    | 交替数字和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/alternating-digit-sum.rs) | [leetcode](https://leetcode-cn.com/problems/alternating-digit-sum/) | Easy |
 |2645    | 递枕头 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/pass-the-pillow.rs) | [leetcode](https://leetcode-cn.com/problems/pass-the-pillow/) | Easy |
 |2650    | 最小和分割 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/split-with-minimum-sum.rs) | [leetcode](https://leetcode-cn.com/problems/split-with-minimum-sum/) | Easy |
+|2654    | 统计范围内的元音字符串数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/count-the-number-of-vowel-strings-in-range.rs) | [leetcode](https://leetcode-cn.com/problems/count-the-number-of-vowel-strings-in-range/) | Easy |
 |2662    | 检查骑士巡视方案 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/check-knight-tour-configuration.rs) | [leetcode](https://leetcode-cn.com/problems/check-knight-tour-configuration/) | Medium |
 |2663    | 将钱分给最多的儿童 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/distribute-money-to-maximum-children.rs) | [leetcode](https://leetcode-cn.com/problems/distribute-money-to-maximum-children/) | Easy |
 |2668    | 从两个数字数组里生成最小数字 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/form-smallest-number-from-two-digit-arrays.rs) | [leetcode](https://leetcode-cn.com/problems/form-smallest-number-from-two-digit-arrays/) | Easy |
