@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 581 | 247 | 306 | 28 |
+| 582 | 248 | 306 | 28 |
 
 ### 题目
 
@@ -452,6 +452,7 @@
 |2694    | 找出可整除性得分最大的整数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-the-maximum-divisibility-score.rs) | [leetcode](https://leetcode-cn.com/problems/find-the-maximum-divisibility-score/) | Easy |
 |2698    | 找出数组的串联值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-the-array-concatenation-value.rs) | [leetcode](https://leetcode-cn.com/problems/find-the-array-concatenation-value/) | Easy |
 |2715    | K 件物品的最大和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/k-items-with-the-maximum-sum.rs) | [leetcode](https://leetcode-cn.com/problems/k-items-with-the-maximum-sum/) | Easy |
+|2723    | 最长平衡子字符串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-the-longest-balanced-substring-of-a-binary-string.rs) | [leetcode](https://leetcode-cn.com/problems/find-the-longest-balanced-substring-of-a-binary-string/) | Easy |
 |2727    | 老人的数目 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/number-of-senior-citizens.rs) | [leetcode](https://leetcode-cn.com/problems/number-of-senior-citizens/) | Easy |
 |2728    | 矩阵中的和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/sum-in-a-matrix.rs) | [leetcode](https://leetcode-cn.com/problems/sum-in-a-matrix/) | Medium |
 |2748    | 计算列车到站时间 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/calculate-delayed-arrival-time.rs) | [leetcode](https://leetcode-cn.com/problems/calculate-delayed-arrival-time/) | Easy |
