@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 582 | 248 | 306 | 28 |
+| 583 | 248 | 307 | 28 |
 
 ### 题目
 
@@ -423,6 +423,7 @@
 |2386    | 极大极小游戏 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/min-max-game.rs) | [leetcode](https://leetcode-cn.com/problems/min-max-game/) | Easy |
 |2392    | 咒语和药水的成功对数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/successful-pairs-of-spells-and-potions.rs) | [leetcode](https://leetcode-cn.com/problems/successful-pairs-of-spells-and-potions/) | Medium |
 |2414    | 移动片段得到字符串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/move-pieces-to-obtain-a-string.rs) | [leetcode](https://leetcode-cn.com/problems/move-pieces-to-obtain-a-string/) | Medium |
+|2470    | 从字符串中移除星号 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/removing-stars-from-a-string.rs) | [leetcode](https://leetcode-cn.com/problems/removing-stars-from-a-string/) | Medium |
 |2518    | 处理用时最长的那个任务的员工 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/the-employee-that-worked-on-the-longest-task.rs) | [leetcode](https://leetcode-cn.com/problems/the-employee-that-worked-on-the-longest-task/) | Easy |
 |2551    | 对数组执行操作 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/apply-operations-to-an-array.rs) | [leetcode](https://leetcode-cn.com/problems/apply-operations-to-an-array/) | Easy |
 |2566    | 数组中不等三元组的数目 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/number-of-unequal-triplets-in-array.rs) | [leetcode](https://leetcode-cn.com/problems/number-of-unequal-triplets-in-array/) | Easy |
