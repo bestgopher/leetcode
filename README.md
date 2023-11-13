@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 584 | 249 | 307 | 28 |
+| 585 | 249 | 308 | 28 |
 
 ### 题目
 
@@ -191,6 +191,7 @@
 |297    | 二叉树的序列化与反序列化 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/serialize-and-deserialize-binary-tree.rs) | [leetcode](https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/) | Hard |
 |300    | 最长递增子序列 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/longest-increasing-subsequence.rs) | [leetcode](https://leetcode-cn.com/problems/longest-increasing-subsequence/) | Medium |
 |303    | 区域和检索 - 数组不可变 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/range-sum-query-immutable.rs) | [leetcode](https://leetcode-cn.com/problems/range-sum-query-immutable/) | Easy |
+|307    | 区域和检索 - 数组可修改 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/range-sum-query-mutable.rs) | [leetcode](https://leetcode-cn.com/problems/range-sum-query-mutable/) | Medium |
 |309    | 最佳买卖股票时机含冷冻期 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/best-time-to-buy-and-sell-stock-with-cooldown.rs) | [leetcode](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) | Medium |
 |318    | 最大单词长度乘积 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-product-of-word-lengths.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-product-of-word-lengths/) | Medium |
 |319    | 灯泡开关 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/bulb-switcher.rs) | [leetcode](https://leetcode-cn.com/problems/bulb-switcher/) | Medium |
