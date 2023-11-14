@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 585 | 249 | 308 | 28 |
+| 586 | 249 | 309 | 28 |
 
 ### 题目
 
@@ -467,6 +467,7 @@
 |2838    | 查询后矩阵的和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/sum-of-matrix-after-queries.rs) | [leetcode](https://leetcode-cn.com/problems/sum-of-matrix-after-queries/) | Medium |
 |2977    | 判别首字母缩略词 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/check-if-a-string-is-an-acronym-of-words.rs) | [leetcode](https://leetcode-cn.com/problems/check-if-a-string-is-an-acronym-of-words/) | Easy |
 |3094    | 使数组为空的最少操作次数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-number-of-operations-to-make-array-empty.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-number-of-operations-to-make-array-empty/) | Medium |
+|3152    | 有序三元组中的最大值 II | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-value-of-an-ordered-triplet-ii.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-value-of-an-ordered-triplet-ii/) | Medium |
 |100162    | 字符串轮转 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/string-rotation-lcci.rs) | [leetcode](https://leetcode-cn.com/problems/string-rotation-lcci/) | Easy |
 |100163    | 移除重复节点 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/remove-duplicate-node-lcci.rs) | [leetcode](https://leetcode-cn.com/problems/remove-duplicate-node-lcci/) | Easy |
 |100273    | 用两个栈实现队列 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/yong-liang-ge-zhan-shi-xian-dui-lie-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/) | Easy |
