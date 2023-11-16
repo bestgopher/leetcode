@@ -53,7 +53,14 @@ impl NumArray {
         self.update_index(0, 0, self.nums.len() - 1, index as usize, v);
     }
 
-    fn update_index(&mut self, tree_index: usize, left_index: usize, right_index: usize, index: usize, val: i32) {
+    fn update_index(
+        &mut self,
+        tree_index: usize,
+        left_index: usize,
+        right_index: usize,
+        index: usize,
+        val: i32,
+    ) {
         self.segment_tree[tree_index] += val;
         if left_index == right_index {
             return;
@@ -61,9 +68,9 @@ impl NumArray {
 
         let mid = left_index + (right_index - left_index) / 2;
         if index <= mid {
-            self.update_index(tree_index*2+1, left_index, mid, index, val);
+            self.update_index(tree_index * 2 + 1, left_index, mid, index, val);
         } else {
-            self.update_index(tree_index*2+2, mid + 1, right_index, index, val);
+            self.update_index(tree_index * 2 + 2, mid + 1, right_index, index, val);
         }
     }
 
@@ -91,7 +98,7 @@ impl NumArray {
             return self.get_range(left_tree_index, l, mid, left, right);
         } else {
             self.get_range(left_tree_index, l, mid, left, mid)
-                + self.get_range(right_tree_index, mid + 1, r, mid+1, right)
+                + self.get_range(right_tree_index, mid + 1, r, mid + 1, right)
         }
     }
 }
