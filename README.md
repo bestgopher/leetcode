@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 586 | 249 | 309 | 28 |
+| 587 | 250 | 309 | 28 |
 
 ### 题目
 
@@ -296,6 +296,7 @@
 |842    | 翻转卡片游戏 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/card-flipping-game.rs) | [leetcode](https://leetcode-cn.com/problems/card-flipping-game/) | Medium |
 |857    | 较大分组的位置 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/positions-of-large-groups.rs) | [leetcode](https://leetcode-cn.com/problems/positions-of-large-groups/) | Easy |
 |860    | 设计循环队列 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/design-circular-queue.rs) | [leetcode](https://leetcode-cn.com/problems/design-circular-queue/) | Medium |
+|861    | 翻转图像 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/flipping-an-image.rs) | [leetcode](https://leetcode-cn.com/problems/flipping-an-image/) | Easy |
 |862    | 字符串中的查找与替换 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-and-replace-in-string.rs) | [leetcode](https://leetcode-cn.com/problems/find-and-replace-in-string/) | Medium |
 |868    | 推多米诺 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/push-dominoes.rs) | [leetcode](https://leetcode-cn.com/problems/push-dominoes/) | Medium |
 |879    | 到最近的人的最大距离 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximize-distance-to-closest-person.rs) | [leetcode](https://leetcode-cn.com/problems/maximize-distance-to-closest-person/) | Medium |
