@@ -34,7 +34,6 @@ impl Solution {
             s += 1;
         }
 
-
         let mut s = king[1];
         while s >= 1 {
             if hash.contains(&vec![king[0], s - 1]) {
@@ -63,7 +62,6 @@ impl Solution {
             s2 -= 1;
         }
 
-
         let (mut s1, mut s2) = (king[0], king[1]);
         while s1 <= 6 && s2 <= 6 {
             if hash.contains(&vec![s1 + 1, s2 + 1]) {
@@ -83,7 +81,6 @@ impl Solution {
             s1 -= 1;
             s2 += 1;
         }
-
 
         let (mut s1, mut s2) = (king[0], king[1]);
         while s1 <= 6 && s2 >= 0 {
