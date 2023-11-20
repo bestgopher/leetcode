@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 589 | 251 | 310 | 28 |
+| 590 | 252 | 310 | 28 |
 
 ### 题目
 
@@ -415,6 +415,7 @@
 |2210    | 找出数组排序后的目标下标 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-target-indices-after-sorting-array.rs) | [leetcode](https://leetcode-cn.com/problems/find-target-indices-after-sorting-array/) | Easy |
 |2226    | 环和杆 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/rings-and-rods.rs) | [leetcode](https://leetcode-cn.com/problems/rings-and-rods/) | Easy |
 |2233    | 股票平滑下跌阶段的数目 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/number-of-smooth-descent-periods-of-a-stock.rs) | [leetcode](https://leetcode-cn.com/problems/number-of-smooth-descent-periods-of-a-stock/) | Medium |
+|2235    | 将标题首字母大写 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/capitalize-the-title.rs) | [leetcode](https://leetcode-cn.com/problems/capitalize-the-title/) | Easy |
 |2235    | 将标题首字母大写 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/capitalize-the-title.rs) | [leetcode](https://leetcode-cn.com/problems/capitalize-the-title/) | Easy |
 |2261    | 分组得分最高的所有下标 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/all-divisions-with-the-highest-score-of-a-binary-array.rs) | [leetcode](https://leetcode-cn.com/problems/all-divisions-with-the-highest-score-of-a-binary-array/) | Medium |
 |2279    | 拆分成最多数目的正偶数之和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-split-of-positive-even-integers.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-split-of-positive-even-integers/) | Medium |
