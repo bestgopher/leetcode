@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 594 | 255 | 311 | 28 |
+| 595 | 255 | 312 | 28 |
 
 ### 题目
 
@@ -375,6 +375,7 @@
 |1503    | 做菜顺序 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/reducing-dishes.rs) | [leetcode](https://leetcode-cn.com/problems/reducing-dishes/) | Hard |
 |1505    | 按既定顺序创建目标数组 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/create-target-array-in-the-given-order.rs) | [leetcode](https://leetcode-cn.com/problems/create-target-array-in-the-given-order/) | Easy |
 |1512    | 设计地铁系统 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/design-underground-system.rs) | [leetcode](https://leetcode-cn.com/problems/design-underground-system/) | Medium |
+|1526    | HTML 实体解析器 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/html-entity-parser.rs) | [leetcode](https://leetcode-cn.com/problems/html-entity-parser/) | Medium |
 |1537    | 分割字符串的最大得分 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-score-after-splitting-a-string.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-score-after-splitting-a-string/) | Easy |
 |1538    | 可获得的最大点数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-points-you-can-obtain-from-cards.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-points-you-can-obtain-from-cards/) | Medium |
 |1544    | 统计二叉树中好节点的数目 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/count-good-nodes-in-binary-tree.rs) | [leetcode](https://leetcode-cn.com/problems/count-good-nodes-in-binary-tree/) | Medium |
