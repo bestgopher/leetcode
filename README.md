@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 596 | 256 | 312 | 28 |
+| 597 | 256 | 313 | 28 |
 
 ### 题目
 
@@ -382,6 +382,7 @@
 |1552    | 用栈操作构建数组 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/build-an-array-with-stack-operations.rs) | [leetcode](https://leetcode-cn.com/problems/build-an-array-with-stack-operations/) | Easy |
 |1566    | 检查单词是否为句中其他单词的前缀 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence.rs) | [leetcode](https://leetcode-cn.com/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/) | Easy |
 |1567    | 定长子串中元音的最大数目 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-number-of-vowels-in-a-substring-of-given-length.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/) | Medium |
+|1568    | 二叉树中的伪回文路径 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/pseudo-palindromic-paths-in-a-binary-tree.rs) | [leetcode](https://leetcode-cn.com/problems/pseudo-palindromic-paths-in-a-binary-tree/) | Medium |
 |1575    | 切割后面积最大的蛋糕 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts/) | Medium |
 |1603    | 一维数组的动态和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/running-sum-of-1d-array.rs) | [leetcode](https://leetcode-cn.com/problems/running-sum-of-1d-array/) | Easy |
 |1604    | 不同整数的最少数目 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/least-number-of-unique-integers-after-k-removals.rs) | [leetcode](https://leetcode-cn.com/problems/least-number-of-unique-integers-after-k-removals/) | Medium |
