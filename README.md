@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 597 | 256 | 313 | 28 |
+| 598 | 256 | 314 | 28 |
 
 ### 题目
 
@@ -555,6 +555,7 @@
 |100344    | 股票的最大利润 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/gu-piao-de-zui-da-li-run-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/gu-piao-de-zui-da-li-run-lcof/) | Medium |
 |100345    | 求1+2+…+n | [src](https://github.com/rustors/leetcode/blob/main/src/bin/qiu-12n-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/qiu-12n-lcof/) | Medium |
 |100349    | 最大数值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-lcci.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-lcci/) | Easy |
+|100351    | 生存人数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/living-people-lcci.rs) | [leetcode](https://leetcode-cn.com/problems/living-people-lcci/) | Medium |
 |100352    | 跳水板 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/diving-board-lcci.rs) | [leetcode](https://leetcode-cn.com/problems/diving-board-lcci/) | Easy |
 |100353    | 平分正方形 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/bisect-squares-lcci.rs) | [leetcode](https://leetcode-cn.com/problems/bisect-squares-lcci/) | Medium |
 |1000021    | 最小K个数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/smallest-k-lcci.rs) | [leetcode](https://leetcode-cn.com/problems/smallest-k-lcci/) | Medium |
