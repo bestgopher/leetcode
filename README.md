@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 598 | 256 | 314 | 28 |
+| 599 | 257 | 314 | 28 |
 
 ### 题目
 
@@ -481,6 +481,7 @@
 |3152    | 有序三元组中的最大值 II | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-value-of-an-ordered-triplet-ii.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-value-of-an-ordered-triplet-ii/) | Medium |
 |100162    | 字符串轮转 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/string-rotation-lcci.rs) | [leetcode](https://leetcode-cn.com/problems/string-rotation-lcci/) | Easy |
 |100163    | 移除重复节点 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/remove-duplicate-node-lcci.rs) | [leetcode](https://leetcode-cn.com/problems/remove-duplicate-node-lcci/) | Easy |
+|100240    | 魔术索引 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/magic-index-lcci.rs) | [leetcode](https://leetcode-cn.com/problems/magic-index-lcci/) | Easy |
 |100273    | 用两个栈实现队列 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/yong-liang-ge-zhan-shi-xian-dui-lie-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/) | Easy |
 |100274    | 斐波那契数列 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/fei-bo-na-qi-shu-lie-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/fei-bo-na-qi-shu-lie-lcof/) | Easy |
 |100275    | 数组中重复的数字 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/shu-zu-zhong-zhong-fu-de-shu-zi-lcof.rs) | [leetcode](https://leetcode-cn.com/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/) | Easy |
