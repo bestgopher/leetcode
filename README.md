@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 599 | 257 | 314 | 28 |
+| 600 | 257 | 315 | 28 |
 
 ### 题目
 
@@ -393,6 +393,7 @@
 |1660    | 千位分隔数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/thousand-separator.rs) | [leetcode](https://leetcode-cn.com/problems/thousand-separator/) | Easy |
 |1666    | 整理字符串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/make-the-string-great.rs) | [leetcode](https://leetcode-cn.com/problems/make-the-string-great/) | Easy |
 |1677    | 矩阵对角线元素的和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/matrix-diagonal-sum.rs) | [leetcode](https://leetcode-cn.com/problems/matrix-diagonal-sum/) | Easy |
+|1767    | 设计前中后队列 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/design-front-middle-back-queue.rs) | [leetcode](https://leetcode-cn.com/problems/design-front-middle-back-queue/) | Medium |
 |1782    | 具有给定数值的最小字符串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/smallest-string-with-a-given-numeric-value.rs) | [leetcode](https://leetcode-cn.com/problems/smallest-string-with-a-given-numeric-value/) | Medium |
 |1791    | 最富有客户的资产总量 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/richest-customer-wealth.rs) | [leetcode](https://leetcode-cn.com/problems/richest-customer-wealth/) | Easy |
 |1797    | 设计 Goal 解析器 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/goal-parser-interpretation.rs) | [leetcode](https://leetcode-cn.com/problems/goal-parser-interpretation/) | Easy |
