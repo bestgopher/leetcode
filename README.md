@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 600 | 257 | 315 | 28 |
+| 601 | 257 | 316 | 28 |
 
 ### 题目
 
@@ -432,6 +432,7 @@
 |2384    | 判断根结点是否等于子结点之和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/root-equals-sum-of-children.rs) | [leetcode](https://leetcode-cn.com/problems/root-equals-sum-of-children/) | Easy |
 |2386    | 极大极小游戏 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/min-max-game.rs) | [leetcode](https://leetcode-cn.com/problems/min-max-game/) | Easy |
 |2392    | 咒语和药水的成功对数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/successful-pairs-of-spells-and-potions.rs) | [leetcode](https://leetcode-cn.com/problems/successful-pairs-of-spells-and-potions/) | Medium |
+|2413    | 无限集中的最小数字 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/smallest-number-in-infinite-set.rs) | [leetcode](https://leetcode-cn.com/problems/smallest-number-in-infinite-set/) | Medium |
 |2414    | 移动片段得到字符串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/move-pieces-to-obtain-a-string.rs) | [leetcode](https://leetcode-cn.com/problems/move-pieces-to-obtain-a-string/) | Medium |
 |2470    | 从字符串中移除星号 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/removing-stars-from-a-string.rs) | [leetcode](https://leetcode-cn.com/problems/removing-stars-from-a-string/) | Medium |
 |2473    | 数位和相等数对的最大和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/max-sum-of-a-pair-with-equal-sum-of-digits.rs) | [leetcode](https://leetcode-cn.com/problems/max-sum-of-a-pair-with-equal-sum-of-digits/) | Medium |
