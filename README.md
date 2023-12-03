@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 604 | 257 | 319 | 28 |
+| 605 | 258 | 319 | 28 |
 
 ### 题目
 
@@ -313,6 +313,7 @@
 |936    | RLE 迭代器 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/rle-iterator.rs) | [leetcode](https://leetcode-cn.com/problems/rle-iterator/) | Medium |
 |937    | 股票价格跨度 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/online-stock-span.rs) | [leetcode](https://leetcode-cn.com/problems/online-stock-span/) | Medium |
 |947    | 在线选举 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/online-election.rs) | [leetcode](https://leetcode-cn.com/problems/online-election/) | Medium |
+|950    | 卡牌分组 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/x-of-a-kind-in-a-deck-of-cards.rs) | [leetcode](https://leetcode-cn.com/problems/x-of-a-kind-in-a-deck-of-cards/) | Easy |
 |953    | 仅仅反转字母 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/reverse-only-letters.rs) | [leetcode](https://leetcode-cn.com/problems/reverse-only-letters/) | Easy |
 |954    | 环形子数组的最大和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-sum-circular-subarray.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-sum-circular-subarray/) | Medium |
 |967    | 下降路径最小和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-falling-path-sum.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-falling-path-sum/) | Medium |
