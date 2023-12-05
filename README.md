@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 606 | 258 | 320 | 28 |
+| 607 | 259 | 320 | 28 |
 
 ### 题目
 
@@ -406,6 +406,7 @@
 |1829    | 卡车上的最大单元数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-units-on-a-truck.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-units-on-a-truck/) | Easy |
 |1849    | 任意子数组和的绝对值的最大值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-absolute-sum-of-any-subarray.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-absolute-sum-of-any-subarray/) | Medium |
 |1858    | 替换隐藏数字得到的最晚时间 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/latest-time-by-replacing-hidden-digits.rs) | [leetcode](https://leetcode-cn.com/problems/latest-time-by-replacing-hidden-digits/) | Easy |
+|1884    | 生成交替二进制字符串的最少操作数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-changes-to-make-alternating-binary-string.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-changes-to-make-alternating-binary-string/) | Easy |
 |1894    | 交替合并字符串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/merge-strings-alternately.rs) | [leetcode](https://leetcode-cn.com/problems/merge-strings-alternately/) | Easy |
 |1929    | 有界数组中指定下标处的最大值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-value-at-a-given-index-in-a-bounded-array.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-value-at-a-given-index-in-a-bounded-array/) | Medium |
 |1938    | 最少操作使数组递增 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-operations-to-make-the-array-increasing.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-operations-to-make-the-array-increasing/) | Easy |
