@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 609 | 260 | 321 | 28 |
+| 610 | 261 | 321 | 28 |
 
 ### 题目
 
@@ -226,6 +226,7 @@
 |397    | 整数替换 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/integer-replacement.rs) | [leetcode](https://leetcode-cn.com/problems/integer-replacement/) | Medium |
 |398    | 随机数索引 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/random-pick-index.rs) | [leetcode](https://leetcode-cn.com/problems/random-pick-index/) | Medium |
 |400    | 第 N 位数字 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/nth-digit.rs) | [leetcode](https://leetcode-cn.com/problems/nth-digit/) | Medium |
+|401    | 二进制手表 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/binary-watch.rs) | [leetcode](https://leetcode-cn.com/problems/binary-watch/) | Easy |
 |404    | 左叶子之和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/sum-of-left-leaves.rs) | [leetcode](https://leetcode-cn.com/problems/sum-of-left-leaves/) | Easy |
 |406    | 根据身高重建队列 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/queue-reconstruction-by-height.rs) | [leetcode](https://leetcode-cn.com/problems/queue-reconstruction-by-height/) | Medium |
 |409    | 最长回文串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/longest-palindrome.rs) | [leetcode](https://leetcode-cn.com/problems/longest-palindrome/) | Easy |
