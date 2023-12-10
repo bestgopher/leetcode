@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 610 | 261 | 321 | 28 |
+| 611 | 262 | 321 | 28 |
 
 ### 题目
 
@@ -273,6 +273,7 @@
 |617    | 合并二叉树 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/merge-two-binary-trees.rs) | [leetcode](https://leetcode-cn.com/problems/merge-two-binary-trees/) | Easy |
 |621    | 任务调度器 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/task-scheduler.rs) | [leetcode](https://leetcode-cn.com/problems/task-scheduler/) | Medium |
 |623    | 在二叉树中增加一行 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/add-one-row-to-tree.rs) | [leetcode](https://leetcode-cn.com/problems/add-one-row-to-tree/) | Medium |
+|628    | 三个数的最大乘积 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-product-of-three-numbers.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-product-of-three-numbers/) | Easy |
 |637    | 二叉树的层平均值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/average-of-levels-in-binary-tree.rs) | [leetcode](https://leetcode-cn.com/problems/average-of-levels-in-binary-tree/) | Easy |
 |643    | 子数组最大平均数 I | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-average-subarray-i.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-average-subarray-i/) | Easy |
 |647    | 回文子串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/palindromic-substrings.rs) | [leetcode](https://leetcode-cn.com/problems/palindromic-substrings/) | Medium |
