@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 614 | 265 | 321 | 28 |
+| 615 | 266 | 321 | 28 |
 
 ### 题目
 
@@ -412,6 +412,7 @@
 |1858    | 替换隐藏数字得到的最晚时间 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/latest-time-by-replacing-hidden-digits.rs) | [leetcode](https://leetcode-cn.com/problems/latest-time-by-replacing-hidden-digits/) | Easy |
 |1884    | 生成交替二进制字符串的最少操作数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-changes-to-make-alternating-binary-string.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-changes-to-make-alternating-binary-string/) | Easy |
 |1894    | 交替合并字符串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/merge-strings-alternately.rs) | [leetcode](https://leetcode-cn.com/problems/merge-strings-alternately/) | Easy |
+|1899    | 统计匹配检索规则的物品数量 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/count-items-matching-a-rule.rs) | [leetcode](https://leetcode-cn.com/problems/count-items-matching-a-rule/) | Easy |
 |1929    | 有界数组中指定下标处的最大值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-value-at-a-given-index-in-a-bounded-array.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-value-at-a-given-index-in-a-bounded-array/) | Medium |
 |1938    | 最少操作使数组递增 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-operations-to-make-the-array-increasing.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-operations-to-make-the-array-increasing/) | Easy |
 |1940    | 每个查询的最大异或值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-xor-for-each-query.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-xor-for-each-query/) | Medium |
