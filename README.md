@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 616 | 266 | 322 | 28 |
+| 617 | 267 | 322 | 28 |
 
 ### 题目
 
@@ -288,6 +288,7 @@
 |724    | 寻找数组的中心下标 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-pivot-index.rs) | [leetcode](https://leetcode-cn.com/problems/find-pivot-index/) | Easy |
 |739    | 每日温度 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/daily-temperatures.rs) | [leetcode](https://leetcode-cn.com/problems/daily-temperatures/) | Medium |
 |742    | 转换成小写字母 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/to-lower-case.rs) | [leetcode](https://leetcode-cn.com/problems/to-lower-case/) | Easy |
+|747    | 使用最小花费爬楼梯 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/min-cost-climbing-stairs.rs) | [leetcode](https://leetcode-cn.com/problems/min-cost-climbing-stairs/) | Easy |
 |782    | 宝石与石头 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/jewels-and-stones.rs) | [leetcode](https://leetcode-cn.com/problems/jewels-and-stones/) | Easy |
 |783    | 二叉搜索树中的搜索 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/search-in-a-binary-search-tree.rs) | [leetcode](https://leetcode-cn.com/problems/search-in-a-binary-search-tree/) | Easy |
 |784    | 二叉搜索树中的插入操作 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/insert-into-a-binary-search-tree.rs) | [leetcode](https://leetcode-cn.com/problems/insert-into-a-binary-search-tree/) | Medium |
