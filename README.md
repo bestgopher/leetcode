@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 617 | 267 | 322 | 28 |
+| 618 | 267 | 323 | 28 |
 
 ### 题目
 
@@ -610,6 +610,7 @@
 |1000279    | 后缀表达式 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/8Zf90G.rs) | [leetcode](https://leetcode-cn.com/problems/8Zf90G/) | Medium |
 |1000281    | 小行星碰撞 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/XagZNi.rs) | [leetcode](https://leetcode-cn.com/problems/XagZNi/) | Medium |
 |1000282    | 每日温度 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/iIQa4I.rs) | [leetcode](https://leetcode-cn.com/problems/iIQa4I/) | Medium |
+|1000286    | 三角形最小路径和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/IlPe0q.rs) | [leetcode](https://leetcode-cn.com/problems/IlPe0q/) | Medium |
 |1000288    | 加减的目标值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/YaVDxD.rs) | [leetcode](https://leetcode-cn.com/problems/YaVDxD/) | Medium |
 |1000292    | 滑动窗口的平均值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/qIsx9U.rs) | [leetcode](https://leetcode-cn.com/problems/qIsx9U/) | Easy |
 |1000295    | 往完全二叉树添加节点 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/NaqhDT.rs) | [leetcode](https://leetcode-cn.com/problems/NaqhDT/) | Medium |
