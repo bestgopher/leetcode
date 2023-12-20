@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 619 | 268 | 323 | 28 |
+| 620 | 269 | 323 | 28 |
 
 ### 题目
 
@@ -422,6 +422,7 @@
 |1971    | 增长的内存泄露 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/incremental-memory-leak.rs) | [leetcode](https://leetcode-cn.com/problems/incremental-memory-leak/) | Medium |
 |1983    | 人口最多的年份 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-population-year.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-population-year/) | Easy |
 |2022    | 最大子序列交替和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-alternating-subsequence-sum.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-alternating-subsequence-sum/) | Medium |
+|2032    | 字符串中的最大奇数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/largest-odd-number-in-string.rs) | [leetcode](https://leetcode-cn.com/problems/largest-odd-number-in-string/) | Easy |
 |2049    | 消灭怪物的最大数量 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/eliminate-maximum-number-of-monsters.rs) | [leetcode](https://leetcode-cn.com/problems/eliminate-maximum-number-of-monsters/) | Medium |
 |2053    | 检查是否所有字符出现次数相同 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/check-if-all-characters-have-equal-number-of-occurrences.rs) | [leetcode](https://leetcode-cn.com/problems/check-if-all-characters-have-equal-number-of-occurrences/) | Easy |
 |2104    | 树上的操作 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/operations-on-tree.rs) | [leetcode](https://leetcode-cn.com/problems/operations-on-tree/) | Medium |
