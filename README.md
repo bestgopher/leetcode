@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 621 | 270 | 323 | 28 |
+| 622 | 271 | 323 | 28 |
 
 ### 题目
 
@@ -338,6 +338,7 @@
 |1114    | 从二叉搜索树到更大和树 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/binary-search-tree-to-greater-sum-tree.rs) | [leetcode](https://leetcode-cn.com/problems/binary-search-tree-to-greater-sum-tree/) | Medium |
 |1119    | 困于环中的机器人 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/robot-bounded-in-circle.rs) | [leetcode](https://leetcode-cn.com/problems/robot-bounded-in-circle/) | Medium |
 |1128    | 删除字符串中的所有相邻重复项 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/remove-all-adjacent-duplicates-in-string.rs) | [leetcode](https://leetcode-cn.com/problems/remove-all-adjacent-duplicates-in-string/) | Easy |
+|1146    | 字符串的最大公因子 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/greatest-common-divisor-of-strings.rs) | [leetcode](https://leetcode-cn.com/problems/greatest-common-divisor-of-strings/) | Easy |
 |1157    | 根到叶路径上的不足节点 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/insufficient-nodes-in-root-to-leaf-paths.rs) | [leetcode](https://leetcode-cn.com/problems/insufficient-nodes-in-root-to-leaf-paths/) | Medium |
 |1184    | 拼车 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/car-pooling.rs) | [leetcode](https://leetcode-cn.com/problems/car-pooling/) | Medium |
 |1210    | 删除某些元素后的数组均值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/mean-of-array-after-removing-some-elements.rs) | [leetcode](https://leetcode-cn.com/problems/mean-of-array-after-removing-some-elements/) | Easy |
