@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 622 | 271 | 323 | 28 |
+| 623 | 271 | 324 | 28 |
 
 ### 题目
 
@@ -427,6 +427,7 @@
 |2032    | 字符串中的最大奇数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/largest-odd-number-in-string.rs) | [leetcode](https://leetcode-cn.com/problems/largest-odd-number-in-string/) | Easy |
 |2049    | 消灭怪物的最大数量 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/eliminate-maximum-number-of-monsters.rs) | [leetcode](https://leetcode-cn.com/problems/eliminate-maximum-number-of-monsters/) | Medium |
 |2053    | 检查是否所有字符出现次数相同 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/check-if-all-characters-have-equal-number-of-occurrences.rs) | [leetcode](https://leetcode-cn.com/problems/check-if-all-characters-have-equal-number-of-occurrences/) | Easy |
+|2094    | 移除石子使总数最小 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/remove-stones-to-minimize-the-total.rs) | [leetcode](https://leetcode-cn.com/problems/remove-stones-to-minimize-the-total/) | Medium |
 |2104    | 树上的操作 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/operations-on-tree.rs) | [leetcode](https://leetcode-cn.com/problems/operations-on-tree/) | Medium |
 |2128    | 反转单词前缀 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/reverse-prefix-of-word.rs) | [leetcode](https://leetcode-cn.com/problems/reverse-prefix-of-word/) | Easy |
 |2159    | 至少在两个数组中出现的值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/two-out-of-three.rs) | [leetcode](https://leetcode-cn.com/problems/two-out-of-three/) | Easy |
