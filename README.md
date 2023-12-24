@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 623 | 271 | 324 | 28 |
+| 624 | 271 | 325 | 28 |
 
 ### 题目
 
@@ -350,6 +350,7 @@
 |1273    | 比较字符串最小字母出现频次 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/compare-strings-by-frequency-of-the-smallest-character.rs) | [leetcode](https://leetcode-cn.com/problems/compare-strings-by-frequency-of-the-smallest-character/) | Medium |
 |1287    | 公交站间的距离 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/distance-between-bus-stops.rs) | [leetcode](https://leetcode-cn.com/problems/distance-between-bus-stops/) | Easy |
 |1293    | 存在连续三个奇数的数组 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/three-consecutive-odds.rs) | [leetcode](https://leetcode-cn.com/problems/three-consecutive-odds/) | Easy |
+|1295    | 收集足够苹果的最小花园周长 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-garden-perimeter-to-collect-enough-apples.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-garden-perimeter-to-collect-enough-apples/) | Medium |
 |1306    | 最小绝对差 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-absolute-difference.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-absolute-difference/) | Easy |
 |1319    | 独一无二的出现次数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/unique-number-of-occurrences.rs) | [leetcode](https://leetcode-cn.com/problems/unique-number-of-occurrences/) | Easy |
 |1320    | 删除字符串中的所有相邻重复项 II | [src](https://github.com/rustors/leetcode/blob/main/src/bin/remove-all-adjacent-duplicates-in-string-ii.rs) | [leetcode](https://leetcode-cn.com/problems/remove-all-adjacent-duplicates-in-string-ii/) | Medium |
