@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 624 | 271 | 325 | 28 |
+| 625 | 271 | 326 | 28 |
 
 ### 题目
 
@@ -368,6 +368,7 @@
 |1394    | 网格中的最小路径代价 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-path-cost-in-a-grid.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-path-cost-in-a-grid/) | Medium |
 |1396    | 统计参与通信的服务器 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/count-servers-that-communicate.rs) | [leetcode](https://leetcode-cn.com/problems/count-servers-that-communicate/) | Medium |
 |1396    | 统计参与通信的服务器 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/count-servers-that-communicate.rs) | [leetcode](https://leetcode-cn.com/problems/count-servers-that-communicate/) | Medium |
+|1401    | 不浪费原料的汉堡制作方案 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/number-of-burgers-with-no-waste-of-ingredients.rs) | [leetcode](https://leetcode-cn.com/problems/number-of-burgers-with-no-waste-of-ingredients/) | Medium |
 |1406    | 整数的各位积和之差 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/subtract-the-product-and-sum-of-digits-of-an-integer.rs) | [leetcode](https://leetcode-cn.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/) | Easy |
 |1411    | 二进制链表转整数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/convert-binary-number-in-a-linked-list-to-integer.rs) | [leetcode](https://leetcode-cn.com/problems/convert-binary-number-in-a-linked-list-to-integer/) | Easy |
 |1426    | 和为零的 N 个不同整数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-n-unique-integers-sum-up-to-zero.rs) | [leetcode](https://leetcode-cn.com/problems/find-n-unique-integers-sum-up-to-zero/) | Easy |
