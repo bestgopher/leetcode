@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 625 | 271 | 326 | 28 |
+| 626 | 272 | 326 | 28 |
 
 ### 题目
 
@@ -504,6 +504,7 @@
 |3045    | 使数组成为递增数组的最少右移次数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-right-shifts-to-sort-the-array.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-right-shifts-to-sort-the-array/) | Easy |
 |3094    | 使数组为空的最少操作次数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-number-of-operations-to-make-array-empty.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-number-of-operations-to-make-array-empty/) | Medium |
 |3152    | 有序三元组中的最大值 II | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-value-of-an-ordered-triplet-ii.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-value-of-an-ordered-triplet-ii/) | Medium |
+|3188    | 找到冠军 I | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-champion-i.rs) | [leetcode](https://leetcode-cn.com/problems/find-champion-i/) | Easy |
 |100162    | 字符串轮转 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/string-rotation-lcci.rs) | [leetcode](https://leetcode-cn.com/problems/string-rotation-lcci/) | Easy |
 |100163    | 移除重复节点 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/remove-duplicate-node-lcci.rs) | [leetcode](https://leetcode-cn.com/problems/remove-duplicate-node-lcci/) | Easy |
 |100240    | 魔术索引 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/magic-index-lcci.rs) | [leetcode](https://leetcode-cn.com/problems/magic-index-lcci/) | Easy |
