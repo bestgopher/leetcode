@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 626 | 272 | 326 | 28 |
+| 627 | 273 | 326 | 28 |
 
 ### 题目
 
@@ -479,6 +479,7 @@
 |2668    | 从两个数字数组里生成最小数字 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/form-smallest-number-from-two-digit-arrays.rs) | [leetcode](https://leetcode-cn.com/problems/form-smallest-number-from-two-digit-arrays/) | Easy |
 |2676    | 一个数组所有前缀的分数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-the-score-of-all-prefixes-of-an-array.rs) | [leetcode](https://leetcode-cn.com/problems/find-the-score-of-all-prefixes-of-an-array/) | Medium |
 |2679    | 统计桌面上的不同数字 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/count-distinct-numbers-on-board.rs) | [leetcode](https://leetcode-cn.com/problems/count-distinct-numbers-on-board/) | Easy |
+|2684    | 保龄球游戏的获胜者 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/determine-the-winner-of-a-bowling-game.rs) | [leetcode](https://leetcode-cn.com/problems/determine-the-winner-of-a-bowling-game/) | Easy |
 |2685    | 找出叠涂元素 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/first-completely-painted-row-or-column.rs) | [leetcode](https://leetcode-cn.com/problems/first-completely-painted-row-or-column/) | Medium |
 |2691    | 统计范围内的元音字符串数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/count-vowel-strings-in-ranges.rs) | [leetcode](https://leetcode-cn.com/problems/count-vowel-strings-in-ranges/) | Medium |
 |2692    | 从数量最多的堆取走礼物 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/take-gifts-from-the-richest-pile.rs) | [leetcode](https://leetcode-cn.com/problems/take-gifts-from-the-richest-pile/) | Easy |
