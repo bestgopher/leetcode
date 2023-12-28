@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 627 | 273 | 326 | 28 |
+| 628 | 274 | 326 | 28 |
 
 ### 题目
 
@@ -357,6 +357,7 @@
 |1329    | 玩筹码 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-cost-to-move-chips-to-the-same-position.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-cost-to-move-chips-to-the-same-position/) | Easy |
 |1341    | 分割平衡字符串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/split-a-string-in-balanced-strings.rs) | [leetcode](https://leetcode-cn.com/problems/split-a-string-in-balanced-strings/) | Easy |
 |1342    | 可以攻击国王的皇后 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/queens-that-can-attack-the-king.rs) | [leetcode](https://leetcode-cn.com/problems/queens-that-can-attack-the-king/) | Medium |
+|1353    | 移除字母异位词后的结果数组 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-resultant-array-after-removing-anagrams.rs) | [leetcode](https://leetcode-cn.com/problems/find-resultant-array-after-removing-anagrams/) | Easy |
 |1362    | 飞机座位分配概率 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/airplane-seat-assignment-probability.rs) | [leetcode](https://leetcode-cn.com/problems/airplane-seat-assignment-probability/) | Medium |
 |1363    | 兼具大小写的最好英文字母 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/greatest-english-letter-in-upper-and-lower-case.rs) | [leetcode](https://leetcode-cn.com/problems/greatest-english-letter-in-upper-and-lower-case/) | Easy |
 |1364    | 同积元组 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/tuple-with-same-product.rs) | [leetcode](https://leetcode-cn.com/problems/tuple-with-same-product/) | Medium |
