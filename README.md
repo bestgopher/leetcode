@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 631 | 277 | 326 | 28 |
+| 632 | 278 | 326 | 28 |
 
 ### 题目
 
@@ -504,6 +504,7 @@
 |2816    | 字典序最小回文串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/lexicographically-smallest-palindrome.rs) | [leetcode](https://leetcode-cn.com/problems/lexicographically-smallest-palindrome/) | Easy |
 |2838    | 查询后矩阵的和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/sum-of-matrix-after-queries.rs) | [leetcode](https://leetcode-cn.com/problems/sum-of-matrix-after-queries/) | Medium |
 |2866    | 最长奇偶子数组 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/longest-even-odd-subarray-with-threshold.rs) | [leetcode](https://leetcode-cn.com/problems/longest-even-odd-subarray-with-threshold/) | Easy |
+|2881    | 按分隔符拆分字符串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/split-strings-by-separator.rs) | [leetcode](https://leetcode-cn.com/problems/split-strings-by-separator/) | Easy |
 |2917    | 统计和小于目标的下标对数目 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/count-pairs-whose-sum-is-less-than-target.rs) | [leetcode](https://leetcode-cn.com/problems/count-pairs-whose-sum-is-less-than-target/) | Easy |
 |2977    | 判别首字母缩略词 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/check-if-a-string-is-an-acronym-of-words.rs) | [leetcode](https://leetcode-cn.com/problems/check-if-a-string-is-an-acronym-of-words/) | Easy |
 |3045    | 使数组成为递增数组的最少右移次数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-right-shifts-to-sort-the-array.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-right-shifts-to-sort-the-array/) | Easy |
