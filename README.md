@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 632 | 278 | 326 | 28 |
+| 633 | 278 | 327 | 28 |
 
 ### 题目
 
@@ -463,6 +463,7 @@
 |2551    | 对数组执行操作 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/apply-operations-to-an-array.rs) | [leetcode](https://leetcode-cn.com/problems/apply-operations-to-an-array/) | Easy |
 |2566    | 数组中不等三元组的数目 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/number-of-unequal-triplets-in-array.rs) | [leetcode](https://leetcode-cn.com/problems/number-of-unequal-triplets-in-array/) | Easy |
 |2571    | 找出中枢整数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-the-pivot-integer.rs) | [leetcode](https://leetcode-cn.com/problems/find-the-pivot-integer/) | Easy |
+|2573    | 从链表中移除节点 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/remove-nodes-from-linked-list.rs) | [leetcode](https://leetcode-cn.com/problems/remove-nodes-from-linked-list/) | Medium |
 |2575    | 分割圆的最少切割次数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-cuts-to-divide-a-circle.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-cuts-to-divide-a-circle/) | Easy |
 |2580    | 回环句 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/circular-sentence.rs) | [leetcode](https://leetcode-cn.com/problems/circular-sentence/) | Easy |
 |2585    | 删除每行中的最大值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/delete-greatest-value-in-each-row.rs) | [leetcode](https://leetcode-cn.com/problems/delete-greatest-value-in-each-row/) | Easy |
