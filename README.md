@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 633 | 278 | 327 | 28 |
+| 634 | 278 | 328 | 28 |
 
 ### 题目
 
@@ -458,6 +458,7 @@
 |2414    | 移动片段得到字符串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/move-pieces-to-obtain-a-string.rs) | [leetcode](https://leetcode-cn.com/problems/move-pieces-to-obtain-a-string/) | Medium |
 |2470    | 从字符串中移除星号 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/removing-stars-from-a-string.rs) | [leetcode](https://leetcode-cn.com/problems/removing-stars-from-a-string/) | Medium |
 |2473    | 数位和相等数对的最大和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/max-sum-of-a-pair-with-equal-sum-of-digits.rs) | [leetcode](https://leetcode-cn.com/problems/max-sum-of-a-pair-with-equal-sum-of-digits/) | Medium |
+|2482    | 被列覆盖的最多行数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-rows-covered-by-columns.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-rows-covered-by-columns/) | Medium |
 |2493    | 反转二叉树的奇数层 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/reverse-odd-levels-of-binary-tree.rs) | [leetcode](https://leetcode-cn.com/problems/reverse-odd-levels-of-binary-tree/) | Medium |
 |2518    | 处理用时最长的那个任务的员工 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/the-employee-that-worked-on-the-longest-task.rs) | [leetcode](https://leetcode-cn.com/problems/the-employee-that-worked-on-the-longest-task/) | Easy |
 |2551    | 对数组执行操作 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/apply-operations-to-an-array.rs) | [leetcode](https://leetcode-cn.com/problems/apply-operations-to-an-array/) | Easy |
