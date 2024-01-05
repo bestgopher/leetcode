@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 634 | 278 | 328 | 28 |
+| 635 | 278 | 329 | 28 |
 
 ### 题目
 
@@ -428,6 +428,7 @@
 |1960    | 判断句子是否为全字母句 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/check-if-the-sentence-is-pangram.rs) | [leetcode](https://leetcode-cn.com/problems/check-if-the-sentence-is-pangram/) | Easy |
 |1971    | 增长的内存泄露 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/incremental-memory-leak.rs) | [leetcode](https://leetcode-cn.com/problems/incremental-memory-leak/) | Medium |
 |1983    | 人口最多的年份 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-population-year.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-population-year/) | Easy |
+|2011    | 插入后的最大值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-value-after-insertion.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-value-after-insertion/) | Medium |
 |2022    | 最大子序列交替和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-alternating-subsequence-sum.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-alternating-subsequence-sum/) | Medium |
 |2032    | 字符串中的最大奇数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/largest-odd-number-in-string.rs) | [leetcode](https://leetcode-cn.com/problems/largest-odd-number-in-string/) | Easy |
 |2049    | 消灭怪物的最大数量 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/eliminate-maximum-number-of-monsters.rs) | [leetcode](https://leetcode-cn.com/problems/eliminate-maximum-number-of-monsters/) | Medium |
