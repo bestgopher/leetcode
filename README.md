@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 635 | 278 | 329 | 28 |
+| 636 | 278 | 330 | 28 |
 
 ### 题目
 
@@ -462,6 +462,7 @@
 |2482    | 被列覆盖的最多行数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-rows-covered-by-columns.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-rows-covered-by-columns/) | Medium |
 |2493    | 反转二叉树的奇数层 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/reverse-odd-levels-of-binary-tree.rs) | [leetcode](https://leetcode-cn.com/problems/reverse-odd-levels-of-binary-tree/) | Medium |
 |2518    | 处理用时最长的那个任务的员工 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/the-employee-that-worked-on-the-longest-task.rs) | [leetcode](https://leetcode-cn.com/problems/the-employee-that-worked-on-the-longest-task/) | Easy |
+|2519    | 找出前缀异或的原始数组 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-the-original-array-of-prefix-xor.rs) | [leetcode](https://leetcode-cn.com/problems/find-the-original-array-of-prefix-xor/) | Medium |
 |2551    | 对数组执行操作 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/apply-operations-to-an-array.rs) | [leetcode](https://leetcode-cn.com/problems/apply-operations-to-an-array/) | Easy |
 |2566    | 数组中不等三元组的数目 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/number-of-unequal-triplets-in-array.rs) | [leetcode](https://leetcode-cn.com/problems/number-of-unequal-triplets-in-array/) | Easy |
 |2571    | 找出中枢整数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-the-pivot-integer.rs) | [leetcode](https://leetcode-cn.com/problems/find-the-pivot-integer/) | Easy |
