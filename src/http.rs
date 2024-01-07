@@ -10,7 +10,7 @@ lazy_static! {
     static ref RE: Regex = Regex::new(r".*?/problems/(.*?)/").unwrap();
 }
 
-const URL: &str = "https://leetcode-cn.com/graphql/";
+const URL: &str = "https://leetcode.cn/graphql/";
 
 #[derive(Debug, Eq, PartialEq)]
 pub enum Difficulty {
@@ -96,7 +96,7 @@ pub struct CodeSnippets {
     pub lang: String,
     #[serde(rename = "langSlug")]
     pub lang_slug: String,
-    #[serde(rename = "__typename")]
+    #[serde(rename = "__typename", default)]
     pub typename: String,
 }
 
