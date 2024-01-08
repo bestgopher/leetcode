@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 636 | 278 | 330 | 28 |
+| 637 | 278 | 331 | 28 |
 
 ### 题目
 
@@ -239,6 +239,7 @@
 |438    | 找到字符串中所有字母异位词 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-all-anagrams-in-a-string.rs) | [leetcode](https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/) | Medium |
 |442    | 数组中重复的数据 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-all-duplicates-in-an-array.rs) | [leetcode](https://leetcode-cn.com/problems/find-all-duplicates-in-an-array/) | Medium |
 |445    | 两数相加 II | [src](https://github.com/rustors/leetcode/blob/main/src/bin/add-two-numbers-ii.rs) | [leetcode](https://leetcode-cn.com/problems/add-two-numbers-ii/) | Medium |
+|447    | 回旋镖的数量 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/number-of-boomerangs.rs) | [leetcode](https://leetcode-cn.com/problems/number-of-boomerangs/) | Medium |
 |448    | 找到所有数组中消失的数字 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-all-numbers-disappeared-in-an-array.rs) | [leetcode](https://leetcode-cn.com/problems/find-all-numbers-disappeared-in-an-array/) | Easy |
 |449    | 序列化和反序列化二叉搜索树 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/serialize-and-deserialize-bst.rs) | [leetcode](https://leetcode-cn.com/problems/serialize-and-deserialize-bst/) | Medium |
 |460    | LFU 缓存 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/lfu-cache.rs) | [leetcode](https://leetcode-cn.com/problems/lfu-cache/) | Hard |
