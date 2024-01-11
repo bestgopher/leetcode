@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 639 | 279 | 332 | 28 |
+| 640 | 279 | 333 | 28 |
 
 ### 题目
 
@@ -498,6 +498,7 @@
 |2723    | 最长平衡子字符串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-the-longest-balanced-substring-of-a-binary-string.rs) | [leetcode](https://leetcode-cn.com/problems/find-the-longest-balanced-substring-of-a-binary-string/) | Easy |
 |2727    | 老人的数目 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/number-of-senior-citizens.rs) | [leetcode](https://leetcode-cn.com/problems/number-of-senior-citizens/) | Easy |
 |2728    | 矩阵中的和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/sum-in-a-matrix.rs) | [leetcode](https://leetcode-cn.com/problems/sum-in-a-matrix/) | Medium |
+|2736    | 构造有效字符串的最少插入数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-additions-to-make-valid-string.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-additions-to-make-valid-string/) | Medium |
 |2748    | 计算列车到站时间 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/calculate-delayed-arrival-time.rs) | [leetcode](https://leetcode-cn.com/problems/calculate-delayed-arrival-time/) | Easy |
 |2752    | 倍数求和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/sum-multiples.rs) | [leetcode](https://leetcode-cn.com/problems/sum-multiples/) | Easy |
 |2755    | 字符串中的额外字符 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/extra-characters-in-a-string.rs) | [leetcode](https://leetcode-cn.com/problems/extra-characters-in-a-string/) | Medium |
