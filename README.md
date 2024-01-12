@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 640 | 279 | 333 | 28 |
+| 641 | 280 | 333 | 28 |
 
 ### 题目
 
@@ -441,6 +441,7 @@
 |2161    | 股票价格波动 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/stock-price-fluctuation.rs) | [leetcode](https://leetcode-cn.com/problems/stock-price-fluctuation/) | Medium |
 |2168    | 检查句子中的数字是否递增 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/check-if-numbers-are-ascending-in-a-sentence.rs) | [leetcode](https://leetcode-cn.com/problems/check-if-numbers-are-ascending-in-a-sentence/) | Easy |
 |2177    | 检查两个字符串是否几乎相等 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/check-whether-two-strings-are-almost-equivalent.rs) | [leetcode](https://leetcode-cn.com/problems/check-whether-two-strings-are-almost-equivalent/) | Easy |
+|2190    | 统计出现过一次的公共字符串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/count-common-words-with-one-occurrence.rs) | [leetcode](https://leetcode-cn.com/problems/count-common-words-with-one-occurrence/) | Easy |
 |2210    | 找出数组排序后的目标下标 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-target-indices-after-sorting-array.rs) | [leetcode](https://leetcode-cn.com/problems/find-target-indices-after-sorting-array/) | Easy |
 |2226    | 环和杆 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/rings-and-rods.rs) | [leetcode](https://leetcode-cn.com/problems/rings-and-rods/) | Easy |
 |2233    | 股票平滑下跌阶段的数目 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/number-of-smooth-descent-periods-of-a-stock.rs) | [leetcode](https://leetcode-cn.com/problems/number-of-smooth-descent-periods-of-a-stock/) | Medium |
