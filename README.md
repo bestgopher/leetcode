@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 641 | 280 | 333 | 28 |
+| 642 | 280 | 334 | 28 |
 
 ### 题目
 
@@ -450,6 +450,7 @@
 |2261    | 分组得分最高的所有下标 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/all-divisions-with-the-highest-score-of-a-binary-array.rs) | [leetcode](https://leetcode-cn.com/problems/all-divisions-with-the-highest-score-of-a-binary-array/) | Medium |
 |2279    | 拆分成最多数目的正偶数之和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-split-of-positive-even-integers.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-split-of-positive-even-integers/) | Medium |
 |2292    | 统计包含给定前缀的字符串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/counting-words-with-a-given-prefix.rs) | [leetcode](https://leetcode-cn.com/problems/counting-words-with-a-given-prefix/) | Easy |
+|2300    | 构造限制重复的字符串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/construct-string-with-repeat-limit.rs) | [leetcode](https://leetcode-cn.com/problems/construct-string-with-repeat-limit/) | Medium |
 |2310    | 将数组和减半的最少操作次数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-operations-to-halve-array-sum.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-operations-to-halve-array-sum/) | Medium |
 |2320    | 找出数组中的所有 K 近邻下标 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-all-k-distant-indices-in-an-array.rs) | [leetcode](https://leetcode-cn.com/problems/find-all-k-distant-indices-in-an-array/) | Easy |
 |2346    | 字符串中最大的 3 位相同数字 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/largest-3-same-digit-number-in-string.rs) | [leetcode](https://leetcode-cn.com/problems/largest-3-same-digit-number-in-string/) | Easy |
