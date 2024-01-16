@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 644 | 280 | 336 | 28 |
+| 645 | 280 | 337 | 28 |
 
 ### 题目
 
@@ -455,6 +455,7 @@
 |2300    | 构造限制重复的字符串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/construct-string-with-repeat-limit.rs) | [leetcode](https://leetcode-cn.com/problems/construct-string-with-repeat-limit/) | Medium |
 |2310    | 将数组和减半的最少操作次数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-operations-to-halve-array-sum.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-operations-to-halve-array-sum/) | Medium |
 |2320    | 找出数组中的所有 K 近邻下标 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-all-k-distant-indices-in-an-array.rs) | [leetcode](https://leetcode-cn.com/problems/find-all-k-distant-indices-in-an-array/) | Easy |
+|2328    | 向表达式添加括号后的最小结果 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimize-result-by-adding-parentheses-to-expression.rs) | [leetcode](https://leetcode-cn.com/problems/minimize-result-by-adding-parentheses-to-expression/) | Medium |
 |2346    | 字符串中最大的 3 位相同数字 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/largest-3-same-digit-number-in-string.rs) | [leetcode](https://leetcode-cn.com/problems/largest-3-same-digit-number-in-string/) | Easy |
 |2351    | 买钢笔和铅笔的方案数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/number-of-ways-to-buy-pens-and-pencils.rs) | [leetcode](https://leetcode-cn.com/problems/number-of-ways-to-buy-pens-and-pencils/) | Medium |
 |2384    | 判断根结点是否等于子结点之和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/root-equals-sum-of-children.rs) | [leetcode](https://leetcode-cn.com/problems/root-equals-sum-of-children/) | Easy |
