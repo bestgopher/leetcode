@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 645 | 280 | 337 | 28 |
+| 646 | 281 | 337 | 28 |
 
 ### 题目
 
@@ -516,6 +516,7 @@
 |2812    | 找出最大的可达成数字 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-the-maximum-achievable-number.rs) | [leetcode](https://leetcode-cn.com/problems/find-the-maximum-achievable-number/) | Easy |
 |2816    | 字典序最小回文串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/lexicographically-smallest-palindrome.rs) | [leetcode](https://leetcode-cn.com/problems/lexicographically-smallest-palindrome/) | Easy |
 |2838    | 查询后矩阵的和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/sum-of-matrix-after-queries.rs) | [leetcode](https://leetcode-cn.com/problems/sum-of-matrix-after-queries/) | Medium |
+|2847    | 最大字符串配对数目 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-maximum-number-of-string-pairs.rs) | [leetcode](https://leetcode-cn.com/problems/find-maximum-number-of-string-pairs/) | Easy |
 |2866    | 最长奇偶子数组 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/longest-even-odd-subarray-with-threshold.rs) | [leetcode](https://leetcode-cn.com/problems/longest-even-odd-subarray-with-threshold/) | Easy |
 |2881    | 按分隔符拆分字符串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/split-strings-by-separator.rs) | [leetcode](https://leetcode-cn.com/problems/split-strings-by-separator/) | Easy |
 |2917    | 统计和小于目标的下标对数目 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/count-pairs-whose-sum-is-less-than-target.rs) | [leetcode](https://leetcode-cn.com/problems/count-pairs-whose-sum-is-less-than-target/) | Easy |
