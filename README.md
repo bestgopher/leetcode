@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 646 | 281 | 337 | 28 |
+| 647 | 281 | 338 | 28 |
 
 ### 题目
 
@@ -451,6 +451,7 @@
 |2235    | 将标题首字母大写 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/capitalize-the-title.rs) | [leetcode](https://leetcode-cn.com/problems/capitalize-the-title/) | Easy |
 |2261    | 分组得分最高的所有下标 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/all-divisions-with-the-highest-score-of-a-binary-array.rs) | [leetcode](https://leetcode-cn.com/problems/all-divisions-with-the-highest-score-of-a-binary-array/) | Medium |
 |2279    | 拆分成最多数目的正偶数之和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-split-of-positive-even-integers.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-split-of-positive-even-integers/) | Medium |
+|2290    | 拿出最少数目的魔法豆 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/removing-minimum-number-of-magic-beans.rs) | [leetcode](https://leetcode-cn.com/problems/removing-minimum-number-of-magic-beans/) | Medium |
 |2292    | 统计包含给定前缀的字符串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/counting-words-with-a-given-prefix.rs) | [leetcode](https://leetcode-cn.com/problems/counting-words-with-a-given-prefix/) | Easy |
 |2300    | 构造限制重复的字符串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/construct-string-with-repeat-limit.rs) | [leetcode](https://leetcode-cn.com/problems/construct-string-with-repeat-limit/) | Medium |
 |2310    | 将数组和减半的最少操作次数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-operations-to-halve-array-sum.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-operations-to-halve-array-sum/) | Medium |
