@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 647 | 281 | 338 | 28 |
+| 648 | 282 | 338 | 28 |
 
 ### 题目
 
@@ -608,6 +608,7 @@
 |100353    | 平分正方形 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/bisect-squares-lcci.rs) | [leetcode](https://leetcode-cn.com/problems/bisect-squares-lcci/) | Medium |
 |1000021    | 最小K个数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/smallest-k-lcci.rs) | [leetcode](https://leetcode-cn.com/problems/smallest-k-lcci/) | Medium |
 |1000022    | 最长单词 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/longest-word-lcci.rs) | [leetcode](https://leetcode-cn.com/problems/longest-word-lcci/) | Medium |
+|1000025    | 不用加号的加法 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/add-without-plus-lcci.rs) | [leetcode](https://leetcode-cn.com/problems/add-without-plus-lcci/) | Easy |
 |1000056    | 拿硬币 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/na-ying-bi.rs) | [leetcode](https://leetcode-cn.com/problems/na-ying-bi/) | Easy |
 |1000063    | 传递信息 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/chuan-di-xin-xi.rs) | [leetcode](https://leetcode-cn.com/problems/chuan-di-xin-xi/) | Easy |
 |1000228    | 整数除法 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/xoh6Oh.rs) | [leetcode](https://leetcode-cn.com/problems/xoh6Oh/) | Easy |
