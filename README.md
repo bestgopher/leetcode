@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 649 | 282 | 339 | 28 |
+| 650 | 282 | 340 | 28 |
 
 ### 题目
 
@@ -284,6 +284,7 @@
 |653    | 两数之和 IV - 输入 BST | [src](https://github.com/rustors/leetcode/blob/main/src/bin/two-sum-iv-input-is-a-bst.rs) | [leetcode](https://leetcode-cn.com/problems/two-sum-iv-input-is-a-bst/) | Easy |
 |657    | 机器人能否返回原点 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/robot-return-to-origin.rs) | [leetcode](https://leetcode-cn.com/problems/robot-return-to-origin/) | Easy |
 |658    | 找到 K 个最接近的元素 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-k-closest-elements.rs) | [leetcode](https://leetcode-cn.com/problems/find-k-closest-elements/) | Medium |
+|670    | 最大交换 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-swap.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-swap/) | Medium |
 |674    | 最长连续递增序列 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/longest-continuous-increasing-subsequence.rs) | [leetcode](https://leetcode-cn.com/problems/longest-continuous-increasing-subsequence/) | Easy |
 |718    | 最长重复子数组 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-length-of-repeated-subarray.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-length-of-repeated-subarray/) | Medium |
 |722    | 删除注释 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/remove-comments.rs) | [leetcode](https://leetcode-cn.com/problems/remove-comments/) | Medium |
