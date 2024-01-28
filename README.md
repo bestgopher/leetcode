@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 655 | 285 | 342 | 28 |
+| 656 | 285 | 343 | 28 |
 
 ### 题目
 
@@ -207,6 +207,7 @@
 |350    | 两个数组的交集 II | [src](https://github.com/rustors/leetcode/blob/main/src/bin/intersection-of-two-arrays-ii.rs) | [leetcode](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/) | Easy |
 |355    | 设计推特 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/design-twitter.rs) | [leetcode](https://leetcode-cn.com/problems/design-twitter/) | Medium |
 |357    | 统计各位数字都不同的数字个数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/count-numbers-with-unique-digits.rs) | [leetcode](https://leetcode-cn.com/problems/count-numbers-with-unique-digits/) | Medium |
+|365    | 水壶问题 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/water-and-jug-problem.rs) | [leetcode](https://leetcode-cn.com/problems/water-and-jug-problem/) | Medium |
 |367    | 有效的完全平方数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/valid-perfect-square.rs) | [leetcode](https://leetcode-cn.com/problems/valid-perfect-square/) | Easy |
 |371    | 两整数之和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/sum-of-two-integers.rs) | [leetcode](https://leetcode-cn.com/problems/sum-of-two-integers/) | Medium |
 |374    | 猜数字大小 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/guess-number-higher-or-lower.rs) | [leetcode](https://leetcode-cn.com/problems/guess-number-higher-or-lower/) | Easy |
