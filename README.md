@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 657 | 286 | 343 | 28 |
+| 658 | 286 | 344 | 28 |
 
 ### 题目
 
@@ -527,6 +527,7 @@
 |2870    | 最长交替子数组 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/longest-alternating-subarray.rs) | [leetcode](https://leetcode-cn.com/problems/longest-alternating-subarray/) | Easy |
 |2881    | 按分隔符拆分字符串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/split-strings-by-separator.rs) | [leetcode](https://leetcode-cn.com/problems/split-strings-by-separator/) | Easy |
 |2917    | 统计和小于目标的下标对数目 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/count-pairs-whose-sum-is-less-than-target.rs) | [leetcode](https://leetcode-cn.com/problems/count-pairs-whose-sum-is-less-than-target/) | Easy |
+|2920    | 使循环数组所有元素相等的最少秒数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-seconds-to-equalize-a-circular-array.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-seconds-to-equalize-a-circular-array/) | Medium |
 |2977    | 判别首字母缩略词 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/check-if-a-string-is-an-acronym-of-words.rs) | [leetcode](https://leetcode-cn.com/problems/check-if-a-string-is-an-acronym-of-words/) | Easy |
 |3045    | 使数组成为递增数组的最少右移次数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-right-shifts-to-sort-the-array.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-right-shifts-to-sort-the-array/) | Easy |
 |3093    | 计算 K 置位下标对应元素的和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/sum-of-values-at-indices-with-k-set-bits.rs) | [leetcode](https://leetcode-cn.com/problems/sum-of-values-at-indices-with-k-set-bits/) | Easy |
