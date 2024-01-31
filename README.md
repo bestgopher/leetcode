@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 658 | 286 | 344 | 28 |
+| 659 | 287 | 344 | 28 |
 
 ### 题目
 
@@ -515,6 +515,7 @@
 |2755    | 字符串中的额外字符 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/extra-characters-in-a-string.rs) | [leetcode](https://leetcode-cn.com/problems/extra-characters-in-a-string/) | Medium |
 |2756    | 购买两块巧克力 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/buy-two-chocolates.rs) | [leetcode](https://leetcode-cn.com/problems/buy-two-chocolates/) | Easy |
 |2767    | K 个元素的最大和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-sum-with-exactly-k-elements.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-sum-with-exactly-k-elements/) | Easy |
+|2777    | 找出不同元素数目差数组 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-the-distinct-difference-array.rs) | [leetcode](https://leetcode-cn.com/problems/find-the-distinct-difference-array/) | Easy |
 |2787    | 移动机器人 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/movement-of-robots.rs) | [leetcode](https://leetcode-cn.com/problems/movement-of-robots/) | Medium |
 |2791    | 找出转圈游戏输家 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-the-losers-of-the-circular-game.rs) | [leetcode](https://leetcode-cn.com/problems/find-the-losers-of-the-circular-game/) | Easy |
 |2800    | 删除子串后的字符串最小长度 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-string-length-after-removing-substrings.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-string-length-after-removing-substrings/) | Easy |
