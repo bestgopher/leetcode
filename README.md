@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 659 | 287 | 344 | 28 |
+| 660 | 287 | 345 | 28 |
 
 ### 题目
 
@@ -339,6 +339,7 @@
 |1054    | 十进制整数的反码 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/complement-of-base-10-integer.rs) | [leetcode](https://leetcode-cn.com/problems/complement-of-base-10-integer/) | Easy |
 |1072    | 链表中的下一个更大节点 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/next-greater-node-in-linked-list.rs) | [leetcode](https://leetcode-cn.com/problems/next-greater-node-in-linked-list/) | Medium |
 |1079    | 从根到叶的二进制数之和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/sum-of-root-to-leaf-binary-numbers.rs) | [leetcode](https://leetcode-cn.com/problems/sum-of-root-to-leaf-binary-numbers/) | Easy |
+|1092    | 节点与其祖先之间的最大差值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-difference-between-node-and-ancestor.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-difference-between-node-and-ancestor/) | Medium |
 |1114    | 从二叉搜索树到更大和树 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/binary-search-tree-to-greater-sum-tree.rs) | [leetcode](https://leetcode-cn.com/problems/binary-search-tree-to-greater-sum-tree/) | Medium |
 |1119    | 困于环中的机器人 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/robot-bounded-in-circle.rs) | [leetcode](https://leetcode-cn.com/problems/robot-bounded-in-circle/) | Medium |
 |1128    | 删除字符串中的所有相邻重复项 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/remove-all-adjacent-duplicates-in-string.rs) | [leetcode](https://leetcode-cn.com/problems/remove-all-adjacent-duplicates-in-string/) | Easy |
