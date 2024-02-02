@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 660 | 287 | 345 | 28 |
+| 661 | 287 | 346 | 28 |
 
 ### 题目
 
@@ -416,6 +416,7 @@
 |1767    | 设计前中后队列 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/design-front-middle-back-queue.rs) | [leetcode](https://leetcode-cn.com/problems/design-front-middle-back-queue/) | Medium |
 |1777    | 确定两个字符串是否接近 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/determine-if-two-strings-are-close.rs) | [leetcode](https://leetcode-cn.com/problems/determine-if-two-strings-are-close/) | Medium |
 |1782    | 具有给定数值的最小字符串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/smallest-string-with-a-given-numeric-value.rs) | [leetcode](https://leetcode-cn.com/problems/smallest-string-with-a-given-numeric-value/) | Medium |
+|1788    | 石子游戏 VI | [src](https://github.com/rustors/leetcode/blob/main/src/bin/stone-game-vi.rs) | [leetcode](https://leetcode-cn.com/problems/stone-game-vi/) | Medium |
 |1791    | 最富有客户的资产总量 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/richest-customer-wealth.rs) | [leetcode](https://leetcode-cn.com/problems/richest-customer-wealth/) | Easy |
 |1797    | 设计 Goal 解析器 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/goal-parser-interpretation.rs) | [leetcode](https://leetcode-cn.com/problems/goal-parser-interpretation/) | Easy |
 |1806    | 比赛中的配对次数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/count-of-matches-in-tournament.rs) | [leetcode](https://leetcode-cn.com/problems/count-of-matches-in-tournament/) | Easy |
