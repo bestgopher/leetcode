@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 661 | 287 | 346 | 28 |
+| 662 | 287 | 347 | 28 |
 
 ### 题目
 
@@ -421,6 +421,7 @@
 |1797    | 设计 Goal 解析器 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/goal-parser-interpretation.rs) | [leetcode](https://leetcode-cn.com/problems/goal-parser-interpretation/) | Easy |
 |1806    | 比赛中的配对次数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/count-of-matches-in-tournament.rs) | [leetcode](https://leetcode-cn.com/problems/count-of-matches-in-tournament/) | Easy |
 |1807    | 十-二进制数的最少数目 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/partitioning-into-minimum-number-of-deci-binary-numbers.rs) | [leetcode](https://leetcode-cn.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers/) | Medium |
+|1814    | 跳跃游戏 VI | [src](https://github.com/rustors/leetcode/blob/main/src/bin/jump-game-vi.rs) | [leetcode](https://leetcode-cn.com/problems/jump-game-vi/) | Medium |
 |1817    | 计算力扣银行的钱 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/calculate-money-in-leetcode-bank.rs) | [leetcode](https://leetcode-cn.com/problems/calculate-money-in-leetcode-bank/) | Easy |
 |1829    | 卡车上的最大单元数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-units-on-a-truck.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-units-on-a-truck/) | Easy |
 |1849    | 任意子数组和的绝对值的最大值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-absolute-sum-of-any-subarray.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-absolute-sum-of-any-subarray/) | Medium |
