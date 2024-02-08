@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 663 | 287 | 348 | 28 |
+| 664 | 288 | 348 | 28 |
 
 ### 题目
 
@@ -334,6 +334,7 @@
 |1007    | 连续差相同的数字 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/numbers-with-same-consecutive-differences.rs) | [leetcode](https://leetcode-cn.com/problems/numbers-with-same-consecutive-differences/) | Medium |
 |1010    | 强整数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/powerful-integers.rs) | [leetcode](https://leetcode-cn.com/problems/powerful-integers/) | Medium |
 |1021    | 在二叉树中分配硬币 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/distribute-coins-in-binary-tree.rs) | [leetcode](https://leetcode-cn.com/problems/distribute-coins-in-binary-tree/) | Medium |
+|1035    | 二叉树的堂兄弟节点 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/cousins-in-binary-tree.rs) | [leetcode](https://leetcode-cn.com/problems/cousins-in-binary-tree/) | Easy |
 |1046    | 最大连续1的个数 III | [src](https://github.com/rustors/leetcode/blob/main/src/bin/max-consecutive-ones-iii.rs) | [leetcode](https://leetcode-cn.com/problems/max-consecutive-ones-iii/) | Medium |
 |1050    | 前序遍历构造二叉搜索树 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/construct-binary-search-tree-from-preorder-traversal.rs) | [leetcode](https://leetcode-cn.com/problems/construct-binary-search-tree-from-preorder-traversal/) | Medium |
 |1054    | 十进制整数的反码 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/complement-of-base-10-integer.rs) | [leetcode](https://leetcode-cn.com/problems/complement-of-base-10-integer/) | Easy |
