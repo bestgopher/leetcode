@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 664 | 288 | 348 | 28 |
+| 665 | 288 | 349 | 28 |
 
 ### 题目
 
@@ -300,6 +300,7 @@
 |825    | 保持城市天际线 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/max-increase-to-keep-city-skyline.rs) | [leetcode](https://leetcode-cn.com/problems/max-increase-to-keep-city-skyline/) | Medium |
 |829    | 子域名访问计数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/subdomain-visit-count.rs) | [leetcode](https://leetcode-cn.com/problems/subdomain-visit-count/) | Medium |
 |834    | 模糊坐标 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/ambiguous-coordinates.rs) | [leetcode](https://leetcode-cn.com/problems/ambiguous-coordinates/) | Medium |
+|839    | 单词的压缩编码 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/short-encoding-of-words.rs) | [leetcode](https://leetcode-cn.com/problems/short-encoding-of-words/) | Medium |
 |842    | 翻转卡片游戏 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/card-flipping-game.rs) | [leetcode](https://leetcode-cn.com/problems/card-flipping-game/) | Medium |
 |857    | 较大分组的位置 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/positions-of-large-groups.rs) | [leetcode](https://leetcode-cn.com/problems/positions-of-large-groups/) | Easy |
 |860    | 设计循环队列 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/design-circular-queue.rs) | [leetcode](https://leetcode-cn.com/problems/design-circular-queue/) | Medium |
