@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 665 | 288 | 349 | 28 |
+| 666 | 289 | 349 | 28 |
 
 ### 题目
 
@@ -437,6 +437,7 @@
 |1940    | 每个查询的最大异或值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-xor-for-each-query.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-xor-for-each-query/) | Medium |
 |1952    | 最少侧跳次数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-sideway-jumps.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-sideway-jumps/) | Medium |
 |1960    | 判断句子是否为全字母句 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/check-if-the-sentence-is-pangram.rs) | [leetcode](https://leetcode-cn.com/problems/check-if-the-sentence-is-pangram/) | Easy |
+|1965    | K 进制表示下的各位数字总和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/sum-of-digits-in-base-k.rs) | [leetcode](https://leetcode-cn.com/problems/sum-of-digits-in-base-k/) | Easy |
 |1971    | 增长的内存泄露 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/incremental-memory-leak.rs) | [leetcode](https://leetcode-cn.com/problems/incremental-memory-leak/) | Medium |
 |1983    | 人口最多的年份 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-population-year.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-population-year/) | Easy |
 |2011    | 插入后的最大值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-value-after-insertion.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-value-after-insertion/) | Medium |
