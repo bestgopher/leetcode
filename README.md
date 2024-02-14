@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 666 | 289 | 349 | 28 |
+| 667 | 290 | 349 | 28 |
 
 ### 题目
 
@@ -454,6 +454,7 @@
 |2177    | 检查两个字符串是否几乎相等 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/check-whether-two-strings-are-almost-equivalent.rs) | [leetcode](https://leetcode-cn.com/problems/check-whether-two-strings-are-almost-equivalent/) | Easy |
 |2190    | 统计出现过一次的公共字符串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/count-common-words-with-one-occurrence.rs) | [leetcode](https://leetcode-cn.com/problems/count-common-words-with-one-occurrence/) | Easy |
 |2210    | 找出数组排序后的目标下标 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-target-indices-after-sorting-array.rs) | [leetcode](https://leetcode-cn.com/problems/find-target-indices-after-sorting-array/) | Easy |
+|2215    | 找出 3 位偶数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/finding-3-digit-even-numbers.rs) | [leetcode](https://leetcode-cn.com/problems/finding-3-digit-even-numbers/) | Easy |
 |2226    | 环和杆 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/rings-and-rods.rs) | [leetcode](https://leetcode-cn.com/problems/rings-and-rods/) | Easy |
 |2233    | 股票平滑下跌阶段的数目 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/number-of-smooth-descent-periods-of-a-stock.rs) | [leetcode](https://leetcode-cn.com/problems/number-of-smooth-descent-periods-of-a-stock/) | Medium |
 |2235    | 将标题首字母大写 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/capitalize-the-title.rs) | [leetcode](https://leetcode-cn.com/problems/capitalize-the-title/) | Easy |
