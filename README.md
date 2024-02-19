@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 670 | 291 | 351 | 28 |
+| 671 | 292 | 351 | 28 |
 
 ### 题目
 
@@ -233,6 +233,7 @@
 |409    | 最长回文串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/longest-palindrome.rs) | [leetcode](https://leetcode-cn.com/problems/longest-palindrome/) | Easy |
 |412    | Fizz Buzz | [src](https://github.com/rustors/leetcode/blob/main/src/bin/fizz-buzz.rs) | [leetcode](https://leetcode-cn.com/problems/fizz-buzz/) | Easy |
 |413    | 等差数列划分 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/arithmetic-slices.rs) | [leetcode](https://leetcode-cn.com/problems/arithmetic-slices/) | Medium |
+|414    | 第三大的数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/third-maximum-number.rs) | [leetcode](https://leetcode-cn.com/problems/third-maximum-number/) | Easy |
 |415    | 字符串相加 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/add-strings.rs) | [leetcode](https://leetcode-cn.com/problems/add-strings/) | Easy |
 |419    | 甲板上的战舰 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/battleships-in-a-board.rs) | [leetcode](https://leetcode-cn.com/problems/battleships-in-a-board/) | Medium |
 |423    | 从英文中重建数字 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/reconstruct-original-digits-from-english.rs) | [leetcode](https://leetcode-cn.com/problems/reconstruct-original-digits-from-english/) | Medium |
