@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 672 | 292 | 352 | 28 |
+| 673 | 292 | 353 | 28 |
 
 ### 题目
 
@@ -656,6 +656,7 @@
 |1000261    | 链表中的两数相加 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/lMSNwu.rs) | [leetcode](https://leetcode-cn.com/problems/lMSNwu/) | Medium |
 |1000262    | 重排链表 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/LGjMqU.rs) | [leetcode](https://leetcode-cn.com/problems/LGjMqU/) | Medium |
 |1000263    | 回文链表 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/aMhZSa.rs) | [leetcode](https://leetcode-cn.com/problems/aMhZSa/) | Easy |
+|1000270    | LRU 缓存 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/OrIXps.rs) | [leetcode](https://leetcode-cn.com/problems/OrIXps/) | Medium |
 |1000273    | 有效的变位词 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/dKk3P7.rs) | [leetcode](https://leetcode-cn.com/problems/dKk3P7/) | Easy |
 |1000275    | 变位词组 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/sfvd7V.rs) | [leetcode](https://leetcode-cn.com/problems/sfvd7V/) | Medium |
 |1000276    | 外星语言是否排序 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/lwyVBB.rs) | [leetcode](https://leetcode-cn.com/problems/lwyVBB/) | Easy |
