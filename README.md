@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 673 | 292 | 353 | 28 |
+| 674 | 292 | 354 | 28 |
 
 ### 题目
 
@@ -501,6 +501,7 @@
 |2619    | 根据规则将箱子分类 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/categorize-box-according-to-criteria.rs) | [leetcode](https://leetcode-cn.com/problems/categorize-box-according-to-criteria/) | Easy |
 |2630    | 交替数字和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/alternating-digit-sum.rs) | [leetcode](https://leetcode-cn.com/problems/alternating-digit-sum/) | Easy |
 |2645    | 递枕头 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/pass-the-pillow.rs) | [leetcode](https://leetcode-cn.com/problems/pass-the-pillow/) | Easy |
+|2646    | 二叉树中的第 K 大层和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/kth-largest-sum-in-a-binary-tree.rs) | [leetcode](https://leetcode-cn.com/problems/kth-largest-sum-in-a-binary-tree/) | Medium |
 |2650    | 最小和分割 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/split-with-minimum-sum.rs) | [leetcode](https://leetcode-cn.com/problems/split-with-minimum-sum/) | Easy |
 |2654    | 统计范围内的元音字符串数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/count-the-number-of-vowel-strings-in-range.rs) | [leetcode](https://leetcode-cn.com/problems/count-the-number-of-vowel-strings-in-range/) | Easy |
 |2662    | 检查骑士巡视方案 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/check-knight-tour-configuration.rs) | [leetcode](https://leetcode-cn.com/problems/check-knight-tour-configuration/) | Medium |
