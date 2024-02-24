@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 674 | 292 | 354 | 28 |
+| 675 | 292 | 355 | 28 |
 
 ### 题目
 
@@ -488,6 +488,7 @@
 |2519    | 找出前缀异或的原始数组 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-the-original-array-of-prefix-xor.rs) | [leetcode](https://leetcode-cn.com/problems/find-the-original-array-of-prefix-xor/) | Medium |
 |2551    | 对数组执行操作 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/apply-operations-to-an-array.rs) | [leetcode](https://leetcode-cn.com/problems/apply-operations-to-an-array/) | Easy |
 |2566    | 数组中不等三元组的数目 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/number-of-unequal-triplets-in-array.rs) | [leetcode](https://leetcode-cn.com/problems/number-of-unequal-triplets-in-array/) | Easy |
+|2567    | 二叉搜索树最近节点查询 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/closest-nodes-queries-in-a-binary-search-tree.rs) | [leetcode](https://leetcode-cn.com/problems/closest-nodes-queries-in-a-binary-search-tree/) | Medium |
 |2571    | 找出中枢整数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-the-pivot-integer.rs) | [leetcode](https://leetcode-cn.com/problems/find-the-pivot-integer/) | Easy |
 |2573    | 从链表中移除节点 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/remove-nodes-from-linked-list.rs) | [leetcode](https://leetcode-cn.com/problems/remove-nodes-from-linked-list/) | Medium |
 |2575    | 分割圆的最少切割次数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-cuts-to-divide-a-circle.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-cuts-to-divide-a-circle/) | Easy |
