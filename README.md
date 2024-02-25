@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 675 | 292 | 355 | 28 |
+| 676 | 293 | 355 | 28 |
 
 ### 题目
 
@@ -436,6 +436,7 @@
 |1894    | 交替合并字符串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/merge-strings-alternately.rs) | [leetcode](https://leetcode-cn.com/problems/merge-strings-alternately/) | Easy |
 |1899    | 统计匹配检索规则的物品数量 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/count-items-matching-a-rule.rs) | [leetcode](https://leetcode-cn.com/problems/count-items-matching-a-rule/) | Easy |
 |1905    | 设计一个验证系统 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/design-authentication-manager.rs) | [leetcode](https://leetcode-cn.com/problems/design-authentication-manager/) | Medium |
+|1927    | 最大升序子数组和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-ascending-subarray-sum.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-ascending-subarray-sum/) | Easy |
 |1929    | 有界数组中指定下标处的最大值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-value-at-a-given-index-in-a-bounded-array.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-value-at-a-given-index-in-a-bounded-array/) | Medium |
 |1938    | 最少操作使数组递增 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-operations-to-make-the-array-increasing.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-operations-to-make-the-array-increasing/) | Easy |
 |1940    | 每个查询的最大异或值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-xor-for-each-query.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-xor-for-each-query/) | Medium |
