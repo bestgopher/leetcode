@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 676 | 293 | 355 | 28 |
+| 677 | 294 | 355 | 28 |
 
 ### 题目
 
@@ -328,6 +328,7 @@
 |953    | 仅仅反转字母 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/reverse-only-letters.rs) | [leetcode](https://leetcode-cn.com/problems/reverse-only-letters/) | Easy |
 |954    | 环形子数组的最大和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-sum-circular-subarray.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-sum-circular-subarray/) | Medium |
 |967    | 下降路径最小和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-falling-path-sum.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-falling-path-sum/) | Medium |
+|975    | 二叉搜索树的范围和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/range-sum-of-bst.rs) | [leetcode](https://leetcode-cn.com/problems/range-sum-of-bst/) | Easy |
 |977    | 不同的子序列 II | [src](https://github.com/rustors/leetcode/blob/main/src/bin/distinct-subsequences-ii.rs) | [leetcode](https://leetcode-cn.com/problems/distinct-subsequences-ii/) | Hard |
 |979    | 增减字符串匹配 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/di-string-match.rs) | [leetcode](https://leetcode-cn.com/problems/di-string-match/) | Easy |
 |981    | 删列造序 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/delete-columns-to-make-sorted.rs) | [leetcode](https://leetcode-cn.com/problems/delete-columns-to-make-sorted/) | Easy |
