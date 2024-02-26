@@ -8,7 +8,7 @@ fn main() {
             "time".to_string(),
             "me".to_string(),
             "bell".to_string(),
-        ], ),
+        ],),
         10
     );
 
@@ -48,7 +48,7 @@ impl Solution {
         set.iter().map(|x| x.len() as i32).sum::<i32>() + set.len() as i32
     }
 
-    /// tire tree 字典树
+    // tire tree 字典树
     // pub fn minimum_length_encoding(words: Vec<String>) -> i32 {
     //     struct TireTree {
     //         nodes: std::collections::HashMap<u8, TireTree>,
