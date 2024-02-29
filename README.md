@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 679 | 295 | 356 | 28 |
+| 680 | 296 | 356 | 28 |
 
 ### 题目
 
@@ -420,6 +420,7 @@
 |1660    | 千位分隔数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/thousand-separator.rs) | [leetcode](https://leetcode-cn.com/problems/thousand-separator/) | Easy |
 |1666    | 整理字符串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/make-the-string-great.rs) | [leetcode](https://leetcode-cn.com/problems/make-the-string-great/) | Easy |
 |1677    | 矩阵对角线元素的和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/matrix-diagonal-sum.rs) | [leetcode](https://leetcode-cn.com/problems/matrix-diagonal-sum/) | Easy |
+|1764    | 最大重复子字符串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-repeating-substring.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-repeating-substring/) | Easy |
 |1767    | 设计前中后队列 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/design-front-middle-back-queue.rs) | [leetcode](https://leetcode-cn.com/problems/design-front-middle-back-queue/) | Medium |
 |1777    | 确定两个字符串是否接近 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/determine-if-two-strings-are-close.rs) | [leetcode](https://leetcode-cn.com/problems/determine-if-two-strings-are-close/) | Medium |
 |1782    | 具有给定数值的最小字符串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/smallest-string-with-a-given-numeric-value.rs) | [leetcode](https://leetcode-cn.com/problems/smallest-string-with-a-given-numeric-value/) | Medium |
