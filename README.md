@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 680 | 296 | 356 | 28 |
+| 681 | 297 | 356 | 28 |
 
 ### 题目
 
@@ -381,6 +381,7 @@
 |1380    | 统计封闭岛屿的数目 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/number-of-closed-islands.rs) | [leetcode](https://leetcode-cn.com/problems/number-of-closed-islands/) | Medium |
 |1387    | 在受污染的二叉树中查找元素 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-elements-in-a-contaminated-binary-tree.rs) | [leetcode](https://leetcode-cn.com/problems/find-elements-in-a-contaminated-binary-tree/) | Medium |
 |1394    | 网格中的最小路径代价 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-path-cost-in-a-grid.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-path-cost-in-a-grid/) | Medium |
+|1395    | 访问所有点的最小时间 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-time-visiting-all-points.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-time-visiting-all-points/) | Easy |
 |1396    | 统计参与通信的服务器 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/count-servers-that-communicate.rs) | [leetcode](https://leetcode-cn.com/problems/count-servers-that-communicate/) | Medium |
 |1396    | 统计参与通信的服务器 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/count-servers-that-communicate.rs) | [leetcode](https://leetcode-cn.com/problems/count-servers-that-communicate/) | Medium |
 |1401    | 不浪费原料的汉堡制作方案 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/number-of-burgers-with-no-waste-of-ingredients.rs) | [leetcode](https://leetcode-cn.com/problems/number-of-burgers-with-no-waste-of-ingredients/) | Medium |
