@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 683 | 298 | 357 | 28 |
+| 684 | 299 | 357 | 28 |
 
 ### 题目
 
@@ -556,6 +556,7 @@
 |3095    | 最大合金数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-number-of-alloys.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-number-of-alloys/) | Medium |
 |3152    | 有序三元组中的最大值 II | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-value-of-an-ordered-triplet-ii.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-value-of-an-ordered-triplet-ii/) | Medium |
 |3176    | 元素和最小的山形三元组 I | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-sum-of-mountain-triplets-i.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-sum-of-mountain-triplets-i/) | Easy |
+|3183    | 找出数组中的 K-or 值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-the-k-or-of-an-array.rs) | [leetcode](https://leetcode-cn.com/problems/find-the-k-or-of-an-array/) | Easy |
 |3188    | 找到冠军 I | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-champion-i.rs) | [leetcode](https://leetcode-cn.com/problems/find-champion-i/) | Easy |
 |100162    | 字符串轮转 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/string-rotation-lcci.rs) | [leetcode](https://leetcode-cn.com/problems/string-rotation-lcci/) | Easy |
 |100163    | 移除重复节点 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/remove-duplicate-node-lcci.rs) | [leetcode](https://leetcode-cn.com/problems/remove-duplicate-node-lcci/) | Easy |
