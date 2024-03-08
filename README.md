@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 685 | 299 | 358 | 28 |
+| 686 | 299 | 359 | 28 |
 
 ### 题目
 
@@ -551,6 +551,7 @@
 |2917    | 统计和小于目标的下标对数目 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/count-pairs-whose-sum-is-less-than-target.rs) | [leetcode](https://leetcode-cn.com/problems/count-pairs-whose-sum-is-less-than-target/) | Easy |
 |2920    | 使循环数组所有元素相等的最少秒数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-seconds-to-equalize-a-circular-array.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-seconds-to-equalize-a-circular-array/) | Medium |
 |2977    | 判别首字母缩略词 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/check-if-a-string-is-an-acronym-of-words.rs) | [leetcode](https://leetcode-cn.com/problems/check-if-a-string-is-an-acronym-of-words/) | Easy |
+|3026    | 找出美丽数组的最小和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-the-minimum-possible-sum-of-a-beautiful-array.rs) | [leetcode](https://leetcode-cn.com/problems/find-the-minimum-possible-sum-of-a-beautiful-array/) | Medium |
 |3045    | 使数组成为递增数组的最少右移次数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-right-shifts-to-sort-the-array.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-right-shifts-to-sort-the-array/) | Easy |
 |3093    | 计算 K 置位下标对应元素的和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/sum-of-values-at-indices-with-k-set-bits.rs) | [leetcode](https://leetcode-cn.com/problems/sum-of-values-at-indices-with-k-set-bits/) | Easy |
 |3094    | 使数组为空的最少操作次数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-number-of-operations-to-make-array-empty.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-number-of-operations-to-make-array-empty/) | Medium |
