@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 688 | 300 | 360 | 28 |
+| 689 | 301 | 360 | 28 |
 
 ### 题目
 
@@ -504,6 +504,7 @@
 |2602    | 最多可以摧毁的敌人城堡数目 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-enemy-forts-that-can-be-captured.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-enemy-forts-that-can-be-captured/) | Easy |
 |2603    | 奖励最顶尖的 K 名学生 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/reward-top-k-students.rs) | [leetcode](https://leetcode-cn.com/problems/reward-top-k-students/) | Medium |
 |2608    | 统计能整除数字的位数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/count-the-digits-that-divide-a-number.rs) | [leetcode](https://leetcode-cn.com/problems/count-the-digits-that-divide-a-number/) | Easy |
+|2614    | 正整数和负整数的最大计数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-count-of-positive-integer-and-negative-integer.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-count-of-positive-integer-and-negative-integer/) | Easy |
 |2616    | 执行 K 次操作后的最大分数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximal-score-after-applying-k-operations.rs) | [leetcode](https://leetcode-cn.com/problems/maximal-score-after-applying-k-operations/) | Medium |
 |2619    | 根据规则将箱子分类 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/categorize-box-according-to-criteria.rs) | [leetcode](https://leetcode-cn.com/problems/categorize-box-according-to-criteria/) | Easy |
 |2621    | 查询数组异或美丽值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-xor-beauty-of-array.rs) | [leetcode](https://leetcode-cn.com/problems/find-xor-beauty-of-array/) | Medium |
