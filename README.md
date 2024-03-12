@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 689 | 301 | 360 | 28 |
+| 690 | 302 | 360 | 28 |
 
 ### 题目
 
@@ -562,6 +562,7 @@
 |3176    | 元素和最小的山形三元组 I | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-sum-of-mountain-triplets-i.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-sum-of-mountain-triplets-i/) | Easy |
 |3183    | 找出数组中的 K-or 值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-the-k-or-of-an-array.rs) | [leetcode](https://leetcode-cn.com/problems/find-the-k-or-of-an-array/) | Easy |
 |3188    | 找到冠军 I | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-champion-i.rs) | [leetcode](https://leetcode-cn.com/problems/find-champion-i/) | Easy |
+|3275    | 输入单词需要的最少按键次数 I | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-number-of-pushes-to-type-word-i.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-number-of-pushes-to-type-word-i/) | Easy |
 |3320    | 相同分数的最大操作数目 I | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-number-of-operations-with-the-same-score-i.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-number-of-operations-with-the-same-score-i/) | Easy |
 |100162    | 字符串轮转 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/string-rotation-lcci.rs) | [leetcode](https://leetcode-cn.com/problems/string-rotation-lcci/) | Easy |
 |100163    | 移除重复节点 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/remove-duplicate-node-lcci.rs) | [leetcode](https://leetcode-cn.com/problems/remove-duplicate-node-lcci/) | Easy |
