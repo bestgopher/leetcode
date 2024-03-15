@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 692 | 303 | 361 | 28 |
+| 693 | 303 | 362 | 28 |
 
 ### 题目
 
@@ -460,6 +460,7 @@
 |2159    | 至少在两个数组中出现的值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/two-out-of-three.rs) | [leetcode](https://leetcode-cn.com/problems/two-out-of-three/) | Easy |
 |2161    | 股票价格波动 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/stock-price-fluctuation.rs) | [leetcode](https://leetcode-cn.com/problems/stock-price-fluctuation/) | Medium |
 |2168    | 检查句子中的数字是否递增 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/check-if-numbers-are-ascending-in-a-sentence.rs) | [leetcode](https://leetcode-cn.com/problems/check-if-numbers-are-ascending-in-a-sentence/) | Easy |
+|2169    | 简易银行系统 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/simple-bank-system.rs) | [leetcode](https://leetcode-cn.com/problems/simple-bank-system/) | Medium |
 |2177    | 检查两个字符串是否几乎相等 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/check-whether-two-strings-are-almost-equivalent.rs) | [leetcode](https://leetcode-cn.com/problems/check-whether-two-strings-are-almost-equivalent/) | Easy |
 |2190    | 统计出现过一次的公共字符串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/count-common-words-with-one-occurrence.rs) | [leetcode](https://leetcode-cn.com/problems/count-common-words-with-one-occurrence/) | Easy |
 |2210    | 找出数组排序后的目标下标 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-target-indices-after-sorting-array.rs) | [leetcode](https://leetcode-cn.com/problems/find-target-indices-after-sorting-array/) | Easy |
