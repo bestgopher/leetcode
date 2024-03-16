@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 693 | 303 | 362 | 28 |
+| 694 | 303 | 363 | 28 |
 
 ### 题目
 
@@ -542,6 +542,7 @@
 |2780    | 使二叉树所有路径值相等的最小代价 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/make-costs-of-paths-equal-in-a-binary-tree.rs) | [leetcode](https://leetcode-cn.com/problems/make-costs-of-paths-equal-in-a-binary-tree/) | Medium |
 |2787    | 移动机器人 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/movement-of-robots.rs) | [leetcode](https://leetcode-cn.com/problems/movement-of-robots/) | Medium |
 |2791    | 找出转圈游戏输家 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-the-losers-of-the-circular-game.rs) | [leetcode](https://leetcode-cn.com/problems/find-the-losers-of-the-circular-game/) | Easy |
+|2794    | 矩阵中移动的最大次数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-number-of-moves-in-a-grid.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-number-of-moves-in-a-grid/) | Medium |
 |2800    | 删除子串后的字符串最小长度 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-string-length-after-removing-substrings.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-string-length-after-removing-substrings/) | Easy |
 |2802    | 求一个整数的惩罚数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-the-punishment-number-of-an-integer.rs) | [leetcode](https://leetcode-cn.com/problems/find-the-punishment-number-of-an-integer/) | Medium |
 |2812    | 找出最大的可达成数字 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-the-maximum-achievable-number.rs) | [leetcode](https://leetcode-cn.com/problems/find-the-maximum-achievable-number/) | Easy |
