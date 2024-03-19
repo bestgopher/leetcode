@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 695 | 304 | 363 | 28 |
+| 696 | 305 | 363 | 28 |
 
 ### 题目
 
@@ -398,6 +398,7 @@
 |1472    | 上升下降字符串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/increasing-decreasing-string.rs) | [leetcode](https://leetcode-cn.com/problems/increasing-decreasing-string/) | Easy |
 |1482    | 有多少小于当前数字的数字 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/how-many-numbers-are-smaller-than-the-current-number.rs) | [leetcode](https://leetcode-cn.com/problems/how-many-numbers-are-smaller-than-the-current-number/) | Easy |
 |1484    | 二叉树中的链表 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/linked-list-in-binary-tree.rs) | [leetcode](https://leetcode-cn.com/problems/linked-list-in-binary-tree/) | Medium |
+|1490    | 生成每种字符都是奇数个的字符串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/generate-a-string-with-characters-that-have-odd-counts.rs) | [leetcode](https://leetcode-cn.com/problems/generate-a-string-with-characters-that-have-odd-counts/) | Easy |
 |1491    | 二进制字符串前缀一致的次数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/number-of-times-binary-string-is-prefix-aligned.rs) | [leetcode](https://leetcode-cn.com/problems/number-of-times-binary-string-is-prefix-aligned/) | Medium |
 |1501    | 圆和矩形是否有重叠 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/circle-and-rectangle-overlapping.rs) | [leetcode](https://leetcode-cn.com/problems/circle-and-rectangle-overlapping/) | Medium |
 |1503    | 做菜顺序 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/reducing-dishes.rs) | [leetcode](https://leetcode-cn.com/problems/reducing-dishes/) | Hard |
