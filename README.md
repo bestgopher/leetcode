@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 697 | 306 | 363 | 28 |
+| 698 | 307 | 363 | 28 |
 
 ### 题目
 
@@ -339,6 +339,7 @@
 |1005    | 单值二叉树 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/univalued-binary-tree.rs) | [leetcode](https://leetcode-cn.com/problems/univalued-binary-tree/) | Easy |
 |1007    | 连续差相同的数字 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/numbers-with-same-consecutive-differences.rs) | [leetcode](https://leetcode-cn.com/problems/numbers-with-same-consecutive-differences/) | Medium |
 |1010    | 强整数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/powerful-integers.rs) | [leetcode](https://leetcode-cn.com/problems/powerful-integers/) | Medium |
+|1019    | 有序数组的平方 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/squares-of-a-sorted-array.rs) | [leetcode](https://leetcode-cn.com/problems/squares-of-a-sorted-array/) | Easy |
 |1021    | 在二叉树中分配硬币 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/distribute-coins-in-binary-tree.rs) | [leetcode](https://leetcode-cn.com/problems/distribute-coins-in-binary-tree/) | Medium |
 |1035    | 二叉树的堂兄弟节点 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/cousins-in-binary-tree.rs) | [leetcode](https://leetcode-cn.com/problems/cousins-in-binary-tree/) | Easy |
 |1036    | 腐烂的橘子 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/rotting-oranges.rs) | [leetcode](https://leetcode-cn.com/problems/rotting-oranges/) | Medium |
