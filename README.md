@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 698 | 307 | 363 | 28 |
+| 699 | 307 | 364 | 28 |
 
 ### 题目
 
@@ -543,6 +543,7 @@
 |2756    | 购买两块巧克力 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/buy-two-chocolates.rs) | [leetcode](https://leetcode-cn.com/problems/buy-two-chocolates/) | Easy |
 |2767    | K 个元素的最大和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-sum-with-exactly-k-elements.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-sum-with-exactly-k-elements/) | Easy |
 |2777    | 找出不同元素数目差数组 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-the-distinct-difference-array.rs) | [leetcode](https://leetcode-cn.com/problems/find-the-distinct-difference-array/) | Easy |
+|2778    | 频率跟踪器 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/frequency-tracker.rs) | [leetcode](https://leetcode-cn.com/problems/frequency-tracker/) | Medium |
 |2780    | 使二叉树所有路径值相等的最小代价 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/make-costs-of-paths-equal-in-a-binary-tree.rs) | [leetcode](https://leetcode-cn.com/problems/make-costs-of-paths-equal-in-a-binary-tree/) | Medium |
 |2787    | 移动机器人 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/movement-of-robots.rs) | [leetcode](https://leetcode-cn.com/problems/movement-of-robots/) | Medium |
 |2791    | 找出转圈游戏输家 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-the-losers-of-the-circular-game.rs) | [leetcode](https://leetcode-cn.com/problems/find-the-losers-of-the-circular-game/) | Easy |
