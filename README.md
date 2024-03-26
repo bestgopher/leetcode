@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 701 | 307 | 366 | 28 |
+| 702 | 307 | 367 | 28 |
 
 ### 题目
 
@@ -329,6 +329,7 @@
 |950    | 卡牌分组 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/x-of-a-kind-in-a-deck-of-cards.rs) | [leetcode](https://leetcode-cn.com/problems/x-of-a-kind-in-a-deck-of-cards/) | Easy |
 |953    | 仅仅反转字母 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/reverse-only-letters.rs) | [leetcode](https://leetcode-cn.com/problems/reverse-only-letters/) | Easy |
 |954    | 环形子数组的最大和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-sum-circular-subarray.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-sum-circular-subarray/) | Medium |
+|966    | 和相同的二元子数组 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/binary-subarrays-with-sum.rs) | [leetcode](https://leetcode-cn.com/problems/binary-subarrays-with-sum/) | Medium |
 |967    | 下降路径最小和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-falling-path-sum.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-falling-path-sum/) | Medium |
 |975    | 二叉搜索树的范围和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/range-sum-of-bst.rs) | [leetcode](https://leetcode-cn.com/problems/range-sum-of-bst/) | Easy |
 |977    | 不同的子序列 II | [src](https://github.com/rustors/leetcode/blob/main/src/bin/distinct-subsequences-ii.rs) | [leetcode](https://leetcode-cn.com/problems/distinct-subsequences-ii/) | Hard |
