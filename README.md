@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 702 | 307 | 367 | 28 |
+| 703 | 307 | 368 | 28 |
 
 ### 题目
 
@@ -520,6 +520,7 @@
 |2645    | 递枕头 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/pass-the-pillow.rs) | [leetcode](https://leetcode-cn.com/problems/pass-the-pillow/) | Easy |
 |2646    | 二叉树中的第 K 大层和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/kth-largest-sum-in-a-binary-tree.rs) | [leetcode](https://leetcode-cn.com/problems/kth-largest-sum-in-a-binary-tree/) | Medium |
 |2650    | 最小和分割 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/split-with-minimum-sum.rs) | [leetcode](https://leetcode-cn.com/problems/split-with-minimum-sum/) | Easy |
+|2651    | 统计将重叠区间合并成组的方案数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/count-ways-to-group-overlapping-ranges.rs) | [leetcode](https://leetcode-cn.com/problems/count-ways-to-group-overlapping-ranges/) | Medium |
 |2654    | 统计范围内的元音字符串数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/count-the-number-of-vowel-strings-in-range.rs) | [leetcode](https://leetcode-cn.com/problems/count-the-number-of-vowel-strings-in-range/) | Easy |
 |2662    | 检查骑士巡视方案 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/check-knight-tour-configuration.rs) | [leetcode](https://leetcode-cn.com/problems/check-knight-tour-configuration/) | Medium |
 |2663    | 将钱分给最多的儿童 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/distribute-money-to-maximum-children.rs) | [leetcode](https://leetcode-cn.com/problems/distribute-money-to-maximum-children/) | Easy |
