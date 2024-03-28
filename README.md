@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 703 | 307 | 368 | 28 |
+| 704 | 308 | 368 | 28 |
 
 ### 题目
 
@@ -356,6 +356,7 @@
 |1128    | 删除字符串中的所有相邻重复项 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/remove-all-adjacent-duplicates-in-string.rs) | [leetcode](https://leetcode-cn.com/problems/remove-all-adjacent-duplicates-in-string/) | Easy |
 |1146    | 字符串的最大公因子 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/greatest-common-divisor-of-strings.rs) | [leetcode](https://leetcode-cn.com/problems/greatest-common-divisor-of-strings/) | Easy |
 |1157    | 根到叶路径上的不足节点 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/insufficient-nodes-in-root-to-leaf-paths.rs) | [leetcode](https://leetcode-cn.com/problems/insufficient-nodes-in-root-to-leaf-paths/) | Medium |
+|1168    | 复写零 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/duplicate-zeros.rs) | [leetcode](https://leetcode-cn.com/problems/duplicate-zeros/) | Easy |
 |1184    | 拼车 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/car-pooling.rs) | [leetcode](https://leetcode-cn.com/problems/car-pooling/) | Medium |
 |1210    | 删除某些元素后的数组均值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/mean-of-array-after-removing-some-elements.rs) | [leetcode](https://leetcode-cn.com/problems/mean-of-array-after-removing-some-elements/) | Easy |
 |1218    | 最深叶节点的最近公共祖先 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/lowest-common-ancestor-of-deepest-leaves.rs) | [leetcode](https://leetcode-cn.com/problems/lowest-common-ancestor-of-deepest-leaves/) | Medium |
