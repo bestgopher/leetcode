@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 704 | 308 | 368 | 28 |
+| 705 | 308 | 369 | 28 |
 
 ### 题目
 
@@ -487,6 +487,7 @@
 |2328    | 向表达式添加括号后的最小结果 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimize-result-by-adding-parentheses-to-expression.rs) | [leetcode](https://leetcode-cn.com/problems/minimize-result-by-adding-parentheses-to-expression/) | Medium |
 |2346    | 字符串中最大的 3 位相同数字 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/largest-3-same-digit-number-in-string.rs) | [leetcode](https://leetcode-cn.com/problems/largest-3-same-digit-number-in-string/) | Easy |
 |2351    | 买钢笔和铅笔的方案数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/number-of-ways-to-buy-pens-and-pencils.rs) | [leetcode](https://leetcode-cn.com/problems/number-of-ways-to-buy-pens-and-pencils/) | Medium |
+|2378    | 最多单词数的发件人 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/sender-with-largest-word-count.rs) | [leetcode](https://leetcode-cn.com/problems/sender-with-largest-word-count/) | Medium |
 |2384    | 判断根结点是否等于子结点之和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/root-equals-sum-of-children.rs) | [leetcode](https://leetcode-cn.com/problems/root-equals-sum-of-children/) | Easy |
 |2386    | 极大极小游戏 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/min-max-game.rs) | [leetcode](https://leetcode-cn.com/problems/min-max-game/) | Easy |
 |2392    | 咒语和药水的成功对数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/successful-pairs-of-spells-and-potions.rs) | [leetcode](https://leetcode-cn.com/problems/successful-pairs-of-spells-and-potions/) | Medium |
