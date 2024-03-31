@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 706 | 308 | 370 | 28 |
+| 707 | 308 | 371 | 28 |
 
 ### 题目
 
@@ -198,6 +198,7 @@
 |319    | 灯泡开关 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/bulb-switcher.rs) | [leetcode](https://leetcode-cn.com/problems/bulb-switcher/) | Medium |
 |322    | 零钱兑换 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/coin-change.rs) | [leetcode](https://leetcode-cn.com/problems/coin-change/) | Medium |
 |326    | 3 的幂 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/power-of-three.rs) | [leetcode](https://leetcode-cn.com/problems/power-of-three/) | Easy |
+|331    | 验证二叉树的前序序列化 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/verify-preorder-serialization-of-a-binary-tree.rs) | [leetcode](https://leetcode-cn.com/problems/verify-preorder-serialization-of-a-binary-tree/) | Medium |
 |334    | 递增的三元子序列 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/increasing-triplet-subsequence.rs) | [leetcode](https://leetcode-cn.com/problems/increasing-triplet-subsequence/) | Medium |
 |337    | 打家劫舍 III | [src](https://github.com/rustors/leetcode/blob/main/src/bin/house-robber-iii.rs) | [leetcode](https://leetcode-cn.com/problems/house-robber-iii/) | Medium |
 |338    | 比特位计数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/counting-bits.rs) | [leetcode](https://leetcode-cn.com/problems/counting-bits/) | Easy |
