@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 707 | 308 | 371 | 28 |
+| 708 | 309 | 371 | 28 |
 
 ### 题目
 
@@ -565,6 +565,7 @@
 |2870    | 最长交替子数组 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/longest-alternating-subarray.rs) | [leetcode](https://leetcode-cn.com/problems/longest-alternating-subarray/) | Easy |
 |2872    | 合并后数组中的最大元素 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/largest-element-in-an-array-after-merge-operations.rs) | [leetcode](https://leetcode-cn.com/problems/largest-element-in-an-array-after-merge-operations/) | Medium |
 |2881    | 按分隔符拆分字符串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/split-strings-by-separator.rs) | [leetcode](https://leetcode-cn.com/problems/split-strings-by-separator/) | Easy |
+|2886    | 故障键盘 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/faulty-keyboard.rs) | [leetcode](https://leetcode-cn.com/problems/faulty-keyboard/) | Easy |
 |2917    | 统计和小于目标的下标对数目 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/count-pairs-whose-sum-is-less-than-target.rs) | [leetcode](https://leetcode-cn.com/problems/count-pairs-whose-sum-is-less-than-target/) | Easy |
 |2920    | 使循环数组所有元素相等的最少秒数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-seconds-to-equalize-a-circular-array.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-seconds-to-equalize-a-circular-array/) | Medium |
 |2977    | 判别首字母缩略词 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/check-if-a-string-is-an-acronym-of-words.rs) | [leetcode](https://leetcode-cn.com/problems/check-if-a-string-is-an-acronym-of-words/) | Easy |
