@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 708 | 309 | 371 | 28 |
+| 709 | 309 | 372 | 28 |
 
 ### 题目
 
@@ -323,6 +323,7 @@
 |924    | 公平的糖果交换 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/fair-candy-swap.rs) | [leetcode](https://leetcode-cn.com/problems/fair-candy-swap/) | Easy |
 |925    | 根据前序和后序遍历构造二叉树 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/construct-binary-tree-from-preorder-and-postorder-traversal.rs) | [leetcode](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/) | Medium |
 |928    | 三维形体的表面积 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/surface-area-of-3d-shapes.rs) | [leetcode](https://leetcode-cn.com/problems/surface-area-of-3d-shapes/) | Easy |
+|930    | 所有可能的真二叉树 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/all-possible-full-binary-trees.rs) | [leetcode](https://leetcode-cn.com/problems/all-possible-full-binary-trees/) | Medium |
 |932    | 单调数列 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/monotonic-array.rs) | [leetcode](https://leetcode-cn.com/problems/monotonic-array/) | Easy |
 |936    | RLE 迭代器 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/rle-iterator.rs) | [leetcode](https://leetcode-cn.com/problems/rle-iterator/) | Medium |
 |937    | 股票价格跨度 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/online-stock-span.rs) | [leetcode](https://leetcode-cn.com/problems/online-stock-span/) | Medium |
