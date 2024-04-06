@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 710 | 309 | 373 | 28 |
+| 711 | 309 | 374 | 28 |
 
 ### 题目
 
@@ -459,6 +459,7 @@
 |1965    | K 进制表示下的各位数字总和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/sum-of-digits-in-base-k.rs) | [leetcode](https://leetcode-cn.com/problems/sum-of-digits-in-base-k/) | Easy |
 |1971    | 增长的内存泄露 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/incremental-memory-leak.rs) | [leetcode](https://leetcode-cn.com/problems/incremental-memory-leak/) | Medium |
 |1983    | 人口最多的年份 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-population-year.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-population-year/) | Easy |
+|1995    | 找出和为指定值的下标对 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/finding-pairs-with-a-certain-sum.rs) | [leetcode](https://leetcode-cn.com/problems/finding-pairs-with-a-certain-sum/) | Medium |
 |2011    | 插入后的最大值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-value-after-insertion.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-value-after-insertion/) | Medium |
 |2022    | 最大子序列交替和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-alternating-subsequence-sum.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-alternating-subsequence-sum/) | Medium |
 |2032    | 字符串中的最大奇数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/largest-odd-number-in-string.rs) | [leetcode](https://leetcode-cn.com/problems/largest-odd-number-in-string/) | Easy |
