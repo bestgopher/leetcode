@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 711 | 309 | 374 | 28 |
+| 712 | 309 | 375 | 28 |
 
 ### 题目
 
@@ -432,6 +432,7 @@
 |1666    | 整理字符串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/make-the-string-great.rs) | [leetcode](https://leetcode-cn.com/problems/make-the-string-great/) | Easy |
 |1677    | 矩阵对角线元素的和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/matrix-diagonal-sum.rs) | [leetcode](https://leetcode-cn.com/problems/matrix-diagonal-sum/) | Easy |
 |1689    | 重复至少 K 次且长度为 M 的模式 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/detect-pattern-of-length-m-repeated-k-or-more-times.rs) | [leetcode](https://leetcode-cn.com/problems/detect-pattern-of-length-m-repeated-k-or-more-times/) | Easy |
+|1722    | 王位继承顺序 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/throne-inheritance.rs) | [leetcode](https://leetcode-cn.com/problems/throne-inheritance/) | Medium |
 |1764    | 最大重复子字符串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-repeating-substring.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-repeating-substring/) | Easy |
 |1767    | 设计前中后队列 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/design-front-middle-back-queue.rs) | [leetcode](https://leetcode-cn.com/problems/design-front-middle-back-queue/) | Medium |
 |1777    | 确定两个字符串是否接近 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/determine-if-two-strings-are-close.rs) | [leetcode](https://leetcode-cn.com/problems/determine-if-two-strings-are-close/) | Medium |
