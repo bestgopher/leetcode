@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 712 | 309 | 375 | 28 |
+| 713 | 310 | 375 | 28 |
 
 ### 题目
 
@@ -506,6 +506,7 @@
 |2509    | 最小异或 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimize-xor.rs) | [leetcode](https://leetcode-cn.com/problems/minimize-xor/) | Medium |
 |2518    | 处理用时最长的那个任务的员工 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/the-employee-that-worked-on-the-longest-task.rs) | [leetcode](https://leetcode-cn.com/problems/the-employee-that-worked-on-the-longest-task/) | Easy |
 |2519    | 找出前缀异或的原始数组 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-the-original-array-of-prefix-xor.rs) | [leetcode](https://leetcode-cn.com/problems/find-the-original-array-of-prefix-xor/) | Medium |
+|2547    | 差值数组不同的字符串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/odd-string-difference.rs) | [leetcode](https://leetcode-cn.com/problems/odd-string-difference/) | Easy |
 |2551    | 对数组执行操作 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/apply-operations-to-an-array.rs) | [leetcode](https://leetcode-cn.com/problems/apply-operations-to-an-array/) | Easy |
 |2566    | 数组中不等三元组的数目 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/number-of-unequal-triplets-in-array.rs) | [leetcode](https://leetcode-cn.com/problems/number-of-unequal-triplets-in-array/) | Easy |
 |2567    | 二叉搜索树最近节点查询 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/closest-nodes-queries-in-a-binary-search-tree.rs) | [leetcode](https://leetcode-cn.com/problems/closest-nodes-queries-in-a-binary-search-tree/) | Medium |
