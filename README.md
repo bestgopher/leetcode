@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 713 | 310 | 375 | 28 |
+| 714 | 310 | 376 | 28 |
 
 ### 题目
 
@@ -383,6 +383,7 @@
 |1362    | 飞机座位分配概率 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/airplane-seat-assignment-probability.rs) | [leetcode](https://leetcode-cn.com/problems/airplane-seat-assignment-probability/) | Medium |
 |1363    | 兼具大小写的最好英文字母 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/greatest-english-letter-in-upper-and-lower-case.rs) | [leetcode](https://leetcode-cn.com/problems/greatest-english-letter-in-upper-and-lower-case/) | Easy |
 |1364    | 同积元组 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/tuple-with-same-product.rs) | [leetcode](https://leetcode-cn.com/problems/tuple-with-same-product/) | Medium |
+|1369    | 交换字符使得字符串相同 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-swaps-to-make-strings-equal.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-swaps-to-make-strings-equal/) | Medium |
 |1370    | 统计「优美子数组」 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/count-number-of-nice-subarrays.rs) | [leetcode](https://leetcode-cn.com/problems/count-number-of-nice-subarrays/) | Medium |
 |1371    | 移除无效的括号 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-remove-to-make-valid-parentheses.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-remove-to-make-valid-parentheses/) | Medium |
 |1379    | 重构 2 行二进制矩阵 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/reconstruct-a-2-row-binary-matrix.rs) | [leetcode](https://leetcode-cn.com/problems/reconstruct-a-2-row-binary-matrix/) | Medium |
