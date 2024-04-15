@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 719 | 312 | 379 | 28 |
+| 720 | 313 | 379 | 28 |
 
 ### 题目
 
@@ -303,6 +303,7 @@
 |784    | 二叉搜索树中的插入操作 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/insert-into-a-binary-search-tree.rs) | [leetcode](https://leetcode-cn.com/problems/insert-into-a-binary-search-tree/) | Medium |
 |800    | 字母大小写全排列 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/letter-case-permutation.rs) | [leetcode](https://leetcode-cn.com/problems/letter-case-permutation/) | Medium |
 |816    | 设计哈希集合 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/design-hashset.rs) | [leetcode](https://leetcode-cn.com/problems/design-hashset/) | Easy |
+|817    | 设计哈希映射 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/design-hashmap.rs) | [leetcode](https://leetcode-cn.com/problems/design-hashmap/) | Easy |
 |825    | 保持城市天际线 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/max-increase-to-keep-city-skyline.rs) | [leetcode](https://leetcode-cn.com/problems/max-increase-to-keep-city-skyline/) | Medium |
 |829    | 子域名访问计数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/subdomain-visit-count.rs) | [leetcode](https://leetcode-cn.com/problems/subdomain-visit-count/) | Medium |
 |834    | 模糊坐标 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/ambiguous-coordinates.rs) | [leetcode](https://leetcode-cn.com/problems/ambiguous-coordinates/) | Medium |
