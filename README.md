@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 720 | 313 | 379 | 28 |
+| 721 | 314 | 379 | 28 |
 
 ### 题目
 
@@ -509,6 +509,7 @@
 |2473    | 数位和相等数对的最大和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/max-sum-of-a-pair-with-equal-sum-of-digits.rs) | [leetcode](https://leetcode-cn.com/problems/max-sum-of-a-pair-with-equal-sum-of-digits/) | Medium |
 |2482    | 被列覆盖的最多行数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-rows-covered-by-columns.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-rows-covered-by-columns/) | Medium |
 |2493    | 反转二叉树的奇数层 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/reverse-odd-levels-of-binary-tree.rs) | [leetcode](https://leetcode-cn.com/problems/reverse-odd-levels-of-binary-tree/) | Medium |
+|2507    | 公因子的数目 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/number-of-common-factors.rs) | [leetcode](https://leetcode-cn.com/problems/number-of-common-factors/) | Easy |
 |2509    | 最小异或 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimize-xor.rs) | [leetcode](https://leetcode-cn.com/problems/minimize-xor/) | Medium |
 |2518    | 处理用时最长的那个任务的员工 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/the-employee-that-worked-on-the-longest-task.rs) | [leetcode](https://leetcode-cn.com/problems/the-employee-that-worked-on-the-longest-task/) | Easy |
 |2519    | 找出前缀异或的原始数组 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-the-original-array-of-prefix-xor.rs) | [leetcode](https://leetcode-cn.com/problems/find-the-original-array-of-prefix-xor/) | Medium |
