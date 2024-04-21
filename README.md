@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 725 | 315 | 382 | 28 |
+| 726 | 315 | 383 | 28 |
 
 ### 题目
 
@@ -264,6 +264,7 @@
 |508    | 出现次数最多的子树元素和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/most-frequent-subtree-sum.rs) | [leetcode](https://leetcode-cn.com/problems/most-frequent-subtree-sum/) | Medium |
 |513    | 找树左下角的值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-bottom-left-tree-value.rs) | [leetcode](https://leetcode-cn.com/problems/find-bottom-left-tree-value/) | Medium |
 |515    | 在每个树行中找最大值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-largest-value-in-each-tree-row.rs) | [leetcode](https://leetcode-cn.com/problems/find-largest-value-in-each-tree-row/) | Medium |
+|516    | 最长回文子序列 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/longest-palindromic-subsequence.rs) | [leetcode](https://leetcode-cn.com/problems/longest-palindromic-subsequence/) | Medium |
 |518    | 零钱兑换 II | [src](https://github.com/rustors/leetcode/blob/main/src/bin/coin-change-ii.rs) | [leetcode](https://leetcode-cn.com/problems/coin-change-ii/) | Medium |
 |520    | 检测大写字母 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/detect-capital.rs) | [leetcode](https://leetcode-cn.com/problems/detect-capital/) | Easy |
 |528    | 交换链表中的节点 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/swapping-nodes-in-a-linked-list.rs) | [leetcode](https://leetcode-cn.com/problems/swapping-nodes-in-a-linked-list/) | Medium |
