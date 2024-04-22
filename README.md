@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 726 | 315 | 383 | 28 |
+| 727 | 315 | 384 | 28 |
 
 ### 题目
 
@@ -216,6 +216,7 @@
 |371    | 两整数之和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/sum-of-two-integers.rs) | [leetcode](https://leetcode-cn.com/problems/sum-of-two-integers/) | Medium |
 |374    | 猜数字大小 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/guess-number-higher-or-lower.rs) | [leetcode](https://leetcode-cn.com/problems/guess-number-higher-or-lower/) | Easy |
 |376    | 摆动序列 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/wiggle-subsequence.rs) | [leetcode](https://leetcode-cn.com/problems/wiggle-subsequence/) | Medium |
+|377    | 组合总和 Ⅳ | [src](https://github.com/rustors/leetcode/blob/main/src/bin/combination-sum-iv.rs) | [leetcode](https://leetcode-cn.com/problems/combination-sum-iv/) | Medium |
 |378    | 有序矩阵中第 K 小的元素 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/kth-smallest-element-in-a-sorted-matrix.rs) | [leetcode](https://leetcode-cn.com/problems/kth-smallest-element-in-a-sorted-matrix/) | Medium |
 |380    | O(1) 时间插入、删除和获取随机元素 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/insert-delete-getrandom-o1.rs) | [leetcode](https://leetcode-cn.com/problems/insert-delete-getrandom-o1/) | Medium |
 |381    | O(1) 时间插入、删除和获取随机元素 - 允许重复 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/insert-delete-getrandom-o1-duplicates-allowed.rs) | [leetcode](https://leetcode-cn.com/problems/insert-delete-getrandom-o1-duplicates-allowed/) | Hard |
