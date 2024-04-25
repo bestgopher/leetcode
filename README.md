@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 729 | 315 | 386 | 28 |
+| 730 | 316 | 386 | 28 |
 
 ### 题目
 
@@ -580,6 +580,7 @@
 |2816    | 字典序最小回文串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/lexicographically-smallest-palindrome.rs) | [leetcode](https://leetcode-cn.com/problems/lexicographically-smallest-palindrome/) | Easy |
 |2838    | 查询后矩阵的和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/sum-of-matrix-after-queries.rs) | [leetcode](https://leetcode-cn.com/problems/sum-of-matrix-after-queries/) | Medium |
 |2847    | 最大字符串配对数目 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-maximum-number-of-string-pairs.rs) | [leetcode](https://leetcode-cn.com/problems/find-maximum-number-of-string-pairs/) | Easy |
+|2857    | 总行驶距离 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/total-distance-traveled.rs) | [leetcode](https://leetcode-cn.com/problems/total-distance-traveled/) | Easy |
 |2866    | 最长奇偶子数组 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/longest-even-odd-subarray-with-threshold.rs) | [leetcode](https://leetcode-cn.com/problems/longest-even-odd-subarray-with-threshold/) | Easy |
 |2870    | 最长交替子数组 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/longest-alternating-subarray.rs) | [leetcode](https://leetcode-cn.com/problems/longest-alternating-subarray/) | Easy |
 |2872    | 合并后数组中的最大元素 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/largest-element-in-an-array-after-merge-operations.rs) | [leetcode](https://leetcode-cn.com/problems/largest-element-in-an-array-after-merge-operations/) | Medium |
