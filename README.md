@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 730 | 316 | 386 | 28 |
+| 732 | 316 | 388 | 28 |
 
 ### 题目
 
@@ -332,6 +332,7 @@
 |928    | 三维形体的表面积 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/surface-area-of-3d-shapes.rs) | [leetcode](https://leetcode-cn.com/problems/surface-area-of-3d-shapes/) | Easy |
 |930    | 所有可能的真二叉树 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/all-possible-full-binary-trees.rs) | [leetcode](https://leetcode-cn.com/problems/all-possible-full-binary-trees/) | Medium |
 |930    | 所有可能的真二叉树 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/all-possible-full-binary-trees.rs) | [leetcode](https://leetcode-cn.com/problems/all-possible-full-binary-trees/) | Medium |
+|930    | 所有可能的真二叉树 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/all-possible-full-binary-trees.rs) | [leetcode](https://leetcode-cn.com/problems/all-possible-full-binary-trees/) | Medium |
 |932    | 单调数列 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/monotonic-array.rs) | [leetcode](https://leetcode-cn.com/problems/monotonic-array/) | Easy |
 |936    | RLE 迭代器 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/rle-iterator.rs) | [leetcode](https://leetcode-cn.com/problems/rle-iterator/) | Medium |
 |937    | 股票价格跨度 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/online-stock-span.rs) | [leetcode](https://leetcode-cn.com/problems/online-stock-span/) | Medium |
@@ -373,6 +374,7 @@
 |1218    | 最深叶节点的最近公共祖先 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/lowest-common-ancestor-of-deepest-leaves.rs) | [leetcode](https://leetcode-cn.com/problems/lowest-common-ancestor-of-deepest-leaves/) | Medium |
 |1236    | 第 N 个泰波那契数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/n-th-tribonacci-number.rs) | [leetcode](https://leetcode-cn.com/problems/n-th-tribonacci-number/) | Easy |
 |1238    | 字母板上的路径 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/alphabet-board-path.rs) | [leetcode](https://leetcode-cn.com/problems/alphabet-board-path/) | Medium |
+|1249    | 快照数组 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/snapshot-array.rs) | [leetcode](https://leetcode-cn.com/problems/snapshot-array/) | Medium |
 |1253    | 将矩阵按对角线排序 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/sort-the-matrix-diagonally.rs) | [leetcode](https://leetcode-cn.com/problems/sort-the-matrix-diagonally/) | Medium |
 |1260    | 一年中的第几天 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/day-of-the-year.rs) | [leetcode](https://leetcode-cn.com/problems/day-of-the-year/) | Easy |
 |1263    | 掷骰子等于目标和的方法数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/number-of-dice-rolls-with-target-sum.rs) | [leetcode](https://leetcode-cn.com/problems/number-of-dice-rolls-with-target-sum/) | Medium |
