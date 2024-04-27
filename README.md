@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 732 | 316 | 388 | 28 |
+| 733 | 317 | 388 | 28 |
 
 ### 题目
 
@@ -549,6 +549,7 @@
 |2663    | 将钱分给最多的儿童 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/distribute-money-to-maximum-children.rs) | [leetcode](https://leetcode-cn.com/problems/distribute-money-to-maximum-children/) | Easy |
 |2668    | 从两个数字数组里生成最小数字 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/form-smallest-number-from-two-digit-arrays.rs) | [leetcode](https://leetcode-cn.com/problems/form-smallest-number-from-two-digit-arrays/) | Easy |
 |2668    | 从两个数字数组里生成最小数字 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/form-smallest-number-from-two-digit-arrays.rs) | [leetcode](https://leetcode-cn.com/problems/form-smallest-number-from-two-digit-arrays/) | Easy |
+|2675    | 查询网格图中每一列的宽度 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-the-width-of-columns-of-a-grid.rs) | [leetcode](https://leetcode-cn.com/problems/find-the-width-of-columns-of-a-grid/) | Easy |
 |2676    | 一个数组所有前缀的分数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-the-score-of-all-prefixes-of-an-array.rs) | [leetcode](https://leetcode-cn.com/problems/find-the-score-of-all-prefixes-of-an-array/) | Medium |
 |2679    | 统计桌面上的不同数字 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/count-distinct-numbers-on-board.rs) | [leetcode](https://leetcode-cn.com/problems/count-distinct-numbers-on-board/) | Easy |
 |2684    | 保龄球游戏的获胜者 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/determine-the-winner-of-a-bowling-game.rs) | [leetcode](https://leetcode-cn.com/problems/determine-the-winner-of-a-bowling-game/) | Easy |
