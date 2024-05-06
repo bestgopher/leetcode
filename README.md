@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 736 | 318 | 390 | 28 |
+| 737 | 319 | 390 | 28 |
 
 ### 题目
 
@@ -459,6 +459,7 @@
 |1814    | 跳跃游戏 VI | [src](https://github.com/rustors/leetcode/blob/main/src/bin/jump-game-vi.rs) | [leetcode](https://leetcode-cn.com/problems/jump-game-vi/) | Medium |
 |1817    | 计算力扣银行的钱 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/calculate-money-in-leetcode-bank.rs) | [leetcode](https://leetcode-cn.com/problems/calculate-money-in-leetcode-bank/) | Easy |
 |1829    | 卡车上的最大单元数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-units-on-a-truck.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-units-on-a-truck/) | Easy |
+|1833    | 找到最高海拔 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-the-highest-altitude.rs) | [leetcode](https://leetcode-cn.com/problems/find-the-highest-altitude/) | Easy |
 |1849    | 任意子数组和的绝对值的最大值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-absolute-sum-of-any-subarray.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-absolute-sum-of-any-subarray/) | Medium |
 |1858    | 替换隐藏数字得到的最晚时间 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/latest-time-by-replacing-hidden-digits.rs) | [leetcode](https://leetcode-cn.com/problems/latest-time-by-replacing-hidden-digits/) | Easy |
 |1884    | 生成交替二进制字符串的最少操作数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-changes-to-make-alternating-binary-string.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-changes-to-make-alternating-binary-string/) | Easy |
