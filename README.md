@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 738 | 319 | 391 | 28 |
+| 739 | 319 | 392 | 28 |
 
 ### 题目
 
@@ -385,6 +385,7 @@
 |1293    | 存在连续三个奇数的数组 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/three-consecutive-odds.rs) | [leetcode](https://leetcode-cn.com/problems/three-consecutive-odds/) | Easy |
 |1295    | 收集足够苹果的最小花园周长 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-garden-perimeter-to-collect-enough-apples.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-garden-perimeter-to-collect-enough-apples/) | Medium |
 |1306    | 最小绝对差 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-absolute-difference.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-absolute-difference/) | Easy |
+|1310    | 给植物浇水 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/watering-plants.rs) | [leetcode](https://leetcode-cn.com/problems/watering-plants/) | Medium |
 |1319    | 独一无二的出现次数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/unique-number-of-occurrences.rs) | [leetcode](https://leetcode-cn.com/problems/unique-number-of-occurrences/) | Easy |
 |1320    | 删除字符串中的所有相邻重复项 II | [src](https://github.com/rustors/leetcode/blob/main/src/bin/remove-all-adjacent-duplicates-in-string-ii.rs) | [leetcode](https://leetcode-cn.com/problems/remove-all-adjacent-duplicates-in-string-ii/) | Medium |
 |1329    | 玩筹码 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-cost-to-move-chips-to-the-same-position.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-cost-to-move-chips-to-the-same-position/) | Easy |
