@@ -21,3 +21,4 @@ impl Solution {
         result
     }
 }
+https://leetcode.cn/problems/watering-plants-ii/description/?envType=daily-question&envId=2024-05-09
