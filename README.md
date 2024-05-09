@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 739 | 319 | 392 | 28 |
+| 741 | 319 | 394 | 28 |
 
 ### 题目
 
@@ -386,6 +386,7 @@
 |1295    | 收集足够苹果的最小花园周长 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-garden-perimeter-to-collect-enough-apples.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-garden-perimeter-to-collect-enough-apples/) | Medium |
 |1306    | 最小绝对差 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-absolute-difference.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-absolute-difference/) | Easy |
 |1310    | 给植物浇水 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/watering-plants.rs) | [leetcode](https://leetcode-cn.com/problems/watering-plants/) | Medium |
+|1310    | 给植物浇水 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/watering-plants.rs) | [leetcode](https://leetcode-cn.com/problems/watering-plants/) | Medium |
 |1319    | 独一无二的出现次数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/unique-number-of-occurrences.rs) | [leetcode](https://leetcode-cn.com/problems/unique-number-of-occurrences/) | Easy |
 |1320    | 删除字符串中的所有相邻重复项 II | [src](https://github.com/rustors/leetcode/blob/main/src/bin/remove-all-adjacent-duplicates-in-string-ii.rs) | [leetcode](https://leetcode-cn.com/problems/remove-all-adjacent-duplicates-in-string-ii/) | Medium |
 |1329    | 玩筹码 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-cost-to-move-chips-to-the-same-position.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-cost-to-move-chips-to-the-same-position/) | Easy |
@@ -496,6 +497,7 @@
 |2210    | 找出数组排序后的目标下标 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-target-indices-after-sorting-array.rs) | [leetcode](https://leetcode-cn.com/problems/find-target-indices-after-sorting-array/) | Easy |
 |2215    | 找出 3 位偶数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/finding-3-digit-even-numbers.rs) | [leetcode](https://leetcode-cn.com/problems/finding-3-digit-even-numbers/) | Easy |
 |2226    | 环和杆 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/rings-and-rods.rs) | [leetcode](https://leetcode-cn.com/problems/rings-and-rods/) | Easy |
+|2228    | 给植物浇水 II | [src](https://github.com/rustors/leetcode/blob/main/src/bin/watering-plants-ii.rs) | [leetcode](https://leetcode-cn.com/problems/watering-plants-ii/) | Medium |
 |2233    | 股票平滑下跌阶段的数目 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/number-of-smooth-descent-periods-of-a-stock.rs) | [leetcode](https://leetcode-cn.com/problems/number-of-smooth-descent-periods-of-a-stock/) | Medium |
 |2235    | 将标题首字母大写 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/capitalize-the-title.rs) | [leetcode](https://leetcode-cn.com/problems/capitalize-the-title/) | Easy |
 |2235    | 将标题首字母大写 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/capitalize-the-title.rs) | [leetcode](https://leetcode-cn.com/problems/capitalize-the-title/) | Easy |
