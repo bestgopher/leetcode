@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 741 | 319 | 394 | 28 |
+| 742 | 320 | 394 | 28 |
 
 ### 题目
 
@@ -611,6 +611,7 @@
 |3183    | 找出数组中的 K-or 值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-the-k-or-of-an-array.rs) | [leetcode](https://leetcode-cn.com/problems/find-the-k-or-of-an-array/) | Easy |
 |3188    | 找到冠军 I | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-champion-i.rs) | [leetcode](https://leetcode-cn.com/problems/find-champion-i/) | Easy |
 |3189    | 找到冠军 II | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-champion-ii.rs) | [leetcode](https://leetcode-cn.com/problems/find-champion-ii/) | Medium |
+|3220    | 统计已测试设备 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/count-tested-devices-after-test-operations.rs) | [leetcode](https://leetcode-cn.com/problems/count-tested-devices-after-test-operations/) | Easy |
 |3231    | 需要添加的硬币的最小数量 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-number-of-coins-to-be-added.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-number-of-coins-to-be-added/) | Medium |
 |3241    | 划分数组并满足最大差限制 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/divide-array-into-arrays-with-max-difference.rs) | [leetcode](https://leetcode-cn.com/problems/divide-array-into-arrays-with-max-difference/) | Medium |
 |3275    | 输入单词需要的最少按键次数 I | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-number-of-pushes-to-type-word-i.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-number-of-pushes-to-type-word-i/) | Easy |
