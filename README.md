@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 745 | 321 | 396 | 28 |
+| 746 | 322 | 396 | 28 |
 
 ### 题目
 
@@ -437,6 +437,7 @@
 |1568    | 二叉树中的伪回文路径 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/pseudo-palindromic-paths-in-a-binary-tree.rs) | [leetcode](https://leetcode-cn.com/problems/pseudo-palindromic-paths-in-a-binary-tree/) | Medium |
 |1575    | 切割后面积最大的蛋糕 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts/) | Medium |
 |1576    | 重新规划路线 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/reorder-routes-to-make-all-paths-lead-to-the-city-zero.rs) | [leetcode](https://leetcode-cn.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/) | Medium |
+|1584    | 去掉最低工资和最高工资后的工资平均值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/average-salary-excluding-the-minimum-and-maximum-salary.rs) | [leetcode](https://leetcode-cn.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/) | Easy |
 |1603    | 一维数组的动态和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/running-sum-of-1d-array.rs) | [leetcode](https://leetcode-cn.com/problems/running-sum-of-1d-array/) | Easy |
 |1604    | 不同整数的最少数目 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/least-number-of-unique-integers-after-k-removals.rs) | [leetcode](https://leetcode-cn.com/problems/least-number-of-unique-integers-after-k-removals/) | Medium |
 |1620    | 检查数组对是否可以被 k 整除 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/check-if-array-pairs-are-divisible-by-k.rs) | [leetcode](https://leetcode-cn.com/problems/check-if-array-pairs-are-divisible-by-k/) | Medium |
