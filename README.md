@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 747 | 322 | 397 | 28 |
+| 748 | 322 | 398 | 28 |
 
 ### 题目
 
@@ -313,6 +313,7 @@
 |835    | 链表组件 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/linked-list-components.rs) | [leetcode](https://leetcode-cn.com/problems/linked-list-components/) | Medium |
 |839    | 单词的压缩编码 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/short-encoding-of-words.rs) | [leetcode](https://leetcode-cn.com/problems/short-encoding-of-words/) | Medium |
 |842    | 翻转卡片游戏 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/card-flipping-game.rs) | [leetcode](https://leetcode-cn.com/problems/card-flipping-game/) | Medium |
+|853    | 安排工作以达到最大收益 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/most-profit-assigning-work.rs) | [leetcode](https://leetcode-cn.com/problems/most-profit-assigning-work/) | Medium |
 |857    | 较大分组的位置 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/positions-of-large-groups.rs) | [leetcode](https://leetcode-cn.com/problems/positions-of-large-groups/) | Easy |
 |860    | 设计循环队列 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/design-circular-queue.rs) | [leetcode](https://leetcode-cn.com/problems/design-circular-queue/) | Medium |
 |861    | 翻转图像 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/flipping-an-image.rs) | [leetcode](https://leetcode-cn.com/problems/flipping-an-image/) | Easy |
