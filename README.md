@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 749 | 323 | 398 | 28 |
+| 750 | 323 | 399 | 28 |
 
 ### 题目
 
@@ -620,6 +620,7 @@
 |3220    | 统计已测试设备 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/count-tested-devices-after-test-operations.rs) | [leetcode](https://leetcode-cn.com/problems/count-tested-devices-after-test-operations/) | Easy |
 |3231    | 需要添加的硬币的最小数量 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-number-of-coins-to-be-added.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-number-of-coins-to-be-added/) | Medium |
 |3241    | 划分数组并满足最大差限制 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/divide-array-into-arrays-with-max-difference.rs) | [leetcode](https://leetcode-cn.com/problems/divide-array-into-arrays-with-max-difference/) | Medium |
+|3265    | 最大好子数组和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-good-subarray-sum.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-good-subarray-sum/) | Medium |
 |3275    | 输入单词需要的最少按键次数 I | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-number-of-pushes-to-type-word-i.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-number-of-pushes-to-type-word-i/) | Easy |
 |3320    | 相同分数的最大操作数目 I | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-number-of-operations-with-the-same-score-i.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-number-of-operations-with-the-same-score-i/) | Easy |
 |3347    | 将元素分配到两个数组中 I | [src](https://github.com/rustors/leetcode/blob/main/src/bin/distribute-elements-into-two-arrays-i.rs) | [leetcode](https://leetcode-cn.com/problems/distribute-elements-into-two-arrays-i/) | Easy |
