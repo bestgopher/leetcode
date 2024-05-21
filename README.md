@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 750 | 323 | 399 | 28 |
+| 751 | 324 | 399 | 28 |
 
 ### 题目
 
@@ -600,6 +600,7 @@
 |2866    | 最长奇偶子数组 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/longest-even-odd-subarray-with-threshold.rs) | [leetcode](https://leetcode-cn.com/problems/longest-even-odd-subarray-with-threshold/) | Easy |
 |2870    | 最长交替子数组 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/longest-alternating-subarray.rs) | [leetcode](https://leetcode-cn.com/problems/longest-alternating-subarray/) | Easy |
 |2872    | 合并后数组中的最大元素 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/largest-element-in-an-array-after-merge-operations.rs) | [leetcode](https://leetcode-cn.com/problems/largest-element-in-an-array-after-merge-operations/) | Medium |
+|2876    | 满足目标工作时长的员工数目 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/number-of-employees-who-met-the-target.rs) | [leetcode](https://leetcode-cn.com/problems/number-of-employees-who-met-the-target/) | Easy |
 |2881    | 按分隔符拆分字符串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/split-strings-by-separator.rs) | [leetcode](https://leetcode-cn.com/problems/split-strings-by-separator/) | Easy |
 |2886    | 故障键盘 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/faulty-keyboard.rs) | [leetcode](https://leetcode-cn.com/problems/faulty-keyboard/) | Easy |
 |2917    | 统计和小于目标的下标对数目 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/count-pairs-whose-sum-is-less-than-target.rs) | [leetcode](https://leetcode-cn.com/problems/count-pairs-whose-sum-is-less-than-target/) | Easy |
