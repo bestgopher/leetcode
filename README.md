@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 752 | 324 | 400 | 28 |
+| 753 | 325 | 400 | 28 |
 
 ### 题目
 
@@ -615,6 +615,7 @@
 |3094    | 使数组为空的最少操作次数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-number-of-operations-to-make-array-empty.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-number-of-operations-to-make-array-empty/) | Medium |
 |3095    | 最大合金数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-number-of-alloys.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-number-of-alloys/) | Medium |
 |3152    | 有序三元组中的最大值 II | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-value-of-an-ordered-triplet-ii.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-value-of-an-ordered-triplet-ii/) | Medium |
+|3165    | 找出满足差值条件的下标 I | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-indices-with-index-and-value-difference-i.rs) | [leetcode](https://leetcode-cn.com/problems/find-indices-with-index-and-value-difference-i/) | Easy |
 |3176    | 元素和最小的山形三元组 I | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-sum-of-mountain-triplets-i.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-sum-of-mountain-triplets-i/) | Easy |
 |3183    | 找出数组中的 K-or 值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-the-k-or-of-an-array.rs) | [leetcode](https://leetcode-cn.com/problems/find-the-k-or-of-an-array/) | Easy |
 |3188    | 找到冠军 I | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-champion-i.rs) | [leetcode](https://leetcode-cn.com/problems/find-champion-i/) | Easy |
