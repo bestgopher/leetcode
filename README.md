@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 753 | 325 | 400 | 28 |
+| 754 | 326 | 400 | 28 |
 
 ### 题目
 
@@ -627,6 +627,7 @@
 |3275    | 输入单词需要的最少按键次数 I | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-number-of-pushes-to-type-word-i.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-number-of-pushes-to-type-word-i/) | Easy |
 |3320    | 相同分数的最大操作数目 I | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-number-of-operations-with-the-same-score-i.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-number-of-operations-with-the-same-score-i/) | Easy |
 |3347    | 将元素分配到两个数组中 I | [src](https://github.com/rustors/leetcode/blob/main/src/bin/distribute-elements-into-two-arrays-i.rs) | [leetcode](https://leetcode-cn.com/problems/distribute-elements-into-two-arrays-i/) | Easy |
+|100160    | URL化 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/string-to-url-lcci.rs) | [leetcode](https://leetcode-cn.com/problems/string-to-url-lcci/) | Easy |
 |100162    | 字符串轮转 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/string-rotation-lcci.rs) | [leetcode](https://leetcode-cn.com/problems/string-rotation-lcci/) | Easy |
 |100163    | 移除重复节点 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/remove-duplicate-node-lcci.rs) | [leetcode](https://leetcode-cn.com/problems/remove-duplicate-node-lcci/) | Easy |
 |100240    | 魔术索引 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/magic-index-lcci.rs) | [leetcode](https://leetcode-cn.com/problems/magic-index-lcci/) | Easy |
