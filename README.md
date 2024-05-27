@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 754 | 326 | 400 | 28 |
+| 755 | 326 | 401 | 28 |
 
 ### 题目
 
@@ -493,6 +493,7 @@
 |2104    | 树上的操作 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/operations-on-tree.rs) | [leetcode](https://leetcode-cn.com/problems/operations-on-tree/) | Medium |
 |2117    | 从双倍数组中还原原数组 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-original-array-from-doubled-array.rs) | [leetcode](https://leetcode-cn.com/problems/find-original-array-from-doubled-array/) | Medium |
 |2128    | 反转单词前缀 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/reverse-prefix-of-word.rs) | [leetcode](https://leetcode-cn.com/problems/reverse-prefix-of-word/) | Easy |
+|2155    | 找出缺失的观测数据 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-missing-observations.rs) | [leetcode](https://leetcode-cn.com/problems/find-missing-observations/) | Medium |
 |2159    | 至少在两个数组中出现的值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/two-out-of-three.rs) | [leetcode](https://leetcode-cn.com/problems/two-out-of-three/) | Easy |
 |2161    | 股票价格波动 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/stock-price-fluctuation.rs) | [leetcode](https://leetcode-cn.com/problems/stock-price-fluctuation/) | Medium |
 |2168    | 检查句子中的数字是否递增 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/check-if-numbers-are-ascending-in-a-sentence.rs) | [leetcode](https://leetcode-cn.com/problems/check-if-numbers-are-ascending-in-a-sentence/) | Easy |
