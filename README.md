@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 755 | 326 | 401 | 28 |
+| 756 | 327 | 401 | 28 |
 
 ### 题目
 
@@ -622,6 +622,7 @@
 |3188    | 找到冠军 I | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-champion-i.rs) | [leetcode](https://leetcode-cn.com/problems/find-champion-i/) | Easy |
 |3189    | 找到冠军 II | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-champion-ii.rs) | [leetcode](https://leetcode-cn.com/problems/find-champion-ii/) | Medium |
 |3220    | 统计已测试设备 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/count-tested-devices-after-test-operations.rs) | [leetcode](https://leetcode-cn.com/problems/count-tested-devices-after-test-operations/) | Easy |
+|3221    | 找出峰值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-the-peaks.rs) | [leetcode](https://leetcode-cn.com/problems/find-the-peaks/) | Easy |
 |3231    | 需要添加的硬币的最小数量 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-number-of-coins-to-be-added.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-number-of-coins-to-be-added/) | Medium |
 |3241    | 划分数组并满足最大差限制 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/divide-array-into-arrays-with-max-difference.rs) | [leetcode](https://leetcode-cn.com/problems/divide-array-into-arrays-with-max-difference/) | Medium |
 |3265    | 最大好子数组和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-good-subarray-sum.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-good-subarray-sum/) | Medium |
