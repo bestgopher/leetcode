@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 759 | 330 | 401 | 28 |
+| 760 | 331 | 401 | 28 |
 
 ### 题目
 
@@ -277,6 +277,7 @@
 |551    | 学生出勤记录 I | [src](https://github.com/rustors/leetcode/blob/main/src/bin/student-attendance-record-i.rs) | [leetcode](https://leetcode-cn.com/problems/student-attendance-record-i/) | Easy |
 |560    | 和为 K 的子数组 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/subarray-sum-equals-k.rs) | [leetcode](https://leetcode-cn.com/problems/subarray-sum-equals-k/) | Medium |
 |565    | 数组嵌套 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/array-nesting.rs) | [leetcode](https://leetcode-cn.com/problems/array-nesting/) | Medium |
+|575    | 分糖果 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/distribute-candies.rs) | [leetcode](https://leetcode-cn.com/problems/distribute-candies/) | Easy |
 |581    | 最短无序连续子数组 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/shortest-unsorted-continuous-subarray.rs) | [leetcode](https://leetcode-cn.com/problems/shortest-unsorted-continuous-subarray/) | Medium |
 |594    | 最长和谐子序列 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/longest-harmonious-subsequence.rs) | [leetcode](https://leetcode-cn.com/problems/longest-harmonious-subsequence/) | Easy |
 |599    | 两个列表的最小索引总和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-index-sum-of-two-lists.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-index-sum-of-two-lists/) | Easy |
