@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 760 | 331 | 401 | 28 |
+| 761 | 331 | 402 | 28 |
 
 ### 题目
 
@@ -517,6 +517,7 @@
 |2310    | 将数组和减半的最少操作次数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-operations-to-halve-array-sum.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-operations-to-halve-array-sum/) | Medium |
 |2320    | 找出数组中的所有 K 近邻下标 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-all-k-distant-indices-in-an-array.rs) | [leetcode](https://leetcode-cn.com/problems/find-all-k-distant-indices-in-an-array/) | Easy |
 |2328    | 向表达式添加括号后的最小结果 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimize-result-by-adding-parentheses-to-expression.rs) | [leetcode](https://leetcode-cn.com/problems/minimize-result-by-adding-parentheses-to-expression/) | Medium |
+|2332    | 统计圆内格点数目 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/count-lattice-points-inside-a-circle.rs) | [leetcode](https://leetcode-cn.com/problems/count-lattice-points-inside-a-circle/) | Medium |
 |2346    | 字符串中最大的 3 位相同数字 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/largest-3-same-digit-number-in-string.rs) | [leetcode](https://leetcode-cn.com/problems/largest-3-same-digit-number-in-string/) | Easy |
 |2351    | 买钢笔和铅笔的方案数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/number-of-ways-to-buy-pens-and-pencils.rs) | [leetcode](https://leetcode-cn.com/problems/number-of-ways-to-buy-pens-and-pencils/) | Medium |
 |2362    | 完成所有任务需要的最少轮数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-rounds-to-complete-all-tasks.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-rounds-to-complete-all-tasks/) | Medium |
