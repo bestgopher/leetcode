@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 761 | 331 | 402 | 28 |
+| 762 | 331 | 403 | 28 |
 
 ### 题目
 
@@ -623,6 +623,7 @@
 |3183    | 找出数组中的 K-or 值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-the-k-or-of-an-array.rs) | [leetcode](https://leetcode-cn.com/problems/find-the-k-or-of-an-array/) | Easy |
 |3188    | 找到冠军 I | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-champion-i.rs) | [leetcode](https://leetcode-cn.com/problems/find-champion-i/) | Easy |
 |3189    | 找到冠军 II | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-champion-ii.rs) | [leetcode](https://leetcode-cn.com/problems/find-champion-ii/) | Medium |
+|3195    | 区分黑球与白球 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/separate-black-and-white-balls.rs) | [leetcode](https://leetcode-cn.com/problems/separate-black-and-white-balls/) | Medium |
 |3199    | 给小朋友们分糖果 I | [src](https://github.com/rustors/leetcode/blob/main/src/bin/distribute-candies-among-children-i.rs) | [leetcode](https://leetcode-cn.com/problems/distribute-candies-among-children-i/) | Easy |
 |3220    | 统计已测试设备 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/count-tested-devices-after-test-operations.rs) | [leetcode](https://leetcode-cn.com/problems/count-tested-devices-after-test-operations/) | Easy |
 |3221    | 找出峰值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-the-peaks.rs) | [leetcode](https://leetcode-cn.com/problems/find-the-peaks/) | Easy |
