@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 763 | 332 | 403 | 28 |
+| 764 | 333 | 403 | 28 |
 
 ### 题目
 
@@ -626,6 +626,7 @@
 |3189    | 找到冠军 II | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-champion-ii.rs) | [leetcode](https://leetcode-cn.com/problems/find-champion-ii/) | Medium |
 |3195    | 区分黑球与白球 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/separate-black-and-white-balls.rs) | [leetcode](https://leetcode-cn.com/problems/separate-black-and-white-balls/) | Medium |
 |3199    | 给小朋友们分糖果 I | [src](https://github.com/rustors/leetcode/blob/main/src/bin/distribute-candies-among-children-i.rs) | [leetcode](https://leetcode-cn.com/problems/distribute-candies-among-children-i/) | Easy |
+|3207    | 使三个字符串相等 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/make-three-strings-equal.rs) | [leetcode](https://leetcode-cn.com/problems/make-three-strings-equal/) | Easy |
 |3220    | 统计已测试设备 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/count-tested-devices-after-test-operations.rs) | [leetcode](https://leetcode-cn.com/problems/count-tested-devices-after-test-operations/) | Easy |
 |3221    | 找出峰值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-the-peaks.rs) | [leetcode](https://leetcode-cn.com/problems/find-the-peaks/) | Easy |
 |3227    | 找出缺失和重复的数字 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-missing-and-repeated-values.rs) | [leetcode](https://leetcode-cn.com/problems/find-missing-and-repeated-values/) | Easy |
