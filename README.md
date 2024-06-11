@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 764 | 333 | 403 | 28 |
+| 765 | 334 | 403 | 28 |
 
 ### 题目
 
@@ -611,6 +611,7 @@
 |2917    | 统计和小于目标的下标对数目 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/count-pairs-whose-sum-is-less-than-target.rs) | [leetcode](https://leetcode-cn.com/problems/count-pairs-whose-sum-is-less-than-target/) | Easy |
 |2920    | 使循环数组所有元素相等的最少秒数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-seconds-to-equalize-a-circular-array.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-seconds-to-equalize-a-circular-array/) | Medium |
 |2954    | 几乎唯一子数组的最大和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-sum-of-almost-unique-subarray.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-sum-of-almost-unique-subarray/) | Medium |
+|2955    | 取整购买后的账户余额 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/account-balance-after-rounded-purchase.rs) | [leetcode](https://leetcode-cn.com/problems/account-balance-after-rounded-purchase/) | Easy |
 |2977    | 判别首字母缩略词 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/check-if-a-string-is-an-acronym-of-words.rs) | [leetcode](https://leetcode-cn.com/problems/check-if-a-string-is-an-acronym-of-words/) | Easy |
 |3026    | 找出美丽数组的最小和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-the-minimum-possible-sum-of-a-beautiful-array.rs) | [leetcode](https://leetcode-cn.com/problems/find-the-minimum-possible-sum-of-a-beautiful-array/) | Medium |
 |3045    | 使数组成为递增数组的最少右移次数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-right-shifts-to-sort-the-array.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-right-shifts-to-sort-the-array/) | Easy |
