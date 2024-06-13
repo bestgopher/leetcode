@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 765 | 334 | 403 | 28 |
+| 766 | 335 | 403 | 28 |
 
 ### 题目
 
@@ -382,6 +382,7 @@
 |1253    | 将矩阵按对角线排序 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/sort-the-matrix-diagonally.rs) | [leetcode](https://leetcode-cn.com/problems/sort-the-matrix-diagonally/) | Medium |
 |1260    | 一年中的第几天 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/day-of-the-year.rs) | [leetcode](https://leetcode-cn.com/problems/day-of-the-year/) | Easy |
 |1263    | 掷骰子等于目标和的方法数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/number-of-dice-rolls-with-target-sum.rs) | [leetcode](https://leetcode-cn.com/problems/number-of-dice-rolls-with-target-sum/) | Medium |
+|1264    | 可以输入的最大单词数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-number-of-words-you-can-type.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-number-of-words-you-can-type/) | Easy |
 |1273    | 比较字符串最小字母出现频次 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/compare-strings-by-frequency-of-the-smallest-character.rs) | [leetcode](https://leetcode-cn.com/problems/compare-strings-by-frequency-of-the-smallest-character/) | Medium |
 |1287    | 公交站间的距离 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/distance-between-bus-stops.rs) | [leetcode](https://leetcode-cn.com/problems/distance-between-bus-stops/) | Easy |
 |1289    | 一周中的第几天 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/day-of-the-week.rs) | [leetcode](https://leetcode-cn.com/problems/day-of-the-week/) | Easy |
