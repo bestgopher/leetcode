@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 766 | 335 | 403 | 28 |
+| 767 | 335 | 404 | 28 |
 
 ### 题目
 
@@ -609,6 +609,7 @@
 |2876    | 满足目标工作时长的员工数目 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/number-of-employees-who-met-the-target.rs) | [leetcode](https://leetcode-cn.com/problems/number-of-employees-who-met-the-target/) | Easy |
 |2881    | 按分隔符拆分字符串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/split-strings-by-separator.rs) | [leetcode](https://leetcode-cn.com/problems/split-strings-by-separator/) | Easy |
 |2886    | 故障键盘 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/faulty-keyboard.rs) | [leetcode](https://leetcode-cn.com/problems/faulty-keyboard/) | Easy |
+|2893    | 访问数组中的位置使分数最大 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/visit-array-positions-to-maximize-score.rs) | [leetcode](https://leetcode-cn.com/problems/visit-array-positions-to-maximize-score/) | Medium |
 |2917    | 统计和小于目标的下标对数目 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/count-pairs-whose-sum-is-less-than-target.rs) | [leetcode](https://leetcode-cn.com/problems/count-pairs-whose-sum-is-less-than-target/) | Easy |
 |2920    | 使循环数组所有元素相等的最少秒数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-seconds-to-equalize-a-circular-array.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-seconds-to-equalize-a-circular-array/) | Medium |
 |2954    | 几乎唯一子数组的最大和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-sum-of-almost-unique-subarray.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-sum-of-almost-unique-subarray/) | Medium |
