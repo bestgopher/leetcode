@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 767 | 335 | 404 | 28 |
+| 768 | 336 | 404 | 28 |
 
 ### 题目
 
@@ -268,6 +268,7 @@
 |516    | 最长回文子序列 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/longest-palindromic-subsequence.rs) | [leetcode](https://leetcode-cn.com/problems/longest-palindromic-subsequence/) | Medium |
 |518    | 零钱兑换 II | [src](https://github.com/rustors/leetcode/blob/main/src/bin/coin-change-ii.rs) | [leetcode](https://leetcode-cn.com/problems/coin-change-ii/) | Medium |
 |520    | 检测大写字母 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/detect-capital.rs) | [leetcode](https://leetcode-cn.com/problems/detect-capital/) | Easy |
+|521    | 最长特殊序列 Ⅰ | [src](https://github.com/rustors/leetcode/blob/main/src/bin/longest-uncommon-subsequence-i.rs) | [leetcode](https://leetcode-cn.com/problems/longest-uncommon-subsequence-i/) | Easy |
 |528    | 交换链表中的节点 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/swapping-nodes-in-a-linked-list.rs) | [leetcode](https://leetcode-cn.com/problems/swapping-nodes-in-a-linked-list/) | Medium |
 |530    | 二叉搜索树的最小绝对差 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-absolute-difference-in-bst.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-absolute-difference-in-bst/) | Easy |
 |535    | TinyURL 的加密与解密 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/encode-and-decode-tinyurl.rs) | [leetcode](https://leetcode-cn.com/problems/encode-and-decode-tinyurl/) | Medium |
