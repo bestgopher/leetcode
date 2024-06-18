@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 770 | 336 | 406 | 28 |
+| 771 | 337 | 406 | 28 |
 
 ### 题目
 
@@ -729,6 +729,7 @@
 |1000025    | 不用加号的加法 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/add-without-plus-lcci.rs) | [leetcode](https://leetcode-cn.com/problems/add-without-plus-lcci/) | Easy |
 |1000056    | 拿硬币 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/na-ying-bi.rs) | [leetcode](https://leetcode-cn.com/problems/na-ying-bi/) | Easy |
 |1000063    | 传递信息 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/chuan-di-xin-xi.rs) | [leetcode](https://leetcode-cn.com/problems/chuan-di-xin-xi/) | Easy |
+|1000139    | 速算机器人 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/nGK0Fy.rs) | [leetcode](https://leetcode-cn.com/problems/nGK0Fy/) | Easy |
 |1000224    | 魔塔游戏 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/p0NxJO.rs) | [leetcode](https://leetcode-cn.com/problems/p0NxJO/) | Medium |
 |1000225    | 下载插件 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/Ju9Xwi.rs) | [leetcode](https://leetcode-cn.com/problems/Ju9Xwi/) | Easy |
 |1000228    | 整数除法 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/xoh6Oh.rs) | [leetcode](https://leetcode-cn.com/problems/xoh6Oh/) | Easy |
