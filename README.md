@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 772 | 338 | 406 | 28 |
+| 773 | 339 | 406 | 28 |
 
 ### 题目
 
@@ -780,3 +780,4 @@
 |1000333    | 山峰数组的顶部 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/B1IidL.rs) | [leetcode](https://leetcode-cn.com/problems/B1IidL/) | Easy |
 |1000341    | 链表排序 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/7WHec2.rs) | [leetcode](https://leetcode-cn.com/problems/7WHec2/) | Medium |
 |1000433    | 宝石补给 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/WHnhjV.rs) | [leetcode](https://leetcode-cn.com/problems/WHnhjV/) | Easy |
+|1000476    | 气温变化趋势 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/6CE719.rs) | [leetcode](https://leetcode-cn.com/problems/6CE719/) | Easy |
