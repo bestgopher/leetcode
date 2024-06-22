@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 773 | 339 | 406 | 28 |
+| 774 | 340 | 406 | 28 |
 
 ### 题目
 
@@ -372,6 +372,7 @@
 |1128    | 删除字符串中的所有相邻重复项 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/remove-all-adjacent-duplicates-in-string.rs) | [leetcode](https://leetcode-cn.com/problems/remove-all-adjacent-duplicates-in-string/) | Easy |
 |1138    | 爱生气的书店老板 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/grumpy-bookstore-owner.rs) | [leetcode](https://leetcode-cn.com/problems/grumpy-bookstore-owner/) | Medium |
 |1146    | 字符串的最大公因子 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/greatest-common-divisor-of-strings.rs) | [leetcode](https://leetcode-cn.com/problems/greatest-common-divisor-of-strings/) | Easy |
+|1156    | Bigram 分词 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/occurrences-after-bigram.rs) | [leetcode](https://leetcode-cn.com/problems/occurrences-after-bigram/) | Easy |
 |1157    | 根到叶路径上的不足节点 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/insufficient-nodes-in-root-to-leaf-paths.rs) | [leetcode](https://leetcode-cn.com/problems/insufficient-nodes-in-root-to-leaf-paths/) | Medium |
 |1168    | 复写零 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/duplicate-zeros.rs) | [leetcode](https://leetcode-cn.com/problems/duplicate-zeros/) | Easy |
 |1184    | 拼车 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/car-pooling.rs) | [leetcode](https://leetcode-cn.com/problems/car-pooling/) | Medium |
