@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 774 | 340 | 406 | 28 |
+| 775 | 341 | 406 | 28 |
 
 ### 题目
 
@@ -306,6 +306,7 @@
 |782    | 宝石与石头 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/jewels-and-stones.rs) | [leetcode](https://leetcode-cn.com/problems/jewels-and-stones/) | Easy |
 |783    | 二叉搜索树中的搜索 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/search-in-a-binary-search-tree.rs) | [leetcode](https://leetcode-cn.com/problems/search-in-a-binary-search-tree/) | Easy |
 |784    | 二叉搜索树中的插入操作 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/insert-into-a-binary-search-tree.rs) | [leetcode](https://leetcode-cn.com/problems/insert-into-a-binary-search-tree/) | Medium |
+|799    | 二叉搜索树节点最小距离 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-distance-between-bst-nodes.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-distance-between-bst-nodes/) | Easy |
 |800    | 字母大小写全排列 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/letter-case-permutation.rs) | [leetcode](https://leetcode-cn.com/problems/letter-case-permutation/) | Medium |
 |816    | 设计哈希集合 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/design-hashset.rs) | [leetcode](https://leetcode-cn.com/problems/design-hashset/) | Easy |
 |817    | 设计哈希映射 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/design-hashmap.rs) | [leetcode](https://leetcode-cn.com/problems/design-hashmap/) | Easy |
