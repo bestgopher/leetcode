@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 775 | 341 | 406 | 28 |
+| 776 | 342 | 406 | 28 |
 
 ### 题目
 
@@ -415,6 +415,7 @@
 |1395    | 访问所有点的最小时间 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-time-visiting-all-points.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-time-visiting-all-points/) | Easy |
 |1396    | 统计参与通信的服务器 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/count-servers-that-communicate.rs) | [leetcode](https://leetcode-cn.com/problems/count-servers-that-communicate/) | Medium |
 |1396    | 统计参与通信的服务器 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/count-servers-that-communicate.rs) | [leetcode](https://leetcode-cn.com/problems/count-servers-that-communicate/) | Medium |
+|1400    | 找出井字棋的获胜者 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-winner-on-a-tic-tac-toe-game.rs) | [leetcode](https://leetcode-cn.com/problems/find-winner-on-a-tic-tac-toe-game/) | Easy |
 |1401    | 不浪费原料的汉堡制作方案 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/number-of-burgers-with-no-waste-of-ingredients.rs) | [leetcode](https://leetcode-cn.com/problems/number-of-burgers-with-no-waste-of-ingredients/) | Medium |
 |1406    | 整数的各位积和之差 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/subtract-the-product-and-sum-of-digits-of-an-integer.rs) | [leetcode](https://leetcode-cn.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/) | Easy |
 |1411    | 二进制链表转整数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/convert-binary-number-in-a-linked-list-to-integer.rs) | [leetcode](https://leetcode-cn.com/problems/convert-binary-number-in-a-linked-list-to-integer/) | Easy |
