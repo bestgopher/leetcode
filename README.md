@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 776 | 342 | 406 | 28 |
+| 777 | 343 | 406 | 28 |
 
 ### 题目
 
@@ -584,6 +584,7 @@
 |2692    | 从数量最多的堆取走礼物 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/take-gifts-from-the-richest-pile.rs) | [leetcode](https://leetcode-cn.com/problems/take-gifts-from-the-richest-pile/) | Easy |
 |2694    | 找出可整除性得分最大的整数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-the-maximum-divisibility-score.rs) | [leetcode](https://leetcode-cn.com/problems/find-the-maximum-divisibility-score/) | Easy |
 |2698    | 找出数组的串联值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-the-array-concatenation-value.rs) | [leetcode](https://leetcode-cn.com/problems/find-the-array-concatenation-value/) | Easy |
+|2704    | 替换一个数字后的最大差值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-difference-by-remapping-a-digit.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-difference-by-remapping-a-digit/) | Easy |
 |2707    | 合并两个二维数组 - 求和法 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/merge-two-2d-arrays-by-summing-values.rs) | [leetcode](https://leetcode-cn.com/problems/merge-two-2d-arrays-by-summing-values/) | Easy |
 |2713    | 找出字符串的可整除数组 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-the-divisibility-array-of-a-string.rs) | [leetcode](https://leetcode-cn.com/problems/find-the-divisibility-array-of-a-string/) | Medium |
 |2715    | K 件物品的最大和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/k-items-with-the-maximum-sum.rs) | [leetcode](https://leetcode-cn.com/problems/k-items-with-the-maximum-sum/) | Easy |
