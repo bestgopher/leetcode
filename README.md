@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 782 | 345 | 409 | 28 |
+| 783 | 346 | 409 | 28 |
 
 ### 题目
 
@@ -519,6 +519,7 @@
 |2235    | 将标题首字母大写 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/capitalize-the-title.rs) | [leetcode](https://leetcode-cn.com/problems/capitalize-the-title/) | Easy |
 |2243    | 检查是否所有 A 都在 B 之前 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/check-if-all-as-appears-before-all-bs.rs) | [leetcode](https://leetcode-cn.com/problems/check-if-all-as-appears-before-all-bs/) | Easy |
 |2261    | 分组得分最高的所有下标 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/all-divisions-with-the-highest-score-of-a-binary-array.rs) | [leetcode](https://leetcode-cn.com/problems/all-divisions-with-the-highest-score-of-a-binary-array/) | Medium |
+|2269    | 元素计数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/count-elements-with-strictly-smaller-and-greater-elements.rs) | [leetcode](https://leetcode-cn.com/problems/count-elements-with-strictly-smaller-and-greater-elements/) | Easy |
 |2279    | 拆分成最多数目的正偶数之和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-split-of-positive-even-integers.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-split-of-positive-even-integers/) | Medium |
 |2290    | 拿出最少数目的魔法豆 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/removing-minimum-number-of-magic-beans.rs) | [leetcode](https://leetcode-cn.com/problems/removing-minimum-number-of-magic-beans/) | Medium |
 |2292    | 统计包含给定前缀的字符串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/counting-words-with-a-given-prefix.rs) | [leetcode](https://leetcode-cn.com/problems/counting-words-with-a-given-prefix/) | Easy |
