@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 785 | 347 | 410 | 28 |
+| 786 | 347 | 411 | 28 |
 
 ### 题目
 
@@ -362,6 +362,7 @@
 |1035    | 二叉树的堂兄弟节点 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/cousins-in-binary-tree.rs) | [leetcode](https://leetcode-cn.com/problems/cousins-in-binary-tree/) | Easy |
 |1036    | 腐烂的橘子 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/rotting-oranges.rs) | [leetcode](https://leetcode-cn.com/problems/rotting-oranges/) | Medium |
 |1041    | 可以被一步捕获的棋子数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/available-captures-for-rook.rs) | [leetcode](https://leetcode-cn.com/problems/available-captures-for-rook/) | Easy |
+|1045    | 检查替换后的词是否有效 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/check-if-word-is-valid-after-substitutions.rs) | [leetcode](https://leetcode-cn.com/problems/check-if-word-is-valid-after-substitutions/) | Medium |
 |1046    | 最大连续1的个数 III | [src](https://github.com/rustors/leetcode/blob/main/src/bin/max-consecutive-ones-iii.rs) | [leetcode](https://leetcode-cn.com/problems/max-consecutive-ones-iii/) | Medium |
 |1050    | 前序遍历构造二叉搜索树 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/construct-binary-search-tree-from-preorder-traversal.rs) | [leetcode](https://leetcode-cn.com/problems/construct-binary-search-tree-from-preorder-traversal/) | Medium |
 |1054    | 十进制整数的反码 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/complement-of-base-10-integer.rs) | [leetcode](https://leetcode-cn.com/problems/complement-of-base-10-integer/) | Easy |
