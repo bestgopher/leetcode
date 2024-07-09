@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 786 | 347 | 411 | 28 |
+| 787 | 348 | 411 | 28 |
 
 ### 题目
 
@@ -611,6 +611,7 @@
 |2802    | 求一个整数的惩罚数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-the-punishment-number-of-an-integer.rs) | [leetcode](https://leetcode-cn.com/problems/find-the-punishment-number-of-an-integer/) | Medium |
 |2812    | 找出最大的可达成数字 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-the-maximum-achievable-number.rs) | [leetcode](https://leetcode-cn.com/problems/find-the-maximum-achievable-number/) | Easy |
 |2816    | 字典序最小回文串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/lexicographically-smallest-palindrome.rs) | [leetcode](https://leetcode-cn.com/problems/lexicographically-smallest-palindrome/) | Easy |
+|2819    | 移除字符串中的尾随零 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/remove-trailing-zeros-from-a-string.rs) | [leetcode](https://leetcode-cn.com/problems/remove-trailing-zeros-from-a-string/) | Easy |
 |2828    | 执行子串操作后的字典序最小字符串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/lexicographically-smallest-string-after-substring-operation.rs) | [leetcode](https://leetcode-cn.com/problems/lexicographically-smallest-string-after-substring-operation/) | Medium |
 |2831    | 美丽下标对的数目 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/number-of-beautiful-pairs.rs) | [leetcode](https://leetcode-cn.com/problems/number-of-beautiful-pairs/) | Easy |
 |2838    | 查询后矩阵的和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/sum-of-matrix-after-queries.rs) | [leetcode](https://leetcode-cn.com/problems/sum-of-matrix-after-queries/) | Medium |
