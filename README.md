@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 787 | 348 | 411 | 28 |
+| 788 | 349 | 411 | 28 |
 
 ### 题目
 
@@ -739,6 +739,7 @@
 |100351    | 生存人数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/living-people-lcci.rs) | [leetcode](https://leetcode-cn.com/problems/living-people-lcci/) | Medium |
 |100352    | 跳水板 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/diving-board-lcci.rs) | [leetcode](https://leetcode-cn.com/problems/diving-board-lcci/) | Easy |
 |100353    | 平分正方形 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/bisect-squares-lcci.rs) | [leetcode](https://leetcode-cn.com/problems/bisect-squares-lcci/) | Medium |
+|100355    | 珠玑妙算 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/master-mind-lcci.rs) | [leetcode](https://leetcode-cn.com/problems/master-mind-lcci/) | Easy |
 |1000021    | 最小K个数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/smallest-k-lcci.rs) | [leetcode](https://leetcode-cn.com/problems/smallest-k-lcci/) | Medium |
 |1000022    | 最长单词 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/longest-word-lcci.rs) | [leetcode](https://leetcode-cn.com/problems/longest-word-lcci/) | Medium |
 |1000025    | 不用加号的加法 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/add-without-plus-lcci.rs) | [leetcode](https://leetcode-cn.com/problems/add-without-plus-lcci/) | Easy |
