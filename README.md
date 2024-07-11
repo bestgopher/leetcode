@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 789 | 349 | 412 | 28 |
+| 790 | 350 | 412 | 28 |
 
 ### 题目
 
@@ -647,6 +647,7 @@
 |3207    | 使三个字符串相等 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/make-three-strings-equal.rs) | [leetcode](https://leetcode-cn.com/problems/make-three-strings-equal/) | Easy |
 |3220    | 统计已测试设备 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/count-tested-devices-after-test-operations.rs) | [leetcode](https://leetcode-cn.com/problems/count-tested-devices-after-test-operations/) | Easy |
 |3221    | 找出峰值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-the-peaks.rs) | [leetcode](https://leetcode-cn.com/problems/find-the-peaks/) | Easy |
+|3226    | 最小数字游戏 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-number-game.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-number-game/) | Easy |
 |3227    | 找出缺失和重复的数字 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-missing-and-repeated-values.rs) | [leetcode](https://leetcode-cn.com/problems/find-missing-and-repeated-values/) | Easy |
 |3231    | 需要添加的硬币的最小数量 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-number-of-coins-to-be-added.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-number-of-coins-to-be-added/) | Medium |
 |3241    | 划分数组并满足最大差限制 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/divide-array-into-arrays-with-max-difference.rs) | [leetcode](https://leetcode-cn.com/problems/divide-array-into-arrays-with-max-difference/) | Medium |
