@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 788 | 349 | 411 | 28 |
+| 789 | 349 | 412 | 28 |
 
 ### 题目
 
@@ -381,6 +381,7 @@
 |1184    | 拼车 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/car-pooling.rs) | [leetcode](https://leetcode-cn.com/problems/car-pooling/) | Medium |
 |1210    | 删除某些元素后的数组均值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/mean-of-array-after-removing-some-elements.rs) | [leetcode](https://leetcode-cn.com/problems/mean-of-array-after-removing-some-elements/) | Easy |
 |1218    | 最深叶节点的最近公共祖先 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/lowest-common-ancestor-of-deepest-leaves.rs) | [leetcode](https://leetcode-cn.com/problems/lowest-common-ancestor-of-deepest-leaves/) | Medium |
+|1230    | 绝对值表达式的最大值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-of-absolute-value-expression.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-of-absolute-value-expression/) | Medium |
 |1236    | 第 N 个泰波那契数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/n-th-tribonacci-number.rs) | [leetcode](https://leetcode-cn.com/problems/n-th-tribonacci-number/) | Easy |
 |1238    | 字母板上的路径 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/alphabet-board-path.rs) | [leetcode](https://leetcode-cn.com/problems/alphabet-board-path/) | Medium |
 |1249    | 快照数组 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/snapshot-array.rs) | [leetcode](https://leetcode-cn.com/problems/snapshot-array/) | Medium |
