@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 790 | 350 | 412 | 28 |
+| 791 | 351 | 412 | 28 |
 
 ### 题目
 
@@ -455,6 +455,7 @@
 |1603    | 一维数组的动态和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/running-sum-of-1d-array.rs) | [leetcode](https://leetcode-cn.com/problems/running-sum-of-1d-array/) | Easy |
 |1604    | 不同整数的最少数目 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/least-number-of-unique-integers-after-k-removals.rs) | [leetcode](https://leetcode-cn.com/problems/least-number-of-unique-integers-after-k-removals/) | Medium |
 |1620    | 检查数组对是否可以被 k 整除 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/check-if-array-pairs-are-divisible-by-k.rs) | [leetcode](https://leetcode-cn.com/problems/check-if-array-pairs-are-divisible-by-k/) | Medium |
+|1630    | 在区间范围内统计奇数数目 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/count-odd-numbers-in-an-interval-range.rs) | [leetcode](https://leetcode-cn.com/problems/count-odd-numbers-in-an-interval-range/) | Easy |
 |1635    | 好数对的数目 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/number-of-good-pairs.rs) | [leetcode](https://leetcode-cn.com/problems/number-of-good-pairs/) | Easy |
 |1636    | 仅含 1 的子串数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/number-of-substrings-with-only-1s.rs) | [leetcode](https://leetcode-cn.com/problems/number-of-substrings-with-only-1s/) | Medium |
 |1642    | 换酒问题 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/water-bottles.rs) | [leetcode](https://leetcode-cn.com/problems/water-bottles/) | Easy |
