@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 791 | 351 | 412 | 28 |
+| 792 | 352 | 412 | 28 |
 
 ### 题目
 
@@ -645,6 +645,7 @@
 |3189    | 找到冠军 II | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-champion-ii.rs) | [leetcode](https://leetcode-cn.com/problems/find-champion-ii/) | Medium |
 |3195    | 区分黑球与白球 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/separate-black-and-white-balls.rs) | [leetcode](https://leetcode-cn.com/problems/separate-black-and-white-balls/) | Medium |
 |3199    | 给小朋友们分糖果 I | [src](https://github.com/rustors/leetcode/blob/main/src/bin/distribute-candies-among-children-i.rs) | [leetcode](https://leetcode-cn.com/problems/distribute-candies-among-children-i/) | Easy |
+|3206    | 找到两个数组中的公共元素 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-common-elements-between-two-arrays.rs) | [leetcode](https://leetcode-cn.com/problems/find-common-elements-between-two-arrays/) | Easy |
 |3207    | 使三个字符串相等 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/make-three-strings-equal.rs) | [leetcode](https://leetcode-cn.com/problems/make-three-strings-equal/) | Easy |
 |3220    | 统计已测试设备 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/count-tested-devices-after-test-operations.rs) | [leetcode](https://leetcode-cn.com/problems/count-tested-devices-after-test-operations/) | Easy |
 |3221    | 找出峰值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-the-peaks.rs) | [leetcode](https://leetcode-cn.com/problems/find-the-peaks/) | Easy |
