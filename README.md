@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 792 | 352 | 412 | 28 |
+| 793 | 353 | 412 | 28 |
 
 ### 题目
 
@@ -411,6 +411,7 @@
 |1369    | 交换字符使得字符串相同 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-swaps-to-make-strings-equal.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-swaps-to-make-strings-equal/) | Medium |
 |1370    | 统计「优美子数组」 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/count-number-of-nice-subarrays.rs) | [leetcode](https://leetcode-cn.com/problems/count-number-of-nice-subarrays/) | Medium |
 |1371    | 移除无效的括号 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-remove-to-make-valid-parentheses.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-remove-to-make-valid-parentheses/) | Medium |
+|1378    | 奇数值单元格的数目 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/cells-with-odd-values-in-a-matrix.rs) | [leetcode](https://leetcode-cn.com/problems/cells-with-odd-values-in-a-matrix/) | Easy |
 |1379    | 重构 2 行二进制矩阵 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/reconstruct-a-2-row-binary-matrix.rs) | [leetcode](https://leetcode-cn.com/problems/reconstruct-a-2-row-binary-matrix/) | Medium |
 |1380    | 统计封闭岛屿的数目 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/number-of-closed-islands.rs) | [leetcode](https://leetcode-cn.com/problems/number-of-closed-islands/) | Medium |
 |1387    | 在受污染的二叉树中查找元素 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-elements-in-a-contaminated-binary-tree.rs) | [leetcode](https://leetcode-cn.com/problems/find-elements-in-a-contaminated-binary-tree/) | Medium |
