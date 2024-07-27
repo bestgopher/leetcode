@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 794 | 353 | 413 | 28 |
+| 795 | 353 | 414 | 28 |
 
 ### 题目
 
@@ -660,6 +660,7 @@
 |3320    | 相同分数的最大操作数目 I | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-number-of-operations-with-the-same-score-i.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-number-of-operations-with-the-same-score-i/) | Easy |
 |3330    | 修改矩阵 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/modify-the-matrix.rs) | [leetcode](https://leetcode-cn.com/problems/modify-the-matrix/) | Easy |
 |3334    | 重新分装苹果 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/apple-redistribution-into-boxes.rs) | [leetcode](https://leetcode-cn.com/problems/apple-redistribution-into-boxes/) | Easy |
+|3346    | 满足距离约束且字典序最小的字符串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/lexicographically-smallest-string-after-operations-with-constraint.rs) | [leetcode](https://leetcode-cn.com/problems/lexicographically-smallest-string-after-operations-with-constraint/) | Medium |
 |3347    | 将元素分配到两个数组中 I | [src](https://github.com/rustors/leetcode/blob/main/src/bin/distribute-elements-into-two-arrays-i.rs) | [leetcode](https://leetcode-cn.com/problems/distribute-elements-into-two-arrays-i/) | Easy |
 |3371    | 哈沙德数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/harshad-number.rs) | [leetcode](https://leetcode-cn.com/problems/harshad-number/) | Easy |
 |3373    | 质数的最大距离 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-prime-difference.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-prime-difference/) | Medium |
