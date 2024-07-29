@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 794 | 353 | 413 | 28 |
+| 795 | 354 | 413 | 28 |
 
 ### 题目
 
@@ -379,6 +379,7 @@
 |1157    | 根到叶路径上的不足节点 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/insufficient-nodes-in-root-to-leaf-paths.rs) | [leetcode](https://leetcode-cn.com/problems/insufficient-nodes-in-root-to-leaf-paths/) | Medium |
 |1168    | 复写零 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/duplicate-zeros.rs) | [leetcode](https://leetcode-cn.com/problems/duplicate-zeros/) | Easy |
 |1184    | 拼车 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/car-pooling.rs) | [leetcode](https://leetcode-cn.com/problems/car-pooling/) | Medium |
+|1195    | 分糖果 II | [src](https://github.com/rustors/leetcode/blob/main/src/bin/distribute-candies-to-people.rs) | [leetcode](https://leetcode-cn.com/problems/distribute-candies-to-people/) | Easy |
 |1210    | 删除某些元素后的数组均值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/mean-of-array-after-removing-some-elements.rs) | [leetcode](https://leetcode-cn.com/problems/mean-of-array-after-removing-some-elements/) | Easy |
 |1218    | 最深叶节点的最近公共祖先 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/lowest-common-ancestor-of-deepest-leaves.rs) | [leetcode](https://leetcode-cn.com/problems/lowest-common-ancestor-of-deepest-leaves/) | Medium |
 |1230    | 绝对值表达式的最大值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-of-absolute-value-expression.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-of-absolute-value-expression/) | Medium |
