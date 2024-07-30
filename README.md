@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 796 | 355 | 413 | 28 |
+| 797 | 355 | 414 | 28 |
 
 ### 题目
 
@@ -656,6 +656,7 @@
 |3226    | 最小数字游戏 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-number-game.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-number-game/) | Easy |
 |3227    | 找出缺失和重复的数字 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-missing-and-repeated-values.rs) | [leetcode](https://leetcode-cn.com/problems/find-missing-and-repeated-values/) | Easy |
 |3231    | 需要添加的硬币的最小数量 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-number-of-coins-to-be-added.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-number-of-coins-to-be-added/) | Medium |
+|3234    | 双模幂运算 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/double-modular-exponentiation.rs) | [leetcode](https://leetcode-cn.com/problems/double-modular-exponentiation/) | Medium |
 |3241    | 划分数组并满足最大差限制 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/divide-array-into-arrays-with-max-difference.rs) | [leetcode](https://leetcode-cn.com/problems/divide-array-into-arrays-with-max-difference/) | Medium |
 |3265    | 最大好子数组和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-good-subarray-sum.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-good-subarray-sum/) | Medium |
 |3275    | 输入单词需要的最少按键次数 I | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-number-of-pushes-to-type-word-i.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-number-of-pushes-to-type-word-i/) | Easy |
