@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 797 | 355 | 414 | 28 |
+| 798 | 356 | 414 | 28 |
 
 ### 题目
 
@@ -803,5 +803,6 @@
 |1000324    | 前 K 个高频元素 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/g5c51o.rs) | [leetcode](https://leetcode-cn.com/problems/g5c51o/) | Medium |
 |1000333    | 山峰数组的顶部 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/B1IidL.rs) | [leetcode](https://leetcode-cn.com/problems/B1IidL/) | Easy |
 |1000341    | 链表排序 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/7WHec2.rs) | [leetcode](https://leetcode-cn.com/problems/7WHec2/) | Medium |
+|1000368    | 心算挑战 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/uOAnQW.rs) | [leetcode](https://leetcode-cn.com/problems/uOAnQW/) | Easy |
 |1000433    | 宝石补给 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/WHnhjV.rs) | [leetcode](https://leetcode-cn.com/problems/WHnhjV/) | Easy |
 |1000476    | 气温变化趋势 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/6CE719.rs) | [leetcode](https://leetcode-cn.com/problems/6CE719/) | Easy |
