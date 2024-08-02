@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 795 | 353 | 414 | 28 |
+| 796 | 353 | 415 | 28 |
 
 ### 题目
 
@@ -665,6 +665,7 @@
 |3371    | 哈沙德数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/harshad-number.rs) | [leetcode](https://leetcode-cn.com/problems/harshad-number/) | Easy |
 |3373    | 质数的最大距离 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-prime-difference.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-prime-difference/) | Medium |
 |3374    | 交替子数组计数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/count-alternating-subarrays.rs) | [leetcode](https://leetcode-cn.com/problems/count-alternating-subarrays/) | Medium |
+|3388    | 直角三角形 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/right-triangles.rs) | [leetcode](https://leetcode-cn.com/problems/right-triangles/) | Medium |
 |100160    | URL化 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/string-to-url-lcci.rs) | [leetcode](https://leetcode-cn.com/problems/string-to-url-lcci/) | Easy |
 |100162    | 字符串轮转 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/string-rotation-lcci.rs) | [leetcode](https://leetcode-cn.com/problems/string-rotation-lcci/) | Easy |
 |100163    | 移除重复节点 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/remove-duplicate-node-lcci.rs) | [leetcode](https://leetcode-cn.com/problems/remove-duplicate-node-lcci/) | Easy |
