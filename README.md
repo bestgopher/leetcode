@@ -665,10 +665,12 @@
 |3320    | 相同分数的最大操作数目 I | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-number-of-operations-with-the-same-score-i.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-number-of-operations-with-the-same-score-i/) | Easy |
 |3330    | 修改矩阵 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/modify-the-matrix.rs) | [leetcode](https://leetcode-cn.com/problems/modify-the-matrix/) | Easy |
 |3334    | 重新分装苹果 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/apple-redistribution-into-boxes.rs) | [leetcode](https://leetcode-cn.com/problems/apple-redistribution-into-boxes/) | Easy |
+|3346    | 满足距离约束且字典序最小的字符串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/lexicographically-smallest-string-after-operations-with-constraint.rs) | [leetcode](https://leetcode-cn.com/problems/lexicographically-smallest-string-after-operations-with-constraint/) | Medium |
 |3347    | 将元素分配到两个数组中 I | [src](https://github.com/rustors/leetcode/blob/main/src/bin/distribute-elements-into-two-arrays-i.rs) | [leetcode](https://leetcode-cn.com/problems/distribute-elements-into-two-arrays-i/) | Easy |
 |3371    | 哈沙德数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/harshad-number.rs) | [leetcode](https://leetcode-cn.com/problems/harshad-number/) | Easy |
 |3373    | 质数的最大距离 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-prime-difference.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-prime-difference/) | Medium |
 |3374    | 交替子数组计数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/count-alternating-subarrays.rs) | [leetcode](https://leetcode-cn.com/problems/count-alternating-subarrays/) | Medium |
+|3388    | 直角三角形 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/right-triangles.rs) | [leetcode](https://leetcode-cn.com/problems/right-triangles/) | Medium |
 |3390    | 覆盖所有点的最少矩形数目 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-rectangles-to-cover-points.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-rectangles-to-cover-points/) | Medium |
 |100160    | URL化 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/string-to-url-lcci.rs) | [leetcode](https://leetcode-cn.com/problems/string-to-url-lcci/) | Easy |
 |100162    | 字符串轮转 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/string-rotation-lcci.rs) | [leetcode](https://leetcode-cn.com/problems/string-rotation-lcci/) | Easy |
