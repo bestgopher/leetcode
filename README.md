@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 800 | 357 | 415 | 28 |
+| 801 | 357 | 416 | 28 |
 
 ### 题目
 
@@ -408,6 +408,7 @@
 |1342    | 可以攻击国王的皇后 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/queens-that-can-attack-the-king.rs) | [leetcode](https://leetcode-cn.com/problems/queens-that-can-attack-the-king/) | Medium |
 |1353    | 移除字母异位词后的结果数组 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-resultant-array-after-removing-anagrams.rs) | [leetcode](https://leetcode-cn.com/problems/find-resultant-array-after-removing-anagrams/) | Easy |
 |1354    | 找出输掉零场或一场比赛的玩家 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-players-with-zero-or-one-losses.rs) | [leetcode](https://leetcode-cn.com/problems/find-players-with-zero-or-one-losses/) | Medium |
+|1358    | 找出给定方程的正整数解 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-positive-integer-solution-for-a-given-equation.rs) | [leetcode](https://leetcode-cn.com/problems/find-positive-integer-solution-for-a-given-equation/) | Medium |
 |1362    | 飞机座位分配概率 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/airplane-seat-assignment-probability.rs) | [leetcode](https://leetcode-cn.com/problems/airplane-seat-assignment-probability/) | Medium |
 |1363    | 兼具大小写的最好英文字母 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/greatest-english-letter-in-upper-and-lower-case.rs) | [leetcode](https://leetcode-cn.com/problems/greatest-english-letter-in-upper-and-lower-case/) | Easy |
 |1364    | 同积元组 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/tuple-with-same-product.rs) | [leetcode](https://leetcode-cn.com/problems/tuple-with-same-product/) | Medium |
