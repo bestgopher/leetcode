@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 804 | 358 | 418 | 28 |
+| 805 | 358 | 419 | 28 |
 
 ### 题目
 
@@ -298,6 +298,7 @@
 |658    | 找到 K 个最接近的元素 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-k-closest-elements.rs) | [leetcode](https://leetcode-cn.com/problems/find-k-closest-elements/) | Medium |
 |670    | 最大交换 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-swap.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-swap/) | Medium |
 |674    | 最长连续递增序列 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/longest-continuous-increasing-subsequence.rs) | [leetcode](https://leetcode-cn.com/problems/longest-continuous-increasing-subsequence/) | Easy |
+|676    | 实现一个魔法字典 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/implement-magic-dictionary.rs) | [leetcode](https://leetcode-cn.com/problems/implement-magic-dictionary/) | Medium |
 |682    | 棒球比赛 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/baseball-game.rs) | [leetcode](https://leetcode-cn.com/problems/baseball-game/) | Easy |
 |718    | 最长重复子数组 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-length-of-repeated-subarray.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-length-of-repeated-subarray/) | Medium |
 |722    | 删除注释 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/remove-comments.rs) | [leetcode](https://leetcode-cn.com/problems/remove-comments/) | Medium |
