@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 806 | 359 | 419 | 28 |
+| 807 | 359 | 420 | 28 |
 
 ### 题目
 
@@ -674,6 +674,7 @@
 |3388    | 直角三角形 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/right-triangles.rs) | [leetcode](https://leetcode-cn.com/problems/right-triangles/) | Medium |
 |3390    | 覆盖所有点的最少矩形数目 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-rectangles-to-cover-points.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-rectangles-to-cover-points/) | Medium |
 |3397    | 找出与数组相加的整数 I | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-the-integer-added-to-array-i.rs) | [leetcode](https://leetcode-cn.com/problems/find-the-integer-added-to-array-i/) | Easy |
+|3427    | 特殊数组 II | [src](https://github.com/rustors/leetcode/blob/main/src/bin/special-array-ii.rs) | [leetcode](https://leetcode-cn.com/problems/special-array-ii/) | Medium |
 |3429    | 特殊数组 I | [src](https://github.com/rustors/leetcode/blob/main/src/bin/special-array-i.rs) | [leetcode](https://leetcode-cn.com/problems/special-array-i/) | Easy |
 |100160    | URL化 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/string-to-url-lcci.rs) | [leetcode](https://leetcode-cn.com/problems/string-to-url-lcci/) | Easy |
 |100162    | 字符串轮转 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/string-rotation-lcci.rs) | [leetcode](https://leetcode-cn.com/problems/string-rotation-lcci/) | Easy |
