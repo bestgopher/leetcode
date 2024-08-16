@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 808 | 359 | 421 | 28 |
+| 809 | 359 | 422 | 28 |
 
 ### 题目
 
@@ -531,6 +531,7 @@
 |2261    | 分组得分最高的所有下标 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/all-divisions-with-the-highest-score-of-a-binary-array.rs) | [leetcode](https://leetcode-cn.com/problems/all-divisions-with-the-highest-score-of-a-binary-array/) | Medium |
 |2269    | 元素计数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/count-elements-with-strictly-smaller-and-greater-elements.rs) | [leetcode](https://leetcode-cn.com/problems/count-elements-with-strictly-smaller-and-greater-elements/) | Easy |
 |2279    | 拆分成最多数目的正偶数之和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-split-of-positive-even-integers.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-split-of-positive-even-integers/) | Medium |
+|2285    | 设计位集 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/design-bitset.rs) | [leetcode](https://leetcode-cn.com/problems/design-bitset/) | Medium |
 |2290    | 拿出最少数目的魔法豆 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/removing-minimum-number-of-magic-beans.rs) | [leetcode](https://leetcode-cn.com/problems/removing-minimum-number-of-magic-beans/) | Medium |
 |2292    | 统计包含给定前缀的字符串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/counting-words-with-a-given-prefix.rs) | [leetcode](https://leetcode-cn.com/problems/counting-words-with-a-given-prefix/) | Easy |
 |2300    | 构造限制重复的字符串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/construct-string-with-repeat-limit.rs) | [leetcode](https://leetcode-cn.com/problems/construct-string-with-repeat-limit/) | Medium |
