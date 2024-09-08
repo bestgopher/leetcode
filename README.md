@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 812 | 360 | 424 | 28 |
+| 813 | 361 | 424 | 28 |
 
 ### 题目
 
@@ -625,6 +625,7 @@
 |2828    | 执行子串操作后的字典序最小字符串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/lexicographically-smallest-string-after-substring-operation.rs) | [leetcode](https://leetcode-cn.com/problems/lexicographically-smallest-string-after-substring-operation/) | Medium |
 |2831    | 美丽下标对的数目 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/number-of-beautiful-pairs.rs) | [leetcode](https://leetcode-cn.com/problems/number-of-beautiful-pairs/) | Easy |
 |2838    | 查询后矩阵的和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/sum-of-matrix-after-queries.rs) | [leetcode](https://leetcode-cn.com/problems/sum-of-matrix-after-queries/) | Medium |
+|2844    | 特殊元素平方和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/sum-of-squares-of-special-elements.rs) | [leetcode](https://leetcode-cn.com/problems/sum-of-squares-of-special-elements/) | Easy |
 |2847    | 最大字符串配对数目 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-maximum-number-of-string-pairs.rs) | [leetcode](https://leetcode-cn.com/problems/find-maximum-number-of-string-pairs/) | Easy |
 |2857    | 总行驶距离 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/total-distance-traveled.rs) | [leetcode](https://leetcode-cn.com/problems/total-distance-traveled/) | Easy |
 |2866    | 最长奇偶子数组 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/longest-even-odd-subarray-with-threshold.rs) | [leetcode](https://leetcode-cn.com/problems/longest-even-odd-subarray-with-threshold/) | Easy |
