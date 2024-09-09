@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 813 | 361 | 424 | 28 |
+| 814 | 361 | 425 | 28 |
 
 ### 题目
 
@@ -534,6 +534,7 @@
 |2285    | 设计位集 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/design-bitset.rs) | [leetcode](https://leetcode-cn.com/problems/design-bitset/) | Medium |
 |2290    | 拿出最少数目的魔法豆 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/removing-minimum-number-of-magic-beans.rs) | [leetcode](https://leetcode-cn.com/problems/removing-minimum-number-of-magic-beans/) | Medium |
 |2292    | 统计包含给定前缀的字符串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/counting-words-with-a-given-prefix.rs) | [leetcode](https://leetcode-cn.com/problems/counting-words-with-a-given-prefix/) | Easy |
+|2299    | 合并零之间的节点 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/merge-nodes-in-between-zeros.rs) | [leetcode](https://leetcode-cn.com/problems/merge-nodes-in-between-zeros/) | Medium |
 |2300    | 构造限制重复的字符串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/construct-string-with-repeat-limit.rs) | [leetcode](https://leetcode-cn.com/problems/construct-string-with-repeat-limit/) | Medium |
 |2310    | 将数组和减半的最少操作次数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-operations-to-halve-array-sum.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-operations-to-halve-array-sum/) | Medium |
 |2320    | 找出数组中的所有 K 近邻下标 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-all-k-distant-indices-in-an-array.rs) | [leetcode](https://leetcode-cn.com/problems/find-all-k-distant-indices-in-an-array/) | Easy |
