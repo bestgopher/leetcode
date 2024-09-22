@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 814 | 361 | 425 | 28 |
+| 815 | 362 | 425 | 28 |
 
 ### 题目
 
@@ -363,6 +363,7 @@
 |1021    | 在二叉树中分配硬币 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/distribute-coins-in-binary-tree.rs) | [leetcode](https://leetcode-cn.com/problems/distribute-coins-in-binary-tree/) | Medium |
 |1035    | 二叉树的堂兄弟节点 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/cousins-in-binary-tree.rs) | [leetcode](https://leetcode-cn.com/problems/cousins-in-binary-tree/) | Easy |
 |1036    | 腐烂的橘子 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/rotting-oranges.rs) | [leetcode](https://leetcode-cn.com/problems/rotting-oranges/) | Medium |
+|1039    | 找到小镇的法官 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-the-town-judge.rs) | [leetcode](https://leetcode-cn.com/problems/find-the-town-judge/) | Easy |
 |1041    | 可以被一步捕获的棋子数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/available-captures-for-rook.rs) | [leetcode](https://leetcode-cn.com/problems/available-captures-for-rook/) | Easy |
 |1045    | 检查替换后的词是否有效 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/check-if-word-is-valid-after-substitutions.rs) | [leetcode](https://leetcode-cn.com/problems/check-if-word-is-valid-after-substitutions/) | Medium |
 |1046    | 最大连续1的个数 III | [src](https://github.com/rustors/leetcode/blob/main/src/bin/max-consecutive-ones-iii.rs) | [leetcode](https://leetcode-cn.com/problems/max-consecutive-ones-iii/) | Medium |
