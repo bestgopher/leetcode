@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 815 | 362 | 425 | 28 |
+| 816 | 362 | 426 | 28 |
 
 ### 题目
 
@@ -369,6 +369,7 @@
 |1046    | 最大连续1的个数 III | [src](https://github.com/rustors/leetcode/blob/main/src/bin/max-consecutive-ones-iii.rs) | [leetcode](https://leetcode-cn.com/problems/max-consecutive-ones-iii/) | Medium |
 |1050    | 前序遍历构造二叉搜索树 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/construct-binary-search-tree-from-preorder-traversal.rs) | [leetcode](https://leetcode-cn.com/problems/construct-binary-search-tree-from-preorder-traversal/) | Medium |
 |1054    | 十进制整数的反码 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/complement-of-base-10-integer.rs) | [leetcode](https://leetcode-cn.com/problems/complement-of-base-10-integer/) | Easy |
+|1063    | 最佳观光组合 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/best-sightseeing-pair.rs) | [leetcode](https://leetcode-cn.com/problems/best-sightseeing-pair/) | Medium |
 |1070    | 负二进制转换 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/convert-to-base-2.rs) | [leetcode](https://leetcode-cn.com/problems/convert-to-base-2/) | Medium |
 |1072    | 链表中的下一个更大节点 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/next-greater-node-in-linked-list.rs) | [leetcode](https://leetcode-cn.com/problems/next-greater-node-in-linked-list/) | Medium |
 |1079    | 从根到叶的二进制数之和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/sum-of-root-to-leaf-binary-numbers.rs) | [leetcode](https://leetcode-cn.com/problems/sum-of-root-to-leaf-binary-numbers/) | Easy |
