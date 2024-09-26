@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 817 | 362 | 427 | 28 |
+| 818 | 363 | 427 | 28 |
 
 ### 题目
 
@@ -581,6 +581,7 @@
 |2616    | 执行 K 次操作后的最大分数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximal-score-after-applying-k-operations.rs) | [leetcode](https://leetcode-cn.com/problems/maximal-score-after-applying-k-operations/) | Medium |
 |2619    | 根据规则将箱子分类 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/categorize-box-according-to-criteria.rs) | [leetcode](https://leetcode-cn.com/problems/categorize-box-according-to-criteria/) | Easy |
 |2621    | 查询数组异或美丽值 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-xor-beauty-of-array.rs) | [leetcode](https://leetcode-cn.com/problems/find-xor-beauty-of-array/) | Medium |
+|2624    | 数组元素和与数字和的绝对差 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/difference-between-element-sum-and-digit-sum-of-an-array.rs) | [leetcode](https://leetcode-cn.com/problems/difference-between-element-sum-and-digit-sum-of-an-array/) | Easy |
 |2625    | 子矩阵元素加 1 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/increment-submatrices-by-one.rs) | [leetcode](https://leetcode-cn.com/problems/increment-submatrices-by-one/) | Medium |
 |2630    | 交替数字和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/alternating-digit-sum.rs) | [leetcode](https://leetcode-cn.com/problems/alternating-digit-sum/) | Easy |
 |2645    | 递枕头 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/pass-the-pillow.rs) | [leetcode](https://leetcode-cn.com/problems/pass-the-pillow/) | Easy |
