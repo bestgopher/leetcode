@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 818 | 363 | 427 | 28 |
+| 819 | 364 | 427 | 28 |
 
 ### 题目
 
@@ -556,6 +556,7 @@
 |2442    | 算术三元组的数目 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/number-of-arithmetic-triplets.rs) | [leetcode](https://leetcode-cn.com/problems/number-of-arithmetic-triplets/) | Easy |
 |2443    | 检查数组是否存在有效划分 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/check-if-there-is-a-valid-partition-for-the-array.rs) | [leetcode](https://leetcode-cn.com/problems/check-if-there-is-a-valid-partition-for-the-array/) | Medium |
 |2461    | 感染二叉树需要的总时间 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/amount-of-time-for-binary-tree-to-be-infected.rs) | [leetcode](https://leetcode-cn.com/problems/amount-of-time-for-binary-tree-to-be-infected/) | Medium |
+|2463    | 得到 K 个黑块的最少涂色次数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-recolors-to-get-k-consecutive-black-blocks.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-recolors-to-get-k-consecutive-black-blocks/) | Easy |
 |2470    | 从字符串中移除星号 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/removing-stars-from-a-string.rs) | [leetcode](https://leetcode-cn.com/problems/removing-stars-from-a-string/) | Medium |
 |2473    | 数位和相等数对的最大和 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/max-sum-of-a-pair-with-equal-sum-of-digits.rs) | [leetcode](https://leetcode-cn.com/problems/max-sum-of-a-pair-with-equal-sum-of-digits/) | Medium |
 |2482    | 被列覆盖的最多行数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-rows-covered-by-columns.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-rows-covered-by-columns/) | Medium |
