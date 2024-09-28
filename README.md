@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 819 | 364 | 427 | 28 |
+| 820 | 365 | 427 | 28 |
 
 ### 题目
 
@@ -685,6 +685,7 @@
 |3390    | 覆盖所有点的最少矩形数目 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-rectangles-to-cover-points.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-rectangles-to-cover-points/) | Medium |
 |3397    | 找出与数组相加的整数 I | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-the-integer-added-to-array-i.rs) | [leetcode](https://leetcode-cn.com/problems/find-the-integer-added-to-array-i/) | Easy |
 |3412    | 两个字符串的排列差 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/permutation-difference-between-two-strings.rs) | [leetcode](https://leetcode-cn.com/problems/permutation-difference-between-two-strings/) | Easy |
+|3415    | 判断矩阵是否满足条件 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/check-if-grid-satisfies-conditions.rs) | [leetcode](https://leetcode-cn.com/problems/check-if-grid-satisfies-conditions/) | Easy |
 |3427    | 特殊数组 II | [src](https://github.com/rustors/leetcode/blob/main/src/bin/special-array-ii.rs) | [leetcode](https://leetcode-cn.com/problems/special-array-ii/) | Medium |
 |3429    | 特殊数组 I | [src](https://github.com/rustors/leetcode/blob/main/src/bin/special-array-i.rs) | [leetcode](https://leetcode-cn.com/problems/special-array-i/) | Easy |
 |100160    | URL化 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/string-to-url-lcci.rs) | [leetcode](https://leetcode-cn.com/problems/string-to-url-lcci/) | Easy |
