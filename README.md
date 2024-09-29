@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 820 | 365 | 427 | 28 |
+| 821 | 366 | 427 | 28 |
 
 ### 题目
 
@@ -522,6 +522,7 @@
 |2177    | 检查两个字符串是否几乎相等 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/check-whether-two-strings-are-almost-equivalent.rs) | [leetcode](https://leetcode-cn.com/problems/check-whether-two-strings-are-almost-equivalent/) | Easy |
 |2182    | 找出临界点之间的最小和最大距离 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-the-minimum-and-maximum-number-of-nodes-between-critical-points.rs) | [leetcode](https://leetcode-cn.com/problems/find-the-minimum-and-maximum-number-of-nodes-between-critical-points/) | Medium |
 |2190    | 统计出现过一次的公共字符串 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/count-common-words-with-one-occurrence.rs) | [leetcode](https://leetcode-cn.com/problems/count-common-words-with-one-occurrence/) | Easy |
+|2195    | 买票需要的时间 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/time-needed-to-buy-tickets.rs) | [leetcode](https://leetcode-cn.com/problems/time-needed-to-buy-tickets/) | Easy |
 |2210    | 找出数组排序后的目标下标 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/find-target-indices-after-sorting-array.rs) | [leetcode](https://leetcode-cn.com/problems/find-target-indices-after-sorting-array/) | Easy |
 |2215    | 找出 3 位偶数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/finding-3-digit-even-numbers.rs) | [leetcode](https://leetcode-cn.com/problems/finding-3-digit-even-numbers/) | Easy |
 |2226    | 环和杆 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/rings-and-rods.rs) | [leetcode](https://leetcode-cn.com/problems/rings-and-rods/) | Easy |
