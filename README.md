@@ -2,7 +2,7 @@
 
 | Total | Easy | Medium | Hard |
 | :----: | :----: | :----: | :----: |
-| 822 | 367 | 427 | 28 |
+| 823 | 368 | 427 | 28 |
 
 ### 题目
 
@@ -400,6 +400,7 @@
 |1289    | 一周中的第几天 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/day-of-the-week.rs) | [leetcode](https://leetcode-cn.com/problems/day-of-the-week/) | Easy |
 |1293    | 存在连续三个奇数的数组 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/three-consecutive-odds.rs) | [leetcode](https://leetcode-cn.com/problems/three-consecutive-odds/) | Easy |
 |1295    | 收集足够苹果的最小花园周长 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-garden-perimeter-to-collect-enough-apples.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-garden-perimeter-to-collect-enough-apples/) | Medium |
+|1297    | “气球” 的最大数量 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/maximum-number-of-balloons.rs) | [leetcode](https://leetcode-cn.com/problems/maximum-number-of-balloons/) | Easy |
 |1303    | 得到目标值的最少行动次数 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-moves-to-reach-target-score.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-moves-to-reach-target-score/) | Medium |
 |1306    | 最小绝对差 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/minimum-absolute-difference.rs) | [leetcode](https://leetcode-cn.com/problems/minimum-absolute-difference/) | Easy |
 |1310    | 给植物浇水 | [src](https://github.com/rustors/leetcode/blob/main/src/bin/watering-plants.rs) | [leetcode](https://leetcode-cn.com/problems/watering-plants/) | Medium |
